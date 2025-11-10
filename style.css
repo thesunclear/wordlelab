@@ -1,3 +1,11 @@
+/* ===== Brand font ===== */
+@font-face {
+  font-family: "Lobster";
+  src: url("Lobster-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* ===== Root theme tokens ===== */
 :root{
   --bg-main:#050608;
@@ -118,6 +126,10 @@ h1 .tag{
   font-size:13px;
   font-weight:400;
   color:var(--sub);
+}
+/* Brand */
+.brand {
+  font-family: "Lobster", sans-serif; 
 }
 
 /* Cards & common containers */
