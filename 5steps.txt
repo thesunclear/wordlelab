@@ -1,0 +1,126 @@
+/* Deeper E[steps] with an extra lookahead level:
+   - Level 1: g (the candidate we are evaluating now)
+   - Level 2: choose best g2 inside each bucket after g
+   - Level 3: choose best g3 inside each bucket after g2
+   - Level 4: choose best g4 inside each bucket after g3
+   - Level 5: choose best g5 inside each bucket after g3
+   - Then approximate the remaining leaf.
+
+   Cost model:
+   - Every actual guess (g, g2, g3, …) contributes +1 turn.
+   - The “leaf” buckets add a small extra cost depending on size.
+*/
+function EstepsOneLookaheadLocalDeep(S, g) {
+  const n = S.length;
+  const parts1 = partitionByPattern(S, g);
+  let est = 0;
+
+  for (const [pat1, arr1] of parts1.entries()) {
+    const p1 = arr1.length / n;
+
+    if (pat1 === '22222') {
+      // Solved immediately with g
+      est += p1 * 1;
+      continue;
+    }
+
+    // Choose best second guess g2 inside this bucket
+    let bestE2 = Infinity;
+
+    for (const g2 of arr1) {
+      const parts2 = partitionByPattern(arr1, g2);
+      let e2 = 0;
+
+      for (const [pat2, arr2] of parts2.entries()) {
+        const p2 = arr2.length / arr1.length;
+
+        if (pat2 === '22222') {
+          // Solved by g2
+          e2 += p2 * 1;
+          continue;
+        }
+
+        // Choose best second guess g3 inside this bucket
+        let bestE3 = Infinity;
+
+        for (const g3 of arr2) {
+          const parts3 = partitionByPattern(arr2, g3);
+          let e3 = 0;
+          
+          for (const [pat3, arr3] of parts3.entries()) {
+            const p3 = arr3.length / arr2.length;
+            
+            if (pat3 === '22222') {
+              // Solved by g3
+              e3 += p3 * 1;
+              continue;
+            }
+            
+
+            // Choose best second guess g4 inside this bucket
+            let bestE4 = Infinity;
+
+            for (const g4 of arr3) {
+              const parts4 = partitionByPattern(arr3, g4);
+              let e4 = 0;
+          
+              for (const [pat4, arr4] of parts4.entries()) {
+                const p4 = arr4.length / arr3.length;
+            
+                if (pat3 === '22222') {
+                  // Solved by g4
+                  e4 += p4 * 1;
+                  continue;
+                }
+
+                // For this child bucket arr4, choose best g5
+                let bestE5 = Infinity;
+
+                for (const g5 of arr4) {
+                  const parts5 = partitionByPattern(arr4, g5);
+                  let e5 = 0;
+
+                  for (const [pat5, arr5] of parts5.entries()) {
+                    const p5 = arr5.length / arr4.length;
+
+                    if (pat5 === '22222') {
+                      // Solved by g5
+                      e5 += p5 * 1;
+                    } else {
+                      // Leaf after g5: approximate remaining cost
+                      const k = arr5.length; // const leafSize = arr5.length;
+                      const expLeaf = leafExtraGuesses(k); // const expLeaf = (leafSize === 1) ? 1 : 2;
+                      // 1 for using g5, plus expected remaining steps in that tiny leaf
+                      e5 += p5 * (1 + expLeaf);
+                    }
+                  }
+
+                  if (e5 < bestE5) bestE5 = e5;
+                }
+
+                e4 += p4 * (1 + bestE5);
+            
+              }
+            
+              if (e4 < bestE4) bestE4 = e4;
+            }
+
+            e3 += p3 * (1 + bestE4);
+          }
+          
+          if (e3 < bestE3) bestE3 = e3;
+
+        }
+
+        e2 += p2 * (1 + bestE3);
+      }
+
+      if (e2 < bestE2) bestE2 = e2;
+    }
+
+    // 1 for using g, plus best subtree under that bucket
+    est += p1 * (1 + bestE2);
+  }
+
+  return est;
+}
