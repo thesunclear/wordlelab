@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wordle Lab – Ultimate Wordle Solver & Analyzer</title>
+	<meta name="description" content="Wordle Lab is an ultimate Wordle solver and entropy-based analyzer with Basic and Advanced modes.">
+	<meta name="keywords" content="Wordle, Wordle Lab, Wordle Solver, Wordle Helper, Wordle Analyzer, Wordle Strategy, Entropy, E[steps], E[cands], Max Bucket, Next Guess Recommender, Hard Mode, Basic Mode, Advanced Mode">
+	<meta name="author" content="Jaehong Kim">
+	<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+	<meta name="theme-color" content="#0f1115">
+	
+	<!-- Open Graph (for Facebook, LinkedIn, etc.) -->
+	<meta property="og:title" content="Wordle Lab – Ultimate Wordle Solver & Analyzer">
+	<meta property="og:description" content="Wordle Lab is an ultimate Wordle solver and entropy-based analyzer with Basic and Advanced modes.">
+	<meta property="og:url" content="https://wordlelab.com/">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://wordlelab.com/preview.png">
+	
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Wordle Lab – Ultimate Wordle Solver & Analyzer">
+	<meta name="twitter:description" content="Wordle Lab is an ultimate Wordle solver and entropy-based analyzer with Basic and Advanced modes.">
+	<meta name="twitter:image" content="https://wordlelab.com/preview.png">
+	<meta name="twitter:site" content="@DrDrTwice">
+	
+	<!-- Canonical URL -->
+	<link rel="canonical" href="https://wordlelab.com/">
+	
+	<!-- Favicons & PWA -->
+	<link href="./apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="./favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="./favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<link href="./site.webmanifest" rel="manifest">
+	
+	<!-- ===== Structured Data (JSON-LD) ===== -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "WebSite",
+	  "name": "Wordle Lab",
+	  "url": "https://wordlelab.com/",
+	  "applicationCategory": "EducationalApplication",
+	  "operatingSystem": "Web",
+	  "description": "Wordle Lab is an ultimate Wordle solver and entropy-based analyzer with Basic and Advanced modes.",
+	  "inLanguage": ["en"],
+	  "keywords": [
+	    "Wordle lab", "Wordle helper", "Wordle analyzer", "Wordle solver", "Wordle entropy", "E[steps]", "expected candidates", "Max Bucket", "Next Guess Recommender", "Hard Mode", "Basic Mode", "Advanced Mode"
+	  ],
+	  "author": { "@type": "Person", "name": "Jaehong Kim" }
+	}
+	</script>
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<div class="wrap">
+
+<!-- Header -->
+<div class="header-row">
+	<h1>
+		<span class="brand">
+		Wordle Lab
+		</span>
+		<br>
+		<span class="tag">
+			Wordle Lab – Ultimate Wordle Solver &amp; Analyzer
+		</span>
+	</h1>
+	<button class="btn" id="modeToggle" title="Toggle Dark/Light">
+		☀️ Light
+	</button>
+</div>
+
+<!-- Top controls -->
+<div class="card" style="margin-bottom:12px">
+	<div class="bar top-controls">
+		<div class="top-controls-left">
+			<label for="wordListSelect">
+				Word List
+			</label>
+			<select id="wordListSelect">
+				<option value="wl2309">2,309 Word List (Default)</option>
+				<option value="wl3207">3,207 Extended Word List</option>
+				<option value="wl14855">14,855 Guessable Word List</option> 
+				<option value="custom">Custom List (Upload CSV)</option>
+			</select>
+			<input id="fileInput" type="file" accept=".txt,.csv" style="display:none">
+		</div>
+		<div class="top-controls-right">
+			<button class="btn" id="clearAll" style="margin-right:5px">Clear Filters</button>
+			<button id="filterModeToggle" class="btn">Advanced Mode</button>
+		</div>
+	</div>
+</div>
+
+<!-- Basic Mode -->
+<div id="basicPanel" >
+	<div class="card" style="margin-top:12px">
+		<div class="tabs" id="basicTabs">
+		</div>
+		<div class="row" style="margin-top:10px">
+			<div class="card" id="basicPosCardGreen" style="flex:1;min-width:280px">
+				<div style="margin-bottom:8px">
+					<strong>Green Letter</strong>
+				</div>
+				<div class="grid" id="greenKeys">
+				</div>
+			</div>
+			<div class="card" id="basicPosCardYellow" style="flex:1;min-width:280px">
+				<div style="margin-bottom:8px">
+					<strong>Yellow Letter</strong>
+				</div>
+				<div class="grid" id="yellowKeys">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card" style="margin-top:12px">
+		<div style="margin-bottom:8px">
+			<strong>Gray Letter</strong>
+		</div>
+		<div class="graygrid" id="grayKeys" ></div>
+	</div>
+</div>
+
+<!-- Advanced Mode -->
+<div id="advPanel" style="display:none">
+	<div class="row" style="margin-top:12px">
+		<div class="card" style="flex:1;min-width:320px">
+			<div style="margin-bottom:8px">
+				<strong>Global Include</strong>
+			</div>
+			<div class="grid" id="gInc">
+			</div>
+		</div>
+		<div class="card" style="flex:1;min-width:320px">
+			<div style="margin-bottom:8px">
+				<strong>Global Exclude</strong>
+			</div>
+			<div class="grid" id="gExc">
+			</div>
+		</div>
+	</div>
+	<!-- Position include/exclude -->
+	<div class="card" style="margin-top:12px">
+		<div class="tabs" id="advTabs">
+		</div>
+		<div class="row" style="margin-top:10px">
+			<div class="card" id="advPosCardInc" style="flex:1;min-width:280px">
+				<div style="margin-bottom:8px">
+					<strong>Position Include</strong>
+				</div>
+				<div class="grid" id="pInc">
+				</div>
+			</div>
+			<div class="card" id="advPosCardExc" style="flex:1;min-width:280px">
+				<div style="margin-bottom:8px">
+					<strong>Position Exclude</strong>
+				</div>
+				<div class="grid" id="pExc">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Search -->
+	<div class="card" style="margin-top:12px">
+		<div class="bar">
+			<div style="margin-bottom:8px">
+				<strong title="Use ?, *, [AEIOU], &amp; for pattern matching">Pattern Search</strong>
+			</div>
+			<div class="search">
+				<input id="searchBox" placeholder="Search (see help below)" style="text-transform:uppercase;">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Counter -->
+<div class="counter">
+	<span id="count">
+		0
+	</span>
+	<small>candidates</small>
+</div>
+
+<!-- List -->
+<div class="card list" style="margin-top:6px">
+	<ul id="words">
+	</ul>
+</div>
+
+<!-- Recommender -->
+<div class="card" style="margin-top:12px">
+	<div class="bar" style="justify-content:space-between">
+		<div>
+			<strong>Next Guess Recommender</strong>
+			<span class="tag">
+				<!-- (Entropy-based) -->
+			</span>
+		</div>
+	</div>
+	<!-- Controls: row 1 -->
+	<div class="ctl" style="margin-top:10px">
+		<label title="Enforce feedback consistency (Wordle Hard Mode rules)">
+			Hard Mode
+			<input id="hardMode" type="checkbox">
+			</input>
+		</label>
+		<label title="Guess pool used when Hard Mode is OFF">
+			Guess Pool
+			<select id="poolSelect">
+				<option selected="" value="current">
+					Current Word List
+				</option>
+				<option value="2309">
+					2,309 Word List
+				</option>
+				<option value="3207">
+					3,207 Word List
+				</option>
+				<option value="14855">
+					14,855 Word List
+				</option>
+			</select>
+		</label>
+	</div>
+	<!-- Controls: row 2 -->
+	<div class="button-container">
+		<label id="candsLabel" title="Cap the number of candidate guesses from the main candidate list">
+			Max Cand
+			<input id="maxCand" min="1" type="number" value="200">
+		</label>
+		<label id="poolLabel" title="Cap the number of external guesses from the extended pool (applies only when Hard Mode is OFF)">
+			Max Pool
+			<input id="maxPool" min="0" type="number" value="200">
+		</label>
+		<label id="limitLabel" title="Use deeper 4-step E[steps] search when the remaining candidates are at or below this size.">
+			Deep Limit
+			<input id="deepEstepThreshold" min="0" type="number" value="350">
+		</label>
+		<button id="suggestNext" class="btn">
+			Suggest
+		</button>
+		<button id="stopBtn" class="btn">
+			Stop
+		</button>
+		<button id="resetSuggest" class="btn">
+			Reset
+		</button>
+	</div>
+	<div class="hint" id="modeNote" style="margin-top:4px">
+		Hint
+	</div>
+	<!-- Progress + status -->
+	<div class="progress" style="margin-top:10px">
+		<div class="barin" id="pbar">
+		</div>
+	</div>
+	<div class="hint" id="suggestStatus" style="margin-top:8px">
+	</div>
+	<!-- Table -->
+	<div style="overflow:auto;margin-top:8px">
+		<table>
+			<thead>
+				<tr>
+					<th>
+						Word
+					</th>
+					<th id="sort-steps" role="button" tabindex="0" title="Click to show the Top 10 by E[steps] (the smaller, the better)">
+						E[steps]
+					</th>
+					<th id="sort-entropy" role="button" tabindex="0" title="Click to show the Top 10 by Entropy (the bigger, the better)">
+						Entropy
+					</th>
+					<th id="sort-cands" role="button" tabindex="0" title="Click to show the Top 10 by E[cands] (the smaller, the better)">
+						E[cands]
+					</th>
+					<th id="sort-bucket" role="button" tabindex="0" title="Click to show the Top 10 by Max Bucket (the smaller, the better)">
+						Max Bucket
+					</th>
+				</tr>
+			</thead>
+			<tbody id="suggestTable">
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+<!-- Word Analyzer -->
+<div class="card" id="analyzeCard" style="margin-top:12px">
+	<div class="bar" style="justify-content:space-between; gap:8px;">
+		<div>
+			<strong>Word Analyzer</strong>
+			<span class="tag">
+				<!-- (w.r.t. current candidate list) -->
+			</span>
+		</div>
+		<div class="bar" style="gap:6px;">
+			<label id="deepLabel" title="Use deeper lookahead when estimating E[steps] (slower but more accurate)">
+				Deep E[steps]
+				<input id="deepSearch" type="checkbox">
+				</input>
+			</label>
+			<input id="analyzeInput" maxlength="5" placeholder="5-letter word" style="text-transform:uppercase;">
+			<button class="btn" id="analyzeBtn">
+				Analyze
+			</button>
+		</div>
+	</div>
+		<div style="overflow:auto;margin-top:10px">
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Word
+						</th>
+						<th>
+							E[steps]
+						</th>
+						<th>
+							Entropy
+						</th>
+						<th>
+							E[cands]
+						</th>
+						<th>
+							Max Bucket
+						</th>
+					</tr>
+				</thead>
+				<tbody id="analyzeTable">
+				</tbody>
+			</table>
+		</div>
+		<!-- Pattern distribution panel for Word Analyzer -->
+<div id="analyzePatternsSection" class="card" style="margin-top:12px; display:none">
+  <div style="margin-bottom:6px">
+    <strong>📊 Pattern Distribution</strong>
+    <div id="analyzePatternsMeta" class="hint"></div>
+  </div>
+
+  <!-- Fixed header table -->
+  <table class="pattern-header-table">
+    <thead>
+      <tr>
+        <th>Pattern</th>
+        <th>Count</th>
+        <th>Share</th>
+      </tr>
+    </thead>
+  </table>
+
+  <!-- Scrollable body -->
+  <div class="pattern-scroll">
+    <table class="pattern-body-table">
+      <tbody id="analyzePatternsBody"></tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+</div>
+
+
+<!-- Help -->
+<div class="help">
+	<!-- Word Lists for Wordle -->
+	<strong id="wordListsToggle" class="toggle-header">📚 Word Lists for Wordle</strong>
+	<div id="wordListsContent" class="toggle-content">
+		<p>Here are three commonly referenced word lists associated with the game Wordle: the “2,309”, “3,207”, and “14,855” word lists. None of these lists have been officially confirmed as the definitive answer sets by the creators of Wordle.</p>
+		<ul>
+			<li>
+				<strong>2,309 Word List</strong>: <p>Many players report seeing answers from this 2,309‑word list, though there are exceptions.</p>
+			</li>
+			<li>
+				<strong>3,207 Word List</strong>: <p>The 3,207‑word list is often used as a broader “answers” list in community tools.</p>
+			</li>
+			<li>
+				<strong>14,855 Word List</strong>: <p>This much larger list, containing 14,855 words, is believed to reflect the broader vocabulary of words accepted by the game as guesses (rather than necessarily as answers).</p>
+			</li>
+		</ul>
+		<p>Each of these lists plays a different role: the 2,309 list as a common answers reference, the 3,207 list for extended answer coverage, and the 14,855 list for comprehensive guess vocabulary.</p>
+	</div>
+	<br>
+	<!-- Next-Guess Recommender Help -->
+	<strong id="recommenderToggle" class="toggle-header">🧠 Next Guess Recommender Help</strong>
+	<div id="recommenderContent" class="toggle-content">
+		<ul>
+			<li style="margin-top: 15px;">
+				<strong>Next Guess Recommender</strong>: This tool uses an <strong>entropy-based</strong> approach to narrow down the list of candidate guesses. It first ranks words by <strong>entropy</strong> and then refines the ranking using <strong>E[steps]</strong>, <strong>E[cands]</strong>, and <strong>Max Bucket</strong>.
+			</li>
+			<li style="margin-top: 15px;">
+				<strong>Entropy</strong>: A measure of uncertainty, where higher values indicate words with more potential for narrowing down the solution space. Entropy values represent how "informative" a word is when used as a guess. <strong>The bigger, the better.</strong>
+			</li>
+			<li>
+				<strong>E[steps]</strong>: An estimate of the number of steps required to guess the target word, given the current pool of candidate words. It is an <strong>approximation</strong>, computed by simulating future guesses:
+				<ul>
+					<li>For large candidate sets (above <strong>Deep Limit</strong>), a faster, shallower lookahead is used.</li>
+					<li>For smaller candidate sets (at or below <strong>Deep Limit</strong>), a deeper lookahead is used (up to several guesses ahead), which is more accurate but slower.</li>
+					<li>In both cases, all follow-up guesses used for E[steps] are chosen <strong>only from the current candidate set</strong>, regardless of whether Hard Mode is ON or OFF.</li>
+				</ul>
+				<strong>The smaller, the better.</strong>
+			</li>
+			<li>
+				<strong>E[cands]</strong>: The expected number of candidates remaining after a guess, based on the current word pool. This metric helps assess how effective a guess is in reducing the search space. <strong>The smaller, the better.</strong>
+			</li>
+			<li>
+				<strong>Max Bucket</strong>: The size of the largest group of words that would result from guessing a particular word, given the current state of the game. This value helps identify words that will divide the remaining possibilities evenly. <strong>The smaller, the better.</strong>
+			</li>
+			<li style="margin-top: 15px;">
+				<strong>Hard Mode ON</strong>: Guesses are made only from the top-ranked <strong>Max Cand</strong> candidates based on entropy.
+			</li>
+			<li>
+				<strong>Hard Mode OFF</strong>: Guesses are made from both the top-ranked <strong>Max Cand</strong> candidates and the top-ranked <strong>Max Pool</strong> words from the external pool, based on entropy.
+			</li>
+			<li style="margin-top: 15px;">
+				<strong>Max Cand (Max Candidates)</strong>: The maximum number of top-ranked candidate guesses from the main candidate list, selected based on entropy, used for the recommendation.
+			</li>
+			<li>
+				<strong>Max Pool (Max Guess Pool)</strong>: The maximum number of top-ranked external pool guesses, selected based on entropy, used for the recommendation (only applies when Hard Mode is OFF).
+			</li>
+			<li style="margin-top: 15px;">
+				<strong>Deep Limit</strong>: Controls when the recommender switches between the faster and deeper E[steps] models:
+				<ul>
+					<li>If the number of remaining candidates is <strong>greater than</strong> this value, the recommender uses a <strong>faster, shallower</strong> E[steps] approximation.</li>
+					<li>If the number of remaining candidates is <strong>less than or equal to</strong> this value, it switches to a <strong>deeper multi-step lookahead</strong>, which improves accuracy but can be significantly slower.</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<br>
+	<!-- Word Analyzer Help -->
+	<strong id="analyzerHelpToggle" class="toggle-header">🧩 Word Analyzer Help</strong>
+	<div id="analyzerHelpContent" class="toggle-content">
+		<ul>
+			<li style="margin-top: 15px;">
+				<strong>Word Analyzer</strong>: Lets you type any 5-letter word and evaluate it against the current candidate set. It computes the same metrics as the Next Guess Recommender: <strong>Entropy</strong>, <strong>E[steps]</strong>, <strong>E[cands]</strong>, and <strong>Max Bucket</strong>, but for a single word you choose.
+			</li>
+			<li style="margin-top: 15px;">
+				<strong>Entropy</strong>: Measures how informative the word is as a guess. Higher entropy means the word tends to split the remaining candidates into more balanced groups.
+			</li>
+			<li>
+				<strong>E[steps]</strong>: An approximate expected number of guesses needed to find the answer if you start by using this word, given the current candidate pool. Just like in the Next Guess Recommender, follow-up guesses used for E[steps] are chosen <strong>only from the current candidates</strong>, not from the external pool.
+			</li>
+			<li>
+				<strong>E[cands]</strong>: The expected number of candidates remaining after using this word as a guess. Smaller values mean the word tends to cut down the solution space more aggressively.
+			</li>
+			<li>
+				<strong>Max Bucket</strong>: The size of the largest remaining group of candidates after this guess. Smaller Max Bucket means fewer “worst-case” scenarios.
+			</li>
+			<li style="margin-top: 15px;">
+				<strong>Deep E[steps]</strong> (checkbox): When enabled, the Word Analyzer uses a <strong>much deeper</strong> lookahead model for computing E[steps], offering a result closer to the true expected number of steps. This mode is considerably slower on large candidate sets. When unchecked, the faster shallow approximation is used instead.
+			</li>
+			<li style="margin-top: 15px;">
+				<strong>Pattern Distribution</strong>: For the entered word, the analyzer also shows a full breakdown of <strong>all feedback patterns</strong> (🟩🟨⬛ combinations) and how many candidates fall into each pattern. This view helps you understand:
+				<ul>
+					<li>how the word partitions the remaining candidates,</li>
+					<li>how balanced the resulting branches are,</li>
+					<li>why entropy, E[cands], and Max Bucket have their specific values.</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<br>
+	<!-- Search Help -->
+	<strong id="searchHelpToggle" class="toggle-header">🔍 Pattern Search Help</strong>
+	<div id="searchHelpContent" class="toggle-content">
+		<ul>
+			<li style="margin-top: 15px;">
+				<strong>?</strong>: Exactly one letter (e.g.,<code>A?E</code>&rarr;<em>ACE, APE, ARE</em>)
+			</li>
+			<li>
+				<strong>*</strong>: Zero or more letters (e.g.,<code>E*E</code>&rarr;<em>AGREE, EAGLE, EERIE</em>)
+			</li>
+			<li>
+				<strong>[AEIOU]</strong>: Any one listed; <strong>[^AEIOU]</strong>: Not these (e.g.,<code>[^AEIOU]ATE</code>&rarr;<em>SLATE, CRATE</em>)
+			</li>
+			<li>
+				<strong>&amp;</strong>: AND; <strong>|</strong>: OR (AND has higher precedence)
+			</li>
+			<li>
+				<strong>( )</strong>: Group terms (e.g.,<code>(ING &amp; R) | (A?E &amp; N)</code>)
+			</li>
+		</ul>
+	</div>
+	<br>
+	<!-- ⚠️ Disclaimer -->
+	<strong id="disclaimerToggle" class="toggle-header">⚠️ Disclaimer</strong>
+	<div id="disclaimerContent" class="toggle-content">
+		<p>This tool is an independent, unofficial helper for the game <strong>Wordle</strong>. It is provided for educational and entertainment purposes only.</p>
+		<p>All word lists, recommendations, and computed results are provided <strong>“as is”</strong> with <strong>no guarantees of accuracy or completeness</strong>. Actual Wordle answers may differ from the words shown or suggested here.</p>
+		<p><strong>Wordle</strong> is a trademark of <strong>The New York Times Company</strong>. This site is <strong>not affiliated with, endorsed by, or associated with The New York Times or Wordle</strong>.</p>
+	</div>
+	<br>
+</div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
