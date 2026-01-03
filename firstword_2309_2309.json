@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "answerList": 2309,
+    "mode": "nonhard",
+    "guessPool": 2309,
+    "source": "merged_simple_words_2309_2309.json",
+    "numCandidates": 2309,
+    "generatedFrom": "merged_simple_words_2309_2309.json"
+  },
+  "metrics": {
+    "entropy": {
+      "direction": "desc",
+      "topN": 10,
+      "cutoff": 5.751562008954046
+    },
+    "expected": {
+      "direction": "asc",
+      "topN": 10,
+      "cutoff": 71.2815071459505
+    },
+    "maxBucket": {
+      "direction": "asc",
+      "topN": 10,
+      "cutoff": 196
+    },
+    "E": {
+      "direction": "asc",
+      "topN": 10,
+      "cutoff": 3.464270246861719
+    }
+  },
+  "top": {
+    "E": [
+      "SLATE",
+      "TRACE",
+      "CRATE",
+      "CRANE",
+      "LEAST",
+      "SLANT",
+      "STALE",
+      "TRICE",
+      "STARE",
+      "ROAST"
+    ],
+    "entropy": [
+      "RAISE",
+      "SLATE",
+      "CRATE",
+      "IRATE",
+      "TRACE",
+      "ARISE",
+      "STARE",
+      "SNARE",
+      "AROSE",
+      "LEAST"
+    ],
+    "expected": [
+      "RAISE",
+      "ARISE",
+      "IRATE",
+      "AROSE",
+      "ALTER",
+      "SANER",
+      "LATER",
+      "SNARE",
+      "STARE",
+      "SLATE"
+    ],
+    "maxBucket": [
+      "ARISE",
+      "RAISE",
+      "ALONE",
+      "AROSE",
+      "RATIO",
+      "ATONE",
+      "IRATE",
+      "AISLE",
+      "ALERT",
+      "ALTER",
+      "LATER"
+    ]
+  },
+  "stats": {
+    "RAISE": {
+      "rank": 1531,
+      "entropy": 5.878302956493169,
+      "expected": 60.74447812906018,
+      "maxBucket": 167,
+      "E": 3.4837592031207043
+    },
+    "SLATE": {
+      "rank": 1774,
+      "entropy": 5.855819244109515,
+      "expected": 71.2815071459505,
+      "maxBucket": 221,
+      "E": 3.4434820268514534
+    },
+    "CRATE": {
+      "rank": 462,
+      "entropy": 5.835215982633284,
+      "expected": 72.80684278908602,
+      "maxBucket": 246,
+      "E": 3.444781290601993
+    },
+    "IRATE": {
+      "rank": 1042,
+      "entropy": 5.8327988809409055,
+      "expected": 63.491987873538235,
+      "maxBucket": 193,
+      "E": 3.4976180164589863
+    },
+    "TRACE": {
+      "rank": 2089,
+      "entropy": 5.8304291080797555,
+      "expected": 73.94586401039398,
+      "maxBucket": 246,
+      "E": 3.4439151147683003
+    },
+    "ARISE": {
+      "rank": 105,
+      "entropy": 5.821023459282914,
+      "expected": 63.46860112602857,
+      "maxBucket": 167,
+      "E": 3.4932871372906904
+    },
+    "STARE": {
+      "rank": 1904,
+      "entropy": 5.806888622249769,
+      "expected": 71.04677349501938,
+      "maxBucket": 226,
+      "E": 3.4634040710282825
+    },
+    "SNARE": {
+      "rank": 1815,
+      "entropy": 5.768678157325961,
+      "expected": 71.01559116500641,
+      "maxBucket": 219,
+      "E": 3.470766565614425
+    },
+    "AROSE": {
+      "rank": 108,
+      "entropy": 5.767804897087286,
+      "expected": 65.75963620614982,
+      "maxBucket": 182,
+      "E": 3.490255521873106
+    },
+    "LEAST": {
+      "rank": 1114,
+      "entropy": 5.751562008954046,
+      "expected": 77.96751840623627,
+      "maxBucket": 221,
+      "E": 3.453009961022088
+    },
+    "ALTER": {
+      "rank": 67,
+      "entropy": 5.713372336368849,
+      "expected": 69.82546556951051,
+      "maxBucket": 196,
+      "E": 3.48635773062183
+    },
+    "SANER": {
+      "rank": 1640,
+      "entropy": 5.733998546845605,
+      "expected": 70.01775660459059,
+      "maxBucket": 219,
+      "E": 3.47856214811867
+    },
+    "LATER": {
+      "rank": 1101,
+      "entropy": 5.707287214774777,
+      "expected": 70.02728453876131,
+      "maxBucket": 196,
+      "E": 3.499783456043832
+    },
+    "ALONE": {
+      "rank": 61,
+      "entropy": 5.6112819733074915,
+      "expected": 77.16024252923337,
+      "maxBucket": 182,
+      "E": 3.491121697706802
+    },
+    "RATIO": {
+      "rank": 1542,
+      "entropy": 5.3513552443106835,
+      "expected": 91.52403637938494,
+      "maxBucket": 190,
+      "E": 3.5430922477283704
+    },
+    "ATONE": {
+      "rank": 120,
+      "entropy": 5.557454213254542,
+      "expected": 78.77652663490683,
+      "maxBucket": 191,
+      "E": 3.511043741882201
+    },
+    "AISLE": {
+      "rank": 45,
+      "entropy": 5.635641642534595,
+      "expected": 76.08964919878724,
+      "maxBucket": 196,
+      "E": 3.4876569943725872
+    },
+    "ALERT": {
+      "rank": 48,
+      "entropy": 5.744211188991762,
+      "expected": 71.51017756604581,
+      "maxBucket": 196,
+      "E": 3.488523170205503
+    },
+    "CRANE": {
+      "rank": 458,
+      "entropy": 5.7410113201652955,
+      "expected": 78.68644434820253,
+      "maxBucket": 263,
+      "E": 3.446946730188437
+    },
+    "SLANT": {
+      "rank": 1772,
+      "entropy": 5.492894363021005,
+      "expected": 98.54265915980922,
+      "maxBucket": 316,
+      "E": 3.4543092247749705
+    },
+    "STALE": {
+      "rank": 1898,
+      "entropy": 5.738263819559774,
+      "expected": 75.32828064096995,
+      "maxBucket": 221,
+      "E": 3.462537895194546
+    },
+    "TRICE": {
+      "rank": 2105,
+      "entropy": 5.634291214967142,
+      "expected": 85.77869207449093,
+      "maxBucket": 276,
+      "E": 3.4634040710280245
+    },
+    "ROAST": {
+      "rank": 1601,
+      "entropy": 5.648431350783485,
+      "expected": 82.78345604157636,
+      "maxBucket": 264,
+      "E": 3.464270246861719
+    }
+  }
+}
