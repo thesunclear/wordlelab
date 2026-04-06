@@ -1,5 +1,5 @@
 {
-  "updatedThrough": 1750,
+  "updatedThrough": 1751,
   "answers": [
     {
       "number": 0,
@@ -7004,6 +7004,10 @@
     {
       "number": 1750,
       "word": "SANDY"
+    },
+    {
+      "number": 1751,
+      "word": "ENVOY"
     }
   ]
 }
