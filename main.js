@@ -17,6 +17,8 @@ const state={
 		activeSet:new Set(),
 		byWord:new Map(),
 		updatedThrough:null,
+		updatedThroughDate:null,
+		localToday:null,
 		loaded:false,
 		loadError:null
 	}
@@ -76,6 +78,29 @@ async function loadCsvFile(name){
 
 const PREVIOUS_ANSWERS_FILE = './previous_answers.json';
 
+function getLocalTodayISO(){
+  const now = new Date();
+  const y = now.getFullYear();
+  const m = String(now.getMonth() + 1).padStart(2, '0');
+  const d = String(now.getDate()).padStart(2, '0');
+  return `${y}-${m}-${d}`;
+}
+
+function isPreviousAnswerRecordActive(rec){
+  const pa = state.previousAnswers;
+  if (!rec || typeof rec !== 'object') return false;
+
+  // Backward-compatible fallback:
+  // if a record has no date, treat it as active.
+  if (!rec.date || typeof rec.date !== 'string') return true;
+
+  const today = pa.localToday || getLocalTodayISO();
+
+  // Only records strictly before the user's local today
+  // count as previous answers.
+  return rec.date < today;
+}
+
 function refreshPreviousAnswersControls(){
   const handlingSelect = byId('previousAnswersHandling');
   const modeSelect = byId('previousAnswersMode');
@@ -102,11 +127,24 @@ function refreshPreviousAnswersControls(){
   valueWrap.style.display = (ready && handling !== 'ignore' && mode === 'lastN') ? '' : 'none';
 }
 
+function getEffectiveUpdatedThrough(){
+  const pa = state.previousAnswers;
+  if (!pa || !pa.data || !pa.data.length) return pa.updatedThrough;
+
+  const eligible = pa.data.filter(isPreviousAnswerRecordActive);
+  if (!eligible.length) return null;
+
+  return Math.max(...eligible.map(r => r.number));
+}
+
 function updatePreviousAnswersUI(){
   const st = byId('previousAnswersStatus');
   if (!st) return;
 
   const pa = state.previousAnswers;
+  
+  const effectiveThrough = getEffectiveUpdatedThrough();
+  const throughNumber = Number.isInteger(effectiveThrough) ? effectiveThrough : pa.updatedThrough;
 
   if (pa.loadError) {
     st.textContent = 'Previous answers unavailable.';
@@ -130,13 +168,13 @@ function updatePreviousAnswersUI(){
     const raw = Number.isInteger(pa.value) && pa.value > 0 ? pa.value : 365;
     const total = Array.isArray(pa.data) ? pa.data.length : 0;
     const n = Math.min(raw, total);
-    st.textContent = `Through Wordle #${pa.updatedThrough} • excluding last ${n}`;
+    st.textContent = `Through Wordle #${throughNumber} • excluding last ${n}`;
     refreshPreviousAnswersControls();
     return;
   }
 
   if (pa.handling === 'exclude' && pa.mode === 'all') {
-    st.textContent = `Through Wordle #${pa.updatedThrough} • excluding all previous`;
+    st.textContent = `Through Wordle #${throughNumber} • excluding all previous`;
     refreshPreviousAnswersControls();
     return;
   }
@@ -145,18 +183,18 @@ function updatePreviousAnswersUI(){
     const raw = Number.isInteger(pa.value) && pa.value > 0 ? pa.value : 365;
     const total = Array.isArray(pa.data) ? pa.data.length : 0;
     const n = Math.min(raw, total);
-    st.textContent = `Through Wordle #${pa.updatedThrough} • showing badge for last ${n}`;
+    st.textContent = `Through Wordle #${throughNumber} • showing badge for last ${n}`;
     refreshPreviousAnswersControls();
     return;
   }
 
   if (pa.handling === 'badge' && pa.mode === 'all') {
-    st.textContent = `Through Wordle #${pa.updatedThrough} • showing badge for all previous`;
+    st.textContent = `Through Wordle #${throughNumber} • showing badge for all previous`;
     refreshPreviousAnswersControls();
     return;
   }
 
-  st.textContent = `Through Wordle #${pa.updatedThrough}`;
+  st.textContent = `Through Wordle #${throughNumber}`;
   refreshPreviousAnswersControls();
 }
 
@@ -169,7 +207,7 @@ function rebuildPreviousAnswersActiveSet(){
 
   if (pa.mode === 'all') {
     for (const rec of pa.data) {
-      if (rec && typeof rec.word === 'string') {
+      if (rec && typeof rec.word === 'string' && isPreviousAnswerRecordActive(rec)) {
         pa.activeSet.add(rec.word);
       }
     }
@@ -177,10 +215,12 @@ function rebuildPreviousAnswersActiveSet(){
   }
 
   if (pa.mode === 'lastN') {
+    const eligible = pa.data.filter(isPreviousAnswerRecordActive);
+
     const nRaw = Number(pa.value);
     const n = Math.max(1, Math.floor(Number.isFinite(nRaw) ? nRaw : 365));
-    const sliceStart = Math.max(0, pa.data.length - n);
-    const recent = pa.data.slice(sliceStart);
+    const sliceStart = Math.max(0, eligible.length - n);
+    const recent = eligible.slice(sliceStart);
 
     for (const rec of recent) {
       if (rec && typeof rec.word === 'string') {
@@ -206,16 +246,18 @@ function getPreviousAnswerTooltipRecords(word){
   if (!Array.isArray(records) || !records.length) return [];
 
   if (pa.mode === 'all') {
-    return records.slice();
+    return records.filter(isPreviousAnswerRecordActive);
   }
 
   if (pa.mode === 'lastN') {
+    const eligible = records.filter(isPreviousAnswerRecordActive);
+
     const nRaw = Number(pa.value);
     const n = Math.max(1, Math.floor(Number.isFinite(nRaw) ? nRaw : 365));
     const maxNumber = Number.isInteger(pa.updatedThrough) ? pa.updatedThrough : Infinity;
     const minNumber = maxNumber - n + 1;
 
-    return records.filter(rec => Number.isInteger(rec.number) && rec.number >= minNumber);
+    return eligible.filter(rec => Number.isInteger(rec.number) && rec.number >= minNumber);
   }
 
   return records.slice();
@@ -300,11 +342,12 @@ async function loadPreviousAnswersData(){
 		for (const rec of answers) {
 			const number = Number(rec?.number);
 			const word = String(rec?.word || '').trim().toLowerCase();
+			const date = String(rec?.date || '').trim();
 
 			if (!Number.isInteger(number)) continue;
 			if (!/^[a-z]{5}$/.test(word)) continue;
 
-			const item = { number, word };
+			const item = { number, word, date };
 			cleaned.push(item);
 
 			if (!pa.byWord.has(word)) {
@@ -313,8 +356,18 @@ async function loadPreviousAnswersData(){
 			pa.byWord.get(word).push(item);
 		}
 
-		pa.data = cleaned.sort((a, b) => a.number - b.number);
+		pa.data = cleaned.sort((a, b) => {
+			if (a.number !== b.number) return a.number - b.number;
+			if ((a.date || '') !== (b.date || '')) return (a.date || '').localeCompare(b.date || '');
+			return a.word.localeCompare(b.word);
+		});
+
 		pa.updatedThrough = Number.isInteger(json?.updatedThrough) ? json.updatedThrough : null;
+		pa.updatedThroughDate = typeof json?.updatedThroughDate === 'string'
+			? json.updatedThroughDate
+			: null;
+
+		pa.localToday = getLocalTodayISO();
 		pa.loaded = true;
 
 		rebuildPreviousAnswersActiveSet();

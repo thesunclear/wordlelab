@@ -1,7013 +1,8796 @@
 {
-  "updatedThrough": 1751,
+  "updatedThrough": 1753,
+  "updatedThroughDate": "2026-04-07",
   "answers": [
     {
       "number": 0,
-      "word": "CIGAR"
+      "word": "CIGAR",
+      "date": "2021-06-19"
     },
     {
       "number": 1,
-      "word": "REBUT"
+      "word": "REBUT",
+      "date": "2021-06-20"
     },
     {
       "number": 2,
-      "word": "SISSY"
+      "word": "SISSY",
+      "date": "2021-06-21"
     },
     {
       "number": 3,
-      "word": "HUMPH"
+      "word": "HUMPH",
+      "date": "2021-06-22"
     },
     {
       "number": 4,
-      "word": "AWAKE"
+      "word": "AWAKE",
+      "date": "2021-06-23"
     },
     {
       "number": 5,
-      "word": "BLUSH"
+      "word": "BLUSH",
+      "date": "2021-06-24"
     },
     {
       "number": 6,
-      "word": "FOCAL"
+      "word": "FOCAL",
+      "date": "2021-06-25"
     },
     {
       "number": 7,
-      "word": "EVADE"
+      "word": "EVADE",
+      "date": "2021-06-26"
     },
     {
       "number": 8,
-      "word": "NAVAL"
+      "word": "NAVAL",
+      "date": "2021-06-27"
     },
     {
       "number": 9,
-      "word": "SERVE"
+      "word": "SERVE",
+      "date": "2021-06-28"
     },
     {
       "number": 10,
-      "word": "HEATH"
+      "word": "HEATH",
+      "date": "2021-06-29"
     },
     {
       "number": 11,
-      "word": "DWARF"
+      "word": "DWARF",
+      "date": "2021-06-30"
     },
     {
       "number": 12,
-      "word": "MODEL"
+      "word": "MODEL",
+      "date": "2021-07-01"
     },
     {
       "number": 13,
-      "word": "KARMA"
+      "word": "KARMA",
+      "date": "2021-07-02"
     },
     {
       "number": 14,
-      "word": "STINK"
+      "word": "STINK",
+      "date": "2021-07-03"
     },
     {
       "number": 15,
-      "word": "GRADE"
+      "word": "GRADE",
+      "date": "2021-07-04"
     },
     {
       "number": 16,
-      "word": "QUIET"
+      "word": "QUIET",
+      "date": "2021-07-05"
     },
     {
       "number": 17,
-      "word": "BENCH"
+      "word": "BENCH",
+      "date": "2021-07-06"
     },
     {
       "number": 18,
-      "word": "ABATE"
+      "word": "ABATE",
+      "date": "2021-07-07"
     },
     {
       "number": 19,
-      "word": "FEIGN"
+      "word": "FEIGN",
+      "date": "2021-07-08"
     },
     {
       "number": 20,
-      "word": "MAJOR"
+      "word": "MAJOR",
+      "date": "2021-07-09"
     },
     {
       "number": 21,
-      "word": "DEATH"
+      "word": "DEATH",
+      "date": "2021-07-10"
     },
     {
       "number": 22,
-      "word": "FRESH"
+      "word": "FRESH",
+      "date": "2021-07-11"
     },
     {
       "number": 23,
-      "word": "CRUST"
+      "word": "CRUST",
+      "date": "2021-07-12"
     },
     {
       "number": 24,
-      "word": "STOOL"
+      "word": "STOOL",
+      "date": "2021-07-13"
     },
     {
       "number": 25,
-      "word": "COLON"
+      "word": "COLON",
+      "date": "2021-07-14"
     },
     {
       "number": 26,
-      "word": "ABASE"
+      "word": "ABASE",
+      "date": "2021-07-15"
     },
     {
       "number": 27,
-      "word": "MARRY"
+      "word": "MARRY",
+      "date": "2021-07-16"
     },
     {
       "number": 28,
-      "word": "REACT"
+      "word": "REACT",
+      "date": "2021-07-17"
     },
     {
       "number": 29,
-      "word": "BATTY"
+      "word": "BATTY",
+      "date": "2021-07-18"
     },
     {
       "number": 30,
-      "word": "PRIDE"
+      "word": "PRIDE",
+      "date": "2021-07-19"
     },
     {
       "number": 31,
-      "word": "FLOSS"
+      "word": "FLOSS",
+      "date": "2021-07-20"
     },
     {
       "number": 32,
-      "word": "HELIX"
+      "word": "HELIX",
+      "date": "2021-07-21"
     },
     {
       "number": 33,
-      "word": "CROAK"
+      "word": "CROAK",
+      "date": "2021-07-22"
     },
     {
       "number": 34,
-      "word": "STAFF"
+      "word": "STAFF",
+      "date": "2021-07-23"
     },
     {
       "number": 35,
-      "word": "PAPER"
+      "word": "PAPER",
+      "date": "2021-07-24"
     },
     {
       "number": 36,
-      "word": "UNFED"
+      "word": "UNFED",
+      "date": "2021-07-25"
     },
     {
       "number": 37,
-      "word": "WHELP"
+      "word": "WHELP",
+      "date": "2021-07-26"
     },
     {
       "number": 38,
-      "word": "TRAWL"
+      "word": "TRAWL",
+      "date": "2021-07-27"
     },
     {
       "number": 39,
-      "word": "OUTDO"
+      "word": "OUTDO",
+      "date": "2021-07-28"
     },
     {
       "number": 40,
-      "word": "ADOBE"
+      "word": "ADOBE",
+      "date": "2021-07-29"
     },
     {
       "number": 41,
-      "word": "CRAZY"
+      "word": "CRAZY",
+      "date": "2021-07-30"
     },
     {
       "number": 42,
-      "word": "SOWER"
+      "word": "SOWER",
+      "date": "2021-07-31"
     },
     {
       "number": 43,
-      "word": "REPAY"
+      "word": "REPAY",
+      "date": "2021-08-01"
     },
     {
       "number": 44,
-      "word": "DIGIT"
+      "word": "DIGIT",
+      "date": "2021-08-02"
     },
     {
       "number": 45,
-      "word": "CRATE"
+      "word": "CRATE",
+      "date": "2021-08-03"
     },
     {
       "number": 46,
-      "word": "CLUCK"
+      "word": "CLUCK",
+      "date": "2021-08-04"
     },
     {
       "number": 47,
-      "word": "SPIKE"
+      "word": "SPIKE",
+      "date": "2021-08-05"
     },
     {
       "number": 48,
-      "word": "MIMIC"
+      "word": "MIMIC",
+      "date": "2021-08-06"
     },
     {
       "number": 49,
-      "word": "POUND"
+      "word": "POUND",
+      "date": "2021-08-07"
     },
     {
       "number": 50,
-      "word": "MAXIM"
+      "word": "MAXIM",
+      "date": "2021-08-08"
     },
     {
       "number": 51,
-      "word": "LINEN"
+      "word": "LINEN",
+      "date": "2021-08-09"
     },
     {
       "number": 52,
-      "word": "UNMET"
+      "word": "UNMET",
+      "date": "2021-08-10"
     },
     {
       "number": 53,
-      "word": "FLESH"
+      "word": "FLESH",
+      "date": "2021-08-11"
     },
     {
       "number": 54,
-      "word": "BOOBY"
+      "word": "BOOBY",
+      "date": "2021-08-12"
     },
     {
       "number": 55,
-      "word": "FORTH"
+      "word": "FORTH",
+      "date": "2021-08-13"
     },
     {
       "number": 56,
-      "word": "FIRST"
+      "word": "FIRST",
+      "date": "2021-08-14"
     },
     {
       "number": 57,
-      "word": "STAND"
+      "word": "STAND",
+      "date": "2021-08-15"
     },
     {
       "number": 58,
-      "word": "BELLY"
+      "word": "BELLY",
+      "date": "2021-08-16"
     },
     {
       "number": 59,
-      "word": "IVORY"
+      "word": "IVORY",
+      "date": "2021-08-17"
     },
     {
       "number": 60,
-      "word": "SEEDY"
+      "word": "SEEDY",
+      "date": "2021-08-18"
     },
     {
       "number": 61,
-      "word": "PRINT"
+      "word": "PRINT",
+      "date": "2021-08-19"
     },
     {
       "number": 62,
-      "word": "YEARN"
+      "word": "YEARN",
+      "date": "2021-08-20"
     },
     {
       "number": 63,
-      "word": "DRAIN"
+      "word": "DRAIN",
+      "date": "2021-08-21"
     },
     {
       "number": 64,
-      "word": "BRIBE"
+      "word": "BRIBE",
+      "date": "2021-08-22"
     },
     {
       "number": 65,
-      "word": "STOUT"
+      "word": "STOUT",
+      "date": "2021-08-23"
     },
     {
       "number": 66,
-      "word": "PANEL"
+      "word": "PANEL",
+      "date": "2021-08-24"
     },
     {
       "number": 67,
-      "word": "CRASS"
+      "word": "CRASS",
+      "date": "2021-08-25"
     },
     {
       "number": 68,
-      "word": "FLUME"
+      "word": "FLUME",
+      "date": "2021-08-26"
     },
     {
       "number": 69,
-      "word": "OFFAL"
+      "word": "OFFAL",
+      "date": "2021-08-27"
     },
     {
       "number": 70,
-      "word": "AGREE"
+      "word": "AGREE",
+      "date": "2021-08-28"
     },
     {
       "number": 71,
-      "word": "ERROR"
+      "word": "ERROR",
+      "date": "2021-08-29"
     },
     {
       "number": 72,
-      "word": "SWIRL"
+      "word": "SWIRL",
+      "date": "2021-08-30"
     },
     {
       "number": 73,
-      "word": "ARGUE"
+      "word": "ARGUE",
+      "date": "2021-08-31"
     },
     {
       "number": 74,
-      "word": "BLEED"
+      "word": "BLEED",
+      "date": "2021-09-01"
     },
     {
       "number": 75,
-      "word": "DELTA"
+      "word": "DELTA",
+      "date": "2021-09-02"
     },
     {
       "number": 76,
-      "word": "FLICK"
+      "word": "FLICK",
+      "date": "2021-09-03"
     },
     {
       "number": 77,
-      "word": "TOTEM"
+      "word": "TOTEM",
+      "date": "2021-09-04"
     },
     {
       "number": 78,
-      "word": "WOOER"
+      "word": "WOOER",
+      "date": "2021-09-05"
     },
     {
       "number": 79,
-      "word": "FRONT"
+      "word": "FRONT",
+      "date": "2021-09-06"
     },
     {
       "number": 80,
-      "word": "SHRUB"
+      "word": "SHRUB",
+      "date": "2021-09-07"
     },
     {
       "number": 81,
-      "word": "PARRY"
+      "word": "PARRY",
+      "date": "2021-09-08"
     },
     {
       "number": 82,
-      "word": "BIOME"
+      "word": "BIOME",
+      "date": "2021-09-09"
     },
     {
       "number": 83,
-      "word": "LAPEL"
+      "word": "LAPEL",
+      "date": "2021-09-10"
     },
     {
       "number": 84,
-      "word": "START"
+      "word": "START",
+      "date": "2021-09-11"
     },
     {
       "number": 85,
-      "word": "GREET"
+      "word": "GREET",
+      "date": "2021-09-12"
     },
     {
       "number": 86,
-      "word": "GONER"
+      "word": "GONER",
+      "date": "2021-09-13"
     },
     {
       "number": 87,
-      "word": "GOLEM"
+      "word": "GOLEM",
+      "date": "2021-09-14"
     },
     {
       "number": 88,
-      "word": "LUSTY"
+      "word": "LUSTY",
+      "date": "2021-09-15"
     },
     {
       "number": 89,
-      "word": "LOOPY"
+      "word": "LOOPY",
+      "date": "2021-09-16"
     },
     {
       "number": 90,
-      "word": "ROUND"
+      "word": "ROUND",
+      "date": "2021-09-17"
     },
     {
       "number": 91,
-      "word": "AUDIT"
+      "word": "AUDIT",
+      "date": "2021-09-18"
     },
     {
       "number": 92,
-      "word": "LYING"
+      "word": "LYING",
+      "date": "2021-09-19"
     },
     {
       "number": 93,
-      "word": "GAMMA"
+      "word": "GAMMA",
+      "date": "2021-09-20"
     },
     {
       "number": 94,
-      "word": "LABOR"
+      "word": "LABOR",
+      "date": "2021-09-21"
     },
     {
       "number": 95,
-      "word": "ISLET"
+      "word": "ISLET",
+      "date": "2021-09-22"
     },
     {
       "number": 96,
-      "word": "CIVIC"
+      "word": "CIVIC",
+      "date": "2021-09-23"
     },
     {
       "number": 97,
-      "word": "FORGE"
+      "word": "FORGE",
+      "date": "2021-09-24"
     },
     {
       "number": 98,
-      "word": "CORNY"
+      "word": "CORNY",
+      "date": "2021-09-25"
     },
     {
       "number": 99,
-      "word": "MOULT"
+      "word": "MOULT",
+      "date": "2021-09-26"
     },
     {
       "number": 100,
-      "word": "BASIC"
+      "word": "BASIC",
+      "date": "2021-09-27"
     },
     {
       "number": 101,
-      "word": "SALAD"
+      "word": "SALAD",
+      "date": "2021-09-28"
     },
     {
       "number": 102,
-      "word": "AGATE"
+      "word": "AGATE",
+      "date": "2021-09-29"
     },
     {
       "number": 103,
-      "word": "SPICY"
+      "word": "SPICY",
+      "date": "2021-09-30"
     },
     {
       "number": 104,
-      "word": "SPRAY"
+      "word": "SPRAY",
+      "date": "2021-10-01"
     },
     {
       "number": 105,
-      "word": "ESSAY"
+      "word": "ESSAY",
+      "date": "2021-10-02"
     },
     {
       "number": 106,
-      "word": "FJORD"
+      "word": "FJORD",
+      "date": "2021-10-03"
     },
     {
       "number": 107,
-      "word": "SPEND"
+      "word": "SPEND",
+      "date": "2021-10-04"
     },
     {
       "number": 108,
-      "word": "KEBAB"
+      "word": "KEBAB",
+      "date": "2021-10-05"
     },
     {
       "number": 109,
-      "word": "GUILD"
+      "word": "GUILD",
+      "date": "2021-10-06"
     },
     {
       "number": 110,
-      "word": "ABACK"
+      "word": "ABACK",
+      "date": "2021-10-07"
     },
     {
       "number": 111,
-      "word": "MOTOR"
+      "word": "MOTOR",
+      "date": "2021-10-08"
     },
     {
       "number": 112,
-      "word": "ALONE"
+      "word": "ALONE",
+      "date": "2021-10-09"
     },
     {
       "number": 113,
-      "word": "HATCH"
+      "word": "HATCH",
+      "date": "2021-10-10"
     },
     {
       "number": 114,
-      "word": "HYPER"
+      "word": "HYPER",
+      "date": "2021-10-11"
     },
     {
       "number": 115,
-      "word": "THUMB"
+      "word": "THUMB",
+      "date": "2021-10-12"
     },
     {
       "number": 116,
-      "word": "DOWRY"
+      "word": "DOWRY",
+      "date": "2021-10-13"
     },
     {
       "number": 117,
-      "word": "OUGHT"
+      "word": "OUGHT",
+      "date": "2021-10-14"
     },
     {
       "number": 118,
-      "word": "BELCH"
+      "word": "BELCH",
+      "date": "2021-10-15"
     },
     {
       "number": 119,
-      "word": "DUTCH"
+      "word": "DUTCH",
+      "date": "2021-10-16"
     },
     {
       "number": 120,
-      "word": "PILOT"
+      "word": "PILOT",
+      "date": "2021-10-17"
     },
     {
       "number": 121,
-      "word": "TWEED"
+      "word": "TWEED",
+      "date": "2021-10-18"
     },
     {
       "number": 122,
-      "word": "COMET"
+      "word": "COMET",
+      "date": "2021-10-19"
     },
     {
       "number": 123,
-      "word": "JAUNT"
+      "word": "JAUNT",
+      "date": "2021-10-20"
     },
     {
       "number": 124,
-      "word": "ENEMA"
+      "word": "ENEMA",
+      "date": "2021-10-21"
     },
     {
       "number": 125,
-      "word": "STEED"
+      "word": "STEED",
+      "date": "2021-10-22"
     },
     {
       "number": 126,
-      "word": "ABYSS"
+      "word": "ABYSS",
+      "date": "2021-10-23"
     },
     {
       "number": 127,
-      "word": "GROWL"
+      "word": "GROWL",
+      "date": "2021-10-24"
     },
     {
       "number": 128,
-      "word": "FLING"
+      "word": "FLING",
+      "date": "2021-10-25"
     },
     {
       "number": 129,
-      "word": "DOZEN"
+      "word": "DOZEN",
+      "date": "2021-10-26"
     },
     {
       "number": 130,
-      "word": "BOOZY"
+      "word": "BOOZY",
+      "date": "2021-10-27"
     },
     {
       "number": 131,
-      "word": "ERODE"
+      "word": "ERODE",
+      "date": "2021-10-28"
     },
     {
       "number": 132,
-      "word": "WORLD"
+      "word": "WORLD",
+      "date": "2021-10-29"
     },
     {
       "number": 133,
-      "word": "GOUGE"
+      "word": "GOUGE",
+      "date": "2021-10-30"
     },
     {
       "number": 134,
-      "word": "CLICK"
+      "word": "CLICK",
+      "date": "2021-10-31"
     },
     {
       "number": 135,
-      "word": "BRIAR"
+      "word": "BRIAR",
+      "date": "2021-11-01"
     },
     {
       "number": 136,
-      "word": "GREAT"
+      "word": "GREAT",
+      "date": "2021-11-02"
     },
     {
       "number": 137,
-      "word": "ALTAR"
+      "word": "ALTAR",
+      "date": "2021-11-03"
     },
     {
       "number": 138,
-      "word": "PULPY"
+      "word": "PULPY",
+      "date": "2021-11-04"
     },
     {
       "number": 139,
-      "word": "BLURT"
+      "word": "BLURT",
+      "date": "2021-11-05"
     },
     {
       "number": 140,
-      "word": "COAST"
+      "word": "COAST",
+      "date": "2021-11-06"
     },
     {
       "number": 141,
-      "word": "DUCHY"
+      "word": "DUCHY",
+      "date": "2021-11-07"
     },
     {
       "number": 142,
-      "word": "GROIN"
+      "word": "GROIN",
+      "date": "2021-11-08"
     },
     {
       "number": 143,
-      "word": "FIXER"
+      "word": "FIXER",
+      "date": "2021-11-09"
     },
     {
       "number": 144,
-      "word": "GROUP"
+      "word": "GROUP",
+      "date": "2021-11-10"
     },
     {
       "number": 145,
-      "word": "ROGUE"
+      "word": "ROGUE",
+      "date": "2021-11-11"
     },
     {
       "number": 146,
-      "word": "BADLY"
+      "word": "BADLY",
+      "date": "2021-11-12"
     },
     {
       "number": 147,
-      "word": "SMART"
+      "word": "SMART",
+      "date": "2021-11-13"
     },
     {
       "number": 148,
-      "word": "PITHY"
+      "word": "PITHY",
+      "date": "2021-11-14"
     },
     {
       "number": 149,
-      "word": "GAUDY"
+      "word": "GAUDY",
+      "date": "2021-11-15"
     },
     {
       "number": 150,
-      "word": "CHILL"
+      "word": "CHILL",
+      "date": "2021-11-16"
     },
     {
       "number": 151,
-      "word": "HERON"
+      "word": "HERON",
+      "date": "2021-11-17"
     },
     {
       "number": 152,
-      "word": "VODKA"
+      "word": "VODKA",
+      "date": "2021-11-18"
     },
     {
       "number": 153,
-      "word": "FINER"
+      "word": "FINER",
+      "date": "2021-11-19"
     },
     {
       "number": 154,
-      "word": "SURER"
+      "word": "SURER",
+      "date": "2021-11-20"
     },
     {
       "number": 155,
-      "word": "RADIO"
+      "word": "RADIO",
+      "date": "2021-11-21"
     },
     {
       "number": 156,
-      "word": "ROUGE"
+      "word": "ROUGE",
+      "date": "2021-11-22"
     },
     {
       "number": 157,
-      "word": "PERCH"
+      "word": "PERCH",
+      "date": "2021-11-23"
     },
     {
       "number": 158,
-      "word": "RETCH"
+      "word": "RETCH",
+      "date": "2021-11-24"
     },
     {
       "number": 159,
-      "word": "WROTE"
+      "word": "WROTE",
+      "date": "2021-11-25"
     },
     {
       "number": 160,
-      "word": "CLOCK"
+      "word": "CLOCK",
+      "date": "2021-11-26"
     },
     {
       "number": 161,
-      "word": "TILDE"
+      "word": "TILDE",
+      "date": "2021-11-27"
     },
     {
       "number": 162,
-      "word": "STORE"
+      "word": "STORE",
+      "date": "2021-11-28"
     },
     {
       "number": 163,
-      "word": "PROVE"
+      "word": "PROVE",
+      "date": "2021-11-29"
     },
     {
       "number": 164,
-      "word": "BRING"
+      "word": "BRING",
+      "date": "2021-11-30"
     },
     {
       "number": 165,
-      "word": "SOLVE"
+      "word": "SOLVE",
+      "date": "2021-12-01"
     },
     {
       "number": 166,
-      "word": "CHEAT"
+      "word": "CHEAT",
+      "date": "2021-12-02"
     },
     {
       "number": 167,
-      "word": "GRIME"
+      "word": "GRIME",
+      "date": "2021-12-03"
     },
     {
       "number": 168,
-      "word": "EXULT"
+      "word": "EXULT",
+      "date": "2021-12-04"
     },
     {
       "number": 169,
-      "word": "USHER"
+      "word": "USHER",
+      "date": "2021-12-05"
     },
     {
       "number": 170,
-      "word": "EPOCH"
+      "word": "EPOCH",
+      "date": "2021-12-06"
     },
     {
       "number": 171,
-      "word": "TRIAD"
+      "word": "TRIAD",
+      "date": "2021-12-07"
     },
     {
       "number": 172,
-      "word": "BREAK"
+      "word": "BREAK",
+      "date": "2021-12-08"
     },
     {
       "number": 173,
-      "word": "RHINO"
+      "word": "RHINO",
+      "date": "2021-12-09"
     },
     {
       "number": 174,
-      "word": "VIRAL"
+      "word": "VIRAL",
+      "date": "2021-12-10"
     },
     {
       "number": 175,
-      "word": "CONIC"
+      "word": "CONIC",
+      "date": "2021-12-11"
     },
     {
       "number": 176,
-      "word": "MASSE"
+      "word": "MASSE",
+      "date": "2021-12-12"
     },
     {
       "number": 177,
-      "word": "SONIC"
+      "word": "SONIC",
+      "date": "2021-12-13"
     },
     {
       "number": 178,
-      "word": "VITAL"
+      "word": "VITAL",
+      "date": "2021-12-14"
     },
     {
       "number": 179,
-      "word": "TRACE"
+      "word": "TRACE",
+      "date": "2021-12-15"
     },
     {
       "number": 180,
-      "word": "USING"
+      "word": "USING",
+      "date": "2021-12-16"
     },
     {
       "number": 181,
-      "word": "PEACH"
+      "word": "PEACH",
+      "date": "2021-12-17"
     },
     {
       "number": 182,
-      "word": "CHAMP"
+      "word": "CHAMP",
+      "date": "2021-12-18"
     },
     {
       "number": 183,
-      "word": "BATON"
+      "word": "BATON",
+      "date": "2021-12-19"
     },
     {
       "number": 184,
-      "word": "BRAKE"
+      "word": "BRAKE",
+      "date": "2021-12-20"
     },
     {
       "number": 185,
-      "word": "PLUCK"
+      "word": "PLUCK",
+      "date": "2021-12-21"
     },
     {
       "number": 186,
-      "word": "CRAZE"
+      "word": "CRAZE",
+      "date": "2021-12-22"
     },
     {
       "number": 187,
-      "word": "GRIPE"
+      "word": "GRIPE",
+      "date": "2021-12-23"
     },
     {
       "number": 188,
-      "word": "WEARY"
+      "word": "WEARY",
+      "date": "2021-12-24"
     },
     {
       "number": 189,
-      "word": "PICKY"
+      "word": "PICKY",
+      "date": "2021-12-25"
     },
     {
       "number": 190,
-      "word": "ACUTE"
+      "word": "ACUTE",
+      "date": "2021-12-26"
     },
     {
       "number": 191,
-      "word": "FERRY"
+      "word": "FERRY",
+      "date": "2021-12-27"
     },
     {
       "number": 192,
-      "word": "ASIDE"
+      "word": "ASIDE",
+      "date": "2021-12-28"
     },
     {
       "number": 193,
-      "word": "TAPIR"
+      "word": "TAPIR",
+      "date": "2021-12-29"
     },
     {
       "number": 194,
-      "word": "TROLL"
+      "word": "TROLL",
+      "date": "2021-12-30"
     },
     {
       "number": 195,
-      "word": "UNIFY"
+      "word": "UNIFY",
+      "date": "2021-12-31"
     },
     {
       "number": 196,
-      "word": "REBUS"
+      "word": "REBUS",
+      "date": "2022-01-01"
     },
     {
       "number": 197,
-      "word": "BOOST"
+      "word": "BOOST",
+      "date": "2022-01-02"
     },
     {
       "number": 198,
-      "word": "TRUSS"
+      "word": "TRUSS",
+      "date": "2022-01-03"
     },
     {
       "number": 199,
-      "word": "SIEGE"
+      "word": "SIEGE",
+      "date": "2022-01-04"
     },
     {
       "number": 200,
-      "word": "TIGER"
+      "word": "TIGER",
+      "date": "2022-01-05"
     },
     {
       "number": 201,
-      "word": "BANAL"
+      "word": "BANAL",
+      "date": "2022-01-06"
     },
     {
       "number": 202,
-      "word": "SLUMP"
+      "word": "SLUMP",
+      "date": "2022-01-07"
     },
     {
       "number": 203,
-      "word": "CRANK"
+      "word": "CRANK",
+      "date": "2022-01-08"
     },
     {
       "number": 204,
-      "word": "GORGE"
+      "word": "GORGE",
+      "date": "2022-01-09"
     },
     {
       "number": 205,
-      "word": "QUERY"
+      "word": "QUERY",
+      "date": "2022-01-10"
     },
     {
       "number": 206,
-      "word": "DRINK"
+      "word": "DRINK",
+      "date": "2022-01-11"
     },
     {
       "number": 207,
-      "word": "FAVOR"
+      "word": "FAVOR",
+      "date": "2022-01-12"
     },
     {
       "number": 208,
-      "word": "ABBEY"
+      "word": "ABBEY",
+      "date": "2022-01-13"
     },
     {
       "number": 209,
-      "word": "TANGY"
+      "word": "TANGY",
+      "date": "2022-01-14"
     },
     {
       "number": 210,
-      "word": "PANIC"
+      "word": "PANIC",
+      "date": "2022-01-15"
     },
     {
       "number": 211,
-      "word": "SOLAR"
+      "word": "SOLAR",
+      "date": "2022-01-16"
     },
     {
       "number": 212,
-      "word": "SHIRE"
+      "word": "SHIRE",
+      "date": "2022-01-17"
     },
     {
       "number": 213,
-      "word": "PROXY"
+      "word": "PROXY",
+      "date": "2022-01-18"
     },
     {
       "number": 214,
-      "word": "POINT"
+      "word": "POINT",
+      "date": "2022-01-19"
     },
     {
       "number": 215,
-      "word": "ROBOT"
+      "word": "ROBOT",
+      "date": "2022-01-20"
     },
     {
       "number": 216,
-      "word": "PRICK"
+      "word": "PRICK",
+      "date": "2022-01-21"
     },
     {
       "number": 217,
-      "word": "WINCE"
+      "word": "WINCE",
+      "date": "2022-01-22"
     },
     {
       "number": 218,
-      "word": "CRIMP"
+      "word": "CRIMP",
+      "date": "2022-01-23"
     },
     {
       "number": 219,
-      "word": "KNOLL"
+      "word": "KNOLL",
+      "date": "2022-01-24"
     },
     {
       "number": 220,
-      "word": "SUGAR"
+      "word": "SUGAR",
+      "date": "2022-01-25"
     },
     {
       "number": 221,
-      "word": "WHACK"
+      "word": "WHACK",
+      "date": "2022-01-26"
     },
     {
       "number": 222,
-      "word": "MOUNT"
+      "word": "MOUNT",
+      "date": "2022-01-27"
     },
     {
       "number": 223,
-      "word": "PERKY"
+      "word": "PERKY",
+      "date": "2022-01-28"
     },
     {
       "number": 224,
-      "word": "COULD"
+      "word": "COULD",
+      "date": "2022-01-29"
     },
     {
       "number": 225,
-      "word": "WRUNG"
+      "word": "WRUNG",
+      "date": "2022-01-30"
     },
     {
       "number": 226,
-      "word": "LIGHT"
+      "word": "LIGHT",
+      "date": "2022-01-31"
     },
     {
       "number": 227,
-      "word": "THOSE"
+      "word": "THOSE",
+      "date": "2022-02-01"
     },
     {
       "number": 228,
-      "word": "MOIST"
+      "word": "MOIST",
+      "date": "2022-02-02"
     },
     {
       "number": 229,
-      "word": "SHARD"
+      "word": "SHARD",
+      "date": "2022-02-03"
     },
     {
       "number": 230,
-      "word": "PLEAT"
+      "word": "PLEAT",
+      "date": "2022-02-04"
     },
     {
       "number": 231,
-      "word": "ALOFT"
+      "word": "ALOFT",
+      "date": "2022-02-05"
     },
     {
       "number": 232,
-      "word": "SKILL"
+      "word": "SKILL",
+      "date": "2022-02-06"
     },
     {
       "number": 233,
-      "word": "ELDER"
+      "word": "ELDER",
+      "date": "2022-02-07"
     },
     {
       "number": 234,
-      "word": "FRAME"
+      "word": "FRAME",
+      "date": "2022-02-08"
     },
     {
       "number": 235,
-      "word": "HUMOR"
+      "word": "HUMOR",
+      "date": "2022-02-09"
     },
     {
       "number": 236,
-      "word": "PAUSE"
+      "word": "PAUSE",
+      "date": "2022-02-10"
     },
     {
       "number": 237,
-      "word": "ULCER"
+      "word": "ULCER",
+      "date": "2022-02-11"
     },
     {
       "number": 238,
-      "word": "ULTRA"
+      "word": "ULTRA",
+      "date": "2022-02-12"
     },
     {
       "number": 239,
-      "word": "ROBIN"
+      "word": "ROBIN",
+      "date": "2022-02-13"
     },
     {
       "number": 240,
-      "word": "CYNIC"
+      "word": "CYNIC",
+      "date": "2022-02-14"
     },
     {
       "number": 241,
-      "word": "AROMA"
+      "word": "AGORA",
+      "date": "2022-02-15"
+    },
+    {
+      "number": 241,
+      "word": "AROMA",
+      "date": "2022-02-15"
     },
     {
       "number": 242,
-      "word": "CAULK"
+      "word": "CAULK",
+      "date": "2022-02-16"
     },
     {
       "number": 243,
-      "word": "SHAKE"
+      "word": "SHAKE",
+      "date": "2022-02-17"
     },
     {
       "number": 244,
-      "word": "DODGE"
+      "word": "DODGE",
+      "date": "2022-02-18"
     },
     {
       "number": 245,
-      "word": "SWILL"
+      "word": "SWILL",
+      "date": "2022-02-19"
     },
     {
       "number": 246,
-      "word": "TACIT"
+      "word": "TACIT",
+      "date": "2022-02-20"
     },
     {
       "number": 247,
-      "word": "OTHER"
+      "word": "OTHER",
+      "date": "2022-02-21"
     },
     {
       "number": 248,
-      "word": "THORN"
+      "word": "THORN",
+      "date": "2022-02-22"
     },
     {
       "number": 249,
-      "word": "TROVE"
+      "word": "TROVE",
+      "date": "2022-02-23"
     },
     {
       "number": 250,
-      "word": "BLOKE"
+      "word": "BLOKE",
+      "date": "2022-02-24"
     },
     {
       "number": 251,
-      "word": "VIVID"
+      "word": "VIVID",
+      "date": "2022-02-25"
     },
     {
       "number": 252,
-      "word": "SPILL"
+      "word": "SPILL",
+      "date": "2022-02-26"
     },
     {
       "number": 253,
-      "word": "CHANT"
+      "word": "CHANT",
+      "date": "2022-02-27"
     },
     {
       "number": 254,
-      "word": "CHOKE"
+      "word": "CHOKE",
+      "date": "2022-02-28"
     },
     {
       "number": 255,
-      "word": "RUPEE"
+      "word": "RUPEE",
+      "date": "2022-03-01"
     },
     {
       "number": 256,
-      "word": "NASTY"
+      "word": "NASTY",
+      "date": "2022-03-02"
     },
     {
       "number": 257,
-      "word": "MOURN"
+      "word": "MOURN",
+      "date": "2022-03-03"
     },
     {
       "number": 258,
-      "word": "AHEAD"
+      "word": "AHEAD",
+      "date": "2022-03-04"
     },
     {
       "number": 259,
-      "word": "BRINE"
+      "word": "BRINE",
+      "date": "2022-03-05"
     },
     {
       "number": 260,
-      "word": "CLOTH"
+      "word": "CLOTH",
+      "date": "2022-03-06"
     },
     {
       "number": 261,
-      "word": "HOARD"
+      "word": "HOARD",
+      "date": "2022-03-07"
     },
     {
       "number": 262,
-      "word": "SWEET"
+      "word": "SWEET",
+      "date": "2022-03-08"
     },
     {
       "number": 263,
-      "word": "MONTH"
+      "word": "MONTH",
+      "date": "2022-03-09"
     },
     {
       "number": 264,
-      "word": "LAPSE"
+      "word": "LAPSE",
+      "date": "2022-03-10"
     },
     {
       "number": 265,
-      "word": "WATCH"
+      "word": "WATCH",
+      "date": "2022-03-11"
     },
     {
       "number": 266,
-      "word": "TODAY"
+      "word": "TODAY",
+      "date": "2022-03-12"
     },
     {
       "number": 267,
-      "word": "FOCUS"
+      "word": "FOCUS",
+      "date": "2022-03-13"
     },
     {
       "number": 268,
-      "word": "SMELT"
+      "word": "SMELT",
+      "date": "2022-03-14"
     },
     {
       "number": 269,
-      "word": "TEASE"
+      "word": "TEASE",
+      "date": "2022-03-15"
     },
     {
       "number": 270,
-      "word": "CATER"
+      "word": "CATER",
+      "date": "2022-03-16"
     },
     {
       "number": 271,
-      "word": "MOVIE"
+      "word": "MOVIE",
+      "date": "2022-03-17"
     },
     {
       "number": 272,
-      "word": "SAUTE"
+      "word": "SAUTE",
+      "date": "2022-03-18"
     },
     {
       "number": 273,
-      "word": "ALLOW"
+      "word": "ALLOW",
+      "date": "2022-03-19"
     },
     {
       "number": 274,
-      "word": "RENEW"
+      "word": "RENEW",
+      "date": "2022-03-20"
     },
     {
       "number": 275,
-      "word": "THEIR"
+      "word": "THEIR",
+      "date": "2022-03-21"
     },
     {
       "number": 276,
-      "word": "SLOSH"
+      "word": "SLOSH",
+      "date": "2022-03-22"
     },
     {
       "number": 277,
-      "word": "PURGE"
+      "word": "PURGE",
+      "date": "2022-03-23"
     },
     {
       "number": 278,
-      "word": "CHEST"
+      "word": "CHEST",
+      "date": "2022-03-24"
     },
     {
       "number": 279,
-      "word": "DEPOT"
+      "word": "DEPOT",
+      "date": "2022-03-25"
     },
     {
       "number": 280,
-      "word": "EPOXY"
+      "word": "EPOXY",
+      "date": "2022-03-26"
     },
     {
       "number": 281,
-      "word": "NYMPH"
+      "word": "NYMPH",
+      "date": "2022-03-27"
     },
     {
       "number": 282,
-      "word": "FOUND"
+      "word": "FOUND",
+      "date": "2022-03-28"
     },
     {
       "number": 283,
-      "word": "SHALL"
+      "word": "SHALL",
+      "date": "2022-03-29"
     },
     {
       "number": 284,
-      "word": "STOVE"
+      "word": "HARRY",
+      "date": "2022-03-30"
+    },
+    {
+      "number": 284,
+      "word": "STOVE",
+      "date": "2022-03-30"
     },
     {
       "number": 285,
-      "word": "LOWLY"
+      "word": "LOWLY",
+      "date": "2022-03-31"
     },
     {
       "number": 286,
-      "word": "SNOUT"
+      "word": "SNOUT",
+      "date": "2022-04-01"
     },
     {
       "number": 287,
-      "word": "TROPE"
+      "word": "TROPE",
+      "date": "2022-04-02"
     },
     {
       "number": 288,
-      "word": "FEWER"
+      "word": "FEWER",
+      "date": "2022-04-03"
     },
     {
       "number": 289,
-      "word": "SHAWL"
+      "word": "SHAWL",
+      "date": "2022-04-04"
     },
     {
       "number": 290,
-      "word": "NATAL"
+      "word": "NATAL",
+      "date": "2022-04-05"
     },
     {
       "number": 291,
-      "word": "COMMA"
+      "word": "COMMA",
+      "date": "2022-04-06"
     },
     {
       "number": 292,
-      "word": "FORAY"
+      "word": "FORAY",
+      "date": "2022-04-07"
     },
     {
       "number": 293,
-      "word": "SCARE"
+      "word": "SCARE",
+      "date": "2022-04-08"
     },
     {
       "number": 294,
-      "word": "STAIR"
+      "word": "STAIR",
+      "date": "2022-04-09"
     },
     {
       "number": 295,
-      "word": "BLACK"
+      "word": "BLACK",
+      "date": "2022-04-10"
     },
     {
       "number": 296,
-      "word": "SQUAD"
+      "word": "SQUAD",
+      "date": "2022-04-11"
     },
     {
       "number": 297,
-      "word": "ROYAL"
+      "word": "ROYAL",
+      "date": "2022-04-12"
     },
     {
       "number": 298,
-      "word": "CHUNK"
+      "word": "CHUNK",
+      "date": "2022-04-13"
     },
     {
       "number": 299,
-      "word": "MINCE"
+      "word": "MINCE",
+      "date": "2022-04-14"
     },
     {
       "number": 300,
-      "word": "SHAME"
+      "word": "SHAME",
+      "date": "2022-04-15"
     },
     {
       "number": 301,
-      "word": "CHEEK"
+      "word": "CHEEK",
+      "date": "2022-04-16"
     },
     {
       "number": 302,
-      "word": "AMPLE"
+      "word": "AMPLE",
+      "date": "2022-04-17"
     },
     {
       "number": 303,
-      "word": "FLAIR"
+      "word": "FLAIR",
+      "date": "2022-04-18"
     },
     {
       "number": 304,
-      "word": "FOYER"
+      "word": "FOYER",
+      "date": "2022-04-19"
     },
     {
       "number": 305,
-      "word": "CARGO"
+      "word": "CARGO",
+      "date": "2022-04-20"
     },
     {
       "number": 306,
-      "word": "OXIDE"
+      "word": "OXIDE",
+      "date": "2022-04-21"
     },
     {
       "number": 307,
-      "word": "PLANT"
+      "word": "PLANT",
+      "date": "2022-04-22"
     },
     {
       "number": 308,
-      "word": "OLIVE"
+      "word": "OLIVE",
+      "date": "2022-04-23"
     },
     {
       "number": 309,
-      "word": "INERT"
+      "word": "INERT",
+      "date": "2022-04-24"
     },
     {
       "number": 310,
-      "word": "ASKEW"
+      "word": "ASKEW",
+      "date": "2022-04-25"
     },
     {
       "number": 311,
-      "word": "HEIST"
+      "word": "HEIST",
+      "date": "2022-04-26"
     },
     {
       "number": 312,
-      "word": "SHOWN"
+      "word": "SHOWN",
+      "date": "2022-04-27"
     },
     {
       "number": 313,
-      "word": "ZESTY"
+      "word": "ZESTY",
+      "date": "2022-04-28"
     },
     {
       "number": 314,
-      "word": "TRASH"
+      "word": "TRASH",
+      "date": "2022-04-29"
     },
     {
       "number": 315,
-      "word": "LARVA"
+      "word": "LARVA",
+      "date": "2022-04-30"
     },
     {
       "number": 316,
-      "word": "FORGO"
+      "word": "FORGO",
+      "date": "2022-05-01"
     },
     {
       "number": 317,
-      "word": "STORY"
+      "word": "STORY",
+      "date": "2022-05-02"
     },
     {
       "number": 318,
-      "word": "HAIRY"
+      "word": "HAIRY",
+      "date": "2022-05-03"
     },
     {
       "number": 319,
-      "word": "TRAIN"
+      "word": "TRAIN",
+      "date": "2022-05-04"
     },
     {
       "number": 320,
-      "word": "HOMER"
+      "word": "HOMER",
+      "date": "2022-05-05"
     },
     {
       "number": 321,
-      "word": "BADGE"
+      "word": "BADGE",
+      "date": "2022-05-06"
     },
     {
       "number": 322,
-      "word": "MIDST"
+      "word": "MIDST",
+      "date": "2022-05-07"
     },
     {
       "number": 323,
-      "word": "CANNY"
+      "word": "CANNY",
+      "date": "2022-05-08"
     },
     {
       "number": 324,
-      "word": "SHINE"
+      "word": "FETUS",
+      "date": "2022-05-09"
+    },
+    {
+      "number": 324,
+      "word": "SHINE",
+      "date": "2022-05-09"
     },
     {
       "number": 325,
-      "word": "GECKO"
+      "word": "BUTCH",
+      "date": "2022-05-10"
+    },
+    {
+      "number": 325,
+      "word": "GECKO",
+      "date": "2022-05-10"
     },
     {
       "number": 326,
-      "word": "FARCE"
+      "word": "FARCE",
+      "date": "2022-05-11"
     },
     {
       "number": 327,
-      "word": "SLUNG"
+      "word": "SLUNG",
+      "date": "2022-05-12"
     },
     {
       "number": 328,
-      "word": "TIPSY"
+      "word": "TIPSY",
+      "date": "2022-05-13"
     },
     {
       "number": 329,
-      "word": "METAL"
+      "word": "METAL",
+      "date": "2022-05-14"
     },
     {
       "number": 330,
-      "word": "YIELD"
+      "word": "YIELD",
+      "date": "2022-05-15"
     },
     {
       "number": 331,
-      "word": "DELVE"
+      "word": "DELVE",
+      "date": "2022-05-16"
     },
     {
       "number": 332,
-      "word": "BEING"
+      "word": "BEING",
+      "date": "2022-05-17"
     },
     {
       "number": 333,
-      "word": "SCOUR"
+      "word": "SCOUR",
+      "date": "2022-05-18"
     },
     {
       "number": 334,
-      "word": "GLASS"
+      "word": "GLASS",
+      "date": "2022-05-19"
     },
     {
       "number": 335,
-      "word": "GAMER"
+      "word": "GAMER",
+      "date": "2022-05-20"
     },
     {
       "number": 336,
-      "word": "SCRAP"
+      "word": "SCRAP",
+      "date": "2022-05-21"
     },
     {
       "number": 337,
-      "word": "MONEY"
+      "word": "MONEY",
+      "date": "2022-05-22"
     },
     {
       "number": 338,
-      "word": "HINGE"
+      "word": "HINGE",
+      "date": "2022-05-23"
     },
     {
       "number": 339,
-      "word": "ALBUM"
+      "word": "ALBUM",
+      "date": "2022-05-24"
     },
     {
       "number": 340,
-      "word": "VOUCH"
+      "word": "VOUCH",
+      "date": "2022-05-25"
     },
     {
       "number": 341,
-      "word": "ASSET"
+      "word": "ASSET",
+      "date": "2022-05-26"
     },
     {
       "number": 342,
-      "word": "TIARA"
+      "word": "TIARA",
+      "date": "2022-05-27"
     },
     {
       "number": 343,
-      "word": "CREPT"
+      "word": "CREPT",
+      "date": "2022-05-28"
     },
     {
       "number": 344,
-      "word": "BAYOU"
+      "word": "BAYOU",
+      "date": "2022-05-29"
     },
     {
       "number": 345,
-      "word": "ATOLL"
+      "word": "ATOLL",
+      "date": "2022-05-30"
     },
     {
       "number": 346,
-      "word": "MANOR"
+      "word": "MANOR",
+      "date": "2022-05-31"
     },
     {
       "number": 347,
-      "word": "CREAK"
+      "word": "CREAK",
+      "date": "2022-06-01"
     },
     {
       "number": 348,
-      "word": "SHOWY"
+      "word": "SHOWY",
+      "date": "2022-06-02"
     },
     {
       "number": 349,
-      "word": "PHASE"
+      "word": "PHASE",
+      "date": "2022-06-03"
     },
     {
       "number": 350,
-      "word": "FROTH"
+      "word": "FROTH",
+      "date": "2022-06-04"
     },
     {
       "number": 351,
-      "word": "DEPTH"
+      "word": "DEPTH",
+      "date": "2022-06-05"
     },
     {
       "number": 352,
-      "word": "GLOOM"
+      "word": "GLOOM",
+      "date": "2022-06-06"
     },
     {
       "number": 353,
-      "word": "FLOOD"
+      "word": "FLOOD",
+      "date": "2022-06-07"
     },
     {
       "number": 354,
-      "word": "TRAIT"
+      "word": "TRAIT",
+      "date": "2022-06-08"
     },
     {
       "number": 355,
-      "word": "GIRTH"
+      "word": "GIRTH",
+      "date": "2022-06-09"
     },
     {
       "number": 356,
-      "word": "PIETY"
+      "word": "PIETY",
+      "date": "2022-06-10"
     },
     {
       "number": 357,
-      "word": "GOOSE"
+      "word": "GOOSE",
+      "date": "2022-06-11"
     },
     {
       "number": 358,
-      "word": "FLOAT"
+      "word": "FLOAT",
+      "date": "2022-06-12"
     },
     {
       "number": 359,
-      "word": "DONOR"
+      "word": "DONOR",
+      "date": "2022-06-13"
     },
     {
       "number": 360,
-      "word": "ATONE"
+      "word": "ATONE",
+      "date": "2022-06-14"
     },
     {
       "number": 361,
-      "word": "PRIMO"
+      "word": "PRIMO",
+      "date": "2022-06-15"
     },
     {
       "number": 362,
-      "word": "APRON"
+      "word": "APRON",
+      "date": "2022-06-16"
     },
     {
       "number": 363,
-      "word": "BLOWN"
+      "word": "BLOWN",
+      "date": "2022-06-17"
     },
     {
       "number": 364,
-      "word": "CACAO"
+      "word": "CACAO",
+      "date": "2022-06-18"
     },
     {
       "number": 365,
-      "word": "LOSER"
+      "word": "LOSER",
+      "date": "2022-06-19"
     },
     {
       "number": 366,
-      "word": "INPUT"
+      "word": "INPUT",
+      "date": "2022-06-20"
     },
     {
       "number": 367,
-      "word": "GLOAT"
+      "word": "GLOAT",
+      "date": "2022-06-21"
     },
     {
       "number": 368,
-      "word": "AWFUL"
+      "word": "AWFUL",
+      "date": "2022-06-22"
     },
     {
       "number": 369,
-      "word": "BRINK"
+      "word": "BRINK",
+      "date": "2022-06-23"
     },
     {
       "number": 370,
-      "word": "SMITE"
+      "word": "SMITE",
+      "date": "2022-06-24"
     },
     {
       "number": 371,
-      "word": "BEADY"
+      "word": "BEADY",
+      "date": "2022-06-25"
     },
     {
       "number": 372,
-      "word": "RUSTY"
+      "word": "RUSTY",
+      "date": "2022-06-26"
     },
     {
       "number": 373,
-      "word": "RETRO"
+      "word": "RETRO",
+      "date": "2022-06-27"
     },
     {
       "number": 374,
-      "word": "DROLL"
+      "word": "DROLL",
+      "date": "2022-06-28"
     },
     {
       "number": 375,
-      "word": "GAWKY"
+      "word": "GAWKY",
+      "date": "2022-06-29"
     },
     {
       "number": 376,
-      "word": "HUTCH"
+      "word": "HUTCH",
+      "date": "2022-06-30"
     },
     {
       "number": 377,
-      "word": "PINTO"
+      "word": "PINTO",
+      "date": "2022-07-01"
     },
     {
       "number": 378,
-      "word": "EGRET"
+      "word": "EGRET",
+      "date": "2022-07-02"
     },
     {
       "number": 379,
-      "word": "LILAC"
+      "word": "LILAC",
+      "date": "2022-07-03"
     },
     {
       "number": 380,
-      "word": "SEVER"
+      "word": "SEVER",
+      "date": "2022-07-04"
     },
     {
       "number": 381,
-      "word": "FIELD"
+      "word": "FIELD",
+      "date": "2022-07-05"
     },
     {
       "number": 382,
-      "word": "FLUFF"
+      "word": "FLUFF",
+      "date": "2022-07-06"
     },
     {
       "number": 383,
-      "word": "AGAPE"
+      "word": "AGAPE",
+      "date": "2022-07-07"
     },
     {
       "number": 384,
-      "word": "VOICE"
+      "word": "VOICE",
+      "date": "2022-07-08"
     },
     {
       "number": 385,
-      "word": "STEAD"
+      "word": "STEAD",
+      "date": "2022-07-09"
     },
     {
       "number": 386,
-      "word": "BERTH"
+      "word": "BERTH",
+      "date": "2022-07-10"
     },
     {
       "number": 387,
-      "word": "MADAM"
+      "word": "MADAM",
+      "date": "2022-07-11"
     },
     {
       "number": 388,
-      "word": "NIGHT"
+      "word": "NIGHT",
+      "date": "2022-07-12"
     },
     {
       "number": 389,
-      "word": "BLAND"
+      "word": "BLAND",
+      "date": "2022-07-13"
     },
     {
       "number": 390,
-      "word": "LIVER"
+      "word": "LIVER",
+      "date": "2022-07-14"
     },
     {
       "number": 391,
-      "word": "WEDGE"
+      "word": "WEDGE",
+      "date": "2022-07-15"
     },
     {
       "number": 392,
-      "word": "ROOMY"
+      "word": "ROOMY",
+      "date": "2022-07-16"
     },
     {
       "number": 393,
-      "word": "WACKY"
+      "word": "WACKY",
+      "date": "2022-07-17"
     },
     {
       "number": 394,
-      "word": "FLOCK"
+      "word": "FLOCK",
+      "date": "2022-07-18"
     },
     {
       "number": 395,
-      "word": "ANGRY"
+      "word": "ANGRY",
+      "date": "2022-07-19"
     },
     {
       "number": 396,
-      "word": "TRITE"
+      "word": "TRITE",
+      "date": "2022-07-20"
     },
     {
       "number": 397,
-      "word": "APHID"
+      "word": "APHID",
+      "date": "2022-07-21"
     },
     {
       "number": 398,
-      "word": "TRYST"
+      "word": "TRYST",
+      "date": "2022-07-22"
     },
     {
       "number": 399,
-      "word": "MIDGE"
+      "word": "MIDGE",
+      "date": "2022-07-23"
     },
     {
       "number": 400,
-      "word": "POWER"
+      "word": "POWER",
+      "date": "2022-07-24"
     },
     {
       "number": 401,
-      "word": "ELOPE"
+      "word": "ELOPE",
+      "date": "2022-07-25"
     },
     {
       "number": 402,
-      "word": "CINCH"
+      "word": "CINCH",
+      "date": "2022-07-26"
     },
     {
       "number": 403,
-      "word": "MOTTO"
+      "word": "MOTTO",
+      "date": "2022-07-27"
     },
     {
       "number": 404,
-      "word": "STOMP"
+      "word": "STOMP",
+      "date": "2022-07-28"
     },
     {
       "number": 405,
-      "word": "UPSET"
+      "word": "UPSET",
+      "date": "2022-07-29"
     },
     {
       "number": 406,
-      "word": "BLUFF"
+      "word": "BLUFF",
+      "date": "2022-07-30"
     },
     {
       "number": 407,
-      "word": "CRAMP"
+      "word": "CRAMP",
+      "date": "2022-07-31"
     },
     {
       "number": 408,
-      "word": "QUART"
+      "word": "QUART",
+      "date": "2022-08-01"
     },
     {
       "number": 409,
-      "word": "COYLY"
+      "word": "COYLY",
+      "date": "2022-08-02"
     },
     {
       "number": 410,
-      "word": "YOUTH"
+      "word": "YOUTH",
+      "date": "2022-08-03"
     },
     {
       "number": 411,
-      "word": "RHYME"
+      "word": "RHYME",
+      "date": "2022-08-04"
     },
     {
       "number": 412,
-      "word": "BUGGY"
+      "word": "BUGGY",
+      "date": "2022-08-05"
     },
     {
       "number": 413,
-      "word": "ALIEN"
+      "word": "ALIEN",
+      "date": "2022-08-06"
     },
     {
       "number": 414,
-      "word": "SMEAR"
+      "word": "SMEAR",
+      "date": "2022-08-07"
     },
     {
       "number": 415,
-      "word": "UNFIT"
+      "word": "UNFIT",
+      "date": "2022-08-08"
     },
     {
       "number": 416,
-      "word": "PATTY"
+      "word": "PATTY",
+      "date": "2022-08-09"
     },
     {
       "number": 417,
-      "word": "CLING"
+      "word": "CLING",
+      "date": "2022-08-10"
     },
     {
       "number": 418,
-      "word": "GLEAN"
+      "word": "GLEAN",
+      "date": "2022-08-11"
     },
     {
       "number": 419,
-      "word": "LABEL"
+      "word": "LABEL",
+      "date": "2022-08-12"
     },
     {
       "number": 420,
-      "word": "HUNKY"
+      "word": "HUNKY",
+      "date": "2022-08-13"
     },
     {
       "number": 421,
-      "word": "KHAKI"
+      "word": "KHAKI",
+      "date": "2022-08-14"
     },
     {
       "number": 422,
-      "word": "POKER"
+      "word": "POKER",
+      "date": "2022-08-15"
     },
     {
       "number": 423,
-      "word": "GRUEL"
+      "word": "GRUEL",
+      "date": "2022-08-16"
     },
     {
       "number": 424,
-      "word": "TWICE"
+      "word": "TWICE",
+      "date": "2022-08-17"
     },
     {
       "number": 425,
-      "word": "TWANG"
+      "word": "TWANG",
+      "date": "2022-08-18"
     },
     {
       "number": 426,
-      "word": "SHRUG"
+      "word": "SHRUG",
+      "date": "2022-08-19"
     },
     {
       "number": 427,
-      "word": "TREAT"
+      "word": "TREAT",
+      "date": "2022-08-20"
     },
     {
       "number": 428,
-      "word": "WASTE"
+      "word": "WASTE",
+      "date": "2022-08-21"
     },
     {
       "number": 429,
-      "word": "MERIT"
+      "word": "MERIT",
+      "date": "2022-08-22"
     },
     {
       "number": 430,
-      "word": "WOVEN"
+      "word": "WOVEN",
+      "date": "2022-08-23"
     },
     {
       "number": 431,
-      "word": "NEEDY"
+      "word": "NEEDY",
+      "date": "2022-08-24"
     },
     {
       "number": 432,
-      "word": "CLOWN"
+      "word": "CLOWN",
+      "date": "2022-08-25"
     },
     {
       "number": 433,
-      "word": "IRONY"
+      "word": "IRONY",
+      "date": "2022-08-26"
     },
     {
       "number": 434,
-      "word": "RUDER"
+      "word": "RUDER",
+      "date": "2022-08-27"
     },
     {
       "number": 435,
-      "word": "GAUZE"
+      "word": "GAUZE",
+      "date": "2022-08-28"
     },
     {
       "number": 436,
-      "word": "CHIEF"
+      "word": "CHIEF",
+      "date": "2022-08-29"
     },
     {
       "number": 437,
-      "word": "ONSET"
+      "word": "ONSET",
+      "date": "2022-08-30"
     },
     {
       "number": 438,
-      "word": "PRIZE"
+      "word": "PRIZE",
+      "date": "2022-08-31"
     },
     {
       "number": 439,
-      "word": "FUNGI"
+      "word": "FUNGI",
+      "date": "2022-09-01"
     },
     {
       "number": 440,
-      "word": "CHARM"
+      "word": "CHARM",
+      "date": "2022-09-02"
     },
     {
       "number": 441,
-      "word": "GULLY"
+      "word": "GULLY",
+      "date": "2022-09-03"
     },
     {
       "number": 442,
-      "word": "INTER"
+      "word": "INTER",
+      "date": "2022-09-04"
     },
     {
       "number": 443,
-      "word": "WHOOP"
+      "word": "WHOOP",
+      "date": "2022-09-05"
     },
     {
       "number": 444,
-      "word": "TAUNT"
+      "word": "TAUNT",
+      "date": "2022-09-06"
     },
     {
       "number": 445,
-      "word": "LEERY"
+      "word": "LEERY",
+      "date": "2022-09-07"
     },
     {
       "number": 446,
-      "word": "CLASS"
+      "word": "CLASS",
+      "date": "2022-09-08"
     },
     {
       "number": 447,
-      "word": "THEME"
+      "word": "THEME",
+      "date": "2022-09-09"
     },
     {
       "number": 448,
-      "word": "LOFTY"
+      "word": "LOFTY",
+      "date": "2022-09-10"
     },
     {
       "number": 449,
-      "word": "TIBIA"
+      "word": "TIBIA",
+      "date": "2022-09-11"
     },
     {
       "number": 450,
-      "word": "BOOZE"
+      "word": "BOOZE",
+      "date": "2022-09-12"
     },
     {
       "number": 451,
-      "word": "ALPHA"
+      "word": "ALPHA",
+      "date": "2022-09-13"
     },
     {
       "number": 452,
-      "word": "THYME"
+      "word": "THYME",
+      "date": "2022-09-14"
     },
     {
       "number": 453,
-      "word": "DOUBT"
+      "word": "DOUBT",
+      "date": "2022-09-15"
     },
     {
       "number": 454,
-      "word": "PARER"
+      "word": "PARER",
+      "date": "2022-09-16"
     },
     {
       "number": 455,
-      "word": "CHUTE"
+      "word": "CHUTE",
+      "date": "2022-09-17"
     },
     {
       "number": 456,
-      "word": "STICK"
+      "word": "STICK",
+      "date": "2022-09-18"
     },
     {
       "number": 457,
-      "word": "TRICE"
+      "word": "TRICE",
+      "date": "2022-09-19"
     },
     {
       "number": 458,
-      "word": "ALIKE"
+      "word": "ALIKE",
+      "date": "2022-09-20"
     },
     {
       "number": 459,
-      "word": "RECAP"
+      "word": "RECAP",
+      "date": "2022-09-21"
     },
     {
       "number": 460,
-      "word": "SAINT"
+      "word": "SAINT",
+      "date": "2022-09-22"
     },
     {
       "number": 461,
-      "word": "GLORY"
+      "word": "GLORY",
+      "date": "2022-09-23"
     },
     {
       "number": 462,
-      "word": "GRATE"
+      "word": "GRATE",
+      "date": "2022-09-24"
     },
     {
       "number": 463,
-      "word": "ADMIT"
+      "word": "ADMIT",
+      "date": "2022-09-25"
     },
     {
       "number": 464,
-      "word": "BRISK"
+      "word": "BRISK",
+      "date": "2022-09-26"
     },
     {
       "number": 465,
-      "word": "SOGGY"
+      "word": "SOGGY",
+      "date": "2022-09-27"
     },
     {
       "number": 466,
-      "word": "USURP"
+      "word": "USURP",
+      "date": "2022-09-28"
     },
     {
       "number": 467,
-      "word": "SCALD"
+      "word": "SCALD",
+      "date": "2022-09-29"
     },
     {
       "number": 468,
-      "word": "SCORN"
+      "word": "SCORN",
+      "date": "2022-09-30"
     },
     {
       "number": 469,
-      "word": "LEAVE"
+      "word": "LEAVE",
+      "date": "2022-10-01"
     },
     {
       "number": 470,
-      "word": "TWINE"
+      "word": "TWINE",
+      "date": "2022-10-02"
     },
     {
       "number": 471,
-      "word": "STING"
+      "word": "STING",
+      "date": "2022-10-03"
     },
     {
       "number": 472,
-      "word": "BOUGH"
+      "word": "BOUGH",
+      "date": "2022-10-04"
     },
     {
       "number": 473,
-      "word": "MARSH"
+      "word": "MARSH",
+      "date": "2022-10-05"
     },
     {
       "number": 474,
-      "word": "SLOTH"
+      "word": "SLOTH",
+      "date": "2022-10-06"
     },
     {
       "number": 475,
-      "word": "DANDY"
+      "word": "DANDY",
+      "date": "2022-10-07"
     },
     {
       "number": 476,
-      "word": "VIGOR"
+      "word": "VIGOR",
+      "date": "2022-10-08"
     },
     {
       "number": 477,
-      "word": "HOWDY"
+      "word": "HOWDY",
+      "date": "2022-10-09"
     },
     {
       "number": 478,
-      "word": "ENJOY"
+      "word": "ENJOY",
+      "date": "2022-10-10"
     },
     {
       "number": 479,
-      "word": "VALID"
+      "word": "VALID",
+      "date": "2022-10-11"
     },
     {
       "number": 480,
-      "word": "IONIC"
+      "word": "IONIC",
+      "date": "2022-10-12"
     },
     {
       "number": 481,
-      "word": "EQUAL"
+      "word": "EQUAL",
+      "date": "2022-10-13"
     },
     {
       "number": 482,
-      "word": "FLOOR"
+      "word": "FLOOR",
+      "date": "2022-10-14"
     },
     {
       "number": 483,
-      "word": "CATCH"
+      "word": "CATCH",
+      "date": "2022-10-15"
     },
     {
       "number": 484,
-      "word": "SPADE"
+      "word": "SPADE",
+      "date": "2022-10-16"
     },
     {
       "number": 485,
-      "word": "STEIN"
+      "word": "STEIN",
+      "date": "2022-10-17"
     },
     {
       "number": 486,
-      "word": "EXIST"
+      "word": "EXIST",
+      "date": "2022-10-18"
     },
     {
       "number": 487,
-      "word": "QUIRK"
+      "word": "QUIRK",
+      "date": "2022-10-19"
     },
     {
       "number": 488,
-      "word": "DENIM"
+      "word": "DENIM",
+      "date": "2022-10-20"
     },
     {
       "number": 489,
-      "word": "GROVE"
+      "word": "GROVE",
+      "date": "2022-10-21"
     },
     {
       "number": 490,
-      "word": "SPIEL"
+      "word": "SPIEL",
+      "date": "2022-10-22"
     },
     {
       "number": 491,
-      "word": "MUMMY"
+      "word": "MUMMY",
+      "date": "2022-10-23"
     },
     {
       "number": 492,
-      "word": "FAULT"
+      "word": "FAULT",
+      "date": "2022-10-24"
     },
     {
       "number": 493,
-      "word": "FOGGY"
+      "word": "FOGGY",
+      "date": "2022-10-25"
     },
     {
       "number": 494,
-      "word": "FLOUT"
+      "word": "FLOUT",
+      "date": "2022-10-26"
     },
     {
       "number": 495,
-      "word": "CARRY"
+      "word": "CARRY",
+      "date": "2022-10-27"
     },
     {
       "number": 496,
-      "word": "SNEAK"
+      "word": "SNEAK",
+      "date": "2022-10-28"
     },
     {
       "number": 497,
-      "word": "LIBEL"
+      "word": "LIBEL",
+      "date": "2022-10-29"
     },
     {
       "number": 498,
-      "word": "WALTZ"
+      "word": "WALTZ",
+      "date": "2022-10-30"
     },
     {
       "number": 499,
-      "word": "APTLY"
+      "word": "APTLY",
+      "date": "2022-10-31"
     },
     {
       "number": 500,
-      "word": "PINEY"
+      "word": "PINEY",
+      "date": "2022-11-01"
     },
     {
       "number": 501,
-      "word": "INEPT"
+      "word": "INEPT",
+      "date": "2022-11-02"
     },
     {
       "number": 502,
-      "word": "ALOUD"
+      "word": "ALOUD",
+      "date": "2022-11-03"
     },
     {
       "number": 503,
-      "word": "PHOTO"
+      "word": "PHOTO",
+      "date": "2022-11-04"
     },
     {
       "number": 504,
-      "word": "DREAM"
+      "word": "DREAM",
+      "date": "2022-11-05"
     },
     {
       "number": 505,
-      "word": "STALE"
+      "word": "STALE",
+      "date": "2022-11-06"
     },
     {
       "number": 506,
-      "word": "BEGIN"
+      "word": "BEGIN",
+      "date": "2022-11-07"
     },
     {
       "number": 507,
-      "word": "SPELL"
+      "word": "SPELL",
+      "date": "2022-11-08"
     },
     {
       "number": 508,
-      "word": "RAINY"
+      "word": "RAINY",
+      "date": "2022-11-09"
     },
     {
       "number": 509,
-      "word": "UNITE"
+      "word": "UNITE",
+      "date": "2022-11-10"
     },
     {
       "number": 510,
-      "word": "MEDAL"
+      "word": "MEDAL",
+      "date": "2022-11-11"
     },
     {
       "number": 511,
-      "word": "VALET"
+      "word": "VALET",
+      "date": "2022-11-12"
     },
     {
       "number": 512,
-      "word": "INANE"
+      "word": "INANE",
+      "date": "2022-11-13"
     },
     {
       "number": 513,
-      "word": "MAPLE"
+      "word": "MAPLE",
+      "date": "2022-11-14"
     },
     {
       "number": 514,
-      "word": "SNARL"
+      "word": "SNARL",
+      "date": "2022-11-15"
     },
     {
       "number": 515,
-      "word": "BAKER"
+      "word": "BAKER",
+      "date": "2022-11-16"
     },
     {
       "number": 516,
-      "word": "THERE"
+      "word": "THERE",
+      "date": "2022-11-17"
     },
     {
       "number": 517,
-      "word": "GLYPH"
+      "word": "GLYPH",
+      "date": "2022-11-18"
     },
     {
       "number": 518,
-      "word": "AVERT"
+      "word": "AVERT",
+      "date": "2022-11-19"
     },
     {
       "number": 519,
-      "word": "BRAVE"
+      "word": "BRAVE",
+      "date": "2022-11-20"
     },
     {
       "number": 520,
-      "word": "AXIOM"
+      "word": "AXIOM",
+      "date": "2022-11-21"
     },
     {
       "number": 521,
-      "word": "PRIME"
+      "word": "PRIME",
+      "date": "2022-11-22"
     },
     {
       "number": 522,
-      "word": "DRIVE"
+      "word": "DRIVE",
+      "date": "2022-11-23"
     },
     {
       "number": 523,
-      "word": "FEAST"
+      "word": "FEAST",
+      "date": "2022-11-24"
     },
     {
       "number": 524,
-      "word": "ITCHY"
+      "word": "ITCHY",
+      "date": "2022-11-25"
     },
     {
       "number": 525,
-      "word": "CLEAN"
+      "word": "CLEAN",
+      "date": "2022-11-26"
     },
     {
       "number": 526,
-      "word": "HAPPY"
+      "word": "HAPPY",
+      "date": "2022-11-27"
     },
     {
       "number": 527,
-      "word": "TEPID"
+      "word": "TEPID",
+      "date": "2022-11-28"
     },
     {
       "number": 528,
-      "word": "UNDUE"
+      "word": "UNDUE",
+      "date": "2022-11-29"
     },
     {
       "number": 529,
-      "word": "STUDY"
+      "word": "STUDY",
+      "date": "2022-11-30"
     },
     {
       "number": 530,
-      "word": "EJECT"
+      "word": "EJECT",
+      "date": "2022-12-01"
     },
     {
       "number": 531,
-      "word": "CHAFE"
+      "word": "CHAFE",
+      "date": "2022-12-02"
     },
     {
       "number": 532,
-      "word": "TORSO"
+      "word": "TORSO",
+      "date": "2022-12-03"
     },
     {
       "number": 533,
-      "word": "ADORE"
+      "word": "ADORE",
+      "date": "2022-12-04"
     },
     {
       "number": 534,
-      "word": "WOKEN"
+      "word": "WOKEN",
+      "date": "2022-12-05"
     },
     {
       "number": 535,
-      "word": "AMBER"
+      "word": "AMBER",
+      "date": "2022-12-06"
     },
     {
       "number": 536,
-      "word": "JOUST"
+      "word": "JOUST",
+      "date": "2022-12-07"
     },
     {
       "number": 537,
-      "word": "INFER"
+      "word": "INFER",
+      "date": "2022-12-08"
     },
     {
       "number": 538,
-      "word": "BRAID"
+      "word": "BRAID",
+      "date": "2022-12-09"
     },
     {
       "number": 539,
-      "word": "KNOCK"
+      "word": "KNOCK",
+      "date": "2022-12-10"
     },
     {
       "number": 540,
-      "word": "NAIVE"
+      "word": "NAIVE",
+      "date": "2022-12-11"
     },
     {
       "number": 541,
-      "word": "APPLY"
+      "word": "APPLY",
+      "date": "2022-12-12"
     },
     {
       "number": 542,
-      "word": "SPOKE"
+      "word": "SPOKE",
+      "date": "2022-12-13"
     },
     {
       "number": 543,
-      "word": "USUAL"
+      "word": "USUAL",
+      "date": "2022-12-14"
     },
     {
       "number": 544,
-      "word": "RIVAL"
+      "word": "RIVAL",
+      "date": "2022-12-15"
     },
     {
       "number": 545,
-      "word": "PROBE"
+      "word": "PROBE",
+      "date": "2022-12-16"
     },
     {
       "number": 546,
-      "word": "CHORD"
+      "word": "CHORD",
+      "date": "2022-12-17"
     },
     {
       "number": 547,
-      "word": "TAPER"
+      "word": "TAPER",
+      "date": "2022-12-18"
     },
     {
       "number": 548,
-      "word": "SLATE"
+      "word": "SLATE",
+      "date": "2022-12-19"
     },
     {
       "number": 549,
-      "word": "THIRD"
+      "word": "THIRD",
+      "date": "2022-12-20"
     },
     {
       "number": 550,
-      "word": "LUNAR"
+      "word": "LUNAR",
+      "date": "2022-12-21"
     },
     {
       "number": 551,
-      "word": "EXCEL"
+      "word": "EXCEL",
+      "date": "2022-12-22"
     },
     {
       "number": 552,
-      "word": "AORTA"
+      "word": "AORTA",
+      "date": "2022-12-23"
     },
     {
       "number": 553,
-      "word": "POISE"
+      "word": "POISE",
+      "date": "2022-12-24"
     },
     {
       "number": 554,
-      "word": "EXTRA"
+      "word": "EXTRA",
+      "date": "2022-12-25"
     },
     {
       "number": 555,
-      "word": "JUDGE"
+      "word": "JUDGE",
+      "date": "2022-12-26"
     },
     {
       "number": 556,
-      "word": "CONDO"
+      "word": "CONDO",
+      "date": "2022-12-27"
     },
     {
       "number": 557,
-      "word": "IMPEL"
+      "word": "IMPEL",
+      "date": "2022-12-28"
     },
     {
       "number": 558,
-      "word": "HAVOC"
+      "word": "HAVOC",
+      "date": "2022-12-29"
     },
     {
       "number": 559,
-      "word": "MOLAR"
+      "word": "MOLAR",
+      "date": "2022-12-30"
     },
     {
       "number": 560,
-      "word": "MANLY"
+      "word": "MANLY",
+      "date": "2022-12-31"
     },
     {
       "number": 561,
-      "word": "WHINE"
+      "word": "WHINE",
+      "date": "2023-01-01"
     },
     {
       "number": 562,
-      "word": "SKIRT"
+      "word": "SKIRT",
+      "date": "2023-01-02"
     },
     {
       "number": 563,
-      "word": "ANTIC"
+      "word": "ANTIC",
+      "date": "2023-01-03"
     },
     {
       "number": 564,
-      "word": "LAYER"
+      "word": "LAYER",
+      "date": "2023-01-04"
     },
     {
       "number": 565,
-      "word": "SLEEK"
+      "word": "SLEEK",
+      "date": "2023-01-05"
     },
     {
       "number": 566,
-      "word": "BELIE"
+      "word": "BELIE",
+      "date": "2023-01-06"
     },
     {
       "number": 567,
-      "word": "LEMON"
+      "word": "LEMON",
+      "date": "2023-01-07"
     },
     {
       "number": 568,
-      "word": "OPERA"
+      "word": "OPERA",
+      "date": "2023-01-08"
     },
     {
       "number": 569,
-      "word": "PIXIE"
+      "word": "PIXIE",
+      "date": "2023-01-09"
     },
     {
       "number": 570,
-      "word": "GRIMY"
+      "word": "GRIMY",
+      "date": "2023-01-10"
     },
     {
       "number": 571,
-      "word": "SEDAN"
+      "word": "SEDAN",
+      "date": "2023-01-11"
     },
     {
       "number": 572,
-      "word": "LEAPT"
+      "word": "LEAPT",
+      "date": "2023-01-12"
     },
     {
       "number": 573,
-      "word": "HUMAN"
+      "word": "HUMAN",
+      "date": "2023-01-13"
     },
     {
       "number": 574,
-      "word": "KOALA"
+      "word": "KOALA",
+      "date": "2023-01-14"
     },
     {
       "number": 575,
-      "word": "SPIRE"
+      "word": "SPIRE",
+      "date": "2023-01-15"
     },
     {
       "number": 576,
-      "word": "FROCK"
+      "word": "FROCK",
+      "date": "2023-01-16"
     },
     {
       "number": 577,
-      "word": "ADOPT"
+      "word": "ADOPT",
+      "date": "2023-01-17"
     },
     {
       "number": 578,
-      "word": "CHARD"
+      "word": "CHARD",
+      "date": "2023-01-18"
     },
     {
       "number": 579,
-      "word": "MUCKY"
+      "word": "MUCKY",
+      "date": "2023-01-19"
     },
     {
       "number": 580,
-      "word": "ALTER"
+      "word": "ALTER",
+      "date": "2023-01-20"
     },
     {
       "number": 581,
-      "word": "BLURB"
+      "word": "BLURB",
+      "date": "2023-01-21"
     },
     {
       "number": 582,
-      "word": "MATEY"
+      "word": "MATEY",
+      "date": "2023-01-22"
     },
     {
       "number": 583,
-      "word": "ELUDE"
+      "word": "ELUDE",
+      "date": "2023-01-23"
     },
     {
       "number": 584,
-      "word": "COUNT"
+      "word": "COUNT",
+      "date": "2023-01-24"
     },
     {
       "number": 585,
-      "word": "MAIZE"
+      "word": "MAIZE",
+      "date": "2023-01-25"
     },
     {
       "number": 586,
-      "word": "BEEFY"
+      "word": "BEEFY",
+      "date": "2023-01-26"
     },
     {
       "number": 587,
-      "word": "WORRY"
+      "word": "WORRY",
+      "date": "2023-01-27"
     },
     {
       "number": 588,
-      "word": "FLIRT"
+      "word": "FLIRT",
+      "date": "2023-01-28"
     },
     {
       "number": 589,
-      "word": "FISHY"
+      "word": "FISHY",
+      "date": "2023-01-29"
     },
     {
       "number": 590,
-      "word": "CRAVE"
+      "word": "CRAVE",
+      "date": "2023-01-30"
     },
     {
       "number": 591,
-      "word": "CROSS"
+      "word": "CROSS",
+      "date": "2023-01-31"
     },
     {
       "number": 592,
-      "word": "SCOLD"
+      "word": "SCOLD",
+      "date": "2023-02-01"
     },
     {
       "number": 593,
-      "word": "SHIRK"
+      "word": "SHIRK",
+      "date": "2023-02-02"
     },
     {
       "number": 594,
-      "word": "TASTY"
+      "word": "TASTY",
+      "date": "2023-02-03"
     },
     {
       "number": 595,
-      "word": "UNLIT"
+      "word": "UNLIT",
+      "date": "2023-02-04"
     },
     {
       "number": 596,
-      "word": "DANCE"
+      "word": "DANCE",
+      "date": "2023-02-05"
     },
     {
       "number": 597,
-      "word": "NINTH"
+      "word": "NINTH",
+      "date": "2023-02-06"
     },
     {
       "number": 598,
-      "word": "APPLE"
+      "word": "APPLE",
+      "date": "2023-02-07"
     },
     {
       "number": 599,
-      "word": "FLAIL"
+      "word": "FLAIL",
+      "date": "2023-02-08"
     },
     {
       "number": 600,
-      "word": "STAGE"
+      "word": "STAGE",
+      "date": "2023-02-09"
     },
     {
       "number": 601,
-      "word": "HEADY"
+      "word": "HEADY",
+      "date": "2023-02-10"
     },
     {
       "number": 602,
-      "word": "DEBUG"
+      "word": "DEBUG",
+      "date": "2023-02-11"
     },
     {
       "number": 603,
-      "word": "GIANT"
+      "word": "GIANT",
+      "date": "2023-02-12"
     },
     {
       "number": 604,
-      "word": "USAGE"
+      "word": "USAGE",
+      "date": "2023-02-13"
     },
     {
       "number": 605,
-      "word": "SOUND"
+      "word": "SOUND",
+      "date": "2023-02-14"
     },
     {
       "number": 606,
-      "word": "SALSA"
+      "word": "SALSA",
+      "date": "2023-02-15"
     },
     {
       "number": 607,
-      "word": "MAGIC"
+      "word": "MAGIC",
+      "date": "2023-02-16"
     },
     {
       "number": 608,
-      "word": "CACHE"
+      "word": "CACHE",
+      "date": "2023-02-17"
     },
     {
       "number": 609,
-      "word": "AVAIL"
+      "word": "AVAIL",
+      "date": "2023-02-18"
     },
     {
       "number": 610,
-      "word": "KIOSK"
+      "word": "KIOSK",
+      "date": "2023-02-19"
     },
     {
       "number": 611,
-      "word": "SWEAT"
+      "word": "SWEAT",
+      "date": "2023-02-20"
     },
     {
       "number": 612,
-      "word": "RUDDY"
+      "word": "RUDDY",
+      "date": "2023-02-21"
     },
     {
       "number": 613,
-      "word": "RIPER"
+      "word": "RIPER",
+      "date": "2023-02-22"
     },
     {
       "number": 614,
-      "word": "VAGUE"
+      "word": "VAGUE",
+      "date": "2023-02-23"
     },
     {
       "number": 615,
-      "word": "ARBOR"
+      "word": "ARBOR",
+      "date": "2023-02-24"
     },
     {
       "number": 616,
-      "word": "FIFTY"
+      "word": "FIFTY",
+      "date": "2023-02-25"
     },
     {
       "number": 617,
-      "word": "SYRUP"
+      "word": "SYRUP",
+      "date": "2023-02-26"
     },
     {
       "number": 618,
-      "word": "WORSE"
+      "word": "WORSE",
+      "date": "2023-02-27"
     },
     {
       "number": 619,
-      "word": "POLKA"
+      "word": "POLKA",
+      "date": "2023-02-28"
     },
     {
       "number": 620,
-      "word": "MOOSE"
+      "word": "MOOSE",
+      "date": "2023-03-01"
     },
     {
       "number": 621,
-      "word": "ABOVE"
+      "word": "ABOVE",
+      "date": "2023-03-02"
     },
     {
       "number": 622,
-      "word": "SQUAT"
+      "word": "SQUAT",
+      "date": "2023-03-03"
     },
     {
       "number": 623,
-      "word": "TREND"
+      "word": "TREND",
+      "date": "2023-03-04"
     },
     {
       "number": 624,
-      "word": "TOXIC"
+      "word": "TOXIC",
+      "date": "2023-03-05"
     },
     {
       "number": 625,
-      "word": "PINKY"
+      "word": "PINKY",
+      "date": "2023-03-06"
     },
     {
       "number": 626,
-      "word": "HORSE"
+      "word": "HORSE",
+      "date": "2023-03-07"
     },
     {
       "number": 627,
-      "word": "REGAL"
+      "word": "REGAL",
+      "date": "2023-03-08"
     },
     {
       "number": 628,
-      "word": "WHERE"
+      "word": "WHERE",
+      "date": "2023-03-09"
     },
     {
       "number": 629,
-      "word": "REVEL"
+      "word": "REVEL",
+      "date": "2023-03-10"
     },
     {
       "number": 630,
-      "word": "EMAIL"
+      "word": "EMAIL",
+      "date": "2023-03-11"
     },
     {
       "number": 631,
-      "word": "BIRTH"
+      "word": "BIRTH",
+      "date": "2023-03-12"
     },
     {
       "number": 632,
-      "word": "BLAME"
+      "word": "BLAME",
+      "date": "2023-03-13"
     },
     {
       "number": 633,
-      "word": "SURLY"
+      "word": "SURLY",
+      "date": "2023-03-14"
     },
     {
       "number": 634,
-      "word": "SWEEP"
+      "word": "SWEEP",
+      "date": "2023-03-15"
     },
     {
       "number": 635,
-      "word": "CIDER"
+      "word": "CIDER",
+      "date": "2023-03-16"
     },
     {
       "number": 636,
-      "word": "MEALY"
+      "word": "MEALY",
+      "date": "2023-03-17"
     },
     {
       "number": 637,
-      "word": "YACHT"
+      "word": "YACHT",
+      "date": "2023-03-18"
     },
     {
       "number": 638,
-      "word": "CREDO"
+      "word": "CREDO",
+      "date": "2023-03-19"
     },
     {
       "number": 639,
-      "word": "GLOVE"
+      "word": "GLOVE",
+      "date": "2023-03-20"
     },
     {
       "number": 640,
-      "word": "TOUGH"
+      "word": "TOUGH",
+      "date": "2023-03-21"
     },
     {
       "number": 641,
-      "word": "DUVET"
+      "word": "DUVET",
+      "date": "2023-03-22"
     },
     {
       "number": 642,
-      "word": "STAID"
+      "word": "STAID",
+      "date": "2023-03-23"
     },
     {
       "number": 643,
-      "word": "GROUT"
+      "word": "GROUT",
+      "date": "2023-03-24"
     },
     {
       "number": 644,
-      "word": "VOTER"
+      "word": "VOTER",
+      "date": "2023-03-25"
     },
     {
       "number": 645,
-      "word": "UNTIE"
+      "word": "UNTIE",
+      "date": "2023-03-26"
     },
     {
       "number": 646,
-      "word": "GUANO"
+      "word": "GUANO",
+      "date": "2023-03-27"
     },
     {
       "number": 647,
-      "word": "HURRY"
+      "word": "HURRY",
+      "date": "2023-03-28"
     },
     {
       "number": 648,
-      "word": "BESET"
+      "word": "BESET",
+      "date": "2023-03-29"
     },
     {
       "number": 649,
-      "word": "BREAD"
+      "word": "BREAD",
+      "date": "2023-03-30"
     },
     {
       "number": 650,
-      "word": "EVERY"
+      "word": "EVERY",
+      "date": "2023-03-31"
     },
     {
       "number": 651,
-      "word": "MARCH"
+      "word": "MARCH",
+      "date": "2023-04-01"
     },
     {
       "number": 652,
-      "word": "STOCK"
+      "word": "STOCK",
+      "date": "2023-04-02"
     },
     {
       "number": 653,
-      "word": "FLORA"
+      "word": "FLORA",
+      "date": "2023-04-03"
     },
     {
       "number": 654,
-      "word": "RATIO"
+      "word": "RATIO",
+      "date": "2023-04-04"
     },
     {
       "number": 655,
-      "word": "SMASH"
+      "word": "SMASH",
+      "date": "2023-04-05"
     },
     {
       "number": 656,
-      "word": "LEAFY"
+      "word": "LEAFY",
+      "date": "2023-04-06"
     },
     {
       "number": 657,
-      "word": "LOCUS"
+      "word": "LOCUS",
+      "date": "2023-04-07"
     },
     {
       "number": 658,
-      "word": "LEDGE"
+      "word": "LEDGE",
+      "date": "2023-04-08"
     },
     {
       "number": 659,
-      "word": "SNAFU"
+      "word": "SNAFU",
+      "date": "2023-04-09"
     },
     {
       "number": 660,
-      "word": "UNDER"
+      "word": "UNDER",
+      "date": "2023-04-10"
     },
     {
       "number": 661,
-      "word": "QUALM"
+      "word": "QUALM",
+      "date": "2023-04-11"
     },
     {
       "number": 662,
-      "word": "BORAX"
+      "word": "BORAX",
+      "date": "2023-04-12"
     },
     {
       "number": 663,
-      "word": "CARAT"
+      "word": "CARAT",
+      "date": "2023-04-13"
     },
     {
       "number": 664,
-      "word": "THIEF"
+      "word": "THIEF",
+      "date": "2023-04-14"
     },
     {
       "number": 665,
-      "word": "AGONY"
+      "word": "AGONY",
+      "date": "2023-04-15"
     },
     {
       "number": 666,
-      "word": "DWELT"
+      "word": "DWELT",
+      "date": "2023-04-16"
     },
     {
       "number": 667,
-      "word": "WHIFF"
+      "word": "WHIFF",
+      "date": "2023-04-17"
     },
     {
       "number": 668,
-      "word": "HOUND"
+      "word": "HOUND",
+      "date": "2023-04-18"
     },
     {
       "number": 669,
-      "word": "THUMP"
+      "word": "THUMP",
+      "date": "2023-04-19"
     },
     {
       "number": 670,
-      "word": "PLATE"
+      "word": "PLATE",
+      "date": "2023-04-20"
     },
     {
       "number": 671,
-      "word": "KAYAK"
+      "word": "KAYAK",
+      "date": "2023-04-21"
     },
     {
       "number": 672,
-      "word": "BROKE"
+      "word": "BROKE",
+      "date": "2023-04-22"
     },
     {
       "number": 673,
-      "word": "UNZIP"
+      "word": "UNZIP",
+      "date": "2023-04-23"
     },
     {
       "number": 674,
-      "word": "DITTO"
+      "word": "DITTO",
+      "date": "2023-04-24"
     },
     {
       "number": 675,
-      "word": "JOKER"
+      "word": "JOKER",
+      "date": "2023-04-25"
     },
     {
       "number": 676,
-      "word": "METRO"
+      "word": "METRO",
+      "date": "2023-04-26"
     },
     {
       "number": 677,
-      "word": "LOGIC"
+      "word": "LOGIC",
+      "date": "2023-04-27"
     },
     {
       "number": 678,
-      "word": "CIRCA"
+      "word": "CIRCA",
+      "date": "2023-04-28"
     },
     {
       "number": 679,
-      "word": "CEDAR"
+      "word": "CEDAR",
+      "date": "2023-04-29"
     },
     {
       "number": 680,
-      "word": "PLAZA"
+      "word": "PLAZA",
+      "date": "2023-04-30"
     },
     {
       "number": 681,
-      "word": "RANGE"
+      "word": "RANGE",
+      "date": "2023-05-01"
     },
     {
       "number": 682,
-      "word": "SULKY"
+      "word": "SULKY",
+      "date": "2023-05-02"
     },
     {
       "number": 683,
-      "word": "HORDE"
+      "word": "HORDE",
+      "date": "2023-05-03"
     },
     {
       "number": 684,
-      "word": "GUPPY"
+      "word": "GUPPY",
+      "date": "2023-05-04"
     },
     {
       "number": 685,
-      "word": "BELOW"
+      "word": "BELOW",
+      "date": "2023-05-05"
     },
     {
       "number": 686,
-      "word": "ANGER"
+      "word": "ANGER",
+      "date": "2023-05-06"
     },
     {
       "number": 687,
-      "word": "GHOUL"
+      "word": "GHOUL",
+      "date": "2023-05-07"
     },
     {
       "number": 688,
-      "word": "AGLOW"
+      "word": "AGLOW",
+      "date": "2023-05-08"
     },
     {
       "number": 689,
-      "word": "COCOA"
+      "word": "COCOA",
+      "date": "2023-05-09"
     },
     {
       "number": 690,
-      "word": "ETHIC"
+      "word": "ETHIC",
+      "date": "2023-05-10"
     },
     {
       "number": 691,
-      "word": "BROOM"
+      "word": "BROOM",
+      "date": "2023-05-11"
     },
     {
       "number": 692,
-      "word": "SNACK"
+      "word": "SNACK",
+      "date": "2023-05-12"
     },
     {
       "number": 693,
-      "word": "ACRID"
+      "word": "ACRID",
+      "date": "2023-05-13"
     },
     {
       "number": 694,
-      "word": "SCARF"
+      "word": "SCARF",
+      "date": "2023-05-14"
     },
     {
       "number": 695,
-      "word": "CANOE"
+      "word": "CANOE",
+      "date": "2023-05-15"
     },
     {
       "number": 696,
-      "word": "LATTE"
+      "word": "LATTE",
+      "date": "2023-05-16"
     },
     {
       "number": 697,
-      "word": "PLANK"
+      "word": "PLANK",
+      "date": "2023-05-17"
     },
     {
       "number": 698,
-      "word": "SHORN"
+      "word": "SHORN",
+      "date": "2023-05-18"
     },
     {
       "number": 699,
-      "word": "GRIEF"
+      "word": "GRIEF",
+      "date": "2023-05-19"
     },
     {
       "number": 700,
-      "word": "FLASK"
+      "word": "FLASK",
+      "date": "2023-05-20"
     },
     {
       "number": 701,
-      "word": "BRASH"
+      "word": "BRASH",
+      "date": "2023-05-21"
     },
     {
       "number": 702,
-      "word": "IGLOO"
+      "word": "IGLOO",
+      "date": "2023-05-22"
     },
     {
       "number": 703,
-      "word": "CLERK"
+      "word": "CLERK",
+      "date": "2023-05-23"
     },
     {
       "number": 704,
-      "word": "UTTER"
+      "word": "UTTER",
+      "date": "2023-05-24"
     },
     {
       "number": 705,
-      "word": "BAGEL"
+      "word": "BAGEL",
+      "date": "2023-05-25"
     },
     {
       "number": 706,
-      "word": "SWINE"
+      "word": "SWINE",
+      "date": "2023-05-26"
     },
     {
       "number": 707,
-      "word": "RAMEN"
+      "word": "RAMEN",
+      "date": "2023-05-27"
     },
     {
       "number": 708,
-      "word": "SKIMP"
+      "word": "SKIMP",
+      "date": "2023-05-28"
     },
     {
       "number": 709,
-      "word": "MOUSE"
+      "word": "MOUSE",
+      "date": "2023-05-29"
     },
     {
       "number": 710,
-      "word": "KNEEL"
+      "word": "KNEEL",
+      "date": "2023-05-30"
     },
     {
       "number": 711,
-      "word": "AGILE"
+      "word": "AGILE",
+      "date": "2023-05-31"
     },
     {
       "number": 712,
-      "word": "JAZZY"
+      "word": "JAZZY",
+      "date": "2023-06-01"
     },
     {
       "number": 713,
-      "word": "HUMID"
+      "word": "HUMID",
+      "date": "2023-06-02"
     },
     {
       "number": 714,
-      "word": "NANNY"
+      "word": "NANNY",
+      "date": "2023-06-03"
     },
     {
       "number": 715,
-      "word": "BEAST"
+      "word": "BEAST",
+      "date": "2023-06-04"
     },
     {
       "number": 716,
-      "word": "ENNUI"
+      "word": "ENNUI",
+      "date": "2023-06-05"
     },
     {
       "number": 717,
-      "word": "SCOUT"
+      "word": "SCOUT",
+      "date": "2023-06-06"
     },
     {
       "number": 718,
-      "word": "HATER"
+      "word": "HATER",
+      "date": "2023-06-07"
     },
     {
       "number": 719,
-      "word": "CRUMB"
+      "word": "CRUMB",
+      "date": "2023-06-08"
     },
     {
       "number": 720,
-      "word": "BALSA"
+      "word": "BALSA",
+      "date": "2023-06-09"
     },
     {
       "number": 721,
-      "word": "AGAIN"
+      "word": "AGAIN",
+      "date": "2023-06-10"
     },
     {
       "number": 722,
-      "word": "GUARD"
+      "word": "GUARD",
+      "date": "2023-06-11"
     },
     {
       "number": 723,
-      "word": "WRONG"
+      "word": "WRONG",
+      "date": "2023-06-12"
     },
     {
       "number": 724,
-      "word": "PLUNK"
+      "word": "PLUNK",
+      "date": "2023-06-13"
     },
     {
       "number": 725,
-      "word": "CRIME"
+      "word": "CRIME",
+      "date": "2023-06-14"
     },
     {
       "number": 726,
-      "word": "MAYBE"
+      "word": "MAYBE",
+      "date": "2023-06-15"
     },
     {
       "number": 727,
-      "word": "STRAP"
+      "word": "STRAP",
+      "date": "2023-06-16"
     },
     {
       "number": 728,
-      "word": "RANCH"
+      "word": "RANCH",
+      "date": "2023-06-17"
     },
     {
       "number": 729,
-      "word": "SHYLY"
+      "word": "SHYLY",
+      "date": "2023-06-18"
     },
     {
       "number": 730,
-      "word": "KAZOO"
+      "word": "KAZOO",
+      "date": "2023-06-19"
     },
     {
       "number": 731,
-      "word": "FROST"
+      "word": "FROST",
+      "date": "2023-06-20"
     },
     {
       "number": 732,
-      "word": "CRANE"
+      "word": "CRANE",
+      "date": "2023-06-21"
     },
     {
       "number": 733,
-      "word": "TASTE"
+      "word": "TASTE",
+      "date": "2023-06-22"
     },
     {
       "number": 734,
-      "word": "COVET"
+      "word": "COVET",
+      "date": "2023-06-23"
     },
     {
       "number": 735,
-      "word": "GRAND"
+      "word": "GRAND",
+      "date": "2023-06-24"
     },
     {
       "number": 736,
-      "word": "RODEO"
+      "word": "RODEO",
+      "date": "2023-06-25"
     },
     {
       "number": 737,
-      "word": "GUEST"
+      "word": "GUEST",
+      "date": "2023-06-26"
     },
     {
       "number": 738,
-      "word": "ABOUT"
+      "word": "ABOUT",
+      "date": "2023-06-27"
     },
     {
       "number": 739,
-      "word": "TRACT"
+      "word": "TRACT",
+      "date": "2023-06-28"
     },
     {
       "number": 740,
-      "word": "DINER"
+      "word": "DINER",
+      "date": "2023-06-29"
     },
     {
       "number": 741,
-      "word": "STRAW"
+      "word": "STRAW",
+      "date": "2023-06-30"
     },
     {
       "number": 742,
-      "word": "BLEEP"
+      "word": "BLEEP",
+      "date": "2023-07-01"
     },
     {
       "number": 743,
-      "word": "MOSSY"
+      "word": "MOSSY",
+      "date": "2023-07-02"
     },
     {
       "number": 744,
-      "word": "HOTEL"
+      "word": "HOTEL",
+      "date": "2023-07-03"
     },
     {
       "number": 745,
-      "word": "IRATE"
+      "word": "IRATE",
+      "date": "2023-07-04"
     },
     {
       "number": 746,
-      "word": "VENOM"
+      "word": "VENOM",
+      "date": "2023-07-05"
     },
     {
       "number": 747,
-      "word": "WINDY"
+      "word": "WINDY",
+      "date": "2023-07-06"
     },
     {
       "number": 748,
-      "word": "DONUT"
+      "word": "DONUT",
+      "date": "2023-07-07"
     },
     {
       "number": 749,
-      "word": "COWER"
+      "word": "COWER",
+      "date": "2023-07-08"
     },
     {
       "number": 750,
-      "word": "ENTER"
+      "word": "ENTER",
+      "date": "2023-07-09"
     },
     {
       "number": 751,
-      "word": "FOLLY"
+      "word": "FOLLY",
+      "date": "2023-07-10"
     },
     {
       "number": 752,
-      "word": "EARTH"
+      "word": "EARTH",
+      "date": "2023-07-11"
     },
     {
       "number": 753,
-      "word": "WHIRL"
+      "word": "WHIRL",
+      "date": "2023-07-12"
     },
     {
       "number": 754,
-      "word": "BARGE"
+      "word": "BARGE",
+      "date": "2023-07-13"
     },
     {
       "number": 755,
-      "word": "FIEND"
+      "word": "FIEND",
+      "date": "2023-07-14"
     },
     {
       "number": 756,
-      "word": "CRONE"
+      "word": "CRONE",
+      "date": "2023-07-15"
     },
     {
       "number": 757,
-      "word": "TOPAZ"
+      "word": "TOPAZ",
+      "date": "2023-07-16"
     },
     {
       "number": 758,
-      "word": "DROOP"
+      "word": "DROOP",
+      "date": "2023-07-17"
     },
     {
       "number": 759,
-      "word": "FLYER"
+      "word": "FLYER",
+      "date": "2023-07-18"
     },
     {
       "number": 760,
-      "word": "TONIC"
+      "word": "TONIC",
+      "date": "2023-07-19"
     },
     {
       "number": 761,
-      "word": "FLANK"
+      "word": "FLANK",
+      "date": "2023-07-20"
     },
     {
       "number": 762,
-      "word": "BURLY"
+      "word": "BURLY",
+      "date": "2023-07-21"
     },
     {
       "number": 763,
-      "word": "FROZE"
+      "word": "FROZE",
+      "date": "2023-07-22"
     },
     {
       "number": 764,
-      "word": "WHALE"
+      "word": "WHALE",
+      "date": "2023-07-23"
     },
     {
       "number": 765,
-      "word": "HOBBY"
+      "word": "HOBBY",
+      "date": "2023-07-24"
     },
     {
       "number": 766,
-      "word": "WHEEL"
+      "word": "WHEEL",
+      "date": "2023-07-25"
     },
     {
       "number": 767,
-      "word": "HEART"
+      "word": "HEART",
+      "date": "2023-07-26"
     },
     {
       "number": 768,
-      "word": "DISCO"
+      "word": "DISCO",
+      "date": "2023-07-27"
     },
     {
       "number": 769,
-      "word": "ETHOS"
+      "word": "ETHOS",
+      "date": "2023-07-28"
     },
     {
       "number": 770,
-      "word": "CURLY"
+      "word": "CURLY",
+      "date": "2023-07-29"
     },
     {
       "number": 771,
-      "word": "BATHE"
+      "word": "BATHE",
+      "date": "2023-07-30"
     },
     {
       "number": 772,
-      "word": "STYLE"
+      "word": "STYLE",
+      "date": "2023-07-31"
     },
     {
       "number": 773,
-      "word": "TENTH"
+      "word": "TENTH",
+      "date": "2023-08-01"
     },
     {
       "number": 774,
-      "word": "BEGET"
+      "word": "BEGET",
+      "date": "2023-08-02"
     },
     {
       "number": 775,
-      "word": "PARTY"
+      "word": "PARTY",
+      "date": "2023-08-03"
     },
     {
       "number": 776,
-      "word": "CHART"
+      "word": "CHART",
+      "date": "2023-08-04"
     },
     {
       "number": 777,
-      "word": "ANODE"
+      "word": "ANODE",
+      "date": "2023-08-05"
     },
     {
       "number": 778,
-      "word": "POLYP"
+      "word": "POLYP",
+      "date": "2023-08-06"
     },
     {
       "number": 779,
-      "word": "BROOK"
+      "word": "BROOK",
+      "date": "2023-08-07"
     },
     {
       "number": 780,
-      "word": "BULLY"
+      "word": "BULLY",
+      "date": "2023-08-08"
     },
     {
       "number": 781,
-      "word": "LOVER"
+      "word": "LOVER",
+      "date": "2023-08-09"
     },
     {
       "number": 782,
-      "word": "EMPTY"
+      "word": "EMPTY",
+      "date": "2023-08-10"
     },
     {
       "number": 783,
-      "word": "HELLO"
+      "word": "HELLO",
+      "date": "2023-08-11"
     },
     {
       "number": 784,
-      "word": "QUICK"
+      "word": "QUICK",
+      "date": "2023-08-12"
     },
     {
       "number": 785,
-      "word": "WRATH"
+      "word": "WRATH",
+      "date": "2023-08-13"
     },
     {
       "number": 786,
-      "word": "SNAKY"
+      "word": "SNAKY",
+      "date": "2023-08-14"
     },
     {
       "number": 787,
-      "word": "INDEX"
+      "word": "INDEX",
+      "date": "2023-08-15"
     },
     {
       "number": 788,
-      "word": "SCRUB"
+      "word": "SCRUB",
+      "date": "2023-08-16"
     },
     {
       "number": 789,
-      "word": "AMISS"
+      "word": "AMISS",
+      "date": "2023-08-17"
     },
     {
       "number": 790,
-      "word": "EXACT"
+      "word": "EXACT",
+      "date": "2023-08-18"
     },
     {
       "number": 791,
-      "word": "MAGMA"
+      "word": "MAGMA",
+      "date": "2023-08-19"
     },
     {
       "number": 792,
-      "word": "QUEST"
+      "word": "QUEST",
+      "date": "2023-08-20"
     },
     {
       "number": 793,
-      "word": "BEACH"
+      "word": "BEACH",
+      "date": "2023-08-21"
     },
     {
       "number": 794,
-      "word": "SPICE"
+      "word": "SPICE",
+      "date": "2023-08-22"
     },
     {
       "number": 795,
-      "word": "VERVE"
+      "word": "VERVE",
+      "date": "2023-08-23"
     },
     {
       "number": 796,
-      "word": "WORDY"
+      "word": "WORDY",
+      "date": "2023-08-24"
     },
     {
       "number": 797,
-      "word": "OCEAN"
+      "word": "OCEAN",
+      "date": "2023-08-25"
     },
     {
       "number": 798,
-      "word": "CHOIR"
+      "word": "CHOIR",
+      "date": "2023-08-26"
     },
     {
       "number": 799,
-      "word": "PEACE"
+      "word": "PEACE",
+      "date": "2023-08-27"
     },
     {
       "number": 800,
-      "word": "WRITE"
+      "word": "WRITE",
+      "date": "2023-08-28"
     },
     {
       "number": 801,
-      "word": "CAPER"
+      "word": "CAPER",
+      "date": "2023-08-29"
     },
     {
       "number": 802,
-      "word": "AUDIO"
+      "word": "AUDIO",
+      "date": "2023-08-30"
     },
     {
       "number": 803,
-      "word": "BRIDE"
+      "word": "BRIDE",
+      "date": "2023-08-31"
     },
     {
       "number": 804,
-      "word": "SPACE"
+      "word": "SPACE",
+      "date": "2023-09-01"
     },
     {
       "number": 805,
-      "word": "ONION"
+      "word": "ONION",
+      "date": "2023-09-02"
     },
     {
       "number": 806,
-      "word": "AWAIT"
+      "word": "AWAIT",
+      "date": "2023-09-03"
     },
     {
       "number": 807,
-      "word": "GIDDY"
+      "word": "GIDDY",
+      "date": "2023-09-04"
     },
     {
       "number": 808,
-      "word": "BIRCH"
+      "word": "BIRCH",
+      "date": "2023-09-05"
     },
     {
       "number": 809,
-      "word": "GNASH"
+      "word": "GNASH",
+      "date": "2023-09-06"
     },
     {
       "number": 810,
-      "word": "DWELL"
+      "word": "DWELL",
+      "date": "2023-09-07"
     },
     {
       "number": 811,
-      "word": "ROUSE"
+      "word": "ROUSE",
+      "date": "2023-09-08"
     },
     {
       "number": 812,
-      "word": "LUCKY"
+      "word": "LUCKY",
+      "date": "2023-09-09"
     },
     {
       "number": 813,
-      "word": "QUOTE"
+      "word": "QUOTE",
+      "date": "2023-09-10"
     },
     {
       "number": 814,
-      "word": "OLDER"
+      "word": "OLDER",
+      "date": "2023-09-11"
     },
     {
       "number": 815,
-      "word": "WHISK"
+      "word": "WHISK",
+      "date": "2023-09-12"
     },
     {
       "number": 816,
-      "word": "CLEAR"
+      "word": "CLEAR",
+      "date": "2023-09-13"
     },
     {
       "number": 817,
-      "word": "RAYON"
+      "word": "RAYON",
+      "date": "2023-09-14"
     },
     {
       "number": 818,
-      "word": "EXERT"
+      "word": "EXERT",
+      "date": "2023-09-15"
     },
     {
       "number": 819,
-      "word": "ANGEL"
+      "word": "ANGEL",
+      "date": "2023-09-16"
     },
     {
       "number": 820,
-      "word": "MUSIC"
+      "word": "MUSIC",
+      "date": "2023-09-17"
     },
     {
       "number": 821,
-      "word": "FRANK"
+      "word": "FRANK",
+      "date": "2023-09-18"
     },
     {
       "number": 822,
-      "word": "CLOSE"
+      "word": "CLOSE",
+      "date": "2023-09-19"
     },
     {
       "number": 823,
-      "word": "SNARE"
+      "word": "SNARE",
+      "date": "2023-09-20"
     },
     {
       "number": 824,
-      "word": "STONE"
+      "word": "STONE",
+      "date": "2023-09-21"
     },
     {
       "number": 825,
-      "word": "BRUSH"
+      "word": "BRUSH",
+      "date": "2023-09-22"
     },
     {
       "number": 826,
-      "word": "CAROL"
+      "word": "CAROL",
+      "date": "2023-09-23"
     },
     {
       "number": 827,
-      "word": "RIGHT"
+      "word": "RIGHT",
+      "date": "2023-09-24"
     },
     {
       "number": 828,
-      "word": "ROCKY"
+      "word": "ROCKY",
+      "date": "2023-09-25"
     },
     {
       "number": 829,
-      "word": "LOYAL"
+      "word": "LOYAL",
+      "date": "2023-09-26"
     },
     {
       "number": 830,
-      "word": "SMILE"
+      "word": "SMILE",
+      "date": "2023-09-27"
     },
     {
       "number": 831,
-      "word": "COACH"
+      "word": "COACH",
+      "date": "2023-09-28"
     },
     {
       "number": 832,
-      "word": "AZURE"
+      "word": "AZURE",
+      "date": "2023-09-29"
     },
     {
       "number": 833,
-      "word": "DADDY"
+      "word": "DADDY",
+      "date": "2023-09-30"
     },
     {
       "number": 834,
-      "word": "BERET"
+      "word": "BERET",
+      "date": "2023-10-01"
     },
     {
       "number": 835,
-      "word": "MERRY"
+      "word": "MERRY",
+      "date": "2023-10-02"
     },
     {
       "number": 836,
-      "word": "WHILE"
+      "word": "WHILE",
+      "date": "2023-10-03"
     },
     {
       "number": 837,
-      "word": "SPURT"
+      "word": "SPURT",
+      "date": "2023-10-04"
     },
     {
       "number": 838,
-      "word": "BUNCH"
+      "word": "BUNCH",
+      "date": "2023-10-05"
     },
     {
       "number": 839,
-      "word": "CHIME"
+      "word": "CHIME",
+      "date": "2023-10-06"
     },
     {
       "number": 840,
-      "word": "VIOLA"
+      "word": "VIOLA",
+      "date": "2023-10-07"
     },
     {
       "number": 841,
-      "word": "BINGE"
+      "word": "BINGE",
+      "date": "2023-10-08"
     },
     {
       "number": 842,
-      "word": "TRUTH"
+      "word": "TRUTH",
+      "date": "2023-10-09"
     },
     {
       "number": 843,
-      "word": "SNAIL"
+      "word": "SNAIL",
+      "date": "2023-10-10"
     },
     {
       "number": 844,
-      "word": "SKUNK"
+      "word": "SKUNK",
+      "date": "2023-10-11"
     },
     {
       "number": 845,
-      "word": "KNELT"
+      "word": "KNELT",
+      "date": "2023-10-12"
     },
     {
       "number": 846,
-      "word": "UNCLE"
+      "word": "UNCLE",
+      "date": "2023-10-13"
     },
     {
       "number": 847,
-      "word": "AGENT"
+      "word": "AGENT",
+      "date": "2023-10-14"
     },
     {
       "number": 848,
-      "word": "LEAKY"
+      "word": "LEAKY",
+      "date": "2023-10-15"
     },
     {
       "number": 849,
-      "word": "GRAPH"
+      "word": "GRAPH",
+      "date": "2023-10-16"
     },
     {
       "number": 850,
-      "word": "ADULT"
+      "word": "ADULT",
+      "date": "2023-10-17"
     },
     {
       "number": 851,
-      "word": "MERCY"
+      "word": "MERCY",
+      "date": "2023-10-18"
     },
     {
       "number": 852,
-      "word": "SPLAT"
+      "word": "SPLAT",
+      "date": "2023-10-19"
     },
     {
       "number": 853,
-      "word": "OCCUR"
+      "word": "OCCUR",
+      "date": "2023-10-20"
     },
     {
       "number": 854,
-      "word": "SMIRK"
+      "word": "SMIRK",
+      "date": "2023-10-21"
     },
     {
       "number": 855,
-      "word": "GIVEN"
+      "word": "GIVEN",
+      "date": "2023-10-22"
     },
     {
       "number": 856,
-      "word": "TEMPO"
+      "word": "TEMPO",
+      "date": "2023-10-23"
     },
     {
       "number": 857,
-      "word": "CAUSE"
+      "word": "CAUSE",
+      "date": "2023-10-24"
     },
     {
       "number": 858,
-      "word": "RETRY"
+      "word": "RETRY",
+      "date": "2023-10-25"
     },
     {
       "number": 859,
-      "word": "PIQUE"
+      "word": "PIQUE",
+      "date": "2023-10-26"
     },
     {
       "number": 860,
-      "word": "NOBLE"
+      "word": "NOBLE",
+      "date": "2023-10-27"
     },
     {
       "number": 861,
-      "word": "MASON"
+      "word": "MASON",
+      "date": "2023-10-28"
     },
     {
       "number": 862,
-      "word": "PHONY"
+      "word": "PHONY",
+      "date": "2023-10-29"
     },
     {
       "number": 863,
-      "word": "GRAIL"
+      "word": "GRAIL",
+      "date": "2023-10-30"
     },
     {
       "number": 864,
-      "word": "BLEAK"
+      "word": "BLEAK",
+      "date": "2023-10-31"
     },
     {
       "number": 865,
-      "word": "NOISE"
+      "word": "NOISE",
+      "date": "2023-11-01"
     },
     {
       "number": 866,
-      "word": "UNTIL"
+      "word": "UNTIL",
+      "date": "2023-11-02"
     },
     {
       "number": 867,
-      "word": "ARDOR"
+      "word": "ARDOR",
+      "date": "2023-11-03"
     },
     {
       "number": 868,
-      "word": "MANIA"
+      "word": "MANIA",
+      "date": "2023-11-04"
     },
     {
       "number": 869,
-      "word": "FLARE"
+      "word": "FLARE",
+      "date": "2023-11-05"
     },
     {
       "number": 870,
-      "word": "TRADE"
+      "word": "TRADE",
+      "date": "2023-11-06"
     },
     {
       "number": 871,
-      "word": "LIMIT"
+      "word": "LIMIT",
+      "date": "2023-11-07"
     },
     {
       "number": 872,
-      "word": "NINJA"
+      "word": "NINJA",
+      "date": "2023-11-08"
     },
     {
       "number": 873,
-      "word": "GLAZE"
+      "word": "GLAZE",
+      "date": "2023-11-09"
     },
     {
       "number": 874,
-      "word": "LEASH"
+      "word": "LEASH",
+      "date": "2023-11-10"
     },
     {
       "number": 875,
-      "word": "ACTOR"
+      "word": "ACTOR",
+      "date": "2023-11-11"
     },
     {
       "number": 876,
-      "word": "MEANT"
+      "word": "MEANT",
+      "date": "2023-11-12"
     },
     {
       "number": 877,
-      "word": "GREEN"
+      "word": "GREEN",
+      "date": "2023-11-13"
     },
     {
       "number": 878,
-      "word": "SASSY"
+      "word": "SASSY",
+      "date": "2023-11-14"
     },
     {
       "number": 879,
-      "word": "SIGHT"
+      "word": "SIGHT",
+      "date": "2023-11-15"
     },
     {
       "number": 880,
-      "word": "TRUST"
+      "word": "TRUST",
+      "date": "2023-11-16"
     },
     {
       "number": 881,
-      "word": "TARDY"
+      "word": "TARDY",
+      "date": "2023-11-17"
     },
     {
       "number": 882,
-      "word": "THINK"
+      "word": "THINK",
+      "date": "2023-11-18"
     },
     {
       "number": 883,
-      "word": "QUEUE"
+      "word": "QUEUE",
+      "date": "2023-11-19"
     },
     {
       "number": 884,
-      "word": "CANDY"
+      "word": "CANDY",
+      "date": "2023-11-20"
     },
     {
       "number": 885,
-      "word": "PIANO"
+      "word": "PIANO",
+      "date": "2023-11-21"
     },
     {
       "number": 886,
-      "word": "PIXEL"
+      "word": "PIXEL",
+      "date": "2023-11-22"
     },
     {
       "number": 887,
-      "word": "QUEEN"
+      "word": "QUEEN",
+      "date": "2023-11-23"
     },
     {
       "number": 888,
-      "word": "THROW"
+      "word": "THROW",
+      "date": "2023-11-24"
     },
     {
       "number": 889,
-      "word": "GUIDE"
+      "word": "GUIDE",
+      "date": "2023-11-25"
     },
     {
       "number": 890,
-      "word": "SOLID"
+      "word": "SOLID",
+      "date": "2023-11-26"
     },
     {
       "number": 891,
-      "word": "TAWNY"
+      "word": "TAWNY",
+      "date": "2023-11-27"
     },
     {
       "number": 892,
-      "word": "SCOPE"
+      "word": "SCOPE",
+      "date": "2023-11-28"
     },
     {
       "number": 893,
-      "word": "SUSHI"
+      "word": "SUSHI",
+      "date": "2023-11-29"
     },
     {
       "number": 894,
-      "word": "RESIN"
+      "word": "RESIN",
+      "date": "2023-11-30"
     },
     {
       "number": 895,
-      "word": "TAKEN"
+      "word": "TAKEN",
+      "date": "2023-12-01"
     },
     {
       "number": 896,
-      "word": "GENRE"
+      "word": "GENRE",
+      "date": "2023-12-02"
     },
     {
       "number": 897,
-      "word": "ADAPT"
+      "word": "ADAPT",
+      "date": "2023-12-03"
     },
     {
       "number": 898,
-      "word": "WORST"
+      "word": "WORST",
+      "date": "2023-12-04"
     },
     {
       "number": 899,
-      "word": "YOUNG"
+      "word": "YOUNG",
+      "date": "2023-12-05"
     },
     {
       "number": 900,
-      "word": "WOMAN"
+      "word": "WOMAN",
+      "date": "2023-12-06"
     },
     {
       "number": 901,
-      "word": "SLEEP"
+      "word": "SLEEP",
+      "date": "2023-12-07"
     },
     {
       "number": 902,
-      "word": "SHARP"
+      "word": "SHARP",
+      "date": "2023-12-08"
     },
     {
       "number": 903,
-      "word": "SHIFT"
+      "word": "SHIFT",
+      "date": "2023-12-09"
     },
     {
       "number": 904,
-      "word": "CHAIN"
+      "word": "CHAIN",
+      "date": "2023-12-10"
     },
     {
       "number": 905,
-      "word": "HOUSE"
+      "word": "HOUSE",
+      "date": "2023-12-11"
     },
     {
       "number": 906,
-      "word": "THESE"
+      "word": "THESE",
+      "date": "2023-12-12"
     },
     {
       "number": 907,
-      "word": "SPENT"
+      "word": "SPENT",
+      "date": "2023-12-13"
     },
     {
       "number": 908,
-      "word": "WOULD"
+      "word": "WOULD",
+      "date": "2023-12-14"
     },
     {
       "number": 909,
-      "word": "TOPIC"
+      "word": "TOPIC",
+      "date": "2023-12-15"
     },
     {
       "number": 910,
-      "word": "GLOBE"
+      "word": "GLOBE",
+      "date": "2023-12-16"
     },
     {
       "number": 911,
-      "word": "BACON"
+      "word": "BACON",
+      "date": "2023-12-17"
     },
     {
       "number": 912,
-      "word": "FUNNY"
+      "word": "FUNNY",
+      "date": "2023-12-18"
     },
     {
       "number": 913,
-      "word": "TABLE"
+      "word": "TABLE",
+      "date": "2023-12-19"
     },
     {
       "number": 914,
-      "word": "SMALL"
+      "word": "SMALL",
+      "date": "2023-12-20"
     },
     {
       "number": 915,
-      "word": "BUILT"
+      "word": "BUILT",
+      "date": "2023-12-21"
     },
     {
       "number": 916,
-      "word": "TOUCH"
+      "word": "TOUCH",
+      "date": "2023-12-22"
     },
     {
       "number": 917,
-      "word": "SLOPE"
+      "word": "SLOPE",
+      "date": "2023-12-23"
     },
     {
       "number": 918,
-      "word": "GRACE"
+      "word": "GRACE",
+      "date": "2023-12-24"
     },
     {
       "number": 919,
-      "word": "EVOKE"
+      "word": "EVOKE",
+      "date": "2023-12-25"
     },
     {
       "number": 920,
-      "word": "PHONE"
+      "word": "PHONE",
+      "date": "2023-12-26"
     },
     {
       "number": 921,
-      "word": "DAISY"
+      "word": "DAISY",
+      "date": "2023-12-27"
     },
     {
       "number": 922,
-      "word": "LEARN"
+      "word": "LEARN",
+      "date": "2023-12-28"
     },
     {
       "number": 923,
-      "word": "CHILD"
+      "word": "CHILD",
+      "date": "2023-12-29"
     },
     {
       "number": 924,
-      "word": "THREE"
+      "word": "THREE",
+      "date": "2023-12-30"
     },
     {
       "number": 925,
-      "word": "SALTY"
+      "word": "SALTY",
+      "date": "2023-12-31"
     },
     {
       "number": 926,
-      "word": "MURAL"
+      "word": "MURAL",
+      "date": "2024-01-01"
     },
     {
       "number": 927,
-      "word": "AGING"
+      "word": "AGING",
+      "date": "2024-01-02"
     },
     {
       "number": 928,
-      "word": "TWIRL"
+      "word": "TWIRL",
+      "date": "2024-01-03"
     },
     {
       "number": 929,
-      "word": "SCANT"
+      "word": "SCANT",
+      "date": "2024-01-04"
     },
     {
       "number": 930,
-      "word": "LUNGE"
+      "word": "LUNGE",
+      "date": "2024-01-05"
     },
     {
       "number": 931,
-      "word": "CABLE"
+      "word": "CABLE",
+      "date": "2024-01-06"
     },
     {
       "number": 932,
-      "word": "STONY"
+      "word": "STONY",
+      "date": "2024-01-07"
     },
     {
       "number": 933,
-      "word": "FINAL"
+      "word": "FINAL",
+      "date": "2024-01-08"
     },
     {
       "number": 934,
-      "word": "LINER"
+      "word": "LINER",
+      "date": "2024-01-09"
     },
     {
       "number": 935,
-      "word": "THREW"
+      "word": "THREW",
+      "date": "2024-01-10"
     },
     {
       "number": 936,
-      "word": "BRIEF"
+      "word": "BRIEF",
+      "date": "2024-01-11"
     },
     {
       "number": 937,
-      "word": "ROUTE"
+      "word": "ROUTE",
+      "date": "2024-01-12"
     },
     {
       "number": 938,
-      "word": "HEARD"
+      "word": "HEARD",
+      "date": "2024-01-13"
     },
     {
       "number": 939,
-      "word": "DOING"
+      "word": "DOING",
+      "date": "2024-01-14"
     },
     {
       "number": 940,
-      "word": "LUNCH"
+      "word": "LUNCH",
+      "date": "2024-01-15"
     },
     {
       "number": 941,
-      "word": "BLOND"
+      "word": "BLOND",
+      "date": "2024-01-16"
     },
     {
       "number": 942,
-      "word": "COURT"
+      "word": "COURT",
+      "date": "2024-01-17"
     },
     {
       "number": 943,
-      "word": "STOLE"
+      "word": "STOLE",
+      "date": "2024-01-18"
     },
     {
       "number": 944,
-      "word": "THING"
+      "word": "THING",
+      "date": "2024-01-19"
     },
     {
       "number": 945,
-      "word": "LARGE"
+      "word": "LARGE",
+      "date": "2024-01-20"
     },
     {
       "number": 946,
-      "word": "NORTH"
+      "word": "NORTH",
+      "date": "2024-01-21"
     },
     {
       "number": 947,
-      "word": "TWEAK"
+      "word": "TWEAK",
+      "date": "2024-01-22"
     },
     {
       "number": 948,
-      "word": "STILL"
+      "word": "STILL",
+      "date": "2024-01-23"
     },
     {
       "number": 949,
-      "word": "RELIC"
+      "word": "RELIC",
+      "date": "2024-01-24"
     },
     {
       "number": 950,
-      "word": "BLOCK"
+      "word": "BLOCK",
+      "date": "2024-01-25"
     },
     {
       "number": 951,
-      "word": "ALOOF"
+      "word": "ALOOF",
+      "date": "2024-01-26"
     },
     {
       "number": 952,
-      "word": "SNAKE"
+      "word": "SNAKE",
+      "date": "2024-01-27"
     },
     {
       "number": 953,
-      "word": "EMBER"
+      "word": "EMBER",
+      "date": "2024-01-28"
     },
     {
       "number": 954,
-      "word": "LEGGY"
+      "word": "LEGGY",
+      "date": "2024-01-29"
     },
     {
       "number": 955,
-      "word": "EXPEL"
+      "word": "EXPEL",
+      "date": "2024-01-30"
     },
     {
       "number": 956,
-      "word": "BULKY"
+      "word": "BULKY",
+      "date": "2024-01-31"
     },
     {
       "number": 957,
-      "word": "ALIVE"
+      "word": "ALIVE",
+      "date": "2024-02-01"
     },
     {
       "number": 958,
-      "word": "CLEFT"
+      "word": "CLEFT",
+      "date": "2024-02-02"
     },
     {
       "number": 959,
-      "word": "MICRO"
+      "word": "MICRO",
+      "date": "2024-02-03"
     },
     {
       "number": 960,
-      "word": "VERGE"
+      "word": "VERGE",
+      "date": "2024-02-04"
     },
     {
       "number": 961,
-      "word": "REPEL"
+      "word": "REPEL",
+      "date": "2024-02-05"
     },
     {
       "number": 962,
-      "word": "WHICH"
+      "word": "WHICH",
+      "date": "2024-02-06"
     },
     {
       "number": 963,
-      "word": "AFTER"
+      "word": "AFTER",
+      "date": "2024-02-07"
     },
     {
       "number": 964,
-      "word": "PLACE"
+      "word": "PLACE",
+      "date": "2024-02-08"
     },
     {
       "number": 965,
-      "word": "STIFF"
+      "word": "STIFF",
+      "date": "2024-02-09"
     },
     {
       "number": 966,
-      "word": "FRIED"
+      "word": "FRIED",
+      "date": "2024-02-10"
     },
     {
       "number": 967,
-      "word": "NEVER"
+      "word": "NEVER",
+      "date": "2024-02-11"
     },
     {
       "number": 968,
-      "word": "PASTA"
+      "word": "PASTA",
+      "date": "2024-02-12"
     },
     {
       "number": 969,
-      "word": "SCRAM"
+      "word": "SCRAM",
+      "date": "2024-02-13"
     },
     {
       "number": 970,
-      "word": "TALON"
+      "word": "TALON",
+      "date": "2024-02-14"
     },
     {
       "number": 971,
-      "word": "ASCOT"
+      "word": "ASCOT",
+      "date": "2024-02-15"
     },
     {
       "number": 972,
-      "word": "STASH"
+      "word": "STASH",
+      "date": "2024-02-16"
     },
     {
       "number": 973,
-      "word": "PSALM"
+      "word": "PSALM",
+      "date": "2024-02-17"
     },
     {
       "number": 974,
-      "word": "RIDGE"
+      "word": "RIDGE",
+      "date": "2024-02-18"
     },
     {
       "number": 975,
-      "word": "PRICE"
+      "word": "PRICE",
+      "date": "2024-02-19"
     },
     {
       "number": 976,
-      "word": "MATCH"
+      "word": "MATCH",
+      "date": "2024-02-20"
     },
     {
       "number": 977,
-      "word": "BUILD"
+      "word": "BUILD",
+      "date": "2024-02-21"
     },
     {
       "number": 978,
-      "word": "HEAVY"
+      "word": "HEAVY",
+      "date": "2024-02-22"
     },
     {
       "number": 979,
-      "word": "APART"
+      "word": "APART",
+      "date": "2024-02-23"
     },
     {
       "number": 980,
-      "word": "PIPER"
+      "word": "PIPER",
+      "date": "2024-02-24"
     },
     {
       "number": 981,
-      "word": "SMITH"
+      "word": "SMITH",
+      "date": "2024-02-25"
     },
     {
       "number": 982,
-      "word": "OFTEN"
+      "word": "OFTEN",
+      "date": "2024-02-26"
     },
     {
       "number": 983,
-      "word": "SENSE"
+      "word": "SENSE",
+      "date": "2024-02-27"
     },
     {
       "number": 984,
-      "word": "DEVIL"
+      "word": "DEVIL",
+      "date": "2024-02-28"
     },
     {
       "number": 985,
-      "word": "IMAGE"
+      "word": "IMAGE",
+      "date": "2024-02-29"
     },
     {
       "number": 986,
-      "word": "FORTY"
+      "word": "FORTY",
+      "date": "2024-03-01"
     },
     {
       "number": 987,
-      "word": "URBAN"
+      "word": "URBAN",
+      "date": "2024-03-02"
     },
     {
       "number": 988,
-      "word": "STATE"
+      "word": "STATE",
+      "date": "2024-03-03"
     },
     {
       "number": 989,
-      "word": "FLAME"
+      "word": "FLAME",
+      "date": "2024-03-04"
     },
     {
       "number": 990,
-      "word": "HUNCH"
+      "word": "HUNCH",
+      "date": "2024-03-05"
     },
     {
       "number": 991,
-      "word": "TEARY"
+      "word": "TEARY",
+      "date": "2024-03-06"
     },
     {
       "number": 992,
-      "word": "CLONE"
+      "word": "CLONE",
+      "date": "2024-03-07"
     },
     {
       "number": 993,
-      "word": "EARLY"
+      "word": "EARLY",
+      "date": "2024-03-08"
     },
     {
       "number": 994,
-      "word": "CHEER"
+      "word": "CHEER",
+      "date": "2024-03-09"
     },
     {
       "number": 995,
-      "word": "GRASP"
+      "word": "GRASP",
+      "date": "2024-03-10"
     },
     {
       "number": 996,
-      "word": "PESKY"
+      "word": "PESKY",
+      "date": "2024-03-11"
     },
     {
       "number": 997,
-      "word": "HEAVE"
+      "word": "HEAVE",
+      "date": "2024-03-12"
     },
     {
       "number": 998,
-      "word": "LOCAL"
+      "word": "LOCAL",
+      "date": "2024-03-13"
     },
     {
       "number": 999,
-      "word": "SINCE"
+      "word": "SINCE",
+      "date": "2024-03-14"
     },
     {
       "number": 1000,
-      "word": "ERUPT"
+      "word": "ERUPT",
+      "date": "2024-03-15"
     },
     {
       "number": 1001,
-      "word": "TOXIN"
+      "word": "TOXIN",
+      "date": "2024-03-16"
     },
     {
       "number": 1002,
-      "word": "SNORT"
+      "word": "SNORT",
+      "date": "2024-03-17"
     },
     {
       "number": 1003,
-      "word": "SPELT"
+      "word": "SPELT",
+      "date": "2024-03-18"
     },
     {
       "number": 1004,
-      "word": "ABIDE"
+      "word": "ABIDE",
+      "date": "2024-03-19"
     },
     {
       "number": 1005,
-      "word": "LINGO"
+      "word": "LINGO",
+      "date": "2024-03-20"
     },
     {
       "number": 1006,
-      "word": "SHADE"
+      "word": "SHADE",
+      "date": "2024-03-21"
     },
     {
       "number": 1007,
-      "word": "DECAY"
+      "word": "DECAY",
+      "date": "2024-03-22"
     },
     {
       "number": 1008,
-      "word": "RISEN"
+      "word": "RISEN",
+      "date": "2024-03-23"
     },
     {
       "number": 1009,
-      "word": "TOWEL"
+      "word": "TOWEL",
+      "date": "2024-03-24"
     },
     {
       "number": 1010,
-      "word": "SALLY"
+      "word": "SALLY",
+      "date": "2024-03-25"
     },
     {
       "number": 1011,
-      "word": "MAYOR"
+      "word": "MAYOR",
+      "date": "2024-03-26"
     },
     {
       "number": 1012,
-      "word": "STUNG"
+      "word": "STUNG",
+      "date": "2024-03-27"
     },
     {
       "number": 1013,
-      "word": "SPEAK"
+      "word": "SPEAK",
+      "date": "2024-03-28"
     },
     {
       "number": 1014,
-      "word": "REALM"
+      "word": "REALM",
+      "date": "2024-03-29"
     },
     {
       "number": 1015,
-      "word": "FORCE"
+      "word": "FORCE",
+      "date": "2024-03-30"
     },
     {
       "number": 1016,
-      "word": "TABOO"
+      "word": "TABOO",
+      "date": "2024-03-31"
     },
     {
       "number": 1017,
-      "word": "FROND"
+      "word": "FROND",
+      "date": "2024-04-01"
     },
     {
       "number": 1018,
-      "word": "SERUM"
+      "word": "SERUM",
+      "date": "2024-04-02"
     },
     {
       "number": 1019,
-      "word": "PLAIT"
+      "word": "PLAIT",
+      "date": "2024-04-03"
     },
     {
       "number": 1020,
-      "word": "CLIMB"
+      "word": "CLIMB",
+      "date": "2024-04-04"
     },
     {
       "number": 1021,
-      "word": "WRIST"
+      "word": "WRIST",
+      "date": "2024-04-05"
     },
     {
       "number": 1022,
-      "word": "FINCH"
+      "word": "FINCH",
+      "date": "2024-04-06"
     },
     {
       "number": 1023,
-      "word": "VOILA"
+      "word": "VOILA",
+      "date": "2024-04-07"
     },
     {
       "number": 1024,
-      "word": "BREED"
+      "word": "BREED",
+      "date": "2024-04-08"
     },
     {
       "number": 1025,
-      "word": "MERGE"
+      "word": "MERGE",
+      "date": "2024-04-09"
     },
     {
       "number": 1026,
-      "word": "BROTH"
+      "word": "BROTH",
+      "date": "2024-04-10"
     },
     {
       "number": 1027,
-      "word": "LOUSE"
+      "word": "LOUSE",
+      "date": "2024-04-11"
     },
     {
       "number": 1028,
-      "word": "WHINY"
+      "word": "WHINY",
+      "date": "2024-04-12"
     },
     {
       "number": 1029,
-      "word": "STEEL"
+      "word": "STEEL",
+      "date": "2024-04-13"
     },
     {
       "number": 1030,
-      "word": "BLIMP"
+      "word": "BLIMP",
+      "date": "2024-04-14"
     },
     {
       "number": 1031,
-      "word": "EQUIP"
+      "word": "EQUIP",
+      "date": "2024-04-15"
     },
     {
       "number": 1032,
-      "word": "SHANK"
+      "word": "SHANK",
+      "date": "2024-04-16"
     },
     {
       "number": 1033,
-      "word": "TITHE"
+      "word": "TITHE",
+      "date": "2024-04-17"
     },
     {
       "number": 1034,
-      "word": "FACET"
+      "word": "FACET",
+      "date": "2024-04-18"
     },
     {
       "number": 1035,
-      "word": "RAISE"
+      "word": "RAISE",
+      "date": "2024-04-19"
     },
     {
       "number": 1036,
-      "word": "LUCID"
+      "word": "LUCID",
+      "date": "2024-04-20"
     },
     {
       "number": 1037,
-      "word": "JOLLY"
+      "word": "JOLLY",
+      "date": "2024-04-21"
     },
     {
       "number": 1038,
-      "word": "LASER"
+      "word": "LASER",
+      "date": "2024-04-22"
     },
     {
       "number": 1039,
-      "word": "ROVER"
+      "word": "ROVER",
+      "date": "2024-04-23"
     },
     {
       "number": 1040,
-      "word": "OVERT"
+      "word": "OVERT",
+      "date": "2024-04-24"
     },
     {
       "number": 1041,
-      "word": "INTRO"
+      "word": "INTRO",
+      "date": "2024-04-25"
     },
     {
       "number": 1042,
-      "word": "VAPID"
+      "word": "VAPID",
+      "date": "2024-04-26"
     },
     {
       "number": 1043,
-      "word": "GLEAM"
+      "word": "GLEAM",
+      "date": "2024-04-27"
     },
     {
       "number": 1044,
-      "word": "PRUNE"
+      "word": "PRUNE",
+      "date": "2024-04-28"
     },
     {
       "number": 1045,
-      "word": "CRAFT"
+      "word": "CRAFT",
+      "date": "2024-04-29"
     },
     {
       "number": 1046,
-      "word": "PROWL"
+      "word": "PROWL",
+      "date": "2024-04-30"
     },
     {
       "number": 1047,
-      "word": "DIARY"
+      "word": "DIARY",
+      "date": "2024-05-01"
     },
     {
       "number": 1048,
-      "word": "SLICE"
+      "word": "SLICE",
+      "date": "2024-05-02"
     },
     {
       "number": 1049,
-      "word": "EBONY"
+      "word": "EBONY",
+      "date": "2024-05-03"
     },
     {
       "number": 1050,
-      "word": "VALUE"
+      "word": "VALUE",
+      "date": "2024-05-04"
     },
     {
       "number": 1051,
-      "word": "DECAL"
+      "word": "DECAL",
+      "date": "2024-05-05"
     },
     {
       "number": 1052,
-      "word": "SHAVE"
+      "word": "SHAVE",
+      "date": "2024-05-06"
     },
     {
       "number": 1053,
-      "word": "MUSTY"
+      "word": "MUSTY",
+      "date": "2024-05-07"
     },
     {
       "number": 1054,
-      "word": "PIOUS"
+      "word": "PIOUS",
+      "date": "2024-05-08"
     },
     {
       "number": 1055,
-      "word": "JERKY"
+      "word": "JERKY",
+      "date": "2024-05-09"
     },
     {
       "number": 1056,
-      "word": "MEDIA"
+      "word": "MEDIA",
+      "date": "2024-05-10"
     },
     {
       "number": 1057,
-      "word": "TIDAL"
+      "word": "TIDAL",
+      "date": "2024-05-11"
     },
     {
       "number": 1058,
-      "word": "OUTER"
+      "word": "OUTER",
+      "date": "2024-05-12"
     },
     {
       "number": 1059,
-      "word": "CUMIN"
+      "word": "CUMIN",
+      "date": "2024-05-13"
     },
     {
       "number": 1060,
-      "word": "AMASS"
+      "word": "AMASS",
+      "date": "2024-05-14"
     },
     {
       "number": 1061,
-      "word": "PINCH"
+      "word": "PINCH",
+      "date": "2024-05-15"
     },
     {
       "number": 1062,
-      "word": "STALL"
+      "word": "STALL",
+      "date": "2024-05-16"
     },
     {
       "number": 1063,
-      "word": "TUTOR"
+      "word": "TUTOR",
+      "date": "2024-05-17"
     },
     {
       "number": 1064,
-      "word": "BRINY"
+      "word": "BRINY",
+      "date": "2024-05-18"
     },
     {
       "number": 1065,
-      "word": "HITCH"
+      "word": "HITCH",
+      "date": "2024-05-19"
     },
     {
       "number": 1066,
-      "word": "NICER"
+      "word": "NICER",
+      "date": "2024-05-20"
     },
     {
       "number": 1067,
-      "word": "DINGO"
+      "word": "DINGO",
+      "date": "2024-05-21"
     },
     {
       "number": 1068,
-      "word": "EXALT"
+      "word": "EXALT",
+      "date": "2024-05-22"
     },
     {
       "number": 1069,
-      "word": "SWISH"
+      "word": "SWISH",
+      "date": "2024-05-23"
     },
     {
       "number": 1070,
-      "word": "GLIDE"
+      "word": "GLIDE",
+      "date": "2024-05-24"
     },
     {
       "number": 1071,
-      "word": "TITAN"
+      "word": "TITAN",
+      "date": "2024-05-25"
     },
     {
       "number": 1072,
-      "word": "BEVEL"
+      "word": "BEVEL",
+      "date": "2024-05-26"
     },
     {
       "number": 1073,
-      "word": "SKIER"
+      "word": "SKIER",
+      "date": "2024-05-27"
     },
     {
       "number": 1074,
-      "word": "MINUS"
+      "word": "MINUS",
+      "date": "2024-05-28"
     },
     {
       "number": 1075,
-      "word": "PAPAL"
+      "word": "PAPAL",
+      "date": "2024-05-29"
     },
     {
       "number": 1076,
-      "word": "GUMMY"
+      "word": "GUMMY",
+      "date": "2024-05-30"
     },
     {
       "number": 1077,
-      "word": "CHAOS"
+      "word": "CHAOS",
+      "date": "2024-05-31"
     },
     {
       "number": 1078,
-      "word": "BASIN"
+      "word": "BASIN",
+      "date": "2024-06-01"
     },
     {
       "number": 1079,
-      "word": "BRAVO"
+      "word": "BRAVO",
+      "date": "2024-06-02"
     },
     {
       "number": 1080,
-      "word": "STARK"
+      "word": "STARK",
+      "date": "2024-06-03"
     },
     {
       "number": 1081,
-      "word": "GROOM"
+      "word": "GROOM",
+      "date": "2024-06-04"
     },
     {
       "number": 1082,
-      "word": "ORGAN"
+      "word": "ORGAN",
+      "date": "2024-06-05"
     },
     {
       "number": 1083,
-      "word": "ETHER"
+      "word": "ETHER",
+      "date": "2024-06-06"
     },
     {
       "number": 1084,
-      "word": "MELON"
+      "word": "MELON",
+      "date": "2024-06-07"
     },
     {
       "number": 1085,
-      "word": "HENCE"
+      "word": "HENCE",
+      "date": "2024-06-08"
     },
     {
       "number": 1086,
-      "word": "CROWD"
+      "word": "CROWD",
+      "date": "2024-06-09"
     },
     {
       "number": 1087,
-      "word": "MANGA"
+      "word": "MANGA",
+      "date": "2024-06-10"
     },
     {
       "number": 1088,
-      "word": "SWUNG"
+      "word": "SWUNG",
+      "date": "2024-06-11"
     },
     {
       "number": 1089,
-      "word": "DETER"
+      "word": "DETER",
+      "date": "2024-06-12"
     },
     {
       "number": 1090,
-      "word": "ANGST"
+      "word": "ANGST",
+      "date": "2024-06-13"
     },
     {
       "number": 1091,
-      "word": "VAULT"
+      "word": "VAULT",
+      "date": "2024-06-14"
     },
     {
       "number": 1092,
-      "word": "PROUD"
+      "word": "PROUD",
+      "date": "2024-06-15"
     },
     {
       "number": 1093,
-      "word": "GRIND"
+      "word": "GRIND",
+      "date": "2024-06-16"
     },
     {
       "number": 1094,
-      "word": "PRIOR"
+      "word": "PRIOR",
+      "date": "2024-06-17"
     },
     {
       "number": 1095,
-      "word": "COVER"
+      "word": "COVER",
+      "date": "2024-06-18"
     },
     {
       "number": 1096,
-      "word": "TERSE"
+      "word": "TERSE",
+      "date": "2024-06-19"
     },
     {
       "number": 1097,
-      "word": "SCENT"
+      "word": "SCENT",
+      "date": "2024-06-20"
     },
     {
       "number": 1098,
-      "word": "PAINT"
+      "word": "PAINT",
+      "date": "2024-06-21"
     },
     {
       "number": 1099,
-      "word": "EDICT"
+      "word": "EDICT",
+      "date": "2024-06-22"
     },
     {
       "number": 1100,
-      "word": "BUGLE"
+      "word": "BUGLE",
+      "date": "2024-06-23"
     },
     {
       "number": 1101,
-      "word": "DOLLY"
+      "word": "DOLLY",
+      "date": "2024-06-24"
     },
     {
       "number": 1102,
-      "word": "SAVOR"
+      "word": "SAVOR",
+      "date": "2024-06-25"
     },
     {
       "number": 1103,
-      "word": "KNEAD"
+      "word": "KNEAD",
+      "date": "2024-06-26"
     },
     {
       "number": 1104,
-      "word": "ORDER"
+      "word": "ORDER",
+      "date": "2024-06-27"
     },
     {
       "number": 1105,
-      "word": "DROVE"
+      "word": "DROVE",
+      "date": "2024-06-28"
     },
     {
       "number": 1106,
-      "word": "ZEBRA"
+      "word": "ZEBRA",
+      "date": "2024-06-29"
     },
     {
       "number": 1107,
-      "word": "BUDDY"
+      "word": "BUDDY",
+      "date": "2024-06-30"
     },
     {
       "number": 1108,
-      "word": "ADAGE"
+      "word": "ADAGE",
+      "date": "2024-07-01"
     },
     {
       "number": 1109,
-      "word": "INLAY"
+      "word": "INLAY",
+      "date": "2024-07-02"
     },
     {
       "number": 1110,
-      "word": "THIGH"
+      "word": "THIGH",
+      "date": "2024-07-03"
     },
     {
       "number": 1111,
-      "word": "DEBUT"
+      "word": "DEBUT",
+      "date": "2024-07-04"
     },
     {
       "number": 1112,
-      "word": "CRUSH"
+      "word": "CRUSH",
+      "date": "2024-07-05"
     },
     {
       "number": 1113,
-      "word": "SCOFF"
+      "word": "SCOFF",
+      "date": "2024-07-06"
     },
     {
       "number": 1114,
-      "word": "CANON"
+      "word": "CANON",
+      "date": "2024-07-07"
     },
     {
       "number": 1115,
-      "word": "SHAPE"
+      "word": "SHAPE",
+      "date": "2024-07-08"
     },
     {
       "number": 1116,
-      "word": "BLARE"
+      "word": "BLARE",
+      "date": "2024-07-09"
     },
     {
       "number": 1117,
-      "word": "GAUNT"
+      "word": "GAUNT",
+      "date": "2024-07-10"
     },
     {
       "number": 1118,
-      "word": "CAMEO"
+      "word": "CAMEO",
+      "date": "2024-07-11"
     },
     {
       "number": 1119,
-      "word": "JIFFY"
+      "word": "JIFFY",
+      "date": "2024-07-12"
     },
     {
       "number": 1120,
-      "word": "ENACT"
+      "word": "ENACT",
+      "date": "2024-07-13"
     },
     {
       "number": 1121,
-      "word": "VIDEO"
+      "word": "VIDEO",
+      "date": "2024-07-14"
     },
     {
       "number": 1122,
-      "word": "SWOON"
+      "word": "SWOON",
+      "date": "2024-07-15"
     },
     {
       "number": 1123,
-      "word": "DECOY"
+      "word": "DECOY",
+      "date": "2024-07-16"
     },
     {
       "number": 1124,
-      "word": "QUITE"
+      "word": "QUITE",
+      "date": "2024-07-17"
     },
     {
       "number": 1125,
-      "word": "NERDY"
+      "word": "NERDY",
+      "date": "2024-07-18"
     },
     {
       "number": 1126,
-      "word": "REFER"
+      "word": "REFER",
+      "date": "2024-07-19"
     },
     {
       "number": 1127,
-      "word": "SHAFT"
+      "word": "SHAFT",
+      "date": "2024-07-20"
     },
     {
       "number": 1128,
-      "word": "SPECK"
+      "word": "SPECK",
+      "date": "2024-07-21"
     },
     {
       "number": 1129,
-      "word": "CADET"
+      "word": "CADET",
+      "date": "2024-07-22"
     },
     {
       "number": 1130,
-      "word": "PRONG"
+      "word": "PRONG",
+      "date": "2024-07-23"
     },
     {
       "number": 1131,
-      "word": "FORTE"
+      "word": "FORTE",
+      "date": "2024-07-24"
     },
     {
       "number": 1132,
-      "word": "PORCH"
+      "word": "PORCH",
+      "date": "2024-07-25"
     },
     {
       "number": 1133,
-      "word": "AWASH"
+      "word": "AWASH",
+      "date": "2024-07-26"
     },
     {
       "number": 1134,
-      "word": "JUICE"
+      "word": "JUICE",
+      "date": "2024-07-27"
     },
     {
       "number": 1135,
-      "word": "SMOCK"
+      "word": "SMOCK",
+      "date": "2024-07-28"
     },
     {
       "number": 1136,
-      "word": "SUPER"
+      "word": "SUPER",
+      "date": "2024-07-29"
     },
     {
       "number": 1137,
-      "word": "FERAL"
+      "word": "FERAL",
+      "date": "2024-07-30"
     },
     {
       "number": 1138,
-      "word": "PENNE"
+      "word": "PENNE",
+      "date": "2024-07-31"
     },
     {
       "number": 1139,
-      "word": "CHALK"
+      "word": "CHALK",
+      "date": "2024-08-01"
     },
     {
       "number": 1140,
-      "word": "FLAKE"
+      "word": "FLAKE",
+      "date": "2024-08-02"
     },
     {
       "number": 1141,
-      "word": "SCALE"
+      "word": "SCALE",
+      "date": "2024-08-03"
     },
     {
       "number": 1142,
-      "word": "LOWER"
+      "word": "LOWER",
+      "date": "2024-08-04"
     },
     {
       "number": 1143,
-      "word": "ENSUE"
+      "word": "ENSUE",
+      "date": "2024-08-05"
     },
     {
       "number": 1144,
-      "word": "ANVIL"
+      "word": "ANVIL",
+      "date": "2024-08-06"
     },
     {
       "number": 1145,
-      "word": "MACAW"
+      "word": "MACAW",
+      "date": "2024-08-07"
     },
     {
       "number": 1146,
-      "word": "SAUCY"
+      "word": "SAUCY",
+      "date": "2024-08-08"
     },
     {
       "number": 1147,
-      "word": "OUNCE"
+      "word": "OUNCE",
+      "date": "2024-08-09"
     },
     {
       "number": 1148,
-      "word": "MEDIC"
+      "word": "MEDIC",
+      "date": "2024-08-10"
     },
     {
       "number": 1149,
-      "word": "SCONE"
+      "word": "SCONE",
+      "date": "2024-08-11"
     },
     {
       "number": 1150,
-      "word": "SKIFF"
+      "word": "SKIFF",
+      "date": "2024-08-12"
     },
     {
       "number": 1151,
-      "word": "NEIGH"
+      "word": "NEIGH",
+      "date": "2024-08-13"
     },
     {
       "number": 1152,
-      "word": "SHORE"
+      "word": "SHORE",
+      "date": "2024-08-14"
     },
     {
       "number": 1153,
-      "word": "ACORN"
+      "word": "ACORN",
+      "date": "2024-08-15"
     },
     {
       "number": 1154,
-      "word": "BRACE"
+      "word": "BRACE",
+      "date": "2024-08-16"
     },
     {
       "number": 1155,
-      "word": "STORM"
+      "word": "STORM",
+      "date": "2024-08-17"
     },
     {
       "number": 1156,
-      "word": "LANKY"
+      "word": "LANKY",
+      "date": "2024-08-18"
     },
     {
       "number": 1157,
-      "word": "METER"
+      "word": "METER",
+      "date": "2024-08-19"
     },
     {
       "number": 1158,
-      "word": "DELAY"
+      "word": "DELAY",
+      "date": "2024-08-20"
     },
     {
       "number": 1159,
-      "word": "MULCH"
+      "word": "MULCH",
+      "date": "2024-08-21"
     },
     {
       "number": 1160,
-      "word": "BRUTE"
+      "word": "BRUTE",
+      "date": "2024-08-22"
     },
     {
       "number": 1161,
-      "word": "LEECH"
+      "word": "LEECH",
+      "date": "2024-08-23"
     },
     {
       "number": 1162,
-      "word": "FILET"
+      "word": "FILET",
+      "date": "2024-08-24"
     },
     {
       "number": 1163,
-      "word": "SKATE"
+      "word": "SKATE",
+      "date": "2024-08-25"
     },
     {
       "number": 1164,
-      "word": "STAKE"
+      "word": "STAKE",
+      "date": "2024-08-26"
     },
     {
       "number": 1165,
-      "word": "CROWN"
+      "word": "CROWN",
+      "date": "2024-08-27"
     },
     {
       "number": 1166,
-      "word": "LITHE"
+      "word": "LITHE",
+      "date": "2024-08-28"
     },
     {
       "number": 1167,
-      "word": "FLUNK"
+      "word": "FLUNK",
+      "date": "2024-08-29"
     },
     {
       "number": 1168,
-      "word": "KNAVE"
+      "word": "KNAVE",
+      "date": "2024-08-30"
     },
     {
       "number": 1169,
-      "word": "SPOUT"
+      "word": "SPOUT",
+      "date": "2024-08-31"
     },
     {
       "number": 1170,
-      "word": "MUSHY"
+      "word": "MUSHY",
+      "date": "2024-09-01"
     },
     {
       "number": 1171,
-      "word": "CAMEL"
+      "word": "CAMEL",
+      "date": "2024-09-02"
     },
     {
       "number": 1172,
-      "word": "FAINT"
+      "word": "FAINT",
+      "date": "2024-09-03"
     },
     {
       "number": 1173,
-      "word": "STERN"
+      "word": "STERN",
+      "date": "2024-09-04"
     },
     {
       "number": 1174,
-      "word": "WIDEN"
+      "word": "WIDEN",
+      "date": "2024-09-05"
     },
     {
       "number": 1175,
-      "word": "RERUN"
+      "word": "RERUN",
+      "date": "2024-09-06"
     },
     {
       "number": 1176,
-      "word": "OWNER"
+      "word": "OWNER",
+      "date": "2024-09-07"
     },
     {
       "number": 1177,
-      "word": "DRAWN"
+      "word": "DRAWN",
+      "date": "2024-09-08"
     },
     {
       "number": 1178,
-      "word": "DEBIT"
+      "word": "DEBIT",
+      "date": "2024-09-09"
     },
     {
       "number": 1179,
-      "word": "REBEL"
+      "word": "REBEL",
+      "date": "2024-09-10"
     },
     {
       "number": 1180,
-      "word": "AISLE"
+      "word": "AISLE",
+      "date": "2024-09-11"
     },
     {
       "number": 1181,
-      "word": "BRASS"
+      "word": "BRASS",
+      "date": "2024-09-12"
     },
     {
       "number": 1182,
-      "word": "HARSH"
+      "word": "HARSH",
+      "date": "2024-09-13"
     },
     {
       "number": 1183,
-      "word": "BROAD"
+      "word": "BROAD",
+      "date": "2024-09-14"
     },
     {
       "number": 1184,
-      "word": "RECUR"
+      "word": "RECUR",
+      "date": "2024-09-15"
     },
     {
       "number": 1185,
-      "word": "HONEY"
+      "word": "HONEY",
+      "date": "2024-09-16"
     },
     {
       "number": 1186,
-      "word": "BEAUT"
+      "word": "BEAUT",
+      "date": "2024-09-17"
     },
     {
       "number": 1187,
-      "word": "FULLY"
+      "word": "FULLY",
+      "date": "2024-09-18"
     },
     {
       "number": 1188,
-      "word": "PRESS"
+      "word": "PRESS",
+      "date": "2024-09-19"
     },
     {
       "number": 1189,
-      "word": "SMOKE"
+      "word": "SMOKE",
+      "date": "2024-09-20"
     },
     {
       "number": 1190,
-      "word": "SEVEN"
+      "word": "SEVEN",
+      "date": "2024-09-21"
     },
     {
       "number": 1191,
-      "word": "TEACH"
+      "word": "TEACH",
+      "date": "2024-09-22"
     },
     {
       "number": 1192,
-      "word": "STEAM"
+      "word": "STEAM",
+      "date": "2024-09-23"
     },
     {
       "number": 1193,
-      "word": "HANDY"
+      "word": "HANDY",
+      "date": "2024-09-24"
     },
     {
       "number": 1194,
-      "word": "TORCH"
+      "word": "TORCH",
+      "date": "2024-09-25"
     },
     {
       "number": 1195,
-      "word": "THANK"
+      "word": "THANK",
+      "date": "2024-09-26"
     },
     {
       "number": 1196,
-      "word": "FAITH"
+      "word": "FAITH",
+      "date": "2024-09-27"
     },
     {
       "number": 1197,
-      "word": "BRAIN"
+      "word": "BRAIN",
+      "date": "2024-09-28"
     },
     {
       "number": 1198,
-      "word": "RIDER"
+      "word": "RIDER",
+      "date": "2024-09-29"
     },
     {
       "number": 1199,
-      "word": "CLOUD"
+      "word": "CLOUD",
+      "date": "2024-09-30"
     },
     {
       "number": 1200,
-      "word": "MODEM"
+      "word": "MODEM",
+      "date": "2024-10-01"
     },
     {
       "number": 1201,
-      "word": "SHELL"
+      "word": "SHELL",
+      "date": "2024-10-02"
     },
     {
       "number": 1202,
-      "word": "WAGON"
+      "word": "WAGON",
+      "date": "2024-10-03"
     },
     {
       "number": 1203,
-      "word": "TITLE"
+      "word": "TITLE",
+      "date": "2024-10-04"
     },
     {
       "number": 1204,
-      "word": "MINER"
+      "word": "MINER",
+      "date": "2024-10-05"
     },
     {
       "number": 1205,
-      "word": "LAGER"
+      "word": "LAGER",
+      "date": "2024-10-06"
     },
     {
       "number": 1206,
-      "word": "FLOUR"
+      "word": "FLOUR",
+      "date": "2024-10-07"
     },
     {
       "number": 1207,
-      "word": "JOINT"
+      "word": "JOINT",
+      "date": "2024-10-08"
     },
     {
       "number": 1208,
-      "word": "MOMMY"
+      "word": "MOMMY",
+      "date": "2024-10-09"
     },
     {
       "number": 1209,
-      "word": "CARVE"
+      "word": "CARVE",
+      "date": "2024-10-10"
     },
     {
       "number": 1210,
-      "word": "GUSTY"
+      "word": "GUSTY",
+      "date": "2024-10-11"
     },
     {
       "number": 1211,
-      "word": "STAIN"
+      "word": "STAIN",
+      "date": "2024-10-12"
     },
     {
       "number": 1212,
-      "word": "PRONE"
+      "word": "PRONE",
+      "date": "2024-10-13"
     },
     {
       "number": 1213,
-      "word": "GAMUT"
+      "word": "GAMUT",
+      "date": "2024-10-14"
     },
     {
       "number": 1214,
-      "word": "CORER"
+      "word": "CORER",
+      "date": "2024-10-15"
     },
     {
       "number": 1215,
-      "word": "GRANT"
+      "word": "GRANT",
+      "date": "2024-10-16"
     },
     {
       "number": 1216,
-      "word": "HALVE"
+      "word": "HALVE",
+      "date": "2024-10-17"
     },
     {
       "number": 1217,
-      "word": "STINT"
+      "word": "STINT",
+      "date": "2024-10-18"
     },
     {
       "number": 1218,
-      "word": "FIBER"
+      "word": "FIBER",
+      "date": "2024-10-19"
     },
     {
       "number": 1219,
-      "word": "DICEY"
+      "word": "DICEY",
+      "date": "2024-10-20"
     },
     {
       "number": 1220,
-      "word": "SPOON"
+      "word": "SPOON",
+      "date": "2024-10-21"
     },
     {
       "number": 1221,
-      "word": "SHOUT"
+      "word": "SHOUT",
+      "date": "2024-10-22"
     },
     {
       "number": 1222,
-      "word": "GOOFY"
+      "word": "GOOFY",
+      "date": "2024-10-23"
     },
     {
       "number": 1223,
-      "word": "BOSSY"
+      "word": "BOSSY",
+      "date": "2024-10-24"
     },
     {
       "number": 1224,
-      "word": "FROWN"
+      "word": "FROWN",
+      "date": "2024-10-25"
     },
     {
       "number": 1225,
-      "word": "WREAK"
+      "word": "WREAK",
+      "date": "2024-10-26"
     },
     {
       "number": 1226,
-      "word": "SANDY"
+      "word": "SANDY",
+      "date": "2024-10-27"
     },
     {
       "number": 1227,
-      "word": "BAWDY"
+      "word": "BAWDY",
+      "date": "2024-10-28"
     },
     {
       "number": 1228,
-      "word": "TUNIC"
+      "word": "TUNIC",
+      "date": "2024-10-29"
     },
     {
       "number": 1229,
-      "word": "EASEL"
+      "word": "EASEL",
+      "date": "2024-10-30"
     },
     {
       "number": 1230,
-      "word": "WEIRD"
+      "word": "WEIRD",
+      "date": "2024-10-31"
     },
     {
       "number": 1231,
-      "word": "SIXTH"
+      "word": "SIXTH",
+      "date": "2024-11-01"
     },
     {
       "number": 1232,
-      "word": "SNOOP"
+      "word": "SNOOP",
+      "date": "2024-11-02"
     },
     {
       "number": 1233,
-      "word": "BLAZE"
+      "word": "BLAZE",
+      "date": "2024-11-03"
     },
     {
       "number": 1234,
-      "word": "VINYL"
+      "word": "VINYL",
+      "date": "2024-11-04"
     },
     {
       "number": 1235,
-      "word": "OCTET"
+      "word": "OCTET",
+      "date": "2024-11-05"
     },
     {
       "number": 1236,
-      "word": "TRULY"
+      "word": "TRULY",
+      "date": "2024-11-06"
     },
     {
       "number": 1237,
-      "word": "EVENT"
+      "word": "EVENT",
+      "date": "2024-11-07"
     },
     {
       "number": 1238,
-      "word": "READY"
+      "word": "READY",
+      "date": "2024-11-08"
     },
     {
       "number": 1239,
-      "word": "SWELL"
+      "word": "SWELL",
+      "date": "2024-11-09"
     },
     {
       "number": 1240,
-      "word": "INNER"
+      "word": "INNER",
+      "date": "2024-11-10"
     },
     {
       "number": 1241,
-      "word": "STOIC"
+      "word": "STOIC",
+      "date": "2024-11-11"
     },
     {
       "number": 1242,
-      "word": "FLOWN"
+      "word": "FLOWN",
+      "date": "2024-11-12"
     },
     {
       "number": 1243,
-      "word": "PRIMP"
+      "word": "PRIMP",
+      "date": "2024-11-13"
     },
     {
       "number": 1244,
-      "word": "UVULA"
+      "word": "UVULA",
+      "date": "2024-11-14"
     },
     {
       "number": 1245,
-      "word": "TACKY"
+      "word": "TACKY",
+      "date": "2024-11-15"
     },
     {
       "number": 1246,
-      "word": "VISOR"
+      "word": "VISOR",
+      "date": "2024-11-16"
     },
     {
       "number": 1247,
-      "word": "TALLY"
+      "word": "TALLY",
+      "date": "2024-11-17"
     },
     {
       "number": 1248,
-      "word": "FRAIL"
+      "word": "FRAIL",
+      "date": "2024-11-18"
     },
     {
       "number": 1249,
-      "word": "GOING"
+      "word": "GOING",
+      "date": "2024-11-19"
     },
     {
       "number": 1250,
-      "word": "NICHE"
+      "word": "NICHE",
+      "date": "2024-11-20"
     },
     {
       "number": 1251,
-      "word": "SPINE"
+      "word": "SPINE",
+      "date": "2024-11-21"
     },
     {
       "number": 1252,
-      "word": "PEARL"
+      "word": "PEARL",
+      "date": "2024-11-22"
     },
     {
       "number": 1253,
-      "word": "JELLY"
+      "word": "JELLY",
+      "date": "2024-11-23"
     },
     {
       "number": 1254,
-      "word": "TWIST"
+      "word": "TWIST",
+      "date": "2024-11-24"
     },
     {
       "number": 1255,
-      "word": "BROWN"
+      "word": "BROWN",
+      "date": "2024-11-25"
     },
     {
       "number": 1256,
-      "word": "WITCH"
+      "word": "WITCH",
+      "date": "2024-11-26"
     },
     {
       "number": 1257,
-      "word": "SLANG"
+      "word": "SLANG",
+      "date": "2024-11-27"
     },
     {
       "number": 1258,
-      "word": "CHOCK"
+      "word": "CHOCK",
+      "date": "2024-11-28"
     },
     {
       "number": 1259,
-      "word": "HIPPO"
+      "word": "HIPPO",
+      "date": "2024-11-29"
     },
     {
       "number": 1260,
-      "word": "DOGMA"
+      "word": "DOGMA",
+      "date": "2024-11-30"
     },
     {
       "number": 1261,
-      "word": "MAUVE"
+      "word": "MAUVE",
+      "date": "2024-12-01"
     },
     {
       "number": 1262,
-      "word": "GUILE"
+      "word": "GUILE",
+      "date": "2024-12-02"
     },
     {
       "number": 1263,
-      "word": "SHAKY"
+      "word": "SHAKY",
+      "date": "2024-12-03"
     },
     {
       "number": 1264,
-      "word": "CRYPT"
+      "word": "CRYPT",
+      "date": "2024-12-04"
     },
     {
       "number": 1265,
-      "word": "ENDOW"
+      "word": "ENDOW",
+      "date": "2024-12-05"
     },
     {
       "number": 1266,
-      "word": "SHOVE"
+      "word": "SHOVE",
+      "date": "2024-12-06"
     },
     {
       "number": 1267,
-      "word": "HILLY"
+      "word": "HILLY",
+      "date": "2024-12-07"
     },
     {
       "number": 1268,
-      "word": "HYENA"
+      "word": "HYENA",
+      "date": "2024-12-08"
     },
     {
       "number": 1269,
-      "word": "FLUNG"
+      "word": "FLUNG",
+      "date": "2024-12-09"
     },
     {
       "number": 1270,
-      "word": "PATIO"
+      "word": "PATIO",
+      "date": "2024-12-10"
     },
     {
       "number": 1271,
-      "word": "PLUMB"
+      "word": "PLUMB",
+      "date": "2024-12-11"
     },
     {
       "number": 1272,
-      "word": "VYING"
+      "word": "VYING",
+      "date": "2024-12-12"
     },
     {
       "number": 1273,
-      "word": "BOXER"
+      "word": "BOXER",
+      "date": "2024-12-13"
     },
     {
       "number": 1274,
-      "word": "DROOL"
+      "word": "DROOL",
+      "date": "2024-12-14"
     },
     {
       "number": 1275,
-      "word": "FUNKY"
+      "word": "FUNKY",
+      "date": "2024-12-15"
     },
     {
       "number": 1276,
-      "word": "BOAST"
+      "word": "BOAST",
+      "date": "2024-12-16"
     },
     {
       "number": 1277,
-      "word": "SCOWL"
+      "word": "SCOWL",
+      "date": "2024-12-17"
     },
     {
       "number": 1278,
-      "word": "HEFTY"
+      "word": "HEFTY",
+      "date": "2024-12-18"
     },
     {
       "number": 1279,
-      "word": "STRAY"
+      "word": "STRAY",
+      "date": "2024-12-19"
     },
     {
       "number": 1280,
-      "word": "FLASH"
+      "word": "FLASH",
+      "date": "2024-12-20"
     },
     {
       "number": 1281,
-      "word": "BLADE"
+      "word": "BLADE",
+      "date": "2024-12-21"
     },
     {
       "number": 1282,
-      "word": "BRAWN"
+      "word": "BRAWN",
+      "date": "2024-12-22"
     },
     {
       "number": 1283,
-      "word": "SAUNA"
+      "word": "SAUNA",
+      "date": "2024-12-23"
     },
     {
       "number": 1284,
-      "word": "EAGLE"
+      "word": "EAGLE",
+      "date": "2024-12-24"
     },
     {
       "number": 1285,
-      "word": "SHARE"
+      "word": "SHARE",
+      "date": "2024-12-25"
     },
     {
       "number": 1286,
-      "word": "AFFIX"
+      "word": "AFFIX",
+      "date": "2024-12-26"
     },
     {
       "number": 1287,
-      "word": "GRAIN"
+      "word": "GRAIN",
+      "date": "2024-12-27"
     },
     {
       "number": 1288,
-      "word": "DECRY"
+      "word": "DECRY",
+      "date": "2024-12-28"
     },
     {
       "number": 1289,
-      "word": "MAMBO"
+      "word": "MAMBO",
+      "date": "2024-12-29"
     },
     {
       "number": 1290,
-      "word": "STARE"
+      "word": "STARE",
+      "date": "2024-12-30"
     },
     {
       "number": 1291,
-      "word": "LEMUR"
+      "word": "LEMUR",
+      "date": "2024-12-31"
     },
     {
       "number": 1292,
-      "word": "NERVE"
+      "word": "NERVE",
+      "date": "2025-01-01"
     },
     {
       "number": 1293,
-      "word": "CHOSE"
+      "word": "CHOSE",
+      "date": "2025-01-02"
     },
     {
       "number": 1294,
-      "word": "CHEAP"
+      "word": "CHEAP",
+      "date": "2025-01-03"
     },
     {
       "number": 1295,
-      "word": "RELAX"
+      "word": "RELAX",
+      "date": "2025-01-04"
     },
     {
       "number": 1296,
-      "word": "CYBER"
+      "word": "CYBER",
+      "date": "2025-01-05"
     },
     {
       "number": 1297,
-      "word": "SPRIG"
+      "word": "SPRIG",
+      "date": "2025-01-06"
     },
     {
       "number": 1298,
-      "word": "ATLAS"
+      "word": "ATLAS",
+      "date": "2025-01-07"
     },
     {
       "number": 1299,
-      "word": "DRAFT"
+      "word": "DRAFT",
+      "date": "2025-01-08"
     },
     {
       "number": 1300,
-      "word": "WAFER"
+      "word": "WAFER",
+      "date": "2025-01-09"
     },
     {
       "number": 1301,
-      "word": "CRAWL"
+      "word": "CRAWL",
+      "date": "2025-01-10"
     },
     {
       "number": 1302,
-      "word": "DINGY"
+      "word": "DINGY",
+      "date": "2025-01-11"
     },
     {
       "number": 1303,
-      "word": "TOTAL"
+      "word": "TOTAL",
+      "date": "2025-01-12"
     },
     {
       "number": 1304,
-      "word": "CLOAK"
+      "word": "CLOAK",
+      "date": "2025-01-13"
     },
     {
       "number": 1305,
-      "word": "FANCY"
+      "word": "FANCY",
+      "date": "2025-01-14"
     },
     {
       "number": 1306,
-      "word": "KNACK"
+      "word": "KNACK",
+      "date": "2025-01-15"
     },
     {
       "number": 1307,
-      "word": "FLINT"
+      "word": "FLINT",
+      "date": "2025-01-16"
     },
     {
       "number": 1308,
-      "word": "PROSE"
+      "word": "PROSE",
+      "date": "2025-01-17"
     },
     {
       "number": 1309,
-      "word": "SILLY"
+      "word": "SILLY",
+      "date": "2025-01-18"
     },
     {
       "number": 1310,
-      "word": "ROWER"
+      "word": "ROWER",
+      "date": "2025-01-19"
     },
     {
       "number": 1311,
-      "word": "SQUID"
+      "word": "SQUID",
+      "date": "2025-01-20"
     },
     {
       "number": 1312,
-      "word": "ICING"
+      "word": "ICING",
+      "date": "2025-01-21"
     },
     {
       "number": 1313,
-      "word": "REACH"
+      "word": "REACH",
+      "date": "2025-01-22"
     },
     {
       "number": 1314,
-      "word": "UPPER"
+      "word": "UPPER",
+      "date": "2025-01-23"
     },
     {
       "number": 1315,
-      "word": "CREPE"
+      "word": "CREPE",
+      "date": "2025-01-24"
     },
     {
       "number": 1316,
-      "word": "CRISP"
+      "word": "CRISP",
+      "date": "2025-01-25"
     },
     {
       "number": 1317,
-      "word": "SUNNY"
+      "word": "SUNNY",
+      "date": "2025-01-26"
     },
     {
       "number": 1318,
-      "word": "SHUNT"
+      "word": "SHUNT",
+      "date": "2025-01-27"
     },
     {
       "number": 1319,
-      "word": "FEVER"
+      "word": "FEVER",
+      "date": "2025-01-28"
     },
     {
       "number": 1320,
-      "word": "UDDER"
+      "word": "UDDER",
+      "date": "2025-01-29"
     },
     {
       "number": 1321,
-      "word": "FALSE"
+      "word": "FALSE",
+      "date": "2025-01-30"
     },
     {
       "number": 1322,
-      "word": "TOAST"
+      "word": "TOAST",
+      "date": "2025-01-31"
     },
     {
       "number": 1323,
-      "word": "RIVET"
+      "word": "RIVET",
+      "date": "2025-02-01"
     },
     {
       "number": 1324,
-      "word": "CHORE"
+      "word": "CHORE",
+      "date": "2025-02-02"
     },
     {
       "number": 1325,
-      "word": "REVUE"
+      "word": "REVUE",
+      "date": "2025-02-03"
     },
     {
       "number": 1326,
-      "word": "TOOTH"
+      "word": "TOOTH",
+      "date": "2025-02-04"
     },
     {
       "number": 1327,
-      "word": "PEDAL"
+      "word": "PEDAL",
+      "date": "2025-02-05"
     },
     {
       "number": 1328,
-      "word": "PUPIL"
+      "word": "PUPIL",
+      "date": "2025-02-06"
     },
     {
       "number": 1329,
-      "word": "SWATH"
+      "word": "SWATH",
+      "date": "2025-02-07"
     },
     {
       "number": 1330,
-      "word": "STEEP"
+      "word": "STEEP",
+      "date": "2025-02-08"
     },
     {
       "number": 1331,
-      "word": "BONUS"
+      "word": "BONUS",
+      "date": "2025-02-09"
     },
     {
       "number": 1332,
-      "word": "GOODY"
+      "word": "GOODY",
+      "date": "2025-02-10"
     },
     {
       "number": 1333,
-      "word": "SCORE"
+      "word": "SCORE",
+      "date": "2025-02-11"
     },
     {
       "number": 1334,
-      "word": "RAPID"
+      "word": "RAPID",
+      "date": "2025-02-12"
     },
     {
       "number": 1335,
-      "word": "RUMBA"
+      "word": "RUMBA",
+      "date": "2025-02-13"
     },
     {
       "number": 1336,
-      "word": "DITTY"
+      "word": "DITTY",
+      "date": "2025-02-14"
     },
     {
       "number": 1337,
-      "word": "CROOK"
+      "word": "CROOK",
+      "date": "2025-02-15"
     },
     {
       "number": 1338,
-      "word": "SUAVE"
+      "word": "SUAVE",
+      "date": "2025-02-16"
     },
     {
       "number": 1339,
-      "word": "TRAIL"
+      "word": "TRAIL",
+      "date": "2025-02-17"
     },
     {
       "number": 1340,
-      "word": "INDIE"
+      "word": "INDIE",
+      "date": "2025-02-18"
     },
     {
       "number": 1341,
-      "word": "MADLY"
+      "word": "MADLY",
+      "date": "2025-02-19"
     },
     {
       "number": 1342,
-      "word": "ROACH"
+      "word": "ROACH",
+      "date": "2025-02-20"
     },
     {
       "number": 1343,
-      "word": "CLOVE"
+      "word": "CLOVE",
+      "date": "2025-02-21"
     },
     {
       "number": 1344,
-      "word": "CREAM"
+      "word": "CREAM",
+      "date": "2025-02-22"
     },
     {
       "number": 1345,
-      "word": "OTTER"
+      "word": "OTTER",
+      "date": "2025-02-23"
     },
     {
       "number": 1346,
-      "word": "GLAND"
+      "word": "GLAND",
+      "date": "2025-02-24"
     },
     {
       "number": 1347,
-      "word": "DRYER"
+      "word": "DRYER",
+      "date": "2025-02-25"
     },
     {
       "number": 1348,
-      "word": "AWARD"
+      "word": "AWARD",
+      "date": "2025-02-26"
     },
     {
       "number": 1349,
-      "word": "LODGE"
+      "word": "LODGE",
+      "date": "2025-02-27"
     },
     {
       "number": 1350,
-      "word": "FUZZY"
+      "word": "FUZZY",
+      "date": "2025-02-28"
     },
     {
       "number": 1351,
-      "word": "HOVER"
+      "word": "HOVER",
+      "date": "2025-03-01"
     },
     {
       "number": 1352,
-      "word": "DEITY"
+      "word": "DEITY",
+      "date": "2025-03-02"
     },
     {
       "number": 1353,
-      "word": "SPEAR"
+      "word": "SPEAR",
+      "date": "2025-03-03"
     },
     {
       "number": 1354,
-      "word": "CHECK"
+      "word": "CHECK",
+      "date": "2025-03-04"
     },
     {
       "number": 1355,
-      "word": "SCRUM"
+      "word": "SCRUM",
+      "date": "2025-03-05"
     },
     {
       "number": 1356,
-      "word": "ALERT"
+      "word": "ALERT",
+      "date": "2025-03-06"
     },
     {
       "number": 1357,
-      "word": "TROOP"
+      "word": "TROOP",
+      "date": "2025-03-07"
     },
     {
       "number": 1358,
-      "word": "NAVEL"
+      "word": "NAVEL",
+      "date": "2025-03-08"
     },
     {
       "number": 1359,
-      "word": "GREED"
+      "word": "GREED",
+      "date": "2025-03-09"
     },
     {
       "number": 1360,
-      "word": "SPITE"
+      "word": "SPITE",
+      "date": "2025-03-10"
     },
     {
       "number": 1361,
-      "word": "TRACK"
+      "word": "TRACK",
+      "date": "2025-03-11"
     },
     {
       "number": 1362,
-      "word": "MANGO"
+      "word": "MANGO",
+      "date": "2025-03-12"
     },
     {
       "number": 1363,
-      "word": "CHASE"
+      "word": "CHASE",
+      "date": "2025-03-13"
     },
     {
       "number": 1364,
-      "word": "PIECE"
+      "word": "PIECE",
+      "date": "2025-03-14"
     },
     {
       "number": 1365,
-      "word": "LADLE"
+      "word": "LADLE",
+      "date": "2025-03-15"
     },
     {
       "number": 1366,
-      "word": "STAMP"
+      "word": "STAMP",
+      "date": "2025-03-16"
     },
     {
       "number": 1367,
-      "word": "LASSO"
+      "word": "LASSO",
+      "date": "2025-03-17"
     },
     {
       "number": 1368,
-      "word": "TIMER"
+      "word": "TIMER",
+      "date": "2025-03-18"
     },
     {
       "number": 1369,
-      "word": "SPARK"
+      "word": "SPARK",
+      "date": "2025-03-19"
     },
     {
       "number": 1370,
-      "word": "BASTE"
+      "word": "BASTE",
+      "date": "2025-03-20"
     },
     {
       "number": 1371,
-      "word": "NUDGE"
+      "word": "NUDGE",
+      "date": "2025-03-21"
     },
     {
       "number": 1372,
-      "word": "AMBLE"
+      "word": "AMBLE",
+      "date": "2025-03-22"
     },
     {
       "number": 1373,
-      "word": "DOPEY"
+      "word": "DOPEY",
+      "date": "2025-03-23"
     },
     {
       "number": 1374,
-      "word": "ANGLE"
+      "word": "ANGLE",
+      "date": "2025-03-24"
     },
     {
       "number": 1375,
-      "word": "SHELF"
+      "word": "SHELF",
+      "date": "2025-03-25"
     },
     {
       "number": 1376,
-      "word": "ELBOW"
+      "word": "ELBOW",
+      "date": "2025-03-26"
     },
     {
       "number": 1377,
-      "word": "SHEET"
+      "word": "SHEET",
+      "date": "2025-03-27"
     },
     {
       "number": 1378,
-      "word": "VERSE"
+      "word": "VERSE",
+      "date": "2025-03-28"
     },
     {
       "number": 1379,
-      "word": "SORRY"
+      "word": "SORRY",
+      "date": "2025-03-29"
     },
     {
       "number": 1380,
-      "word": "QUOTA"
+      "word": "QUOTA",
+      "date": "2025-03-30"
     },
     {
       "number": 1381,
-      "word": "BOOTY"
+      "word": "BOOTY",
+      "date": "2025-03-31"
     },
     {
       "number": 1382,
-      "word": "JEWEL"
+      "word": "JEWEL",
+      "date": "2025-04-01"
     },
     {
       "number": 1383,
-      "word": "CURSE"
+      "word": "CURSE",
+      "date": "2025-04-02"
     },
     {
       "number": 1384,
-      "word": "SHEAR"
+      "word": "SHEAR",
+      "date": "2025-04-03"
     },
     {
       "number": 1385,
-      "word": "KRILL"
+      "word": "KRILL",
+      "date": "2025-04-04"
     },
     {
       "number": 1386,
-      "word": "FOAMY"
+      "word": "FOAMY",
+      "date": "2025-04-05"
     },
     {
       "number": 1387,
-      "word": "VILLA"
+      "word": "VILLA",
+      "date": "2025-04-06"
     },
     {
       "number": 1388,
-      "word": "HAZEL"
+      "word": "HAZEL",
+      "date": "2025-04-07"
     },
     {
       "number": 1389,
-      "word": "SPARE"
+      "word": "SPARE",
+      "date": "2025-04-08"
     },
     {
       "number": 1390,
-      "word": "WHEAT"
+      "word": "WHEAT",
+      "date": "2025-04-09"
     },
     {
       "number": 1391,
-      "word": "TURBO"
+      "word": "TURBO",
+      "date": "2025-04-10"
     },
     {
       "number": 1392,
-      "word": "ARROW"
+      "word": "ARROW",
+      "date": "2025-04-11"
     },
     {
       "number": 1393,
-      "word": "NURSE"
+      "word": "NURSE",
+      "date": "2025-04-12"
     },
     {
       "number": 1394,
-      "word": "LAUGH"
+      "word": "LAUGH",
+      "date": "2025-04-13"
     },
     {
       "number": 1395,
-      "word": "CREST"
+      "word": "CREST",
+      "date": "2025-04-14"
     },
     {
       "number": 1396,
-      "word": "ASHEN"
+      "word": "ASHEN",
+      "date": "2025-04-15"
     },
     {
       "number": 1397,
-      "word": "MORAL"
+      "word": "MORAL",
+      "date": "2025-04-16"
     },
     {
       "number": 1398,
-      "word": "STOOD"
+      "word": "STOOD",
+      "date": "2025-04-17"
     },
     {
       "number": 1399,
-      "word": "DIRGE"
+      "word": "DIRGE",
+      "date": "2025-04-18"
     },
     {
       "number": 1400,
-      "word": "INBOX"
+      "word": "INBOX",
+      "date": "2025-04-19"
     },
     {
       "number": 1401,
-      "word": "PATCH"
+      "word": "PATCH",
+      "date": "2025-04-20"
     },
     {
       "number": 1402,
-      "word": "SPATE"
+      "word": "SPATE",
+      "date": "2025-04-21"
     },
     {
       "number": 1403,
-      "word": "ARTSY"
+      "word": "ARTSY",
+      "date": "2025-04-22"
     },
     {
       "number": 1404,
-      "word": "OZONE"
+      "word": "OZONE",
+      "date": "2025-04-23"
     },
     {
       "number": 1405,
-      "word": "GENIE"
+      "word": "GENIE",
+      "date": "2025-04-24"
     },
     {
       "number": 1406,
-      "word": "KNOWN"
+      "word": "KNOWN",
+      "date": "2025-04-25"
     },
     {
       "number": 1407,
-      "word": "CLASH"
+      "word": "CLASH",
+      "date": "2025-04-26"
     },
     {
       "number": 1408,
-      "word": "WEEDY"
+      "word": "WEEDY",
+      "date": "2025-04-27"
     },
     {
       "number": 1409,
-      "word": "DUMMY"
+      "word": "DUMMY",
+      "date": "2025-04-28"
     },
     {
       "number": 1410,
-      "word": "BLISS"
+      "word": "BLISS",
+      "date": "2025-04-29"
     },
     {
       "number": 1411,
-      "word": "IDLER"
+      "word": "IDLER",
+      "date": "2025-04-30"
     },
     {
       "number": 1412,
-      "word": "ADEPT"
+      "word": "ADEPT",
+      "date": "2025-05-01"
     },
     {
       "number": 1413,
-      "word": "WHOSE"
+      "word": "WHOSE",
+      "date": "2025-05-02"
     },
     {
       "number": 1414,
-      "word": "PATSY"
+      "word": "PATSY",
+      "date": "2025-05-03"
     },
     {
       "number": 1415,
-      "word": "TROUT"
+      "word": "TROUT",
+      "date": "2025-05-04"
     },
     {
       "number": 1416,
-      "word": "SHUSH"
+      "word": "SHUSH",
+      "date": "2025-05-05"
     },
     {
       "number": 1417,
-      "word": "SUITE"
+      "word": "SUITE",
+      "date": "2025-05-06"
     },
     {
       "number": 1418,
-      "word": "MACHO"
+      "word": "MACHO",
+      "date": "2025-05-07"
     },
     {
       "number": 1419,
-      "word": "BALMY"
+      "word": "BALMY",
+      "date": "2025-05-08"
     },
     {
       "number": 1420,
-      "word": "TRIPE"
+      "word": "TRIPE",
+      "date": "2025-05-09"
     },
     {
       "number": 1421,
-      "word": "YEAST"
+      "word": "YEAST",
+      "date": "2025-05-10"
     },
     {
       "number": 1422,
-      "word": "DOWEL"
+      "word": "DOWEL",
+      "date": "2025-05-11"
     },
     {
       "number": 1423,
-      "word": "BICEP"
+      "word": "BICEP",
+      "date": "2025-05-12"
     },
     {
       "number": 1424,
-      "word": "AWARE"
+      "word": "AWARE",
+      "date": "2025-05-13"
     },
     {
       "number": 1425,
-      "word": "BONGO"
+      "word": "BONGO",
+      "date": "2025-05-14"
     },
     {
       "number": 1426,
-      "word": "EAGER"
+      "word": "EAGER",
+      "date": "2025-05-15"
     },
     {
       "number": 1427,
-      "word": "FIFTH"
+      "word": "FIFTH",
+      "date": "2025-05-16"
     },
     {
       "number": 1428,
-      "word": "GROWN"
+      "word": "GROWN",
+      "date": "2025-05-17"
     },
     {
       "number": 1429,
-      "word": "LIVID"
+      "word": "LIVID",
+      "date": "2025-05-18"
     },
     {
       "number": 1430,
-      "word": "PITCH"
+      "word": "PITCH",
+      "date": "2025-05-19"
     },
     {
       "number": 1431,
-      "word": "BORNE"
+      "word": "BORNE",
+      "date": "2025-05-20"
     },
     {
       "number": 1432,
-      "word": "ALARM"
+      "word": "ALARM",
+      "date": "2025-05-21"
     },
     {
       "number": 1433,
-      "word": "FOLIO"
+      "word": "FOLIO",
+      "date": "2025-05-22"
     },
     {
       "number": 1434,
-      "word": "SHUCK"
+      "word": "SHUCK",
+      "date": "2025-05-23"
     },
     {
       "number": 1435,
-      "word": "SUEDE"
+      "word": "SUEDE",
+      "date": "2025-05-24"
     },
     {
       "number": 1436,
-      "word": "GRIFT"
+      "word": "GRIFT",
+      "date": "2025-05-25"
     },
     {
       "number": 1437,
-      "word": "DRONE"
+      "word": "DRONE",
+      "date": "2025-05-26"
     },
     {
       "number": 1438,
-      "word": "SPORT"
+      "word": "SPORT",
+      "date": "2025-05-27"
     },
     {
       "number": 1439,
-      "word": "POLAR"
+      "word": "POLAR",
+      "date": "2025-05-28"
     },
     {
       "number": 1440,
-      "word": "QUASH"
+      "word": "QUASH",
+      "date": "2025-05-29"
     },
     {
       "number": 1441,
-      "word": "IDIOM"
+      "word": "IDIOM",
+      "date": "2025-05-30"
     },
     {
       "number": 1442,
-      "word": "HABIT"
+      "word": "HABIT",
+      "date": "2025-05-31"
     },
     {
       "number": 1443,
-      "word": "ROUGH"
+      "word": "ROUGH",
+      "date": "2025-06-01"
     },
     {
       "number": 1444,
-      "word": "PREEN"
+      "word": "PREEN",
+      "date": "2025-06-02"
     },
     {
       "number": 1445,
-      "word": "ADMIN"
+      "word": "ADMIN",
+      "date": "2025-06-03"
     },
     {
       "number": 1446,
-      "word": "CEASE"
+      "word": "CEASE",
+      "date": "2025-06-04"
     },
     {
       "number": 1447,
-      "word": "DATUM"
+      "word": "DATUM",
+      "date": "2025-06-05"
     },
     {
       "number": 1448,
-      "word": "EDIFY"
+      "word": "EDIFY",
+      "date": "2025-06-06"
     },
     {
       "number": 1449,
-      "word": "REUSE"
+      "word": "REUSE",
+      "date": "2025-06-07"
     },
     {
       "number": 1450,
-      "word": "LEASE"
+      "word": "LEASE",
+      "date": "2025-06-08"
     },
     {
       "number": 1451,
-      "word": "BOARD"
+      "word": "BOARD",
+      "date": "2025-06-09"
     },
     {
       "number": 1452,
-      "word": "TAFFY"
+      "word": "TAFFY",
+      "date": "2025-06-10"
     },
     {
       "number": 1453,
-      "word": "PLAID"
+      "word": "PLAID",
+      "date": "2025-06-11"
     },
     {
       "number": 1454,
-      "word": "VIXEN"
+      "word": "VIXEN",
+      "date": "2025-06-12"
     },
     {
       "number": 1455,
-      "word": "BILGE"
+      "word": "BILGE",
+      "date": "2025-06-13"
     },
     {
       "number": 1456,
-      "word": "GHOST"
+      "word": "GHOST",
+      "date": "2025-06-14"
     },
     {
       "number": 1457,
-      "word": "QUAIL"
+      "word": "QUAIL",
+      "date": "2025-06-15"
     },
     {
       "number": 1458,
-      "word": "PETTY"
+      "word": "PETTY",
+      "date": "2025-06-16"
     },
     {
       "number": 1459,
-      "word": "PRANK"
+      "word": "PRANK",
+      "date": "2025-06-17"
     },
     {
       "number": 1460,
-      "word": "MUNCH"
+      "word": "MUNCH",
+      "date": "2025-06-18"
     },
     {
       "number": 1461,
-      "word": "CURIO"
+      "word": "CURIO",
+      "date": "2025-06-19"
     },
     {
       "number": 1462,
-      "word": "TAUPE"
+      "word": "TAUPE",
+      "date": "2025-06-20"
     },
     {
       "number": 1463,
-      "word": "GLADE"
+      "word": "GLADE",
+      "date": "2025-06-21"
     },
     {
       "number": 1464,
-      "word": "THRUM"
+      "word": "THRUM",
+      "date": "2025-06-22"
     },
     {
       "number": 1465,
-      "word": "ODDLY"
+      "word": "ODDLY",
+      "date": "2025-06-23"
     },
     {
       "number": 1466,
-      "word": "ELITE"
+      "word": "ELITE",
+      "date": "2025-06-24"
     },
     {
       "number": 1467,
-      "word": "COMFY"
+      "word": "COMFY",
+      "date": "2025-06-25"
     },
     {
       "number": 1468,
-      "word": "OFFER"
+      "word": "OFFER",
+      "date": "2025-06-26"
     },
     {
       "number": 1469,
-      "word": "PLAIN"
+      "word": "PLAIN",
+      "date": "2025-06-27"
     },
     {
       "number": 1470,
-      "word": "STUMP"
+      "word": "STUMP",
+      "date": "2025-06-28"
     },
     {
       "number": 1471,
-      "word": "WITTY"
+      "word": "WITTY",
+      "date": "2025-06-29"
     },
     {
       "number": 1472,
-      "word": "BLINK"
+      "word": "BLINK",
+      "date": "2025-06-30"
     },
     {
       "number": 1473,
-      "word": "MOLDY"
+      "word": "MOLDY",
+      "date": "2025-07-01"
     },
     {
       "number": 1474,
-      "word": "INCUR"
+      "word": "INCUR",
+      "date": "2025-07-02"
     },
     {
       "number": 1475,
-      "word": "POPPY"
+      "word": "POPPY",
+      "date": "2025-07-03"
     },
     {
       "number": 1476,
-      "word": "CURVE"
+      "word": "CURVE",
+      "date": "2025-07-04"
     },
     {
       "number": 1477,
-      "word": "BALER"
+      "word": "BALER",
+      "date": "2025-07-05"
     },
     {
       "number": 1478,
-      "word": "ATRIA"
+      "word": "ATRIA",
+      "date": "2025-07-06"
     },
     {
       "number": 1479,
-      "word": "STILT"
+      "word": "STILT",
+      "date": "2025-07-07"
     },
     {
       "number": 1480,
-      "word": "DREAD"
+      "word": "DREAD",
+      "date": "2025-07-08"
     },
     {
       "number": 1481,
-      "word": "NOVEL"
+      "word": "NOVEL",
+      "date": "2025-07-09"
     },
     {
       "number": 1482,
-      "word": "JUMPY"
+      "word": "JUMPY",
+      "date": "2025-07-10"
     },
     {
       "number": 1483,
-      "word": "BRAND"
+      "word": "BRAND",
+      "date": "2025-07-11"
     },
     {
       "number": 1484,
-      "word": "EXILE"
+      "word": "EXILE",
+      "date": "2025-07-12"
     },
     {
       "number": 1485,
-      "word": "GNOME"
+      "word": "GNOME",
+      "date": "2025-07-13"
     },
     {
       "number": 1486,
-      "word": "UNDID"
+      "word": "UNDID",
+      "date": "2025-07-14"
     },
     {
       "number": 1487,
-      "word": "FOIST"
+      "word": "FOIST",
+      "date": "2025-07-15"
     },
     {
       "number": 1488,
-      "word": "NERVY"
+      "word": "NERVY",
+      "date": "2025-07-16"
     },
     {
       "number": 1489,
-      "word": "MODAL"
+      "word": "MODAL",
+      "date": "2025-07-17"
     },
     {
       "number": 1490,
-      "word": "LORIS"
+      "word": "LORIS",
+      "date": "2025-07-18"
     },
     {
       "number": 1491,
-      "word": "SWORD"
+      "word": "SWORD",
+      "date": "2025-07-19"
     },
     {
       "number": 1492,
-      "word": "BLANK"
+      "word": "BLANK",
+      "date": "2025-07-20"
     },
     {
       "number": 1493,
-      "word": "TIZZY"
+      "word": "TIZZY",
+      "date": "2025-07-21"
     },
     {
       "number": 1494,
-      "word": "BURNT"
+      "word": "BURNT",
+      "date": "2025-07-22"
     },
     {
       "number": 1495,
-      "word": "WATER"
+      "word": "WATER",
+      "date": "2025-07-23"
     },
     {
       "number": 1496,
-      "word": "QUAKE"
+      "word": "QUAKE",
+      "date": "2025-07-24"
     },
     {
       "number": 1497,
-      "word": "GOFER"
+      "word": "GOFER",
+      "date": "2025-07-25"
     },
     {
       "number": 1498,
-      "word": "HAUNT"
+      "word": "HAUNT",
+      "date": "2025-07-26"
     },
     {
       "number": 1499,
-      "word": "WHOLE"
+      "word": "WHOLE",
+      "date": "2025-07-27"
     },
     {
       "number": 1500,
-      "word": "SAVVY"
+      "word": "SAVVY",
+      "date": "2025-07-28"
     },
     {
       "number": 1501,
-      "word": "OMEGA"
+      "word": "OMEGA",
+      "date": "2025-07-29"
     },
     {
       "number": 1502,
-      "word": "ASSAY"
+      "word": "ASSAY",
+      "date": "2025-07-30"
     },
     {
       "number": 1503,
-      "word": "FRILL"
+      "word": "FRILL",
+      "date": "2025-07-31"
     },
     {
       "number": 1504,
-      "word": "BANJO"
+      "word": "BANJO",
+      "date": "2025-08-01"
     },
     {
       "number": 1505,
-      "word": "DAUNT"
+      "word": "DAUNT",
+      "date": "2025-08-02"
     },
     {
       "number": 1506,
-      "word": "LUMPY"
+      "word": "LUMPY",
+      "date": "2025-08-03"
     },
     {
       "number": 1507,
-      "word": "RIGID"
+      "word": "RIGID",
+      "date": "2025-08-04"
     },
     {
       "number": 1508,
-      "word": "STORK"
+      "word": "STORK",
+      "date": "2025-08-05"
     },
     {
       "number": 1509,
-      "word": "GROAN"
+      "word": "GROAN",
+      "date": "2025-08-06"
     },
     {
       "number": 1510,
-      "word": "CORAL"
+      "word": "CORAL",
+      "date": "2025-08-07"
     },
     {
       "number": 1511,
-      "word": "IMBUE"
+      "word": "IMBUE",
+      "date": "2025-08-08"
     },
     {
       "number": 1512,
-      "word": "NASAL"
+      "word": "NASAL",
+      "date": "2025-08-09"
     },
     {
       "number": 1513,
-      "word": "MINTY"
+      "word": "MINTY",
+      "date": "2025-08-10"
     },
     {
       "number": 1514,
-      "word": "SOUTH"
+      "word": "SOUTH",
+      "date": "2025-08-11"
     },
     {
       "number": 1515,
-      "word": "NOMAD"
+      "word": "NOMAD",
+      "date": "2025-08-12"
     },
     {
       "number": 1516,
-      "word": "KEFIR"
+      "word": "KEFIR",
+      "date": "2025-08-13"
     },
     {
       "number": 1517,
-      "word": "KNELL"
+      "word": "KNELL",
+      "date": "2025-08-14"
     },
     {
       "number": 1518,
-      "word": "LEVEL"
+      "word": "LEVEL",
+      "date": "2025-08-15"
     },
     {
       "number": 1519,
-      "word": "MATTE"
+      "word": "MATTE",
+      "date": "2025-08-16"
     },
     {
       "number": 1520,
-      "word": "LOUSY"
+      "word": "LOUSY",
+      "date": "2025-08-17"
     },
     {
       "number": 1521,
-      "word": "ISSUE"
+      "word": "ISSUE",
+      "date": "2025-08-18"
     },
     {
       "number": 1522,
-      "word": "ROWDY"
+      "word": "ROWDY",
+      "date": "2025-08-19"
     },
     {
       "number": 1523,
-      "word": "LLAMA"
+      "word": "LLAMA",
+      "date": "2025-08-20"
     },
     {
       "number": 1524,
-      "word": "EXTOL"
+      "word": "EXTOL",
+      "date": "2025-08-21"
     },
     {
       "number": 1525,
-      "word": "RATTY"
+      "word": "RATTY",
+      "date": "2025-08-22"
     },
     {
       "number": 1526,
-      "word": "UNION"
+      "word": "UNION",
+      "date": "2025-08-23"
     },
     {
       "number": 1527,
-      "word": "SPORE"
+      "word": "SPORE",
+      "date": "2025-08-24"
     },
     {
       "number": 1528,
-      "word": "MIRTH"
+      "word": "MIRTH",
+      "date": "2025-08-25"
     },
     {
       "number": 1529,
-      "word": "ANNEX"
+      "word": "ANNEX",
+      "date": "2025-08-26"
     },
     {
       "number": 1530,
-      "word": "TOWER"
+      "word": "TOWER",
+      "date": "2025-08-27"
     },
     {
       "number": 1531,
-      "word": "SPLIT"
+      "word": "SPLIT",
+      "date": "2025-08-28"
     },
     {
       "number": 1532,
-      "word": "GRAFT"
+      "word": "GRAFT",
+      "date": "2025-08-29"
     },
     {
       "number": 1533,
-      "word": "ELATE"
+      "word": "ELATE",
+      "date": "2025-08-30"
     },
     {
       "number": 1534,
-      "word": "PETAL"
+      "word": "PETAL",
+      "date": "2025-08-31"
     },
     {
       "number": 1535,
-      "word": "LEAST"
+      "word": "LEAST",
+      "date": "2025-09-01"
     },
     {
       "number": 1536,
-      "word": "MIGHT"
+      "word": "MIGHT",
+      "date": "2025-09-02"
     },
     {
       "number": 1537,
-      "word": "FETCH"
+      "word": "FETCH",
+      "date": "2025-09-03"
     },
     {
       "number": 1538,
-      "word": "BLEND"
+      "word": "BLEND",
+      "date": "2025-09-04"
     },
     {
       "number": 1539,
-      "word": "DRIFT"
+      "word": "DRIFT",
+      "date": "2025-09-05"
     },
     {
       "number": 1540,
-      "word": "BULGE"
+      "word": "BULGE",
+      "date": "2025-09-06"
     },
     {
       "number": 1541,
-      "word": "TENOR"
+      "word": "TENOR",
+      "date": "2025-09-07"
     },
     {
       "number": 1542,
-      "word": "CHIRP"
+      "word": "CHIRP",
+      "date": "2025-09-08"
     },
     {
       "number": 1543,
-      "word": "TRICK"
+      "word": "TRICK",
+      "date": "2025-09-09"
     },
     {
       "number": 1544,
-      "word": "POUTY"
+      "word": "POUTY",
+      "date": "2025-09-10"
     },
     {
       "number": 1545,
-      "word": "CHAIR"
+      "word": "CHAIR",
+      "date": "2025-09-11"
     },
     {
       "number": 1546,
-      "word": "THROB"
+      "word": "THROB",
+      "date": "2025-09-12"
     },
     {
       "number": 1547,
-      "word": "NADIR"
+      "word": "NADIR",
+      "date": "2025-09-13"
     },
     {
       "number": 1548,
-      "word": "NOISY"
+      "word": "NOISY",
+      "date": "2025-09-14"
     },
     {
       "number": 1549,
-      "word": "ALONG"
+      "word": "ALONG",
+      "date": "2025-09-15"
     },
     {
       "number": 1550,
-      "word": "LEFTY"
+      "word": "LEFTY",
+      "date": "2025-09-16"
     },
     {
       "number": 1551,
-      "word": "TEETH"
+      "word": "TEETH",
+      "date": "2025-09-17"
     },
     {
       "number": 1552,
-      "word": "KNIFE"
+      "word": "KNIFE",
+      "date": "2025-09-18"
     },
     {
       "number": 1553,
-      "word": "LATER"
+      "word": "LATER",
+      "date": "2025-09-19"
     },
     {
       "number": 1554,
-      "word": "DEFER"
+      "word": "DEFER",
+      "date": "2025-09-20"
     },
     {
       "number": 1555,
-      "word": "COVEN"
+      "word": "COVEN",
+      "date": "2025-09-21"
     },
     {
       "number": 1556,
-      "word": "QUILL"
+      "word": "QUILL",
+      "date": "2025-09-22"
     },
     {
       "number": 1557,
-      "word": "MOUTH"
+      "word": "MOUTH",
+      "date": "2025-09-23"
     },
     {
       "number": 1558,
-      "word": "BLUNT"
+      "word": "BLUNT",
+      "date": "2025-09-24"
     },
     {
       "number": 1559,
-      "word": "DRAPE"
+      "word": "DRAPE",
+      "date": "2025-09-25"
     },
     {
       "number": 1560,
-      "word": "DALLY"
+      "word": "DALLY",
+      "date": "2025-09-26"
     },
     {
       "number": 1561,
-      "word": "FRITZ"
+      "word": "FRITZ",
+      "date": "2025-09-27"
     },
     {
       "number": 1562,
-      "word": "GOOEY"
+      "word": "GOOEY",
+      "date": "2025-09-28"
     },
     {
       "number": 1563,
-      "word": "CIVIL"
+      "word": "CIVIL",
+      "date": "2025-09-29"
     },
     {
       "number": 1564,
-      "word": "GEESE"
+      "word": "GEESE",
+      "date": "2025-09-30"
     },
     {
       "number": 1565,
-      "word": "SPOIL"
+      "word": "SPOIL",
+      "date": "2025-10-01"
     },
     {
       "number": 1566,
-      "word": "WIDTH"
+      "word": "WIDTH",
+      "date": "2025-10-02"
     },
     {
       "number": 1567,
-      "word": "SPASM"
+      "word": "SPASM",
+      "date": "2025-10-03"
     },
     {
       "number": 1568,
-      "word": "RELAY"
+      "word": "RELAY",
+      "date": "2025-10-04"
     },
     {
       "number": 1569,
-      "word": "PLANE"
+      "word": "PLANE",
+      "date": "2025-10-05"
     },
     {
       "number": 1570,
-      "word": "AMUSE"
+      "word": "AMUSE",
+      "date": "2025-10-06"
     },
     {
       "number": 1571,
-      "word": "NYLON"
+      "word": "NYLON",
+      "date": "2025-10-07"
     },
     {
       "number": 1572,
-      "word": "ANNOY"
+      "word": "ANNOY",
+      "date": "2025-10-08"
     },
     {
       "number": 1573,
-      "word": "HARDY"
+      "word": "HARDY",
+      "date": "2025-10-09"
     },
     {
       "number": 1574,
-      "word": "LEVER"
+      "word": "LEVER",
+      "date": "2025-10-10"
     },
     {
       "number": 1575,
-      "word": "STACK"
+      "word": "STACK",
+      "date": "2025-10-11"
     },
     {
       "number": 1576,
-      "word": "WOUND"
+      "word": "WOUND",
+      "date": "2025-10-12"
     },
     {
       "number": 1577,
-      "word": "BEARD"
+      "word": "BEARD",
+      "date": "2025-10-13"
     },
     {
       "number": 1578,
-      "word": "FORUM"
+      "word": "FORUM",
+      "date": "2025-10-14"
     },
     {
       "number": 1579,
-      "word": "SPOOF"
+      "word": "SPOOF",
+      "date": "2025-10-15"
     },
     {
       "number": 1580,
-      "word": "CATTY"
+      "word": "CATTY",
+      "date": "2025-10-16"
     },
     {
       "number": 1581,
-      "word": "GROSS"
+      "word": "GROSS",
+      "date": "2025-10-17"
     },
     {
       "number": 1582,
-      "word": "HAVEN"
+      "word": "HAVEN",
+      "date": "2025-10-18"
     },
     {
       "number": 1583,
-      "word": "IDEAL"
+      "word": "IDEAL",
+      "date": "2025-10-19"
     },
     {
       "number": 1584,
-      "word": "LIMBO"
+      "word": "LIMBO",
+      "date": "2025-10-20"
     },
     {
       "number": 1585,
-      "word": "DETOX"
+      "word": "DETOX",
+      "date": "2025-10-21"
     },
     {
       "number": 1586,
-      "word": "STUNT"
+      "word": "STUNT",
+      "date": "2025-10-22"
     },
     {
       "number": 1587,
-      "word": "DRILL"
+      "word": "DRILL",
+      "date": "2025-10-23"
     },
     {
       "number": 1588,
-      "word": "TUBER"
+      "word": "TUBER",
+      "date": "2025-10-24"
     },
     {
       "number": 1589,
-      "word": "GAUGE"
+      "word": "GAUGE",
+      "date": "2025-10-25"
     },
     {
       "number": 1590,
-      "word": "PLUMP"
+      "word": "PLUMP",
+      "date": "2025-10-26"
     },
     {
       "number": 1591,
-      "word": "FETID"
+      "word": "FETID",
+      "date": "2025-10-27"
     },
     {
       "number": 1592,
-      "word": "HOLLY"
+      "word": "HOLLY",
+      "date": "2025-10-28"
     },
     {
       "number": 1593,
-      "word": "GLARE"
+      "word": "GLARE",
+      "date": "2025-10-29"
     },
     {
       "number": 1594,
-      "word": "LATHE"
+      "word": "LATHE",
+      "date": "2025-10-30"
     },
     {
       "number": 1595,
-      "word": "ABHOR"
+      "word": "ABHOR",
+      "date": "2025-10-31"
     },
     {
       "number": 1596,
-      "word": "MOTEL"
+      "word": "MOTEL",
+      "date": "2025-11-01"
     },
     {
       "number": 1597,
-      "word": "RABID"
+      "word": "RABID",
+      "date": "2025-11-02"
     },
     {
       "number": 1598,
-      "word": "AWOKE"
+      "word": "AWOKE",
+      "date": "2025-11-03"
     },
     {
       "number": 1599,
-      "word": "VENUE"
+      "word": "VENUE",
+      "date": "2025-11-04"
     },
     {
       "number": 1600,
-      "word": "SHORT"
+      "word": "SHORT",
+      "date": "2025-11-05"
     },
     {
       "number": 1601,
-      "word": "GUISE"
+      "word": "GUISE",
+      "date": "2025-11-06"
     },
     {
       "number": 1602,
-      "word": "PERIL"
+      "word": "PERIL",
+      "date": "2025-11-07"
     },
     {
       "number": 1603,
-      "word": "ARISE"
+      "word": "ARISE",
+      "date": "2025-11-08"
     },
     {
       "number": 1604,
-      "word": "FUGUE"
+      "word": "FUGUE",
+      "date": "2025-11-09"
     },
     {
       "number": 1605,
-      "word": "TABBY"
+      "word": "TABBY",
+      "date": "2025-11-10"
     },
     {
       "number": 1606,
-      "word": "GIZMO"
+      "word": "GIZMO",
+      "date": "2025-11-11"
     },
     {
       "number": 1607,
-      "word": "DEUCE"
+      "word": "DEUCE",
+      "date": "2025-11-12"
     },
     {
       "number": 1608,
-      "word": "TINGE"
+      "word": "TINGE",
+      "date": "2025-11-13"
     },
     {
       "number": 1609,
-      "word": "LURID"
+      "word": "LURID",
+      "date": "2025-11-14"
     },
     {
       "number": 1610,
-      "word": "CLUNG"
+      "word": "CLUNG",
+      "date": "2025-11-15"
     },
     {
       "number": 1611,
-      "word": "WIELD"
+      "word": "WIELD",
+      "date": "2025-11-16"
     },
     {
       "number": 1612,
-      "word": "CLAMP"
+      "word": "CLAMP",
+      "date": "2025-11-17"
     },
     {
       "number": 1613,
-      "word": "OPINE"
+      "word": "OPINE",
+      "date": "2025-11-18"
     },
     {
       "number": 1614,
-      "word": "MAKER"
+      "word": "MAKER",
+      "date": "2025-11-19"
     },
     {
       "number": 1615,
-      "word": "GRAVE"
+      "word": "GRAVE",
+      "date": "2025-11-20"
     },
     {
       "number": 1616,
-      "word": "VOWEL"
+      "word": "VOWEL",
+      "date": "2025-11-21"
     },
     {
       "number": 1617,
-      "word": "THICK"
+      "word": "THICK",
+      "date": "2025-11-22"
     },
     {
       "number": 1618,
-      "word": "BUNNY"
+      "word": "BUNNY",
+      "date": "2025-11-23"
     },
     {
       "number": 1619,
-      "word": "DOUGH"
+      "word": "DOUGH",
+      "date": "2025-11-24"
     },
     {
       "number": 1620,
-      "word": "PLEAD"
+      "word": "PLEAD",
+      "date": "2025-11-25"
     },
     {
       "number": 1621,
-      "word": "HOVEL"
+      "word": "HOVEL",
+      "date": "2025-11-26"
     },
     {
       "number": 1622,
-      "word": "REMIT"
+      "word": "REMIT",
+      "date": "2025-11-27"
     },
     {
       "number": 1623,
-      "word": "COLIC"
+      "word": "COLIC",
+      "date": "2025-11-28"
     },
     {
       "number": 1624,
-      "word": "GRUFF"
+      "word": "GRUFF",
+      "date": "2025-11-29"
     },
     {
       "number": 1625,
-      "word": "MUGGY"
+      "word": "MUGGY",
+      "date": "2025-11-30"
     },
     {
       "number": 1626,
-      "word": "LEACH"
+      "word": "LEACH",
+      "date": "2025-12-01"
     },
     {
       "number": 1627,
-      "word": "CACTI"
+      "word": "CACTI",
+      "date": "2025-12-02"
     },
     {
       "number": 1628,
-      "word": "HASTE"
+      "word": "HASTE",
+      "date": "2025-12-03"
     },
     {
       "number": 1629,
-      "word": "TULIP"
+      "word": "TULIP",
+      "date": "2025-12-04"
     },
     {
       "number": 1630,
-      "word": "AMONG"
+      "word": "AMONG",
+      "date": "2025-12-05"
     },
     {
       "number": 1631,
-      "word": "WAIST"
+      "word": "WAIST",
+      "date": "2025-12-06"
     },
     {
       "number": 1632,
-      "word": "FLUTE"
+      "word": "FLUTE",
+      "date": "2025-12-07"
     },
     {
       "number": 1633,
-      "word": "GRAVY"
+      "word": "GRAVY",
+      "date": "2025-12-08"
     },
     {
       "number": 1634,
-      "word": "SNIDE"
+      "word": "SNIDE",
+      "date": "2025-12-09"
     },
     {
       "number": 1635,
-      "word": "ERASE"
+      "word": "ERASE",
+      "date": "2025-12-10"
     },
     {
       "number": 1636,
-      "word": "GUESS"
+      "word": "GUESS",
+      "date": "2025-12-11"
     },
     {
       "number": 1637,
-      "word": "TRUCK"
+      "word": "TRUCK",
+      "date": "2025-12-12"
     },
     {
       "number": 1638,
-      "word": "MISER"
+      "word": "MISER",
+      "date": "2025-12-13"
     },
     {
       "number": 1639,
-      "word": "SWING"
+      "word": "SWING",
+      "date": "2025-12-14"
     },
     {
       "number": 1640,
-      "word": "DODGY"
+      "word": "DODGY",
+      "date": "2025-12-15"
     },
     {
       "number": 1641,
-      "word": "SEGUE"
+      "word": "SEGUE",
+      "date": "2025-12-16"
     },
     {
       "number": 1642,
-      "word": "GRASS"
+      "word": "GRASS",
+      "date": "2025-12-17"
     },
     {
       "number": 1643,
-      "word": "RUGBY"
+      "word": "RUGBY",
+      "date": "2025-12-18"
     },
     {
       "number": 1644,
-      "word": "MYRRH"
+      "word": "MYRRH",
+      "date": "2025-12-19"
     },
     {
       "number": 1645,
-      "word": "WHITE"
+      "word": "WHITE",
+      "date": "2025-12-20"
     },
     {
       "number": 1646,
-      "word": "QUILT"
+      "word": "QUILT",
+      "date": "2025-12-21"
     },
     {
       "number": 1647,
-      "word": "CONCH"
+      "word": "CONCH",
+      "date": "2025-12-22"
     },
     {
       "number": 1648,
-      "word": "GLINT"
+      "word": "GLINT",
+      "date": "2025-12-23"
     },
     {
       "number": 1649,
-      "word": "SPOOL"
+      "word": "SPOOL",
+      "date": "2025-12-24"
     },
     {
       "number": 1650,
-      "word": "PRISM"
+      "word": "PRISM",
+      "date": "2025-12-25"
     },
     {
       "number": 1651,
-      "word": "SPEED"
+      "word": "SPEED",
+      "date": "2025-12-26"
     },
     {
       "number": 1652,
-      "word": "BATCH"
+      "word": "BATCH",
+      "date": "2025-12-27"
     },
     {
       "number": 1653,
-      "word": "ABBOT"
+      "word": "ABBOT",
+      "date": "2025-12-28"
     },
     {
       "number": 1654,
-      "word": "FRUIT"
+      "word": "FRUIT",
+      "date": "2025-12-29"
     },
     {
       "number": 1655,
-      "word": "DECOR"
+      "word": "DECOR",
+      "date": "2025-12-30"
     },
     {
       "number": 1656,
-      "word": "SIREN"
+      "word": "SIREN",
+      "date": "2025-12-31"
     },
     {
       "number": 1657,
-      "word": "FABLE"
+      "word": "FABLE",
+      "date": "2026-01-01"
     },
     {
       "number": 1658,
-      "word": "PROOF"
+      "word": "PROOF",
+      "date": "2026-01-02"
     },
     {
       "number": 1659,
-      "word": "SITAR"
+      "word": "SITAR",
+      "date": "2026-01-03"
     },
     {
       "number": 1660,
-      "word": "POSSE"
+      "word": "POSSE",
+      "date": "2026-01-04"
     },
     {
       "number": 1661,
-      "word": "FILLY"
+      "word": "FILLY",
+      "date": "2026-01-05"
     },
     {
       "number": 1662,
-      "word": "OOMPH"
+      "word": "OOMPH",
+      "date": "2026-01-06"
     },
     {
       "number": 1663,
-      "word": "PECAN"
+      "word": "PECAN",
+      "date": "2026-01-07"
     },
     {
       "number": 1664,
-      "word": "BLAST"
+      "word": "BLAST",
+      "date": "2026-01-08"
     },
     {
       "number": 1665,
-      "word": "EIGHT"
+      "word": "EIGHT",
+      "date": "2026-01-09"
     },
     {
       "number": 1666,
-      "word": "MANIC"
+      "word": "MANIC",
+      "date": "2026-01-10"
     },
     {
       "number": 1667,
-      "word": "QUARK"
+      "word": "QUARK",
+      "date": "2026-01-11"
     },
     {
       "number": 1668,
-      "word": "TRIAL"
+      "word": "TRIAL",
+      "date": "2026-01-12"
     },
     {
       "number": 1669,
-      "word": "GUMBO"
+      "word": "GUMBO",
+      "date": "2026-01-13"
     },
     {
       "number": 1670,
-      "word": "AVOID"
+      "word": "AVOID",
+      "date": "2026-01-14"
     },
     {
       "number": 1671,
-      "word": "CHASM"
+      "word": "CHASM",
+      "date": "2026-01-15"
     },
     {
       "number": 1672,
-      "word": "RACER"
+      "word": "RACER",
+      "date": "2026-01-16"
     },
     {
       "number": 1673,
-      "word": "FIERY"
+      "word": "FIERY",
+      "date": "2026-01-17"
     },
     {
       "number": 1674,
-      "word": "SUMAC"
+      "word": "SUMAC",
+      "date": "2026-01-18"
     },
     {
       "number": 1675,
-      "word": "WAXEN"
+      "word": "WAXEN",
+      "date": "2026-01-19"
     },
     {
       "number": 1676,
-      "word": "SULLY"
+      "word": "SULLY",
+      "date": "2026-01-20"
     },
     {
       "number": 1677,
-      "word": "CUBIC"
+      "word": "CUBIC",
+      "date": "2026-01-21"
     },
     {
       "number": 1678,
-      "word": "CLINK"
+      "word": "CLINK",
+      "date": "2026-01-22"
     },
     {
       "number": 1679,
-      "word": "BARON"
+      "word": "BARON",
+      "date": "2026-01-23"
     },
     {
       "number": 1680,
-      "word": "CLIFF"
+      "word": "CLIFF",
+      "date": "2026-01-24"
     },
     {
       "number": 1681,
-      "word": "STRUT"
+      "word": "STRUT",
+      "date": "2026-01-25"
     },
     {
       "number": 1682,
-      "word": "FREAK"
+      "word": "FREAK",
+      "date": "2026-01-26"
     },
     {
       "number": 1683,
-      "word": "DUSKY"
+      "word": "DUSKY",
+      "date": "2026-01-27"
     },
     {
       "number": 1684,
-      "word": "CRUEL"
+      "word": "CRUEL",
+      "date": "2026-01-28"
     },
     {
       "number": 1685,
-      "word": "FLAKY"
+      "word": "FLAKY",
+      "date": "2026-01-29"
     },
     {
       "number": 1686,
-      "word": "JUMBO"
+      "word": "JUMBO",
+      "date": "2026-01-30"
     },
     {
       "number": 1687,
-      "word": "ALLOT"
+      "word": "ALLOT",
+      "date": "2026-01-31"
     },
     {
       "number": 1688,
-      "word": "SPINY"
+      "word": "SPINY",
+      "date": "2026-02-01"
     },
     {
       "number": 1689,
-      "word": "CIGAR"
+      "word": "CIGAR",
+      "date": "2026-02-02"
     },
     {
       "number": 1690,
-      "word": "WEIGH"
+      "word": "WEIGH",
+      "date": "2026-02-03"
     },
     {
       "number": 1691,
-      "word": "CHIDE"
+      "word": "CHIDE",
+      "date": "2026-02-04"
     },
     {
       "number": 1692,
-      "word": "SWOOP"
+      "word": "SWOOP",
+      "date": "2026-02-05"
     },
     {
       "number": 1693,
-      "word": "GAVEL"
+      "word": "GAVEL",
+      "date": "2026-02-06"
     },
     {
       "number": 1694,
-      "word": "BLEAT"
+      "word": "BLEAT",
+      "date": "2026-02-07"
     },
     {
       "number": 1695,
-      "word": "EMBED"
+      "word": "EMBED",
+      "date": "2026-02-08"
     },
     {
       "number": 1696,
-      "word": "CELLO"
+      "word": "CELLO",
+      "date": "2026-02-09"
     },
     {
       "number": 1697,
-      "word": "SCENE"
+      "word": "SCENE",
+      "date": "2026-02-10"
     },
     {
       "number": 1698,
-      "word": "VEGAN"
+      "word": "VEGAN",
+      "date": "2026-02-11"
     },
     {
       "number": 1699,
-      "word": "SURGE"
+      "word": "SURGE",
+      "date": "2026-02-12"
     },
     {
       "number": 1700,
-      "word": "MOOCH"
+      "word": "MOOCH",
+      "date": "2026-02-13"
     },
     {
       "number": 1701,
-      "word": "BLOOM"
+      "word": "BLOOM",
+      "date": "2026-02-14"
     },
     {
       "number": 1702,
-      "word": "SKULL"
+      "word": "SKULL",
+      "date": "2026-02-15"
     },
     {
       "number": 1703,
-      "word": "ROOST"
+      "word": "ROOST",
+      "date": "2026-02-16"
     },
     {
       "number": 1704,
-      "word": "SQUAD"
+      "word": "SQUAD",
+      "date": "2026-02-17"
     },
     {
       "number": 1705,
-      "word": "MOGUL"
+      "word": "MOGUL",
+      "date": "2026-02-18"
     },
     {
       "number": 1706,
-      "word": "HOIST"
+      "word": "HOIST",
+      "date": "2026-02-19"
     },
     {
       "number": 1707,
-      "word": "STANK"
+      "word": "STANK",
+      "date": "2026-02-20"
     },
     {
       "number": 1708,
-      "word": "AWAKE"
+      "word": "AWAKE",
+      "date": "2026-02-21"
     },
     {
       "number": 1709,
-      "word": "GUAVA"
+      "word": "GUAVA",
+      "date": "2026-02-22"
     },
     {
       "number": 1710,
-      "word": "ATTIC"
+      "word": "ATTIC",
+      "date": "2026-02-23"
     },
     {
       "number": 1711,
-      "word": "BUYER"
+      "word": "BUYER",
+      "date": "2026-02-24"
     },
     {
       "number": 1712,
-      "word": "SHRED"
+      "word": "SHRED",
+      "date": "2026-02-25"
     },
     {
       "number": 1713,
-      "word": "LANCE"
+      "word": "LANCE",
+      "date": "2026-02-26"
     },
     {
       "number": 1714,
-      "word": "DIZZY"
+      "word": "DIZZY",
+      "date": "2026-02-27"
     },
     {
       "number": 1715,
-      "word": "HYDRA"
+      "word": "HYDRA",
+      "date": "2026-02-28"
     },
     {
       "number": 1716,
-      "word": "FLUKE"
+      "word": "FLUKE",
+      "date": "2026-03-01"
     },
     {
       "number": 1717,
-      "word": "SLIME"
+      "word": "SLIME",
+      "date": "2026-03-02"
     },
     {
       "number": 1718,
-      "word": "LINEN"
+      "word": "LINEN",
+      "date": "2026-03-03"
     },
     {
       "number": 1719,
-      "word": "THEFT"
+      "word": "THEFT",
+      "date": "2026-03-04"
     },
     {
       "number": 1720,
-      "word": "SHEEP"
+      "word": "SHEEP",
+      "date": "2026-03-05"
     },
     {
       "number": 1721,
-      "word": "GUNKY"
+      "word": "GUNKY",
+      "date": "2026-03-06"
     },
     {
       "number": 1722,
-      "word": "VOGUE"
+      "word": "VOGUE",
+      "date": "2026-03-07"
     },
     {
       "number": 1723,
-      "word": "LOBBY"
+      "word": "LOBBY",
+      "date": "2026-03-08"
     },
     {
       "number": 1724,
-      "word": "HASTY"
+      "word": "HASTY",
+      "date": "2026-03-09"
     },
     {
       "number": 1725,
-      "word": "SHOAL"
+      "word": "SHOAL",
+      "date": "2026-03-10"
     },
     {
       "number": 1726,
-      "word": "TEDDY"
+      "word": "TEDDY",
+      "date": "2026-03-11"
     },
     {
       "number": 1727,
-      "word": "SMELL"
+      "word": "SMELL",
+      "date": "2026-03-12"
     },
     {
       "number": 1728,
-      "word": "EATEN"
+      "word": "EATEN",
+      "date": "2026-03-13"
     },
     {
       "number": 1729,
-      "word": "ANKLE"
+      "word": "ANKLE",
+      "date": "2026-03-14"
     },
     {
       "number": 1730,
-      "word": "GRADE"
+      "word": "GRADE",
+      "date": "2026-03-15"
     },
     {
       "number": 1731,
-      "word": "DRAMA"
+      "word": "DRAMA",
+      "date": "2026-03-16"
     },
     {
       "number": 1732,
-      "word": "CLASP"
+      "word": "CLASP",
+      "date": "2026-03-17"
     },
     {
       "number": 1733,
-      "word": "AMPLY"
+      "word": "AMPLY",
+      "date": "2026-03-18"
     },
     {
       "number": 1734,
-      "word": "REHAB"
+      "word": "REHAB",
+      "date": "2026-03-19"
     },
     {
       "number": 1735,
-      "word": "OASIS"
+      "word": "OASIS",
+      "date": "2026-03-20"
     },
     {
       "number": 1736,
-      "word": "SLICK"
+      "word": "SLICK",
+      "date": "2026-03-21"
     },
     {
       "number": 1737,
-      "word": "BASIL"
+      "word": "BASIL",
+      "date": "2026-03-22"
     },
     {
       "number": 1738,
-      "word": "SERIF"
+      "word": "SERIF",
+      "date": "2026-03-23"
     },
     {
       "number": 1739,
-      "word": "BROOD"
+      "word": "BROOD",
+      "date": "2026-03-24"
     },
     {
       "number": 1740,
-      "word": "WISER"
+      "word": "WISER",
+      "date": "2026-03-25"
     },
     {
       "number": 1741,
-      "word": "BEFIT"
+      "word": "BEFIT",
+      "date": "2026-03-26"
     },
     {
       "number": 1742,
-      "word": "IVORY"
+      "word": "IVORY",
+      "date": "2026-03-27"
     },
     {
       "number": 1743,
-      "word": "AFOOT"
+      "word": "AFOOT",
+      "date": "2026-03-28"
     },
     {
       "number": 1744,
-      "word": "CHUMP"
+      "word": "CHUMP",
+      "date": "2026-03-29"
     },
     {
       "number": 1745,
-      "word": "COMET"
+      "word": "COMET",
+      "date": "2026-03-30"
     },
     {
       "number": 1746,
-      "word": "SWAMP"
+      "word": "SWAMP",
+      "date": "2026-03-31"
     },
     {
       "number": 1747,
-      "word": "FIZZY"
+      "word": "FIZZY",
+      "date": "2026-04-01"
     },
     {
       "number": 1748,
-      "word": "SOBER"
+      "word": "SOBER",
+      "date": "2026-04-02"
     },
     {
       "number": 1749,
-      "word": "SINGE"
+      "word": "SINGE",
+      "date": "2026-04-03"
     },
     {
       "number": 1750,
-      "word": "SANDY"
+      "word": "SANDY",
+      "date": "2026-04-04"
     },
     {
       "number": 1751,
-      "word": "ENVOY"
+      "word": "ENVOY",
+      "date": "2026-04-05"
+    },
+    {
+      "number": 1752,
+      "word": "SWORN",
+      "date": "2026-04-06"
+    },
+    {
+      "number": 1753,
+      "word": "DENSE",
+      "date": "2026-04-07"
     }
   ]
 }
