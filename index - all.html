@@ -2012,7 +2012,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 	<br>
 
 	<!-- Wordle Mode Pattern Input -->
-	<strong id="wordlePatternToggle" class="toggle-header">⌨️ Wordle Mode Pattern Input</strong>
+	<strong id="wordlePatternToggle" class="toggle-header">⌨️ Wordle Mode Add Guess Input</strong>
 	<div id="wordlePatternContent" class="toggle-content">
 		<p>In Wordle Mode, you can optionally enter a guess together with a pattern of feedback digits.</p>
 
@@ -2047,6 +2047,30 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 		</ul>
 	</div>
 	<br> -->
+
+	<!-- Search Help -->
+	<strong id="searchHelpToggle" class="toggle-header">🔍 Advanced Mode Pattern Search Input</strong>
+	<div id="searchHelpContent" class="toggle-content">
+		<ul>
+			<li style="margin-top: 15px;">
+				<strong>?</strong>: Exactly one letter (e.g.,<code>A?E</code>&rarr;<em>ACE, APE, ARE</em>)
+			</li>
+			<li>
+				<strong>*</strong>: Zero or more letters (e.g.,<code>E*E</code>&rarr;<em>AGREE, EAGLE, EERIE</em>)
+			</li>
+			<li>
+				<strong>[AEIOU]</strong>: Any one listed; <strong>[^AEIOU]</strong>: Not these (e.g.,<code>[^AEIOU]ATE</code>&rarr;<em>SLATE, CRATE</em>)
+			</li>
+			<li>
+				<strong>&amp;</strong>: AND; <strong>|</strong>: OR (AND has higher precedence)
+			</li>
+			<li>
+				<strong>( )</strong>: Group terms (e.g.,<code>(ING &amp; R) | (A?E &amp; N)</code>)
+			</li>
+		</ul>
+	</div>
+	<br>
+
 	<!-- Metrics Glossary -->
 	<strong id="metricsGlossaryToggle" class="toggle-header">📘 Metrics Glossary</strong>
 	<div id="metricsGlossaryContent" class="toggle-content">
@@ -2066,7 +2090,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 	</div>
 	<br>
 	<!-- First-Guess Help -->
-	<strong id="firstGuessHelpToggle" class="toggle-header">🥇 First Guess Advisor Help</strong>
+	<strong id="firstGuessHelpToggle" class="toggle-header">🥇 First Guess Advisor</strong>
 	<div id="firstGuessHelpContent" class="toggle-content">
 		<p><strong>First Guess Advisor</strong> shows <strong>exact</strong> precomputed values for the <strong>first guess</strong> under the selected Answer List and Mode.</p>
 		<ul>
@@ -2084,7 +2108,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 	</div>
 	<br>
 	<!-- Next-Guess Recommender Help -->
-	<strong id="recommenderToggle" class="toggle-header">🧠 Next Guess Recommender Help</strong>
+	<strong id="recommenderToggle" class="toggle-header">🧠 Next Guess Recommender</strong>
 	<div id="recommenderContent" class="toggle-content">
 		<p><strong>Next Guess Recommender</strong> uses an <strong>entropy-based</strong> approach to rank candidate guesses from the current state.</p>
 		<ul>
@@ -2137,7 +2161,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 	</div>
 	<br>
 	<!-- Word Analyzer Help -->
-	<strong id="analyzerHelpToggle" class="toggle-header">🧩 Word Analyzer Help</strong>
+	<strong id="analyzerHelpToggle" class="toggle-header">🧩 Word Analyzer</strong>
 	<div id="analyzerHelpContent" class="toggle-content">
 		<ul>
 			<li style="margin-top: 15px;">
@@ -2157,28 +2181,6 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 					<li>how balanced the resulting branches are,</li>
 					<li>why entropy, E[cands], and Max Bucket have their specific values.</li>
 				</ul>
-			</li>
-		</ul>
-	</div>
-	<br>
-	<!-- Search Help -->
-	<strong id="searchHelpToggle" class="toggle-header">🔍 Pattern Search Help</strong>
-	<div id="searchHelpContent" class="toggle-content">
-		<ul>
-			<li style="margin-top: 15px;">
-				<strong>?</strong>: Exactly one letter (e.g.,<code>A?E</code>&rarr;<em>ACE, APE, ARE</em>)
-			</li>
-			<li>
-				<strong>*</strong>: Zero or more letters (e.g.,<code>E*E</code>&rarr;<em>AGREE, EAGLE, EERIE</em>)
-			</li>
-			<li>
-				<strong>[AEIOU]</strong>: Any one listed; <strong>[^AEIOU]</strong>: Not these (e.g.,<code>[^AEIOU]ATE</code>&rarr;<em>SLATE, CRATE</em>)
-			</li>
-			<li>
-				<strong>&amp;</strong>: AND; <strong>|</strong>: OR (AND has higher precedence)
-			</li>
-			<li>
-				<strong>( )</strong>: Group terms (e.g.,<code>(ING &amp; R) | (A?E &amp; N)</code>)
 			</li>
 		</ul>
 	</div>
