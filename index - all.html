@@ -2296,6 +2296,8 @@ const PREVIOUS_ANSWERS_FILE = './previous_answers.json';
 
 function getLocalTodayISO(){
   const now = new Date();
+  if (isNaN(now.getTime())) return '9999-12-31'; // fallback
+
   const y = now.getFullYear();
   const m = String(now.getMonth() + 1).padStart(2, '0');
   const d = String(now.getDate()).padStart(2, '0');
