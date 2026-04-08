@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1753,
-  "updatedThroughDate": "2026-04-07",
+  "updatedThrough": 1754,
+  "updatedThroughDate": "2026-04-08",
   "answers": [
     {
       "number": 0,
@@ -8791,6 +8791,11 @@
       "number": 1753,
       "word": "DENSE",
       "date": "2026-04-07"
+    },
+    {
+      "number": 1754,
+      "word": "INLET",
+      "date": "2026-04-08"
     }
   ]
 }
