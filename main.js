@@ -196,6 +196,21 @@ function updatePreviousAnswersUI(){
     return;
   }
 
+  if (pa.handling === 'include' && pa.mode === 'lastN') {
+    const raw = Number.isInteger(pa.value) && pa.value > 0 ? pa.value : 365;
+    const total = Array.isArray(pa.data) ? pa.data.length : 0;
+    const n = Math.min(raw, total);
+    st.textContent = `Through Wordle #${throughNumber} • including last ${n}`;
+    refreshPreviousAnswersControls();
+    return;
+  }
+  
+  if (pa.handling === 'include' && pa.mode === 'all') {
+    st.textContent = `Through Wordle #${throughNumber} • including all previous`;
+    refreshPreviousAnswersControls();
+    return;
+  }
+
   st.textContent = `Through Wordle #${throughNumber}`;
   refreshPreviousAnswersControls();
 }
@@ -235,9 +250,17 @@ function rebuildPreviousAnswersActiveSet(){
 function applyPreviousAnswersFilter(words){
   const pa = state.previousAnswers;
   if (!Array.isArray(words) || !words.length) return [];
-  if (pa.handling !== 'exclude' || !pa.loaded || !pa.activeSet.size) return words;
+  if (!pa.loaded || !pa.activeSet.size) return words;
 
-  return words.filter(w => !pa.activeSet.has(w));
+  if (pa.handling === 'exclude') {
+    return words.filter(w => !pa.activeSet.has(w));
+  }
+
+  if (pa.handling === 'include') {
+    return words.filter(w => pa.activeSet.has(w));
+  }
+
+  return words;
 }
 
 function getPreviousAnswerTooltipRecords(word){
@@ -247,22 +270,22 @@ function getPreviousAnswerTooltipRecords(word){
   const records = pa.byWord.get(word);
   if (!Array.isArray(records) || !records.length) return [];
 
+  const activeRecords = pa.data.filter(isPreviousAnswerRecordActive);
+
   if (pa.mode === 'all') {
-    return records.filter(isPreviousAnswerRecordActive);
+    return activeRecords.filter(rec => rec.word === word);
   }
 
   if (pa.mode === 'lastN') {
-    const eligible = records.filter(isPreviousAnswerRecordActive);
-
     const nRaw = Number(pa.value);
     const n = Math.max(1, Math.floor(Number.isFinite(nRaw) ? nRaw : 365));
-    const maxNumber = Number.isInteger(pa.updatedThrough) ? pa.updatedThrough : Infinity;
-    const minNumber = maxNumber - n + 1;
+    const sliceStart = Math.max(0, activeRecords.length - n);
+    const recent = activeRecords.slice(sliceStart);
 
-    return eligible.filter(rec => Number.isInteger(rec.number) && rec.number >= minNumber);
+    return recent.filter(rec => rec.word === word);
   }
 
-  return records.slice();
+  return activeRecords.filter(rec => rec.word === word);
 }
 
 function buildPreviousAnswerBadgeInfo(word){
@@ -670,7 +693,7 @@ function renderCandidateListFromState(){
   const pa = state.previousAnswers;
   const showBadge = !!(
     pa &&
-    pa.handling === 'badge' &&
+    (pa.handling === 'badge' || pa.handling === 'include') &&
     pa.loaded &&
     pa.activeSet &&
     pa.activeSet.size > 0
@@ -1474,7 +1497,7 @@ function renderList(){
   const pa = state.previousAnswers;
   const showBadge = !!(
     pa &&
-    pa.handling === 'badge' &&
+    (pa.handling === 'badge' || pa.handling === 'include') &&
     pa.loaded &&
     pa.activeSet &&
     pa.activeSet.size > 0
