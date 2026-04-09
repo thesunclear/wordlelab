@@ -2603,10 +2603,10 @@ function EstepsOneLookaheadDeep_T5(S, g) {
   return est;
 }
 
-const HIDDEN_LEVEL2_LIMIT = 150;
-const HIDDEN_LEVEL3_LIMIT = 100;
-const HIDDEN_LEVEL4_LIMIT = 75;
-const HIDDEN_LEVEL5_LIMIT = 50;
+const HIDDEN_LEVEL2_LIMIT = 100;
+const HIDDEN_LEVEL3_LIMIT = 75;
+const HIDDEN_LEVEL4_LIMIT = 50;
+const HIDDEN_LEVEL5_LIMIT = 36;
 
 function EstepsOneLookaheadDeep(S, g) {
     const n = S.length;
