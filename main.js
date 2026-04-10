@@ -26,12 +26,26 @@ const state={
 
 window.state = state;
 
-/* ===== Theme ===== */
+/* ===== Dark Mode Starting Theme ===== */
+/* 
 (function(){
 	const s=localStorage.getItem('wf-theme');
 	if(s==='light')document.body.classList.add('light');
 	updateThemeBtn(); byId('modeToggle').onclick=toggleTheme;
 })();
+ */
+/* ===== Light Mode Starting Theme ===== */
+(function(){
+	const s = localStorage.getItem('wf-theme');
+
+	if (s !== 'dark') {
+		document.body.classList.add('light');
+	}
+
+	updateThemeBtn();
+	byId('modeToggle').onclick = toggleTheme;
+})();
+/* ===== Theme ===== */
 function toggleTheme(){
 	document.body.classList.toggle('light');
 	localStorage.setItem('wf-theme',document.body.classList.contains('light')?'light':'dark');
@@ -2753,11 +2767,6 @@ function maybeWarnForDeepPreset(kind, presetKey) {
     );
   }
 }
-
-const HIDDEN_LEVEL2_LIMIT = 150;
-const HIDDEN_LEVEL3_LIMIT = 100;
-const HIDDEN_LEVEL4_LIMIT = 75;
-const HIDDEN_LEVEL5_LIMIT = 50;
 
 /* ===== Suggest Next ===== */
 async function suggestNext() {

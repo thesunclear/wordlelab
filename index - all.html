@@ -2138,12 +2138,26 @@ const state={
 
 window.state = state;
 
-/* ===== Theme ===== */
+/* ===== Dark Mode Starting Theme ===== */
+/* 
 (function(){
 	const s=localStorage.getItem('wf-theme');
 	if(s==='light')document.body.classList.add('light');
 	updateThemeBtn(); byId('modeToggle').onclick=toggleTheme;
 })();
+ */
+/* ===== Light Mode Starting Theme ===== */
+(function(){
+	const s = localStorage.getItem('wf-theme');
+
+	if (s !== 'dark') {
+		document.body.classList.add('light');
+	}
+
+	updateThemeBtn();
+	byId('modeToggle').onclick = toggleTheme;
+})();
+/* ===== Theme ===== */
 function toggleTheme(){
 	document.body.classList.toggle('light');
 	localStorage.setItem('wf-theme',document.body.classList.contains('light')?'light':'dark');
