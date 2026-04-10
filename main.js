@@ -2659,7 +2659,7 @@ const ANALYZER_MODE_PRESETS = {
   balanced: {
     label: 'Balanced',
     estepsFn: 'EstepsOneLookaheadDeep_T1',
-    note: 'Recommended for most cases.'
+    note: 'Balanced speed and accuracy.'
   },
   deep: {
     label: 'Deep',

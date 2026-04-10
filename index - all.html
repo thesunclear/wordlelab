@@ -2092,11 +2092,11 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 					</li>
 
 					<li style="margin-top: 10px;">
-						<strong>Mode</strong>: controls how deeply E[steps] is evaluated (deeper modes are usually more accurate but slower).
+						<strong>Mode</strong>: controls how deeply <strong>E[steps]</strong> is evaluated (deeper modes are usually more accurate but slower).
 						<ul>
-							<li><strong>Fast</strong>: faster results using a shallower E[steps] model.</li>
-							<li><strong>Balanced</strong>: recommended for most cases.</li>
-							<li><strong>Deep</strong> / <strong>Deeper</strong> / <strong>Very Deep</strong> / <strong>Max</strong>: increasingly deeper E[steps] evaluation, usually more accurate but slower.</li>
+							<li><strong>Fast</strong>: faster shallow estimate.</li>
+							<li><strong>Balanced</strong>: balanced speed and accuracy.</li>
+							<li><strong>Deep</strong> / <strong>Deeper</strong> / <strong>Very Deep</strong> / <strong>Max</strong>: increasingly deeper evaluation, usually more accurate but slower.</li>
 						</ul>
 					</li>
 
@@ -2118,11 +2118,11 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 			<li>
 				<strong>E[steps]</strong>: An approximate expected number of guesses needed to find the answer if you start by using this word, given the current candidate pool.
 				<ul>
-				<li>Just like in the Next Guess Recommender, follow-up guesses used for <strong>E[steps]</strong> are always restricted to the <strong>remaining candidates at each step</strong>, not from the external pool.</li>
-				<li><strong>Mode</strong>: controls how deeply E[steps] is evaluated (deeper modes are usually more accurate but slower).
+				<li>Just like in the <strong>Next Guess Recommender</strong>, follow-up guesses used for <strong>E[steps]</strong> are always restricted to the <strong>remaining candidates at each step</strong>, not from the external pool.</li>
+				<li><strong>Mode</strong>: controls how deeply <strong>E[steps]</strong> is evaluated (deeper modes are usually more accurate but slower).
 					<ul>
 						<li><strong>Fast</strong>: faster shallow estimate.</li>
-						<li><strong>Balanced</strong>: recommended for most cases.</li>
+						<li><strong>Balanced</strong>: balanced speed and accuracy.</li>
 						<li><strong>Deep</strong> / <strong>Deeper</strong> / <strong>Very Deep</strong> / <strong>Max</strong>: increasingly deeper evaluation, usually more accurate but slower.</li>
 					</ul>
 				</li>
@@ -4785,7 +4785,7 @@ const RECOMMENDER_MODE_PRESETS = {
     maxCand: 100,
     maxPool: 100,
     estepsFn: 'EstepsOneLookaheadDeep_T1',
-    note: 'Recommended for most cases.'
+    note: 'Balanced speed and accuracy.'
   },
   deep: {
     label: 'Deep',
