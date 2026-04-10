@@ -2618,7 +2618,7 @@ const RECOMMENDER_MODE_PRESETS = {
     maxCand: 100,
     maxPool: 100,
     estepsFn: 'EstepsOneLookaheadDeep_T1',
-    note: 'Recommended for most cases.'
+    note: 'Balanced speed and accuracy.'
   },
   deep: {
     label: 'Deep',
