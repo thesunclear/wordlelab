@@ -387,15 +387,6 @@ h1 .tag{
   text-align: center;
 }
 
-#filterModeToggle {
-  width: 130px;
-  min-width: 130px;
-  /* display: flex;               flex container */
-  align-items: center;         /* vertical center */
-  justify-content: center;     /* horizontal center */
-  text-align: center;
-}
-
 /* ========== Top Controls (word list / clear / mode toggle) ========== */
 .bar{
   display:flex;
@@ -523,40 +514,6 @@ h1 .tag{
 
   .previous-answers-value-input{
     width:70px;
-  }
-}
-
-/* Mobile layout optimization */
-@media (max-width:640px){
-  .previous-answers-bar{
-    flex-direction:column;
-    align-items:flex-start;
-    gap:8px;
-  }
-
-  .previous-answers-controls{
-    width:100%;
-    gap:8px;
-  }
-
-  .previous-answers-label{
-    font-size:12.5px;
-  }
-
-  .previous-answers-controls select,
-  .previous-answers-value-input{
-    font-size:12.5px;
-    padding:6px 10px;
-  }
-
-  .previous-answers-value-input{
-    width:70px;
-  }
-
-  #previousAnswersStatus{
-    font-size:12px;
-    line-height:1.3;
-    white-space:normal;
   }
 }
 
@@ -823,10 +780,6 @@ body.light .list::-webkit-scrollbar-thumb {
   padding-inline:14px;
   flex:0 0 auto;
 }
-#space-1{
-  display:none;
-  flex-basis:0;
-}
 
 .button-container select{
   padding:6px 8px;
@@ -907,14 +860,6 @@ th#fw-sort-bucket:focus{
 }
 
 /* ========== Word Analyzer ========== */
-#deepLabel{
-  font-size:13px;
-  color:var(--sub);
-  display:flex;
-  align-items:center;
-  gap:6px;
-}
-
 #analysisModeLabel{
   font-size:13px;
   color:var(--sub);
