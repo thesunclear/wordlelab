@@ -2085,7 +2085,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 					</li>
 
 					<li style="margin-top: 10px;">
-						<strong>Recommendation Mode</strong>: chooses a preset evaluation profile for the recommender.
+						<strong>Mode</strong>: controls how deeply E[steps] is evaluated (deeper modes are usually more accurate but slower).
 						<ul>
 							<li><strong>Fast</strong>: faster results using a shallower E[steps] model.</li>
 							<li><strong>Balanced</strong>: recommended for most cases.</li>
@@ -2112,7 +2112,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 				<strong>E[steps]</strong>: An approximate expected number of guesses needed to find the answer if you start by using this word, given the current candidate pool.
 				<ul>
 				<li>Just like in the Next Guess Recommender, follow-up guesses used for <strong>E[steps]</strong> are always restricted to the <strong>remaining candidates at each step</strong>, not from the external pool.</li>
-				<li><strong>Analysis Mode</strong>: chooses how deeply E[steps] is evaluated.
+				<li><strong>Mode</strong>: controls how deeply E[steps] is evaluated (deeper modes are usually more accurate but slower).
 					<ul>
 						<li><strong>Fast</strong>: faster shallow estimate.</li>
 						<li><strong>Balanced</strong>: recommended for most cases.</li>
