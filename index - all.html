@@ -1752,8 +1752,8 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 		<label id="recommenderModeLabel" title="Choose how deeply the recommender evaluates guesses">
 			Mode
 			<select id="recommenderMode">
-				<option value="fast">Fast</option>
-				<option value="balanced" selected>Balanced</option>
+				<option value="fast" selected>Fast</option>
+				<option value="balanced">Balanced</option>
 				<option value="deep">Deep</option>
 				<option value="deeper">Deeper</option>
 				<option value="veryDeep">Very Deep</option>
@@ -1822,8 +1822,8 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 			<label id="analysisModeLabel" title="Choose how deeply E[steps] is evaluated">
 				Mode
 				<select id="analysisMode">
-					<option value="fast">Fast</option>
-					<option value="balanced" selected>Balanced</option>
+					<option value="fast" selected>Fast</option>
+					<option value="balanced">Balanced</option>
 					<option value="deep">Deep</option>
 					<option value="deeper">Deeper</option>
 					<option value="veryDeep">Very Deep</option>
@@ -4863,13 +4863,13 @@ function getEstepsFunctionByName(name) {
 }
 
 function getRecommenderPreset() {
-  const key = String(byId('recommenderMode')?.value || 'balanced');
-  return RECOMMENDER_MODE_PRESETS[key] || RECOMMENDER_MODE_PRESETS.balanced;
+  const key = String(byId('recommenderMode')?.value || 'fast');
+  return RECOMMENDER_MODE_PRESETS[key] || RECOMMENDER_MODE_PRESETS.fast;
 }
 
 function getAnalyzerPreset() {
-  const key = String(byId('analysisMode')?.value || 'balanced');
-  return ANALYZER_MODE_PRESETS[key] || ANALYZER_MODE_PRESETS.balanced;
+  const key = String(byId('analysisMode')?.value || 'fast');
+  return ANALYZER_MODE_PRESETS[key] || ANALYZER_MODE_PRESETS.fast;
 }
 
 function updateRecommenderModeNote() {

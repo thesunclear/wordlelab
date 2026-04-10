@@ -2703,13 +2703,13 @@ function getEstepsFunctionByName(name) {
 }
 
 function getRecommenderPreset() {
-  const key = String(byId('recommenderMode')?.value || 'balanced');
-  return RECOMMENDER_MODE_PRESETS[key] || RECOMMENDER_MODE_PRESETS.balanced;
+  const key = String(byId('recommenderMode')?.value || 'fast');
+  return RECOMMENDER_MODE_PRESETS[key] || RECOMMENDER_MODE_PRESETS.fast;
 }
 
 function getAnalyzerPreset() {
-  const key = String(byId('analysisMode')?.value || 'balanced');
-  return ANALYZER_MODE_PRESETS[key] || ANALYZER_MODE_PRESETS.balanced;
+  const key = String(byId('analysisMode')?.value || 'fast');
+  return ANALYZER_MODE_PRESETS[key] || ANALYZER_MODE_PRESETS.fast;
 }
 
 function updateRecommenderModeNote() {
