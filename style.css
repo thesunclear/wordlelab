@@ -398,6 +398,7 @@ h1 .tag{
   display:flex;
   align-items:center;
   gap:8px;
+  white-space:nowrap;
 }
 
 .previous-answers-range{
@@ -418,46 +419,8 @@ h1 .tag{
   font-size:13px;
 }
 
-.previous-answers-bar{
-  margin-top:10px;
-  align-items:center;
-  justify-content:space-between;
-  gap:10px;
-  flex-wrap:wrap;
-}
-
-.previous-answers-controls{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  flex-wrap:wrap;
-}
-
-.previous-answers-label{
-  font-size:13px;
-  color:var(--sub);
-  display:flex;
-  align-items:center;
-  gap:8px;
-  white-space:nowrap;
-}
-
 .previous-answers-select-label{
   gap:6px;
-}
-
-.previous-answers-value-wrap{
-  gap:6px;
-}
-
-.previous-answers-value-input{
-  width:90px;
-  padding:7px;
-  border-radius:999px;
-  border:1px solid var(--border);
-  background:var(--bg-input);
-  color:var(--fg);
-  font-size:13px;
 }
 
 .pa-badge{
@@ -542,6 +505,7 @@ h1 .tag{
   }
 }
 
+/*
 .pa-badge{
   display:inline-block;
   margin-left:6px;
@@ -550,6 +514,7 @@ h1 .tag{
   opacity:0.8;
   vertical-align:middle;
 }
+*/
 
 /* Search input (Advanced mode / Pattern Search) */
 .search{
@@ -801,6 +766,15 @@ body.light .list::-webkit-scrollbar-thumb {
   flex-basis:0;
 }
 
+.button-container select{
+  padding:6px 8px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:var(--bg-input);
+  color:var(--fg);
+  font-size:13px;
+}
+
 /* ========== Progress bar ========== */
 .progress{
   position:relative;
@@ -872,6 +846,14 @@ th#fw-sort-bucket:focus{
 
 /* ========== Word Analyzer ========== */
 #deepLabel{
+  font-size:13px;
+  color:var(--sub);
+  display:flex;
+  align-items:center;
+  gap:6px;
+}
+
+#analysisModeLabel{
   font-size:13px;
   color:var(--sub);
   display:flex;
@@ -1311,41 +1293,39 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
   #words{columns:2 110px}
 }
 
-/* Mobile: Cands/Pool one row, buttons one row */
-@media(max-width:750px){
+/* Mobile layout for recommender / analyzer / top controls */
+/*
+@media (max-width: 750px){
   .button-container .btn{
-    flex:1 1 calc(33.3% - 6px);
+    flex:1 1 calc(33.333% - 6px);
     justify-content:center;
   }
 }
+*/
 
-/* Mobile: Cands/Pool one row, buttons one row */
-@media(max-width:600px){
-  .button-container label{
-    flex:1 1 calc(33.3% - 6px);
-  }
-}
-
-/* Mobile: Cands/Pool one row, buttons one row */
-@media(max-width:530px){
+@media (max-width: 550px){
   #firstGuessContent .btn{
     flex:1 1 calc(50% - 6px);
     justify-content:center;
   }
 
-  .button-container label{
-    flex:1 1 calc(50% - 6px);
+  /* Recommender: mode row first, buttons row second */
+  #recommenderModeLabel{
+    flex:1 1 100%;
+    display:flex;
+    align-items:center;
+    gap:8px;
   }
-  #limitLabel{
-    flex:1 1 calc(80% - 6px);
+
+  #recommenderMode{
+    flex:0 0 auto;
+    width:auto;
+    min-width:110px;
+    max-width:100%;
   }
-  #space-1{
-    display:block;
-    flex-basis:100%;
-    height:0;
-  }
+
   .button-container .btn{
-    flex:1 1 calc(33.3% - 6px);
+    flex:1 1 calc(33.333% - 6px);
     justify-content:center;
   }
 
@@ -1353,65 +1333,25 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
     flex-direction:column;
     align-items:stretch;
   }
+
   .top-controls-left{
     width:100%;
     justify-content:flex-start;
   }
+
   .top-controls-right{
     width:100%;
     display:flex;
     justify-content:flex-end;
   }
 }
-/* Mobile: Cands/Pool one row, buttons one row */
-@media(max-width:404px){
-  #deepLabel{
-    flex:1 1 calc(80% - 6px);
+
+@media (max-width: 404px){
+  #analysisModeLabel{
+    flex:1 1 100%;
   }
 }
-/* ===== Previous Answers (responsive layout) ===== */
 
-.previous-answers-bar{
-  margin-top:10px;
-  align-items:center;
-  justify-content:space-between;
-  gap:10px;
-  flex-wrap:wrap;
-}
-
-.previous-answers-controls{
-  display:flex;
-  align-items:center;
-  gap:10px;
-  flex-wrap:wrap;
-}
-
-.previous-answers-label{
-  font-size:13px;
-  color:var(--sub);
-  display:flex;
-  align-items:center;
-  gap:8px;
-  white-space:nowrap;
-}
-
-.previous-answers-range{
-  gap:6px;
-}
-
-.previous-answers-value-wrap{
-  gap:6px;
-}
-
-.previous-answers-value-input{
-  width:90px;
-  padding:7px;
-  border-radius:999px;
-  border:1px solid var(--border);
-  background:var(--bg-input);
-  color:var(--fg);
-  font-size:13px;
-}
 
 /* ===== Mobile layout optimization ===== */
 @media (max-width: 640px){

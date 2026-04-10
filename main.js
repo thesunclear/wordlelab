@@ -1625,18 +1625,22 @@ async function getExternalPool(){
 	return getCurrentAnswerPoolRaw();
 }
 
-(function initDeepEstepsWarning() {
-  const box = byId('deepSearch'); 
-  if (!box) return;
+(function initModeWarnings() {
+  const recommenderSelect = byId('recommenderMode');
+  if (recommenderSelect) {
+    recommenderSelect.addEventListener('change', () => {
+      updateRecommenderModeNote();
+      maybeWarnForDeepPreset('recommender', recommenderSelect.value);
+    });
+  }
 
-  box.addEventListener('change', () => {
-    if (box.checked) {
-      showToast(
-        'Deep E[steps] uses a much deeper search and can be significantly slower when many candidates remain. On very large candidate sets, the page may briefly become unresponsive.',
-        'warn'
-      );
-    }
-  });
+  const analyzerSelect = byId('analysisMode');
+  if (analyzerSelect) {
+    analyzerSelect.addEventListener('change', () => {
+      updateAnalyzerModeNote();
+      maybeWarnForDeepPreset('analyzer', analyzerSelect.value);
+    });
+  }
 })();
 
 /* ===== Recommenders ===== */
@@ -1650,7 +1654,7 @@ function lockUI(yes){
 	const stop = byId('stopBtn');
 	if (stop) stop.disabled = !yes;  // Stop stays enabled during calculation
 	/* 2) Inputs/toggles to freeze while computing */
-	['wordListSelect','previousAnswersHandling','previousAnswersMode','previousAnswersValue','modeSelect','fwHardMode','fwGuessPool','hardMode','maxCand','maxPool','deepEstepThreshold','poolSelect','deepSearch','analyzeInput'].forEach(id=>{
+	['wordListSelect','previousAnswersHandling','previousAnswersMode','previousAnswersValue','modeSelect','fwHardMode','fwGuessPool','hardMode','poolSelect','recommenderMode','analysisMode','analyzeInput'].forEach(id=>{
 		const el = byId(id);
 		if (!el) return;
 		el.disabled = yes;
@@ -1744,80 +1748,78 @@ function clearAllAdvisorPanels({ silent = true } = {}) {
 async function buildGuessPoolCapped(S) {
 	const hard = byId('hardMode').checked;
 	const n = S.length;
-	/* Hard Mode On: Search Cands Thr by Entropy */
+	const preset = getRecommenderPreset();
+
+	/* Hard Mode On: search top candidate words only */
 	if (hard) {
-		const candsThr = Math.max(1, Number(byId('maxCand').value) || n);
+		const candsThr = Math.max(1, Math.min(preset.maxCand, n));
 		const scoredS = [];
-		let count = 0; // 1
+		let count = 0;
+
 		for (const g of S) {
 			if (state.cancel) {
-				// If user pressed Stop while ranking, break early
 				break;
 			}
 			const met = entropyAndExpectedSize(S, g);
 			scoredS.push({
-				g, score: met.entropy, expected: met.expected
+				g,
+				score: met.entropy,
+				expected: met.expected
 			});
-			// Let the event loop breathe every 50 items
 			if (++count % 50 === 0) {
 				await new Promise(r => setTimeout(r, 0));
 			}
 		}
+
 		scoredS.sort((a, b) => (b.score - a.score) || (a.expected - b.expected));
-		const topS = scoredS.slice(0, Math.min(candsThr, scoredS.length)).map(x => x.g);
-		return topS;
+		return scoredS.slice(0, Math.min(candsThr, scoredS.length)).map(x => x.g);
 	}
+
 	/* Hard Mode Off */
 	const ext = await getExternalPool();
 	if (!ext || ext.length === 0) {
-		console.warn("No external pool found, proceeding with only filtered candidates.");
+		console.warn('No external pool found, proceeding with only filtered candidates.');
 	}
-	const K = Math.max(1, Number(byId('maxCand').value) || S.length); // Candidates threshold
-	const N = Math.max(0, Number(byId('maxPool').value) || 0);        // Pool threshold
-	/* Cheap metric: entropy + tie-break by expected size */
+
+	const K = Math.max(1, Math.min(preset.maxCand, S.length));
+	const N = Math.max(0, preset.maxPool);
+
 	function cheapScoreFor(word, set) {
 		const met = entropyAndExpectedSize(set, word);
 		return {
-			score: met.entropy, expected: met.expected
+			score: met.entropy,
+			expected: met.expected
 		};
 	}
-	/* ===== Rank S by cheap score, keep top-K ===== */
+
 	const scoredS = [];
 	let countS = 0;
 	for (const g of S) {
 		if (state.cancel) break;
 		const { score, expected } = cheapScoreFor(g, S);
-		scoredS.push({ 
-			g, score, expected 
-		});
+		scoredS.push({ g, score, expected });
 		if (++countS % 50 === 0) {
 			await new Promise(r => setTimeout(r, 0));
 		}
 	}
 	scoredS.sort((a, b) => (b.score - a.score) || (a.expected - b.expected));
 	const topS = scoredS.slice(0, Math.min(K, scoredS.length)).map(x => x.g);
-	/* ===== Rank external by cheap score against S, keep top-N ===== */
-	// Remove only current candidates from the external pool.
-	// Past answers excluded from candidates may still appear here as non-hard information guesses.
-	const baseSet = new Set(S);
+
+	const extOnly = Array.isArray(ext) ? ext.filter(w => !S.includes(w)) : [];
 	const scoredExt = [];
-	if (N > 0) {
-		let countE = 0;
-		for (const g of ext) {
-			if (state.cancel) break;
-			if (baseSet.has(g)) continue;
-			const { score, expected } = cheapScoreFor(g, S);
-			scoredExt.push({
-				g, score, expected
-			});
-			if (++countE % 50 === 0) {
-				await new Promise(r => setTimeout(r, 0));
-			}
+	let countE = 0;
+	for (const g of extOnly) {
+		if (state.cancel) break;
+		const { score, expected } = cheapScoreFor(g, S);
+		scoredExt.push({ g, score, expected });
+		if (++countE % 50 === 0) {
+			await new Promise(r => setTimeout(r, 0));
 		}
-		scoredExt.sort((a, b) => (b.score - a.score) || (a.expected - b.expected));
 	}
-	const topExt = (N > 0) ? scoredExt.slice(0, Math.min(N, scoredExt.length)).map(x => x.g) : [];
-	return [...topS, ...topExt]; // Final capped pool = top-K from S + top-N from external	  
+	scoredExt.sort((a, b) => (b.score - a.score) || (a.expected - b.expected));
+	const topExt = scoredExt.slice(0, Math.min(N, scoredExt.length)).map(x => x.g);
+
+	return [...topS, ...topExt];
 }
 
 // Heuristic for "extra guesses" needed in a leaf bucket of size k
@@ -2603,10 +2605,159 @@ function EstepsOneLookaheadDeep_T5(S, g) {
   return est;
 }
 
-const HIDDEN_LEVEL2_LIMIT = 100;
-const HIDDEN_LEVEL3_LIMIT = 75;
-const HIDDEN_LEVEL4_LIMIT = 50;
-const HIDDEN_LEVEL5_LIMIT = 36;
+const RECOMMENDER_MODE_PRESETS = {
+  fast: {
+    label: 'Fast',
+    maxCand: 100,
+    maxPool: 100,
+    estepsFn: 'EstepsOneLookahead',
+    note: 'Fastest option. Uses a shallow E[steps] estimate.'
+  },
+  balanced: {
+    label: 'Balanced',
+    maxCand: 200,
+    maxPool: 200,
+    estepsFn: 'EstepsOneLookaheadDeep_T1',
+    note: 'Recommended for most cases.'
+  },
+  deep: {
+    label: 'Deep',
+    maxCand: 200,
+    maxPool: 200,
+    estepsFn: 'EstepsOneLookaheadDeep_T2',
+    note: 'More accurate E[steps], but slower.'
+  },
+  deeper: {
+    label: 'Deeper',
+    maxCand: 200,
+    maxPool: 200,
+    estepsFn: 'EstepsOneLookaheadDeep_T3',
+    note: 'Deeper search for higher accuracy.'
+  },
+  veryDeep: {
+    label: 'Very Deep',
+    maxCand: 200,
+    maxPool: 200,
+    estepsFn: 'EstepsOneLookaheadDeep_T4',
+    note: 'Very deep search. Can be noticeably slower.'
+  },
+  max: {
+    label: 'Max',
+    maxCand: 200,
+    maxPool: 200,
+    estepsFn: 'EstepsOneLookaheadDeep_T5',
+    note: 'Deepest search. Slowest option.'
+  }
+};
+
+const ANALYZER_MODE_PRESETS = {
+  fast: {
+    label: 'Fast',
+    estepsFn: 'EstepsOneLookahead',
+    note: 'Fastest option. Uses a shallow E[steps] estimate.'
+  },
+  balanced: {
+    label: 'Balanced',
+    estepsFn: 'EstepsOneLookaheadDeep_T1',
+    note: 'Recommended for most cases.'
+  },
+  deep: {
+    label: 'Deep',
+    estepsFn: 'EstepsOneLookaheadDeep_T2',
+    note: 'More accurate E[steps], but slower.'
+  },
+  deeper: {
+    label: 'Deeper',
+    estepsFn: 'EstepsOneLookaheadDeep_T3',
+    note: 'Deeper search for higher accuracy.'
+  },
+  veryDeep: {
+    label: 'Very Deep',
+    estepsFn: 'EstepsOneLookaheadDeep_T4',
+    note: 'Very deep search. Can be noticeably slower.'
+  },
+  max: {
+    label: 'Max',
+    estepsFn: 'EstepsOneLookaheadDeep_T5',
+    note: 'Deepest search. Slowest option.'
+  }
+};
+
+function getEstepsFunctionByName(name) {
+  switch (name) {
+    case 'EstepsOneLookahead':
+      return EstepsOneLookahead;
+    case 'EstepsOneLookaheadDeep_T1':
+      return EstepsOneLookaheadDeep_T1;
+    case 'EstepsOneLookaheadDeep_T2':
+      return EstepsOneLookaheadDeep_T2;
+    case 'EstepsOneLookaheadDeep_T3':
+      return EstepsOneLookaheadDeep_T3;
+    case 'EstepsOneLookaheadDeep_T4':
+      return EstepsOneLookaheadDeep_T4;
+    case 'EstepsOneLookaheadDeep_T5':
+      return EstepsOneLookaheadDeep_T5;
+    default:
+      return EstepsOneLookahead;
+  }
+}
+
+function getRecommenderPreset() {
+  const key = String(byId('recommenderMode')?.value || 'balanced');
+  return RECOMMENDER_MODE_PRESETS[key] || RECOMMENDER_MODE_PRESETS.balanced;
+}
+
+function getAnalyzerPreset() {
+  const key = String(byId('analysisMode')?.value || 'balanced');
+  return ANALYZER_MODE_PRESETS[key] || ANALYZER_MODE_PRESETS.balanced;
+}
+
+function updateRecommenderModeNote() {
+  const hard = !!byId('hardMode')?.checked;
+  const preset = getRecommenderPreset();
+  const noteEl = byId('modeNote');
+  if (!noteEl) return;
+
+  const scopeText = hard
+    ? `Top ${preset.maxCand} candidate words`
+    : `Top ${preset.maxCand} candidate words + top ${preset.maxPool} external-pool words`;
+
+  noteEl.textContent = `${hard ? 'Hard Mode ON' : 'Hard Mode OFF'} • ${preset.label} • ${preset.note}`;
+  /* noteEl.textContent = `${hard ? 'Hard Mode ON' : 'Hard Mode OFF'} • ${preset.label} • ${scopeText} • ${preset.note}`; */
+}
+
+function updateAnalyzerModeNote() {
+  const preset = getAnalyzerPreset();
+  const noteEl = byId('analyzeNote');
+  if (!noteEl) return;
+
+  noteEl.textContent = `${preset.label} • ${preset.note}`;
+}
+
+function maybeWarnForDeepPreset(kind, presetKey) {
+  const deepKeys = new Set(['deep', 'deeper', 'veryDeep', 'max']);
+  if (!deepKeys.has(String(presetKey || ''))) return;
+
+  if (kind === 'recommender') {
+    showToast(
+      'Deeper recommendation modes can be significantly slower when many candidates remain.',
+      'warn'
+    );
+    return;
+  }
+
+  if (kind === 'analyzer') {
+    showToast(
+      'Deeper analysis modes can be significantly slower when many candidates remain.',
+      'warn'
+    );
+  }
+}
+
+const HIDDEN_LEVEL2_LIMIT = 150;
+const HIDDEN_LEVEL3_LIMIT = 100;
+const HIDDEN_LEVEL4_LIMIT = 75;
+const HIDDEN_LEVEL5_LIMIT = 50;
 
 function EstepsOneLookaheadDeep(S, g) {
     const n = S.length;
@@ -2655,23 +2806,14 @@ async function suggestNext() {
 		}
 		const total = pool.length;
 		const hard = byId('hardMode').checked;
-		// Read Deep Limit from UI
-		const deepThrInput = byId('deepEstepThreshold');
-		const deepThr = deepThrInput ? Math.max(0, Number(deepThrInput.value) || 0) : 0;
-		const useDeep = (deepThr > 0 && n <= deepThr);
+		const preset = getRecommenderPreset();
+		const estepsFn = getEstepsFunctionByName(preset.estepsFn);
+
 		// 2) Status text
 		if (hard) {
-			// In hard mode, pool already reflects top Cands Thr from filtered candidates
-			// status.textContent = `Evaluating top ${total} words (from filtered candidates)...`;
-			// const maxCandv = Math.max(1, Math.min(Number(byId('candsThreshold').value) || n, n));
-			status.textContent = useDeep
-				? `Evaluating top ${total} words (deeper E[steps] calculation) ...`
-				: `Evaluating top ${total} words (from filtered candidates) ...`;
+			status.textContent = `Evaluating top ${total} words (${preset.label} mode) ...`;
 		} else {
-			// status.textContent = `Evaluating top ${total} words (from the top-ranked candidates and external guess pool)...`;
-			status.textContent = useDeep
-				? `Evaluating top ${total} words (deeper E[steps] calculation) ...`
-				: `Evaluating top ${total} words (from filtered candidates and external pool) ...`;
+			status.textContent = `Evaluating top ${total} words (${preset.label} mode, candidates + external pool) ...`;
 		}
 		// 3) Heavy evaluation loop (E[steps], entropy, etc.)
 		const rows = [];
@@ -2685,9 +2827,7 @@ async function suggestNext() {
 			// Exact expected steps (one-lookahead)
 			// const exp = EstepsOneLookahead(S, g);
 			// Choose between normal 2-step and deep 4-step E[steps]
-			const exp = useDeep
-				? EstepsOneLookaheadDeep(S, g)
-				: EstepsOneLookahead(S, g);
+			const exp = estepsFn(S, g);
 			const met = entropyAndExpectedSize(S, g);
 			rows.push({
 				word: g,
@@ -3191,9 +3331,7 @@ function renderAnalyzePatterns(buckets, total, word) {
 function syncModeControls(){
 	const hard = byId('hardMode').checked;
 	byId('poolSelect').disabled = hard;
-	byId('modeNote').textContent = hard
-		? 'Hard Mode ON'
-		: 'Hard Mode OFF';
+	updateRecommenderModeNote();
 }
 
 /* ===== Wire events ===== */
@@ -3356,7 +3494,25 @@ updatePreviousAnswersUI();
 		};
 	}
 
+	const recommenderModeSel = byId('recommenderMode');
+	if (recommenderModeSel) {
+		recommenderModeSel.onchange = () => {
+			updateRecommenderModeNote();
+			clearSuggestResults({ silent: true });
+			clearAnalyzerResults({ silent: true });
+		};
+	}
+
+	const analysisModeSel = byId('analysisMode');
+	if (analysisModeSel) {
+		analysisModeSel.onchange = () => {
+			updateAnalyzerModeNote();
+			clearAnalyzerResults({ silent: true });
+		};
+	}
+
 	syncModeControls();
+	updateAnalyzerModeNote();
 
 }
 
@@ -3485,15 +3641,12 @@ document.addEventListener("DOMContentLoaded", () => {
 				error:'No candidates loaded.'
 			};
 		}
-		const deepAnalyze = byId('deepSearch').checked;
+		const preset = getAnalyzerPreset();
+		const estepsFn = getEstepsFunctionByName(preset.estepsFn);
 		const met = entropyAndExpectedSize(set, word);
 		let esteps = null;
 		try {
-			if (deepAnalyze) {
-				esteps = EstepsOneLookaheadDeep(set, word);
-			} else {
-				esteps = EstepsOneLookahead(set, word);
-			}
+			esteps = estepsFn(set, word);
 		} catch(e) {
 			esteps = null;
 		}

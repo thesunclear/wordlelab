@@ -351,17 +351,16 @@
 	</div>
 	<!-- Controls: row 2 -->
 	<div class="button-container">
-		<label id="candsLabel" title="Cap the number of candidate guesses from the main candidate list">
-			Max Cand
-			<input id="maxCand" min="1" type="number" value="200">
-		</label>
-		<label id="poolLabel" title="Cap the number of external guesses from the extended pool (applies only when Hard Mode is OFF)">
-			Max Pool
-			<input id="maxPool" min="0" type="number" value="200">
-		</label>
-		<label id="limitLabel" title="Use deeper E[steps] search when the remaining candidates are at or below this size.">
-			Deep Limit
-			<input id="deepEstepThreshold" min="0" type="number" value="350">
+		<label id="recommenderModeLabel" title="Choose how deeply the recommender evaluates guesses">
+			Mode
+			<select id="recommenderMode">
+				<option value="fast">Fast</option>
+				<option value="balanced" selected>Balanced</option>
+				<option value="deep">Deep</option>
+				<option value="deeper">Deeper</option>
+				<option value="veryDeep">Very Deep</option>
+				<option value="max">Max</option>
+			</select>
 		</label>
 		<button id="suggestNext" class="btn">
 			Suggest
@@ -422,10 +421,16 @@
 			</span>
 		</div>
 		<div class="bar" style="gap:6px;">
-			<label id="deepLabel">
-				Deep E[steps]
-				<input id="deepSearch" type="checkbox">
-				</input>
+			<label id="analysisModeLabel" title="Choose how deeply E[steps] is evaluated">
+				Mode
+				<select id="analysisMode">
+					<option value="fast">Fast</option>
+					<option value="balanced" selected>Balanced</option>
+					<option value="deep">Deep</option>
+					<option value="deeper">Deeper</option>
+					<option value="veryDeep">Very Deep</option>
+					<option value="max">Max</option>
+				</select>
 			</label>
 			<input id="analyzeInput" maxlength="5" placeholder="5-letter word" style="text-transform:uppercase;">
 			<button class="btn" id="analyzeBtn">
@@ -682,22 +687,11 @@
 					</li>
 
 					<li style="margin-top: 10px;">
-						<strong>Max Cand (Max Candidates)</strong>: the number of top-ranked candidates (by entropy) considered as possible guesses.
-					</li>
-
-					<li>
-						<strong>Max Pool (Max Guess Pool)</strong>: the number of top-ranked external-pool words (by entropy) considered as possible guesses (only in Non-hard Mode).
-					</li>
-
-					<li style="margin-top: 10px;">
-						<strong>Deep Limit</strong>: controls when the recommender switches between the fast and deeper E[steps] models:
+						<strong>Recommendation Mode</strong>: chooses a preset evaluation profile for the recommender.
 						<ul>
-							<li>
-								If the number of remaining candidates is <strong>greater than</strong> this value, the recommender uses a <strong>faster, shallower</strong> E[steps] approximation.
-							</li>
-							<li>
-								If the number of remaining candidates is <strong>less than or equal to</strong> this value, it switches to a <strong>deeper multi-step lookahead</strong>, which improves accuracy but can be significantly slower.
-							</li>
+							<li><strong>Fast</strong>: faster results using a shallower E[steps] model.</li>
+							<li><strong>Balanced</strong>: recommended for most cases.</li>
+							<li><strong>Deep</strong> / <strong>Deeper</strong> / <strong>Very Deep</strong> / <strong>Max</strong>: increasingly deeper E[steps] evaluation, usually more accurate but slower.</li>
 						</ul>
 					</li>
 
@@ -720,7 +714,13 @@
 				<strong>E[steps]</strong>: An approximate expected number of guesses needed to find the answer if you start by using this word, given the current candidate pool.
 				<ul>
 				<li>Just like in the Next Guess Recommender, follow-up guesses used for <strong>E[steps]</strong> are always restricted to the <strong>remaining candidates at each step</strong>, not from the external pool.</li>
-				<li><strong>Deep E[steps]</strong> (checkbox): When enabled, the Word Analyzer uses a <strong>much deeper</strong> lookahead model for computing E[steps], offering a result closer to the true expected number of steps. This mode is considerably slower on large candidate sets. When unchecked, the faster shallow approximation is used instead.</li>
+				<li><strong>Analysis Mode</strong>: chooses how deeply E[steps] is evaluated.
+					<ul>
+						<li><strong>Fast</strong>: faster shallow estimate.</li>
+						<li><strong>Balanced</strong>: recommended for most cases.</li>
+						<li><strong>Deep</strong> / <strong>Deeper</strong> / <strong>Very Deep</strong> / <strong>Max</strong>: increasingly deeper evaluation, usually more accurate but slower.</li>
+					</ul>
+				</li>
 				</ul>
 			</li>
 			<li>
