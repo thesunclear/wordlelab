@@ -2608,8 +2608,8 @@ function EstepsOneLookaheadDeep_T5(S, g) {
 const RECOMMENDER_MODE_PRESETS = {
   fast: {
     label: 'Fast',
-    maxCand: 50,
-    maxPool: 50,
+    maxCand: 75,
+    maxPool: 75,
     estepsFn: 'EstepsOneLookahead',
     note: 'Fastest option. Uses a shallow E[steps] estimate.'
   },
