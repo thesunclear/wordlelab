@@ -788,6 +788,13 @@ body.light .list::-webkit-scrollbar-thumb {
   font-size:13px;
 }
 
+.first-guess-hint{
+  display:block;
+  font-size:12px;
+  opacity:0.7;
+  margin-top:3px;
+}
+
 /* Cands Thr / Pool Thr + Suggest / Stop / Reset */
 .button-container{
   display:flex;
@@ -1717,8 +1724,8 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 	<div class="bar" style="justify-content:space-between">
 		<div>
 			<strong>Next Guess Recommender</strong>
-			<span class="tag">
-				<!-- (Entropy-based) -->
+			<span class="first-guess-hint">
+				For the first guess, use <strong>First Guess Advisor</strong> above.
 			</span>
 		</div>
 	</div>

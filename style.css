@@ -733,6 +733,13 @@ body.light .list::-webkit-scrollbar-thumb {
   font-size:13px;
 }
 
+.first-guess-hint{
+  display:block;
+  font-size:12px;
+  opacity:0.7;
+  margin-top:3px;
+}
+
 /* Cands Thr / Pool Thr + Suggest / Stop / Reset */
 .button-container{
   display:flex;
