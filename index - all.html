@@ -4866,32 +4866,6 @@ function maybeWarnForDeepPreset(kind, presetKey) {
   }
 }
 
-const HIDDEN_LEVEL2_LIMIT = 150;
-const HIDDEN_LEVEL3_LIMIT = 100;
-const HIDDEN_LEVEL4_LIMIT = 75;
-const HIDDEN_LEVEL5_LIMIT = 50;
-
-function EstepsOneLookaheadDeep(S, g) {
-    const n = S.length;
-
-    if (n > HIDDEN_LEVEL2_LIMIT) {
-        return EstepsOneLookaheadDeep_T1(S, g);
-    } 
-    else if (n > HIDDEN_LEVEL3_LIMIT) {
-        return EstepsOneLookaheadDeep_T2(S, g);
-    } 
-    else if (n > HIDDEN_LEVEL4_LIMIT) {
-        return EstepsOneLookaheadDeep_T3(S, g);
-    } 
-    else if (n > HIDDEN_LEVEL5_LIMIT) {
-        return EstepsOneLookaheadDeep_T4(S, g);
-    } 
-    else {
-        return EstepsOneLookaheadDeep_T5(S, g);
-    }
-}
-
-
 /* ===== Suggest Next ===== */
 async function suggestNext() {
 	const S = [...state.filtered];
@@ -5843,7 +5817,6 @@ function clearRecoAndAnalyzeResults(){
   const at = byId('analyzeTable');
   if (at) at.innerHTML = '';
   const inp = byId('analyzeInput');
-  if (inp) inp.value = inp.value; // no-op (keeps user's input)
 
   // Pattern distribution panel (if visible)
   const sec = byId('analyzePatternsSection');
