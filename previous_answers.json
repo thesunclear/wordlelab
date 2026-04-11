@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1756,
-  "updatedThroughDate": "2026-04-10",
+  "updatedThrough": 1757,
+  "updatedThroughDate": "2026-04-11",
   "answers": [
     {
       "number": 0,
@@ -8806,6 +8806,11 @@
       "number": 1756,
       "word": "CAROM",
       "date": "2026-04-10"
+    },
+    {
+      "number": 1757,
+      "word": "PRUDE",
+      "date": "2026-04-11"
     }
   ]
 }
