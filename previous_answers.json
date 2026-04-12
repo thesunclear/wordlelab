@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1757,
-  "updatedThroughDate": "2026-04-11",
+  "updatedThrough": 1758,
+  "updatedThroughDate": "2026-04-12",
   "answers": [
     {
       "number": 0,
@@ -8811,6 +8811,11 @@
       "number": 1757,
       "word": "PRUDE",
       "date": "2026-04-11"
+    },
+    {
+      "number": 1758,
+      "word": "ALLEY",
+      "date": "2026-04-12"
     }
   ]
 }
