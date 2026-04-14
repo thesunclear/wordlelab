@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1759,
-  "updatedThroughDate": "2026-04-13",
+  "updatedThrough": 1760,
+  "updatedThroughDate": "2026-04-14",
   "answers": [
     {
       "number": 0,
@@ -8821,6 +8821,11 @@
       "number": 1759,
       "word": "ELFIN",
       "date": "2026-04-13"
+    },
+    {
+      "number": 1760,
+      "word": "CYCLE",
+      "date": "2026-04-14"
     }
   ]
 }
