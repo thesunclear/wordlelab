@@ -249,10 +249,20 @@
 
 <!-- Counter -->
 <div class="counter">
-	<span id="count">
-		0
-	</span>
-	<small>candidate(s)</small>
+	<div class="counter-row">
+		<div class="counter-main">
+			<span id="count">0</span>
+			<small>candidate(s)</small>
+		</div>
+
+		<label id="previousAnswersOrderWrap" class="counter-order" hidden>
+			Order
+			<select id="previousAnswersOrder">
+				<option value="alpha" selected>A–Z</option>
+				<option value="chronological">Chronological</option>
+			</select>
+		</label>
+	</div>
 </div>
 
 <!-- List -->

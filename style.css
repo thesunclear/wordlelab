@@ -638,6 +638,56 @@ h1 .tag{
   margin-right:3px;
 }
 
+.counter-row{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:10px;
+  flex-wrap:wrap;
+}
+
+.counter-main{
+  display:flex;
+  align-items:baseline;
+  gap:4px;
+}
+
+.counter-order{
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  font-size:12px;
+  color:var(--sub);
+}
+
+.counter-order[hidden]{
+  display:none !important;
+}
+
+.counter-order select{
+  padding:5px 9px;
+  border-radius:999px;
+  border:1px solid var(--border);
+  background:var(--bg-input);
+  color:var(--fg);
+  font-size:12px;
+}
+
+@media (max-width: 520px){
+  .counter-row{
+    align-items:flex-start;
+  }
+
+  .counter-order{
+    font-size:12px;
+  }
+
+  .counter-order select{
+    font-size:12px;
+    padding:5px 8px;
+  }
+}
+
 /* Candidate word list */
 #words{
   list-style:none;

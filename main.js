@@ -328,6 +328,65 @@ function buildPreviousAnswerBadgeInfo(word){
   };
 }
 
+function getPreviousAnswersListOrder() {
+  const sel = byId('previousAnswersOrder');
+  return sel ? String(sel.value || 'alpha') : 'alpha';
+}
+
+function shouldShowPreviousAnswersOrderControl() {
+  const pa = state.previousAnswers;
+  return !!(
+    pa &&
+    pa.loaded &&
+    pa.handling === 'include' &&
+    pa.activeSet &&
+    pa.activeSet.size > 0
+  );
+}
+
+function updatePreviousAnswersOrderControl() {
+  const wrap = byId('previousAnswersOrderWrap');
+  if (!wrap) return;
+  wrap.hidden = !shouldShowPreviousAnswersOrderControl();
+}
+
+function getPreviousAnswerChronologicalKey(word) {
+  const records = getPreviousAnswerTooltipRecords(word);
+  if (!records.length) return Number.NEGATIVE_INFINITY;
+
+  let latestNumber = Number.NEGATIVE_INFINITY;
+  for (const rec of records) {
+    if (rec && Number.isInteger(rec.number)) {
+      latestNumber = Math.max(latestNumber, rec.number);
+    }
+  }
+  return latestNumber;
+}
+
+function getOrderedCandidateWords(words) {
+  const arr = Array.isArray(words) ? words.slice() : [];
+
+  updatePreviousAnswersOrderControl();
+
+  if (!shouldShowPreviousAnswersOrderControl()) {
+    return arr;
+  }
+
+  if (getPreviousAnswersListOrder() !== 'chronological') {
+    return arr;
+  }
+
+  arr.sort((a, b) => {
+    const ka = getPreviousAnswerChronologicalKey(a);
+    const kb = getPreviousAnswerChronologicalKey(b);
+
+    if (ka !== kb) return kb - ka; // newest -> oldest by latest matching record
+    return a.localeCompare(b);
+  });
+
+  return arr;
+}
+
 function getPreviousAnswerTooltipRecord(word){
   const pa = state.previousAnswers;
   if (!pa || !pa.byWord || !pa.byWord.has(word)) return null;
@@ -698,7 +757,7 @@ function renderCandidateListFromState(){
   const ul = byId('words');
   if (!countEl || !ul) return;
 
-  const arr = state.filtered || [];
+  const arr = getOrderedCandidateWords(state.filtered || []);
   countEl.textContent = String(arr.length);
 
   ul.innerHTML = '';
@@ -1505,6 +1564,7 @@ function apply(){
 }
 function renderList(){
   byId('count').textContent = state.filtered.length;
+
   const ul = byId('words');
   ul.innerHTML = '';
 
@@ -1517,12 +1577,13 @@ function renderList(){
     pa.activeSet.size > 0
   );
 
-  for (const w of state.filtered){
+  const wordsToRender = getOrderedCandidateWords(state.filtered);
+
+  for (const w of wordsToRender){
     const li = document.createElement('li');
 
     if (showBadge && pa.activeSet.has(w)) {
       const info = buildPreviousAnswerBadgeInfo(w);
-
       li.title = info.tooltip;
       li.innerHTML = `${w.toUpperCase()} <span class="pa-badge" title="${info.tooltip}">${info.badgeText}</span>`;
     } else {
@@ -1532,6 +1593,7 @@ function renderList(){
     ul.appendChild(li);
   }
 }
+
 function loadWordsFromArray(a){
 	const seen=new Set();
 	state.all=a.filter(w=>/^[a-z]{5}$/.test(w)&&!seen.has(w)&&seen.add(w)).sort();
@@ -1668,7 +1730,7 @@ function lockUI(yes){
 	const stop = byId('stopBtn');
 	if (stop) stop.disabled = !yes;  // Stop stays enabled during calculation
 	/* 2) Inputs/toggles to freeze while computing */
-	['wordListSelect','previousAnswersHandling','previousAnswersMode','previousAnswersValue','modeSelect','fwHardMode','fwGuessPool','hardMode','poolSelect','recommenderMode','analysisMode','analyzeInput'].forEach(id=>{
+	['wordListSelect','previousAnswersHandling','previousAnswersMode','previousAnswersValue','previousAnswersOrder','modeSelect','fwHardMode','fwGuessPool','hardMode','poolSelect','recommenderMode','analysisMode','analyzeInput'].forEach(id=>{
 		const el = byId(id);
 		if (!el) return;
 		el.disabled = yes;
@@ -3382,6 +3444,18 @@ if (prevValueInput) {
   prevValueInput.onblur = commitPreviousAnswersValue;
 }
 
+const previousAnswersOrderSelect = byId('previousAnswersOrder');
+
+if (previousAnswersOrderSelect) {
+  previousAnswersOrderSelect.onchange = () => {
+    if (appMode === 'wordle') {
+      renderCandidateListFromState();
+    } else {
+      renderList();
+    }
+  };
+}
+
 	byId('clearAll').onclick=()=>{
 		showToast("All filters have been cleared.", "info");
 		state.globalInclude.clear();
@@ -3407,6 +3481,9 @@ if (modeSelect) modeSelect.value = 'all';
 
 const prevValueInput = byId('previousAnswersValue');
 if (prevValueInput) prevValueInput.value = '365';
+
+const previousAnswersOrderSelect = byId('previousAnswersOrder');
+if (previousAnswersOrderSelect) previousAnswersOrderSelect.value = 'alpha';
 
 updatePreviousAnswersUI();
 
