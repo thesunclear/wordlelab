@@ -302,29 +302,46 @@ function getPreviousAnswerTooltipRecords(word){
   return activeRecords.filter(rec => rec.word === word);
 }
 
+function formatPreviousAnswerTooltipDate(isoDate) {
+  if (typeof isoDate !== 'string') return '';
+
+  const m = isoDate.match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if (!m) return isoDate;
+
+  const yy = m[1].slice(-2);
+  const mm = m[2];
+  const dd = m[3];
+  return `${mm}/${dd}/${yy}`;
+}
+
 function buildPreviousAnswerBadgeInfo(word){
   const records = getPreviousAnswerTooltipRecords(word);
 
   if (!records.length) {
     return {
       badgeText: 'past',
-      tooltip: 'Past official answer'
+      tooltip: ''
     };
   }
 
-  const numbers = records
-    .map(rec => rec.number)
-    .filter(Number.isInteger)
-    .sort((a, b) => a - b);
+  const sortedRecords = records
+    .slice()
+    .sort((a, b) => {
+      const an = Number.isInteger(a?.number) ? a.number : Number.NEGATIVE_INFINITY;
+      const bn = Number.isInteger(b?.number) ? b.number : Number.NEGATIVE_INFINITY;
+      if (an !== bn) return an - bn; // oldest -> newest
+      return String(a?.date || '').localeCompare(String(b?.date || ''));
+    });
 
-  const numList = numbers.map(n => `#${n}`).join(', ');
-  const plural = numbers.length > 1;
+  const lines = sortedRecords.map(rec => {
+    const numText = Number.isInteger(rec?.number) ? `#${rec.number}` : '#?';
+    const dateText = formatPreviousAnswerTooltipDate(rec?.date || '');
+    return dateText ? `${numText} • ${dateText}` : numText;
+  });
 
   return {
-    badgeText: plural ? 'past+' : 'past',
-    tooltip: plural
-      ? `Past official answers (${numList})`
-      : `Past official answer (${numList})`
+    badgeText: sortedRecords.length > 1 ? 'past+' : 'past',
+    tooltip: lines.join('\n')
   };
 }
 
