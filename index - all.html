@@ -2512,9 +2512,11 @@ function buildPreviousAnswerBadgeInfo(word){
     return dateText ? `${numText} • ${dateText}` : numText;
   });
 
+  const header = String(word || '').toUpperCase();
+
   return {
     badgeText: sortedRecords.length > 1 ? 'past+' : 'past',
-    tooltip: lines.join('\n')
+    tooltip: [header, ...lines].join('\n')
   };
 }
 
