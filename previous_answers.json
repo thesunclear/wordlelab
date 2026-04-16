@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1761,
-  "updatedThroughDate": "2026-04-15",
+  "updatedThrough": 1762,
+  "updatedThroughDate": "2026-04-16",
   "answers": [
     {
       "number": 0,
@@ -8831,6 +8831,11 @@
       "number": 1761,
       "word": "BEGUN",
       "date": "2026-04-15"
+    },
+    {
+      "number": 1762,
+      "word": "CUBIT",
+      "date": "2026-04-16"
     }
   ]
 }
