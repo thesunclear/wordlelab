@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1764,
-  "updatedThroughDate": "2026-04-18",
+  "updatedThrough": 1765,
+  "updatedThroughDate": "2026-04-19",
   "answers": [
     {
       "number": 0,
@@ -8846,6 +8846,11 @@
       "number": 1764,
       "word": "TOADY",
       "date": "2026-04-18"
+    },
+    {
+      "number": 1765,
+      "word": "STAND",
+      "date": "2026-04-19"
     }
   ]
 }
