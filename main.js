@@ -191,7 +191,7 @@ function updatePreviousAnswersUI(){
     : null;
 
   const throughLabel = throughDateText
-    ? `Through Wordle #${throughNumber} (${throughDateText})`
+    ? `Through Wordle #${throughNumber} • ${throughDateText}`
     : `Through Wordle #${throughNumber}`;
 
   if (pa.loadError) {
