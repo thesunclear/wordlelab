@@ -2326,6 +2326,29 @@ function getEffectiveUpdatedThrough(){
   return Math.max(...eligible.map(r => r.number));
 }
 
+function getEffectiveUpdatedThroughDate() {
+  const pa = state.previousAnswers;
+  if (!pa || !Array.isArray(pa.data) || !pa.data.length) return null;
+
+  const eligible = pa.data.filter(isPreviousAnswerRecordActive);
+  if (!eligible.length) return null;
+
+  let best = null;
+  for (const rec of eligible) {
+    if (!rec || !Number.isInteger(rec.number)) continue;
+
+    if (
+      !best ||
+      rec.number > best.number ||
+      (rec.number === best.number && String(rec.date || '') > String(best.date || ''))
+    ) {
+      best = rec;
+    }
+  }
+
+  return best && typeof best.date === 'string' ? best.date : null;
+}
+
 function updatePreviousAnswersUI(){
   const st = byId('previousAnswersStatus');
   if (!st) return;
@@ -2334,6 +2357,15 @@ function updatePreviousAnswersUI(){
   
   const effectiveThrough = getEffectiveUpdatedThrough();
   const throughNumber = Number.isInteger(effectiveThrough) ? effectiveThrough : pa.updatedThrough;
+
+  const effectiveThroughDateIso = getEffectiveUpdatedThroughDate();
+  const throughDateText = effectiveThroughDateIso
+    ? formatPreviousAnswerTooltipDate(effectiveThroughDateIso)
+    : null;
+
+  const throughLabel = throughDateText
+    ? `Through Wordle #${throughNumber} • ${throughDateText}`
+    : `Through Wordle #${throughNumber}`;
 
   if (pa.loadError) {
     st.textContent = 'Previous answers unavailable.';
@@ -2357,13 +2389,13 @@ function updatePreviousAnswersUI(){
     const raw = Number.isInteger(pa.value) && pa.value > 0 ? pa.value : 365;
     const total = Array.isArray(pa.data) ? pa.data.length : 0;
     const n = Math.min(raw, total);
-    st.textContent = `Through Wordle #${throughNumber} • excluding last ${n}`;
+    st.textContent = `${throughLabel} • excluding last ${n}`;
     refreshPreviousAnswersControls();
     return;
   }
 
   if (pa.handling === 'exclude' && pa.mode === 'all') {
-    st.textContent = `Through Wordle #${throughNumber} • excluding all previous`;
+    st.textContent = `${throughLabel} • excluding all previous`;
     refreshPreviousAnswersControls();
     return;
   }
@@ -2372,13 +2404,13 @@ function updatePreviousAnswersUI(){
     const raw = Number.isInteger(pa.value) && pa.value > 0 ? pa.value : 365;
     const total = Array.isArray(pa.data) ? pa.data.length : 0;
     const n = Math.min(raw, total);
-    st.textContent = `Through Wordle #${throughNumber} • showing badge for last ${n}`;
+    st.textContent = `${throughLabel} • showing badge for last ${n}`;
     refreshPreviousAnswersControls();
     return;
   }
 
   if (pa.handling === 'badge' && pa.mode === 'all') {
-    st.textContent = `Through Wordle #${throughNumber} • showing badge for all previous`;
+    st.textContent = `${throughLabel} • showing badge for all previous`;
     refreshPreviousAnswersControls();
     return;
   }
@@ -2387,18 +2419,18 @@ function updatePreviousAnswersUI(){
     const raw = Number.isInteger(pa.value) && pa.value > 0 ? pa.value : 365;
     const total = Array.isArray(pa.data) ? pa.data.length : 0;
     const n = Math.min(raw, total);
-    st.textContent = `Through Wordle #${throughNumber} • including last ${n}`;
-    refreshPreviousAnswersControls();
-    return;
-  }
-  
-  if (pa.handling === 'include' && pa.mode === 'all') {
-    st.textContent = `Through Wordle #${throughNumber} • including all previous`;
+    st.textContent = `${throughLabel} • including last ${n}`;
     refreshPreviousAnswersControls();
     return;
   }
 
-  st.textContent = `Through Wordle #${throughNumber}`;
+  if (pa.handling === 'include' && pa.mode === 'all') {
+    st.textContent = `${throughLabel} • including all previous`;
+    refreshPreviousAnswersControls();
+    return;
+  }
+
+  st.textContent = throughLabel;
   refreshPreviousAnswersControls();
 }
 
