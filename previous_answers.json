@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1768,
-  "updatedThroughDate": "2026-04-22",
+  "updatedThrough": 1769,
+  "updatedThroughDate": "2026-04-23",
   "answers": [
     {
       "number": 0,
@@ -8866,6 +8866,11 @@
       "number": 1768,
       "word": "SNORE",
       "date": "2026-04-22"
+    },
+    {
+      "number": 1769,
+      "word": "TWEET",
+      "date": "2026-04-23"
     }
   ]
 }
