@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1774,
-  "updatedThroughDate": "2026-04-28",
+  "updatedThrough": 1775,
+  "updatedThroughDate": "2026-04-29",
   "answers": [
     {
       "number": 0,
@@ -8896,6 +8896,11 @@
       "number": 1774,
       "word": "QUACK",
       "date": "2026-04-28"
+    },
+    {
+      "number": 1775,
+      "word": "RURAL",
+      "date": "2026-04-29"
     }
   ]
 }
