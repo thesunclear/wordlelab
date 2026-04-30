@@ -238,10 +238,10 @@
 	<div class="card" style="margin-top:12px">
 		<div class="bar">
 			<div style="margin-bottom:8px">
-				<strong title="Use ?, *, [AEIOU], &amp; for pattern matching">Pattern Search</strong>
+				<strong title="Use patterns such as ?, *, [AEIOU], and -WORD filters">Text Filter</strong>
 			</div>
 			<div class="search">
-				<input id="searchBox" placeholder="Search (see help below)" style="text-transform:uppercase;">
+				<input id="searchBox" placeholder="Filter (see help below)" style="text-transform:uppercase;">
 			</div>
 		</div>
 	</div>
@@ -576,7 +576,7 @@
 	<br>
 
 	<!-- Wordle Mode Pattern Input -->
-	<strong id="wordlePatternToggle" class="toggle-header">🔍 Wordle Mode Add Guess Input</strong>
+	<strong id="wordlePatternToggle" class="toggle-header">🔍 Wordle Mode Add Guess</strong>
 	<div id="wordlePatternContent" class="toggle-content">
 		<p>In Wordle Mode, you can optionally enter a guess together with a pattern of feedback digits.</p>
 
@@ -613,7 +613,7 @@
 	<br> -->
 
 	<!-- Search Help -->
-	<strong id="searchHelpToggle" class="toggle-header">🛠️ Advanced Mode Pattern Search Input</strong>
+	<strong id="searchHelpToggle" class="toggle-header">🛠️ Advanced Mode Text Filter</strong>
 	<div id="searchHelpContent" class="toggle-content">
 		<ul>
 			<li style="margin-top: 15px;">
@@ -621,6 +621,9 @@
 			</li>
 			<li>
 				<strong>*</strong>: Zero or more letters (e.g.,<code>E*E</code>&rarr;<em>AGREE, EAGLE, EERIE</em>)
+			</li>
+			<li>
+				<strong>-WORD</strong>: Exclude exact words (e.g., <code>-SLATE -SLICE</code> removes <em>SLATE</em> and <em>SLICE</em> from the current candidates)
 			</li>
 			<li>
 				<strong>[AEIOU]</strong>: Any one listed; <strong>[^AEIOU]</strong>: Not these (e.g.,<code>[^AEIOU]ATE</code>&rarr;<em>SLATE, CRATE</em>)

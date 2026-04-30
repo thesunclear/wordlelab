@@ -1584,12 +1584,78 @@ function buildTesterFromRPN(rpn){
 	}
 	return st.length===1?st[0]:null;
 }
+function isSearchBoundary(ch) {
+  return !ch || /\s/.test(ch) || ch === '(' || ch === ')' || ch === '&' || ch === '|';
+}
+
+function extractExactExcludesFromSearch(expr) {
+  const s = String(expr || '').toLowerCase();
+  const excluded = new Set();
+  let cleaned = '';
+  let i = 0;
+  let inClass = false;
+
+  while (i < s.length) {
+    const ch = s[i];
+
+    if (ch === '[') {
+      inClass = true;
+      cleaned += ch;
+      i++;
+      continue;
+    }
+
+    if (ch === ']') {
+      inClass = false;
+      cleaned += ch;
+      i++;
+      continue;
+    }
+
+    if (!inClass && ch === '-') {
+      const prev = i > 0 ? s[i - 1] : '';
+      const nextFive = s.slice(i + 1, i + 6);
+      const after = s[i + 6] || '';
+
+      if (isSearchBoundary(prev) && /^[a-z]{5}$/.test(nextFive) && isSearchBoundary(after)) {
+        excluded.add(nextFive);
+        i += 6;
+        continue;
+      }
+    }
+
+    cleaned += ch;
+    i++;
+  }
+
+  cleaned = cleaned
+    .replace(/\s+/g, ' ')
+    .replace(/(^|\()\s*[&|]\s*/g, '$1')
+    .replace(/\s*[&|]\s*($|\))/g, '$1')
+    .trim();
+
+  return { cleanedExpr: cleaned, excluded };
+}
 function buildSearchTester(expr){
-	const toks=tokenize(expr);
-	if(!toks.some(t=>t.type==='pat')) return null;
-	const rpn=toRPN(toks);
-	const tester=buildTesterFromRPN(rpn);
-	return tester||null;
+  const { cleanedExpr, excluded } = extractExactExcludesFromSearch(expr);
+  let patternTester = null;
+
+  const toks = tokenize(cleanedExpr);
+  if (toks.some(t => t.type === 'pat')) {
+    const rpn = toRPN(toks);
+    patternTester = buildTesterFromRPN(rpn);
+  }
+
+  if (!patternTester && excluded.size === 0) return null;
+
+  return function searchTester(word) {
+    const w = String(word || '').toLowerCase();
+
+    if (excluded.has(w)) return false;
+    if (patternTester && !patternTester(w)) return false;
+
+    return true;
+  };
 }
 
 /* ===== Filter & list ===== */
