@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1779,
-  "updatedThroughDate": "2026-05-03",
+  "updatedThrough": 1780,
+  "updatedThroughDate": "2026-05-04",
   "answers": [
     {
       "number": 0,
@@ -8921,6 +8921,11 @@
       "number": 1779,
       "word": "PUFFY",
       "date": "2026-05-03"
+    },
+    {
+      "number": 1780,
+      "word": "RISER",
+      "date": "2026-05-04"
     }
   ]
 }
