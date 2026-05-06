@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1780,
-  "updatedThroughDate": "2026-05-04",
+  "updatedThrough": 1782,
+  "updatedThroughDate": "2026-05-06",
   "answers": [
     {
       "number": 0,
@@ -8931,6 +8931,11 @@
       "number": 1781,
       "word": "LATCH",
       "date": "2026-05-05"
+    },
+    {
+      "number": 1782,
+      "word": "LIKEN",
+      "date": "2026-05-06"
     }
   ]
 }
