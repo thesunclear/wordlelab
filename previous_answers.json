@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1782,
-  "updatedThroughDate": "2026-05-06",
+  "updatedThrough": 1783,
+  "updatedThroughDate": "2026-05-07",
   "answers": [
     {
       "number": 0,
@@ -8936,6 +8936,11 @@
       "number": 1782,
       "word": "LIKEN",
       "date": "2026-05-06"
+    },
+    {
+      "number": 1783,
+      "word": "BUDGE",
+      "date": "2026-05-07"
     }
   ]
 }
