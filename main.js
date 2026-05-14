@@ -2978,9 +2978,11 @@ async function suggestNext() {
 
 		// 2) Status text
 		if (hard) {
-			status.textContent = `Evaluating top ${total} words (${preset.label} mode) ...`;
+			// status.textContent = `Evaluating top ${total} words (${preset.label} mode) ...`;
+			status.textContent = `Evaluating ...`;
 		} else {
-			status.textContent = `Evaluating top ${total} words (${preset.label} mode, candidates + external pool) ...`;
+			// status.textContent = `Evaluating top ${total} words (${preset.label} mode, candidates + external pool) ...`;
+			status.textContent = `Evaluating ...`;
 		}
 		// 3) Heavy evaluation loop (E[steps], entropy, etc.)
 		const rows = [];
