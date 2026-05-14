@@ -5158,10 +5158,10 @@ async function suggestNext() {
 		// 2) Status text
 		if (hard) {
 			// status.textContent = `Evaluating top ${total} words (${preset.label} mode) ...`;
-			status.textContent = `Evaluating ...`;
+			status.textContent = `Evaluating guesses...`;
 		} else {
 			// status.textContent = `Evaluating top ${total} words (${preset.label} mode, candidates + external pool) ...`;
-			status.textContent = `Evaluating ...`;
+			status.textContent = `Evaluating guesses...`;
 		}
 		// 3) Heavy evaluation loop (E[steps], entropy, etc.)
 		const rows = [];
