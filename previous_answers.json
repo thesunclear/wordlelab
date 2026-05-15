@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1790,
-  "updatedThroughDate": "2026-05-14",
+  "updatedThrough": 1791,
+  "updatedThroughDate": "2026-05-15",
   "answers": [
     {
       "number": 0,
@@ -8976,6 +8976,11 @@
       "number": 1790,
       "word": "WAVER",
       "date": "2026-05-14"
+    },
+    {
+      "number": 1791,
+      "word": "CREED",
+      "date": "2026-05-15"
     }
   ]
 }
