@@ -2060,7 +2060,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 	<!-- First-Guess Help -->
 	<strong id="firstGuessHelpToggle" class="toggle-header">🎯 First Guess Advisor</strong>
 	<div id="firstGuessHelpContent" class="toggle-content">
-		<p><strong>First Guess Advisor</strong> shows <strong>exact</strong> precomputed values for the <strong>first guess</strong> under the selected Answer List and Mode.</p>
+		<p><strong>First Guess Advisor</strong> shows <strong>exact</strong> precomputed metrics for the <strong>first guess</strong> under the selected Answer List and Mode.</p>
 		<ul>
 			<li><strong>First Guess Advisor</strong> requires the Word List at the top of the page to be set to <strong>2,302 Answer List</strong> or <strong>3,200 Answer List</strong>.</li>
 			<li><strong>Answer List</strong> refers to the Word List selected at the <strong>top of the page</strong> (e.g., 2,302 or 3,200).</li>
@@ -2081,7 +2081,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 	<!-- Next-Guess Recommender Help -->
 	<strong id="recommenderToggle" class="toggle-header">🔁 Next Guess Recommender</strong>
 	<div id="recommenderContent" class="toggle-content">
-		<p><strong>Next Guess Recommender</strong> uses an <strong>entropy-based</strong> approach to rank candidate guesses from the current state.</p>
+		<p><strong>Next Guess Recommender</strong> evaluates candidate guesses according to the selected preset mode (Fast, Balanced, Deep, Deeper, Very Deep, Max).</p>
 		<ul>
 			<li><strong>Answer List</strong> refers to the Word List selected at the <strong>top of the page</strong>.</li>
 			<li style="margin-top: 15px;">
@@ -2125,7 +2125,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 	<div id="analyzerHelpContent" class="toggle-content">
 		<ul>
 			<li style="margin-top: 15px;">
-				<strong>Word Analyzer</strong>: Lets you type any 5-letter word and evaluate it against the current candidate set. It computes the same metrics as the Next Guess Recommender: <strong>Entropy</strong>, <strong>E[steps]</strong>, <strong>E[cands]</strong>, and <strong>Max Bucket</strong>, but for a single word you choose.
+				<strong>Word Analyzer</strong> computes metrics for any 5-letter word against the current candidate set, showing <strong>E[steps]</strong>, <strong>Entropy</strong>, <strong>E[cands]</strong>, and <strong>Max Bucket</strong>.
 			</li>
 			<li>
 				<strong>E[steps]</strong>: An approximate expected number of guesses needed to find the answer if you start by using this word, given the current candidate pool.
