@@ -2084,14 +2084,14 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 		<p><strong>Next Guess Recommender</strong> evaluates candidate guesses according to the selected preset mode (Fast, Balanced, Deep, Deeper, Very Deep, Max).</p>
 		<ul>
 			<li><strong>Answer List</strong> refers to the Word List selected at the <strong>top of the page</strong>.</li>
-			<li style="margin-top: 15px;">
+			<li>
 				<strong>E[steps]</strong> is an <strong>approximation</strong> of the expected number of steps from the current state.
 				<ul>
 					<li>
 						All follow-up guesses used for <strong>E[steps]</strong> are chosen only from the <strong>remaining candidates at each step</strong>, regardless of whether Hard Mode or Non-hard Mode is selected
 					</li>
 
-					<li style="margin-top: 10px;">
+					<li>
 						<strong>Hard Mode</strong> affects <em>where</em> recommended guesses come from:
 						<ul>
 							<li>
@@ -2103,7 +2103,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 						</ul>
 					</li>
 
-					<li style="margin-top: 10px;">
+					<li>
 						<strong>Mode</strong>: controls how deeply <strong>E[steps]</strong> is evaluated (deeper modes are usually more accurate but slower).
 						<ul>
 							<li><strong>Fast</strong>: faster shallow estimate.</li>
@@ -2114,7 +2114,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 
 				</ul>
 			</li>
-			<li style="margin-top: 10px;">
+			<li>
 				For the <strong>very first guess</strong>, use <strong>First Guess Advisor</strong> above for exact precomputed rankings.
 			</li>
 		</ul>
@@ -2123,10 +2123,8 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 	<!-- Word Analyzer Help -->
 	<strong id="analyzerHelpToggle" class="toggle-header">🧩 Word Analyzer</strong>
 	<div id="analyzerHelpContent" class="toggle-content">
+		<p><strong>Word Analyzer</strong> computes metrics for any 5-letter word against the current candidate set, showing <strong>E[steps]</strong>, <strong>Entropy</strong>, <strong>E[cands]</strong>, and <strong>Max Bucket</strong>.</p>
 		<ul>
-			<li style="margin-top: 15px;">
-				<strong>Word Analyzer</strong> computes metrics for any 5-letter word against the current candidate set, showing <strong>E[steps]</strong>, <strong>Entropy</strong>, <strong>E[cands]</strong>, and <strong>Max Bucket</strong>.
-			</li>
 			<li>
 				<strong>E[steps]</strong>: An approximate expected number of guesses needed to find the answer if you start by using this word, given the current candidate pool.
 				<ul>
