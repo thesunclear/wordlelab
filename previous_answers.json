@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1792,
-  "updatedThroughDate": "2026-05-16",
+  "updatedThrough": 1793,
+  "updatedThroughDate": "2026-05-17",
   "answers": [
     {
       "number": 0,
@@ -8986,6 +8986,11 @@
       "number": 1792,
       "word": "MOVER",
       "date": "2026-05-16"
+    },
+    {
+      "number": 1793,
+      "word": "BYLAW",
+      "date": "2026-05-17"
     }
   ]
 }
