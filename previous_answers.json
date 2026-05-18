@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1793,
-  "updatedThroughDate": "2026-05-17",
+  "updatedThrough": 1794,
+  "updatedThroughDate": "2026-05-18",
   "answers": [
     {
       "number": 0,
@@ -8991,6 +8991,11 @@
       "number": 1793,
       "word": "BYLAW",
       "date": "2026-05-17"
+    },
+    {
+      "number": 1794,
+      "word": "LOATH",
+      "date": "2026-05-18"
     }
   ]
 }
