@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1794,
-  "updatedThroughDate": "2026-05-18",
+  "updatedThrough": 1795,
+  "updatedThroughDate": "2026-05-19",
   "answers": [
     {
       "number": 0,
@@ -8996,6 +8996,11 @@
       "number": 1794,
       "word": "LOATH",
       "date": "2026-05-18"
+    },
+    {
+      "number": 1795,
+      "word": "DUSTY",
+      "date": "2026-05-19"
     }
   ]
 }
