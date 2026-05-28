@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1803,
-  "updatedThroughDate": "2026-05-27",
+  "updatedThrough": 1804,
+  "updatedThroughDate": "2026-05-28",
   "answers": [
     {
       "number": 0,
@@ -9041,6 +9041,11 @@
       "number": 1803,
       "word": "STUFF",
       "date": "2026-05-27"
+    },
+    {
+      "number": 1804,
+      "word": "DIVOT",
+      "date": "2026-05-28"
     }
   ]
 }
