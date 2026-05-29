@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1804,
-  "updatedThroughDate": "2026-05-28",
+  "updatedThrough": 1805,
+  "updatedThroughDate": "2026-05-29",
   "answers": [
     {
       "number": 0,
@@ -9046,6 +9046,11 @@
       "number": 1804,
       "word": "DIVOT",
       "date": "2026-05-28"
+    },
+    {
+      "number": 1805,
+      "word": "CLANG",
+      "date": "2026-05-29"
     }
   ]
 }
