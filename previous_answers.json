@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1806,
-  "updatedThroughDate": "2026-05-30",
+  "updatedThrough": 1807,
+  "updatedThroughDate": "2026-05-31",
   "answers": [
     {
       "number": 0,
@@ -9056,6 +9056,11 @@
       "number": 1806,
       "word": "SMILE",
       "date": "2026-05-30"
+    },
+    {
+      "number": 1807,
+      "word": "ETUDE",
+      "date": "2026-05-31"
     }
   ]
 }
