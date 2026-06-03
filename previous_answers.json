@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1809,
-  "updatedThroughDate": "2026-06-02",
+  "updatedThrough": 1810,
+  "updatedThroughDate": "2026-06-03",
   "answers": [
     {
       "number": 0,
@@ -9071,6 +9071,11 @@
       "number": 1809,
       "word": "BASIS",
       "date": "2026-06-02"
+    },
+    {
+      "number": 1810,
+      "word": "NOTCH",
+      "date": "2026-06-03"
     }
   ]
 }
