@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1813,
-  "updatedThroughDate": "2026-06-06",
+  "updatedThrough": 1814,
+  "updatedThroughDate": "2026-06-07",
   "answers": [
     {
       "number": 0,
@@ -9091,6 +9091,11 @@
       "number": 1813,
       "word": "MORPH",
       "date": "2026-06-06"
+    },
+    {
+      "number": 1814,
+      "word": "THUMB",
+      "date": "2026-06-07"
     }
   ]
 }
