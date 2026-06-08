@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1814,
-  "updatedThroughDate": "2026-06-07",
+  "updatedThrough": 1815,
+  "updatedThroughDate": "2026-06-08",
   "answers": [
     {
       "number": 0,
@@ -9096,6 +9096,11 @@
       "number": 1814,
       "word": "THUMB",
       "date": "2026-06-07"
+    },
+    {
+      "number": 1815,
+      "word": "MAFIA",
+      "date": "2026-06-08"
     }
   ]
 }
