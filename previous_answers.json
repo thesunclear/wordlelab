@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1819,
-  "updatedThroughDate": "2026-06-12",
+  "updatedThrough": 1820,
+  "updatedThroughDate": "2026-06-13",
   "answers": [
     {
       "number": 0,
@@ -9121,6 +9121,11 @@
       "number": 1819,
       "word": "BREAK",
       "date": "2026-06-12"
+    },
+    {
+      "number": 1820,
+      "word": "QUELL",
+      "date": "2026-06-13"
     }
   ]
 }
