@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1822,
-  "updatedThroughDate": "2026-06-15",
+  "updatedThrough": 1823,
+  "updatedThroughDate": "2026-06-16",
   "answers": [
     {
       "number": 0,
@@ -9136,6 +9136,11 @@
       "number": 1822,
       "word": "BROIL",
       "date": "2026-06-15"
+    },
+    {
+      "number": 1823,
+      "word": "AMAZE",
+      "date": "2026-06-16"
     }
   ]
 }
