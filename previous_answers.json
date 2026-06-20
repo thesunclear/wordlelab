@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1826,
-  "updatedThroughDate": "2026-06-19",
+  "updatedThrough": 1827,
+  "updatedThroughDate": "2026-06-20",
   "answers": [
     {
       "number": 0,
@@ -9156,6 +9156,11 @@
       "number": 1826,
       "word": "EMOJI",
       "date": "2026-06-19"
+    },
+    {
+      "number": 1827,
+      "word": "DRAKE",
+      "date": "2026-06-20"
     }
   ]
 }
