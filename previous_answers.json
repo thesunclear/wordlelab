@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1830,
-  "updatedThroughDate": "2026-06-23",
+  "updatedThrough": 1831,
+  "updatedThroughDate": "2026-06-24",
   "answers": [
     {
       "number": 0,
@@ -9176,6 +9176,11 @@
       "number": 1830,
       "word": "CURRY",
       "date": "2026-06-23"
+    },
+    {
+      "number": 1831,
+      "word": "QUEER",
+      "date": "2026-06-24"
     }
   ]
 }
