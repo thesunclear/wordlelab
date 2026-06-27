@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1833,
-  "updatedThroughDate": "2026-06-26",
+  "updatedThrough": 1834,
+  "updatedThroughDate": "2026-06-27",
   "answers": [
     {
       "number": 0,
@@ -9191,6 +9191,11 @@
       "number": 1833,
       "word": "ACUTE",
       "date": "2026-06-26"
+    },
+    {
+      "number": 1834,
+      "word": "SCOOP",
+      "date": "2026-06-27"
     }
   ]
 }
