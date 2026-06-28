@@ -10,27 +10,27 @@
   "metrics": {
     "entropy": {
       "direction": "desc",
-      "topN": 12,
+      "topN": 15,
       "tieMode": "exact",
-      "cutoff": 5.743837849044663
+      "cutoff": 5.716473900638883
     },
     "expected": {
       "direction": "asc",
-      "topN": 12,
+      "topN": 15,
       "tieMode": "snapToCandidates",
-      "cutoff": 72.16159860990426
+      "cutoff": 75.83753258036485
     },
     "maxBucket": {
       "direction": "asc",
-      "topN": 12,
+      "topN": 15,
       "tieMode": "exact",
-      "cutoff": 198
+      "cutoff": 210
     },
     "E": {
       "direction": "asc",
-      "topN": 12,
+      "topN": 15,
       "tieMode": "snapToCandidates",
-      "cutoff": 3.539965247610775
+      "cutoff": 3.5447437011294505
     }
   },
   "top": {
@@ -46,7 +46,10 @@
       "TRAIN",
       "TRICE",
       "REACT",
-      "DEALT"
+      "DEALT",
+      "TRAIL",
+      "TRADE",
+      "TRIPE"
     ],
     "entropy": [
       "RAISE",
@@ -60,7 +63,10 @@
       "AROSE",
       "ALERT",
       "LEAST",
-      "CRANE"
+      "CRANE",
+      "STALE",
+      "SANER",
+      "ALTER"
     ],
     "expected": [
       "RAISE",
@@ -74,7 +80,10 @@
       "SNARE",
       "ALERT",
       "SLATE",
-      "CRATE"
+      "CRATE",
+      "TRACE",
+      "STALE",
+      "AISLE"
     ],
     "maxBucket": [
       "ARISE",
@@ -88,7 +97,10 @@
       "ALTER",
       "LATER",
       "AISLE",
-      "TEARY"
+      "TEARY",
+      "LEANT",
+      "LEARN",
+      "RENAL"
     ]
   },
   "stats": {
@@ -176,6 +188,20 @@
       "maxBucket": 261,
       "E": 3.5308427454387497
     },
+    "STALE": {
+      "rank": 1893,
+      "entropy": 5.738028258724988,
+      "expected": 75.1685490877496,
+      "maxBucket": 221,
+      "E": 3.5356211989574295
+    },
+    "SANER": {
+      "rank": 1636,
+      "entropy": 5.732805724832585,
+      "expected": 69.91225021720236,
+      "maxBucket": 219,
+      "E": 3.565595134665508
+    },
     "ALTER": {
       "rank": 67,
       "entropy": 5.716473900638883,
@@ -190,12 +216,12 @@
       "maxBucket": 194,
       "E": 3.5664639443961783
     },
-    "SANER": {
-      "rank": 1636,
-      "entropy": 5.732805724832585,
-      "expected": 69.91225021720236,
-      "maxBucket": 219,
-      "E": 3.565595134665508
+    "AISLE": {
+      "rank": 45,
+      "entropy": 5.635796174408777,
+      "expected": 75.83753258036485,
+      "maxBucket": 196,
+      "E": 3.5738488271068647
     },
     "ALONE": {
       "rank": 61,
@@ -218,13 +244,6 @@
       "maxBucket": 189,
       "E": 3.592962641181582
     },
-    "AISLE": {
-      "rank": 45,
-      "entropy": 5.635796174408777,
-      "expected": 75.83753258036485,
-      "maxBucket": 196,
-      "E": 3.5738488271068647
-    },
     "TEARY": {
       "rank": 2013,
       "entropy": 5.536584008242535,
@@ -239,19 +258,26 @@
       "maxBucket": 207,
       "E": 3.527367506516075
     },
+    "LEARN": {
+      "rank": 1108,
+      "entropy": 5.6519961872990025,
+      "expected": 76.42745438748899,
+      "maxBucket": 210,
+      "E": 3.556038227628149
+    },
+    "RENAL": {
+      "rank": 1565,
+      "entropy": 5.552406219889194,
+      "expected": 80.79582971329272,
+      "maxBucket": 210,
+      "E": 3.5773240660295405
+    },
     "SLANT": {
       "rank": 1767,
       "entropy": 5.492181012487843,
       "expected": 98.41529105125962,
       "maxBucket": 316,
       "E": 3.5334491746307575
-    },
-    "STALE": {
-      "rank": 1893,
-      "entropy": 5.738028258724988,
-      "expected": 75.1685490877496,
-      "maxBucket": 221,
-      "E": 3.5356211989574295
     },
     "TRAIN": {
       "rank": 2089,
@@ -280,6 +306,27 @@
       "expected": 90.56993918331867,
       "maxBucket": 255,
       "E": 3.539965247610775
+    },
+    "TRAIL": {
+      "rank": 2088,
+      "entropy": 5.597935902879249,
+      "expected": 78.47784535186781,
+      "maxBucket": 216,
+      "E": 3.540834057341441
+    },
+    "TRADE": {
+      "rank": 2087,
+      "entropy": 5.689053943303979,
+      "expected": 79.86794092093821,
+      "maxBucket": 266,
+      "E": 3.5438748913987834
+    },
+    "TRIPE": {
+      "rank": 2103,
+      "entropy": 5.4636442438249295,
+      "expected": 96.76020851433518,
+      "maxBucket": 305,
+      "E": 3.5447437011294505
     }
   }
 }

@@ -7,7 +7,7 @@ const state={
 	globalInclude:new Set(), globalExclude:new Set(),
 	pos:Array.from({length:5},()=>({include:new Set(),exclude:new Set()})),
 	activePos:0,
-	base2302:[], base3200:[], base14855:[],
+	base2302:[], base3201:[], base14855:[],
 	cancel:false,
 	previousAnswers:{
 		handling:'ignore',
@@ -1778,8 +1778,8 @@ async function ensurePoolLoaded(which){
 	if(which==='2302' && !state.base2302.length){
 		state.base2302 = await fetchCsv('wordle_solutions_2302.csv');
 	}
-	if(which==='3200' && !state.base3200.length){
-		state.base3200 = await fetchCsv('wordle_solutions_3200.csv');
+	if(which==='3201' && !state.base3201.length){
+		state.base3201 = await fetchCsv('wordle_solutions_3201.csv');
 	}
 	if(which==='14855' && !state.base14855.length){
 		state.base14855 = await fetchCsv('wordle_solutions_14855.csv');
@@ -1791,7 +1791,7 @@ function getCurrentAnswerPoolRaw(){
 	const v = sel ? String(sel.value || '') : '';
 
 	if (v === 'wl2302' && state.base2302.length) return state.base2302;
-	if (v === 'wl3200' && state.base3200.length) return state.base3200;
+	if (v === 'wl3201' && state.base3201.length) return state.base3201;
 	if (v === 'wl14855' && state.base14855.length) return state.base14855;
 
 	// Custom list or fallback: use the currently loaded raw list.
@@ -1812,7 +1812,7 @@ async function getExternalPool(){
 	await ensurePoolLoaded(sel);
 
 	if (sel === '2302')  return state.base2302.length  ? state.base2302  : getCurrentAnswerPoolRaw();
-	if (sel === '3200')  return state.base3200.length  ? state.base3200  : getCurrentAnswerPoolRaw();
+	if (sel === '3201')  return state.base3201.length  ? state.base3201  : getCurrentAnswerPoolRaw();
 	if (sel === '14855') return state.base14855.length ? state.base14855 : getCurrentAnswerPoolRaw();
 
 	return getCurrentAnswerPoolRaw();
@@ -3237,10 +3237,10 @@ const FIRST_GUESS_FILES = {
     "2302":  "firstword_2302_2302.json",
     "14855": "firstword_2302_14855.json"
   },
-  "3200": {
-    "hard":  "firstword_3200_hard.json",
-    "3200":  "firstword_3200_3200.json",
-    "14855": "firstword_3200_14855.json"
+  "3201": {
+    "hard":  "firstword_3201_hard.json",
+    "3201":  "firstword_3201_3201.json",
+    "14855": "firstword_3201_14855.json"
   }
 };
 
@@ -3258,11 +3258,11 @@ function clearFirstGuessTable(msg=""){
 }
 
 function getAnswerListKeyFromUI(){
-  // wordListSelect values in your page are like 'wl2302', 'wl3200', 'wl14855', 'wlcustom'
+  // wordListSelect values in your page are like 'wl2302', 'wl3201', 'wl14855', 'wlcustom'
   const sel = byId("wordListSelect");
   const v = sel ? String(sel.value || "") : "";
   if (v === "wl2302") return "2302";
-  if (v === "wl3200") return "3200";
+  if (v === "wl3201") return "3201";
   return null; // 14855 or custom -> not allowed as answer list for this panel
 }
 
@@ -3272,7 +3272,7 @@ function getFirstGuessJsonFile(){
   const poolSel = byId("fwGuessPool");
   const pool = poolSel ? String(poolSel.value) : "current";
 
-  if (!ansKey) return { error: "Please choose a Word List at the top of the page: 2,302 Answer List or 3,200 Answer List." };
+  if (!ansKey) return { error: "Please choose a Word List at the top of the page: 2,302 Answer List or 3,201 Answer List." };
 
   if (hard){
     const f = FIRST_GUESS_FILES?.[ansKey]?.["hard"];
@@ -3364,7 +3364,7 @@ function renderFirstGuessRows(rows, label){
   const st = byId("fwStatus");
   if (!tb || !st) return;
 
-  st.textContent = `Top 12 Words ${label} (ties included): ${rows.length} word(s)`;
+  st.textContent = `Top 15 Words ${label} (ties included): ${rows.length} word(s)`;
   tb.innerHTML = "";
 
   for (const r of rows){
@@ -3636,8 +3636,8 @@ updatePreviousAnswersUI();
 				if (v === 'wl2302') {
 					await loadCsvFile('wordle_solutions_2302.csv');
 					clearAllAdvisorPanels({ silent: true });
-				} else if (v === 'wl3200') {
-					await loadCsvFile('wordle_solutions_3200.csv');
+				} else if (v === 'wl3201') {
+					await loadCsvFile('wordle_solutions_3201.csv');
 					clearAllAdvisorPanels({ silent: true });
 				} else if (v === 'wl14855') {
 					await loadCsvFile('wordle_solutions_14855.csv');
@@ -3714,15 +3714,15 @@ document.addEventListener('DOMContentLoaded', async function(){
 
 	try{
 		const [base] = await Promise.all([
-			fetchCsv('wordle_solutions_3200.csv'),
+			fetchCsv('wordle_solutions_3201.csv'),
 			loadPreviousAnswersData()
 		]);
 
-		state.base3200 = base.slice();
+		state.base3201 = base.slice();
 		loadWordsFromArray(base);
 
 		const sel = byId('wordListSelect');
-		if (sel) sel.value = 'wl3200';   // sync UI with default
+		if (sel) sel.value = 'wl3201';   // sync UI with default
 	} catch(e) {
 		console.error(e);
 	}
