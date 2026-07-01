@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1837,
-  "updatedThroughDate": "2026-06-30",
+  "updatedThrough": 1838,
+  "updatedThroughDate": "2026-07-01",
   "answers": [
     {
       "number": 0,
@@ -9211,6 +9211,11 @@
       "number": 1837,
       "word": "PUPPY",
       "date": "2026-06-30"
+    },
+    {
+      "number": 1838,
+      "word": "DEMUR",
+      "date": "2026-07-01"
     }
   ]
 }
