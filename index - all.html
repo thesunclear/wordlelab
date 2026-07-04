@@ -5571,7 +5571,8 @@ async function runFirstGuessSuggest(metricKey="E"){
   }
 
   try{
-    if (note) note.textContent = `Loading ${pick.file} ...`;
+    // if (note) note.textContent = `Loading ${pick.file} ...`;
+    if (note) note.textContent = `Loading the first guess list ...`;
     const data = await loadFirstGuessData(pick.file);
 
     // Enable quantization only for First Guess Advisor (exact values).
