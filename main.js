@@ -3227,6 +3227,8 @@ let lastFirstGuessLabel = "";
 let lastFirstGuessMetricKey = "E"; // default
 const _firstGuessCache = new Map();
 
+const FIRST_GUESS_DISPLAY_TOP_N = 100;
+
 /**
  * Map the current Answer List + (Hard/Pool) to a JSON filename.
  * NOTE: Add the remaining JSON files as you generate them.
@@ -3364,7 +3366,7 @@ function renderFirstGuessRows(rows, label){
   const st = byId("fwStatus");
   if (!tb || !st) return;
 
-  st.textContent = `Top 15 Words ${label} (ties included): ${rows.length} word(s)`;
+  st.textContent = `Top ${FIRST_GUESS_DISPLAY_TOP_N} Words ${label} (ties included): ${rows.length} word(s)`;
   tb.innerHTML = "";
 
   for (const r of rows){
@@ -3378,6 +3380,9 @@ function renderFirstGuessRows(rows, label){
     `;
     tb.appendChild(tr);
   }
+  
+  const wrap = byId("fwTableWrap");
+  if (wrap) wrap.scrollTop = 0;
 }
 
 async function runFirstGuessSuggest(metricKey="E"){

@@ -769,6 +769,73 @@ body.light .list::-webkit-scrollbar-thumb {
   background: rgba(0,0,0,0.2);
 }
 
+
+/* ========== First Guess ========== */
+.first-guess-table-wrap{
+  margin-top:10px;
+  overflow:auto;
+  max-height:420px;
+  scroll-behavior:auto;
+}
+
+.first-guess-table-wrap table{
+  border-collapse:separate;
+  border-spacing:0;
+}
+
+.first-guess-table-wrap thead th{
+  position:sticky;
+  top:0;
+  z-index:2;
+  background:var(--bg-card);
+}
+
+.first-guess-table-wrap::-webkit-scrollbar{
+  width:6px;
+}
+
+.first-guess-table-wrap::-webkit-scrollbar-thumb{
+  background:rgba(255,255,255,0.2);
+  border-radius:3px;
+}
+
+body.light .first-guess-table-wrap::-webkit-scrollbar-thumb{
+  background:rgba(0,0,0,0.2);
+}
+
+body.light .first-guess-table-wrap thead th{
+  background:var(--bg-card);
+}
+
+.fg-top100{
+  display:inline-block;
+  margin-left:8px;
+  padding:1px 6px;
+  border-radius:10px;
+
+  color:#f6c343;
+  font-size:12px;
+  font-weight:700;
+
+  border:1px solid rgba(246,195,67,.45);
+
+  text-shadow:
+    0 0 4px rgba(246,195,67,.35);
+
+  animation:fgPulse 2.8s ease-in-out infinite;
+}
+
+@keyframes fgPulse{
+  0%,100%{
+    transform:scale(1);
+    opacity:1;
+  }
+  50%{
+    transform:scale(1.06);
+    opacity:.82;
+  }
+}
+
 /* ========== Recommender controls ========== */
 .ctl{
   display:flex;
@@ -1677,7 +1744,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 <div class="card" id="firstGuessCard" style="margin-top:12px">
   <div class="bar" style="justify-content:space-between">
     <div>
-      <strong id="firstGuessToggle" class="toggle-header">First Guess Advisor</strong>
+      <strong id="firstGuessToggle" class="toggle-header">First Guess Advisor</strong> <span class="fg-top100">Top&nbsp;100</span>
       <!--<span class="hint" style="margin-left:10px">Exact (precomputed JSON)</span> -->
     </div>
   </div>
@@ -1707,7 +1774,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 
     <div class="hint" id="fwStatus" style="margin-top:6px"></div>
 
-    <div style="margin-top:10px; overflow:auto">
+    <div id="fwTableWrap" class="first-guess-table-wrap">
       <table>
         <thead>
           <tr>
@@ -5404,6 +5471,8 @@ let lastFirstGuessLabel = "";
 let lastFirstGuessMetricKey = "E"; // default
 const _firstGuessCache = new Map();
 
+const FIRST_GUESS_DISPLAY_TOP_N = 100;
+
 /**
  * Map the current Answer List + (Hard/Pool) to a JSON filename.
  * NOTE: Add the remaining JSON files as you generate them.
@@ -5541,7 +5610,7 @@ function renderFirstGuessRows(rows, label){
   const st = byId("fwStatus");
   if (!tb || !st) return;
 
-  st.textContent = `Top 15 Words ${label} (ties included): ${rows.length} word(s)`;
+  st.textContent = `Top ${FIRST_GUESS_DISPLAY_TOP_N} Words ${label} (ties included): ${rows.length} word(s)`;
   tb.innerHTML = "";
 
   for (const r of rows){
@@ -5555,6 +5624,9 @@ function renderFirstGuessRows(rows, label){
     `;
     tb.appendChild(tr);
   }
+  
+  const wrap = byId("fwTableWrap");
+  if (wrap) wrap.scrollTop = 0;
 }
 
 async function runFirstGuessSuggest(metricKey="E"){
