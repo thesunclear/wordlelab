@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1846,
-  "updatedThroughDate": "2026-07-09",
+  "updatedThrough": 1847,
+  "updatedThroughDate": "2026-07-10",
   "answers": [
     {
       "number": 0,
@@ -9256,6 +9256,11 @@
       "number": 1846,
       "word": "AMEND",
       "date": "2026-07-09"
+    },
+    {
+      "number": 1847,
+      "word": "CANAL",
+      "date": "2026-07-10"
     }
   ]
 }
