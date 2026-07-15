@@ -1550,7 +1550,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 			</label>
 			<select id="wordListSelect">
 				<option value="wl2302">2,302 Answer List</option>
-				<option value="wl3201">3,201 Answer List (Default)</option>
+				<option value="wl3209">3,209 Answer List (Default)</option>
 				<option value="wl14855">14,855 Guessable List</option> 
 				<option value="custom">Custom List (Upload CSV)</option>
 			</select>
@@ -1817,8 +1817,8 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 				<!-- <option value="2302">
 					2,302 Word List
 				</option>
-				<option value="3201">
-					3,201 Word List
+				<option value="3209">
+					3,209 Word List
 				</option> -->
 				<option value="14855">
 					14,855 Guessable List
@@ -1979,19 +1979,19 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 	<!-- Word Lists for Wordle -->
 	<strong id="wordListsToggle" class="toggle-header">📚 Word Lists for Wordle</strong>
 	<div id="wordListsContent" class="toggle-content">
-		<p>Here are three useful word lists for analyzing and playing Wordle: the 2,302 Answer List, the 3,201 Answer List, and the 14,855 Guessable List. None of these lists have been officially confirmed by the creators of Wordle as the definitive answer set. The answer list appears to evolve over time, and these lists are updated accordingly based on extensive observations.</p>
+		<p>Here are three useful word lists for analyzing and playing Wordle: the 2,302 Answer List, the 3,209 Answer List, and the 14,855 Guessable List. None of these lists have been officially confirmed by the creators of Wordle as the definitive answer set. The answer list appears to evolve over time, and these lists are updated accordingly based on extensive observations.</p>
 		<ul>
 			<li>
 				<strong>2,302 Answer List</strong>: <p>A smaller, answer-dense list created from the earlier 2,315-word answer list by removing words that were not used as official answers. While it does not include every observed answer, it contains a very high concentration of historically used answers.</p>
 			</li>
 			<li>
-				<strong>3,201 Answer List (Default)</strong>: <p>A broader and more comprehensive answer-oriented list. Based on extensive comparisons, this list appears to closely match the candidate set currently used by Wordle Bot, consistently producing the same remaining-word counts after guesses. In practice, it also covers all observed official Wordle answers.</p>
+				<strong>3,209 Answer List (Default)</strong>: <p>A broader and more comprehensive answer-oriented list. Based on extensive comparisons, this list appears to closely match the candidate set currently used by Wordle Bot, consistently producing the same remaining-word counts after guesses. In practice, it also covers all observed official Wordle answers.</p>
 			</li>
 			<li>
 				<strong>14,855 Guessable List</strong>: <p>A much larger vocabulary of valid guesses, including many words that are not used as official answers.</p>
 			</li>
 		</ul>
-		<p>Each list serves a different purpose: the 2,302 list as a compact, answer-dense reference, the 3,201 list as a Bot-consistent and comprehensive candidate set, and the 14,855 list as a full guess vocabulary.</p>
+		<p>Each list serves a different purpose: the 2,302 list as a compact, answer-dense reference, the 3,209 list as a Bot-consistent and comprehensive candidate set, and the 14,855 list as a full guess vocabulary.</p>
 	</div>
 	<br>
 
@@ -2129,8 +2129,8 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 	<div id="firstGuessHelpContent" class="toggle-content">
 		<p><strong>First Guess Advisor</strong> shows <strong>exact</strong> precomputed metrics for the <strong>first guess</strong> under the selected Answer List and Mode.</p>
 		<ul>
-			<li><strong>First Guess Advisor</strong> requires the Word List at the top of the page to be set to <strong>2,302 Answer List</strong> or <strong>3,201 Answer List</strong>.</li>
-			<li><strong>Answer List</strong> refers to the Word List selected at the <strong>top of the page</strong> (e.g., 2,302 or 3,201).</li>
+			<li><strong>First Guess Advisor</strong> requires the Word List at the top of the page to be set to <strong>2,302 Answer List</strong> or <strong>3,209 Answer List</strong>.</li>
+			<li><strong>Answer List</strong> refers to the Word List selected at the <strong>top of the page</strong> (e.g., 2,302 or 3,209).</li>
 			<li><strong>E[steps]</strong> here is <strong>exact</strong> (not simulated) and is computed under the same mode’s guessing policy:
 				<ul>
 					<li><strong>Hard Mode</strong>: all guesses are restricted to the remaining candidates.</li>
@@ -2251,7 +2251,7 @@ const state={
 	globalInclude:new Set(), globalExclude:new Set(),
 	pos:Array.from({length:5},()=>({include:new Set(),exclude:new Set()})),
 	activePos:0,
-	base2302:[], base3201:[], base14855:[],
+	base2302:[], base3209:[], base14855:[],
 	cancel:false,
 	previousAnswers:{
 		handling:'ignore',
@@ -4022,8 +4022,8 @@ async function ensurePoolLoaded(which){
 	if(which==='2302' && !state.base2302.length){
 		state.base2302 = await fetchCsv('wordle_solutions_2302.csv');
 	}
-	if(which==='3201' && !state.base3201.length){
-		state.base3201 = await fetchCsv('wordle_solutions_3201.csv');
+	if(which==='3209' && !state.base3209.length){
+		state.base3209 = await fetchCsv('wordle_solutions_3209.csv');
 	}
 	if(which==='14855' && !state.base14855.length){
 		state.base14855 = await fetchCsv('wordle_solutions_14855.csv');
@@ -4035,7 +4035,7 @@ function getCurrentAnswerPoolRaw(){
 	const v = sel ? String(sel.value || '') : '';
 
 	if (v === 'wl2302' && state.base2302.length) return state.base2302;
-	if (v === 'wl3201' && state.base3201.length) return state.base3201;
+	if (v === 'wl3209' && state.base3209.length) return state.base3209;
 	if (v === 'wl14855' && state.base14855.length) return state.base14855;
 
 	// Custom list or fallback: use the currently loaded raw list.
@@ -4056,7 +4056,7 @@ async function getExternalPool(){
 	await ensurePoolLoaded(sel);
 
 	if (sel === '2302')  return state.base2302.length  ? state.base2302  : getCurrentAnswerPoolRaw();
-	if (sel === '3201')  return state.base3201.length  ? state.base3201  : getCurrentAnswerPoolRaw();
+	if (sel === '3209')  return state.base3209.length  ? state.base3209  : getCurrentAnswerPoolRaw();
 	if (sel === '14855') return state.base14855.length ? state.base14855 : getCurrentAnswerPoolRaw();
 
 	return getCurrentAnswerPoolRaw();
@@ -5483,10 +5483,10 @@ const FIRST_GUESS_FILES = {
     "2302":  "firstword_2302_2302.json",
     "14855": "firstword_2302_14855.json"
   },
-  "3201": {
-    "hard":  "firstword_3201_hard.json",
-    "3201":  "firstword_3201_3201.json",
-    "14855": "firstword_3201_14855.json"
+  "3209": {
+    "hard":  "firstword_3209_hard.json",
+    "3209":  "firstword_3209_3209.json",
+    "14855": "firstword_3209_14855.json"
   }
 };
 
@@ -5504,11 +5504,11 @@ function clearFirstGuessTable(msg=""){
 }
 
 function getAnswerListKeyFromUI(){
-  // wordListSelect values in your page are like 'wl2302', 'wl3201', 'wl14855', 'wlcustom'
+  // wordListSelect values in your page are like 'wl2302', 'wl3209', 'wl14855', 'wlcustom'
   const sel = byId("wordListSelect");
   const v = sel ? String(sel.value || "") : "";
   if (v === "wl2302") return "2302";
-  if (v === "wl3201") return "3201";
+  if (v === "wl3209") return "3209";
   return null; // 14855 or custom -> not allowed as answer list for this panel
 }
 
@@ -5518,7 +5518,7 @@ function getFirstGuessJsonFile(){
   const poolSel = byId("fwGuessPool");
   const pool = poolSel ? String(poolSel.value) : "current";
 
-  if (!ansKey) return { error: "Please choose a Word List at the top of the page: 2,302 Answer List or 3,201 Answer List." };
+  if (!ansKey) return { error: "Please choose a Word List at the top of the page: 2,302 Answer List or 3,209 Answer List." };
 
   if (hard){
     const f = FIRST_GUESS_FILES?.[ansKey]?.["hard"];
@@ -5886,8 +5886,8 @@ updatePreviousAnswersUI();
 				if (v === 'wl2302') {
 					await loadCsvFile('wordle_solutions_2302.csv');
 					clearAllAdvisorPanels({ silent: true });
-				} else if (v === 'wl3201') {
-					await loadCsvFile('wordle_solutions_3201.csv');
+				} else if (v === 'wl3209') {
+					await loadCsvFile('wordle_solutions_3209.csv');
 					clearAllAdvisorPanels({ silent: true });
 				} else if (v === 'wl14855') {
 					await loadCsvFile('wordle_solutions_14855.csv');
@@ -5964,15 +5964,15 @@ document.addEventListener('DOMContentLoaded', async function(){
 
 	try{
 		const [base] = await Promise.all([
-			fetchCsv('wordle_solutions_3201.csv'),
+			fetchCsv('wordle_solutions_3209.csv'),
 			loadPreviousAnswersData()
 		]);
 
-		state.base3201 = base.slice();
+		state.base3209 = base.slice();
 		loadWordsFromArray(base);
 
 		const sel = byId('wordListSelect');
-		if (sel) sel.value = 'wl3201';   // sync UI with default
+		if (sel) sel.value = 'wl3209';   // sync UI with default
 	} catch(e) {
 		console.error(e);
 	}

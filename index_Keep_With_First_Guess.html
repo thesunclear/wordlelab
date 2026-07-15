@@ -271,6 +271,58 @@
 	</ul>
 </div>
 
+<!-- ========================= -->
+<!-- First Guess Advisor (NEW) -->
+<!-- ========================= -->
+<div class="card" id="firstGuessCard" style="margin-top:12px">
+  <div class="bar" style="justify-content:space-between">
+    <div>
+      <strong id="firstGuessToggle" class="toggle-header">First Guess Advisor</strong> <span class="fg-top100">Top&nbsp;100</span>
+      <!--<span class="hint" style="margin-left:10px">Exact (precomputed JSON)</span> -->
+    </div>
+  </div>
+
+  <div id="firstGuessContent" class="toggle-content">
+    <div class="ctl" style="margin-top:10px">
+      <label>
+        Hard Mode
+        <input type="checkbox" id="fwHardMode">
+      </label>
+
+      <label title="Guess pool used when Hard Mode is OFF">
+        Guess Pool
+        <select id="fwGuessPool">
+          <option value="current">Answer List</option>
+          <option value="14855">14,855 Guessable List</option>
+        </select>
+      </label>
+
+      <button class="btn" id="fwSuggestBtn">Suggest</button>
+      <button class="btn" id="fwResetBtn">Reset</button>
+    </div>
+
+    <!-- <div class="hint" id="fwNote" style="margin-top:8px">
+      Click a column header to show the Top list by that metric (ties included).
+    </div> -->
+
+    <div class="hint" id="fwStatus" style="margin-top:6px"></div>
+
+    <div id="fwTableWrap" class="first-guess-table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Word</th>
+            <th id="fw-sort-steps" tabindex="0" title="Exact E[steps] (ascending)">E[steps]</th>
+            <th id="fw-sort-entropy" tabindex="0" title="Entropy (descending)">Entropy</th>
+            <th id="fw-sort-cands" tabindex="0" title="Expected candidates E[cands] (ascending)">E[cands]</th>
+            <th id="fw-sort-bucket" tabindex="0" title="Max bucket size (ascending)">Max Bucket</th>
+          </tr>
+        </thead>
+        <tbody id="fwTable"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
 
 <!-- Recommender -->
 <div class="card" style="margin-top:12px">
@@ -278,7 +330,7 @@
 		<div>
 			<strong>Next Guess Recommender</strong>
 			<span class="first-guess-hint">
-				<!-- For the first guess, use <strong>First Guess Advisor</strong> above. -->
+				For the first guess, use <strong>First Guess Advisor</strong> above.
 			</span>
 		</div>
 	</div>
@@ -605,7 +657,7 @@
 		<p>All statistics assume that each remaining candidate is equally likely.</p>
 	</div>
 	<br>
-	<!-- First-Guess Help 
+	<!-- First-Guess Help -->
 	<strong id="firstGuessHelpToggle" class="toggle-header">🎯 First Guess Advisor</strong>
 	<div id="firstGuessHelpContent" class="toggle-content">
 		<p><strong>First Guess Advisor</strong> shows <strong>exact</strong> precomputed metrics for the <strong>first guess</strong> under the selected Answer List and Mode.</p>
@@ -625,7 +677,7 @@
 			</li>
 		</ul>
 	</div>
-	<br> -->
+	<br>
 	<!-- Next-Guess Recommender Help -->
 	<strong id="recommenderToggle" class="toggle-header">🔁 Next Guess Recommender</strong>
 	<div id="recommenderContent" class="toggle-content">
