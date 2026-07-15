@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1851,
-  "updatedThroughDate": "2026-07-14",
+  "updatedThrough": 1852,
+  "updatedThroughDate": "2026-07-15",
   "answers": [
     {
       "number": 0,
@@ -9281,6 +9281,11 @@
       "number": 1851,
       "word": "STEAK",
       "date": "2026-07-14"
+    },
+    {
+      "number": 1852,
+      "word": "PSHAW",
+      "date": "2026-07-15"
     }
   ]
 }
