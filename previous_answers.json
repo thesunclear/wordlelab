@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1852,
-  "updatedThroughDate": "2026-07-15",
+  "updatedThrough": 1853,
+  "updatedThroughDate": "2026-07-16",
   "answers": [
     {
       "number": 0,
@@ -9286,6 +9286,11 @@
       "number": 1852,
       "word": "PSHAW",
       "date": "2026-07-15"
+    },
+    {
+      "number": 1853,
+      "word": "BUTTE",
+      "date": "2026-07-16"
     }
   ]
 }
