@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Wordle Lab – Ultimate Wordle Solver & Analyzer</title>
+	<meta name="description" content="Wordle Lab is an advanced Wordle solver and entropy-based analyzer with Wordle and Advanced modes, including previous answers filtering and past-answer insights.">
+	<meta name="keywords" content="Wordle, Wordle Lab, Wordle Solver, Wordle Helper, Wordle Analyzer, Wordle Strategy, Entropy, E[steps], Expected Steps, E[cands], Expected Candidates, Max Bucket, First Guess Advisor, Next Guess Recommender, Hard Mode, Wordle Mode, Advanced Mode, Wordle Previous Answers, Wordle Past Answers, Wordle Answer History">
+	<meta name="author" content="Jaehong Kim">
+	<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+	<meta name="theme-color" content="#0f1115">
+	
+	<!-- Open Graph (for Facebook, LinkedIn, etc.) -->
+	<meta property="og:title" content="Wordle Lab – Ultimate Wordle Solver & Analyzer">
+	<meta property="og:description" content="Wordle Lab is an advanced Wordle solver and entropy-based analyzer with Wordle and Advanced modes, including previous answers filtering and past-answer insights.">
+	<meta property="og:url" content="https://wordlelab.com/">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="https://wordlelab.com/preview.png">
+	
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Wordle Lab – Ultimate Wordle Solver & Analyzer">
+	<meta name="twitter:description" content="Wordle Lab is an advanced Wordle solver and entropy-based analyzer with Wordle and Advanced modes, including previous answers filtering and past-answer insights.">
+	<meta name="twitter:image" content="https://wordlelab.com/preview.png">
+	<meta name="twitter:site" content="@DrDrTwice">
+	
+	<!-- Canonical URL -->
+	<link rel="canonical" href="https://wordlelab.com/">
+	
+	<!-- Favicons & PWA -->
+	<link href="./apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+	<link href="./favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+	<link href="./favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+	<link href="./site.webmanifest" rel="manifest">
+	
+	<!-- ===== Structured Data (JSON-LD) ===== -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "WebSite",
+	  "name": "Wordle Lab",
+	  "url": "https://wordlelab.com/",
+	  "applicationCategory": "EducationalApplication",
+	  "operatingSystem": "Web",
+	  "description": "Wordle Lab is an advanced Wordle solver and entropy-based analyzer with Wordle and Advanced modes, including previous answers filtering and past-answer insights.",
+	  "inLanguage": ["en"],
+	  "keywords": [
+	    "Wordle", "Wordle Lab", "Wordle Solver", "Wordle Helper", "Wordle Analyzer", "Wordle Strategy", "Wordle Entropy", "E[steps]", "Expected Steps", " E[cands]", "Expected Candidates", "Max Bucket", "First Guess Advisor", "Next Guess Recommender", "Hard Mode", "Wordle Mode", "Advanced Mode", "Wordle Previous Answers", "Wordle Past Answers", "Wordle Answer History"
+	  ],
+	  "author": { "@type": "Person", "name": "Jaehong Kim" }
+	}
+	</script>
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<div class="wrap">
+
+<!-- Header -->
+<div class="header-row">
+	<h1>
+		<span class="brand">
+		Wordle Lab
+		</span>
+		<br>
+		<span class="tag">
+			Wordle Lab – Ultimate Wordle Solver &amp; Analyzer
+		</span>
+	</h1>
+	<button class="btn" id="modeToggle" aria-label="Toggle light or dark theme">
+		🌙 Dark
+	</button>
+</div>
+
+<!-- Top controls -->
+<div class="card" style="margin-bottom:12px">
+	<div class="bar top-controls">
+		<div class="top-controls-left">
+			<label for="wordListSelect">
+				Word List
+			</label>
+			<select id="wordListSelect">
+				<option value="wl2302">2,302 Answer List</option>
+				<option value="wl3209">3,209 Answer List (Default)</option>
+				<option value="wl14855">14,855 Guessable List</option> 
+				<option value="custom">Custom List (Upload CSV)</option>
+			</select>
+			<input id="fileInput" type="file" accept=".txt,.csv" style="display:none">
+		</div>
+		<div class="top-controls-right">
+			<button class="btn" id="clearAll" style="margin-right:5px">Clear Filters</button>
+			<!-- <label for="modeSelect" style="font-size:13px;color:var(--sub);display:flex;align-items:center;gap:6px;">
+				Mode
+			</label> -->
+			<select id="modeSelect" aria-label="Select mode">
+				<option value="wordle" selected>Wordle Mode</option>
+				<!-- <option value="basic">Basic Mode</option> -->
+				<option value="adv">Advanced Mode</option>
+			</select>
+		</div>
+	</div>
+	<div class="bar previous-answers-bar">
+		<div class="previous-answers-controls">
+
+			<label class="previous-answers-label previous-answers-select-label">
+				Previous Answers
+				<select id="previousAnswersHandling">
+					<option value="ignore" selected>Ignore</option>
+					<option value="exclude">Exclude</option>
+					<option value="badge">Show Badge</option>
+					<option value="include">Only Previous</option>
+				</select>
+			</label>
+
+			<label class="previous-answers-label previous-answers-select-label">
+				Range
+				<select id="previousAnswersMode">
+					<option value="all" selected>All Previous</option>
+					<option value="lastN">Last X</option>
+				</select>
+			</label>
+
+			<label id="previousAnswersValueWrap" class="previous-answers-label previous-answers-value-wrap">
+				X
+				<input
+					id="previousAnswersValue"
+					class="previous-answers-value-input"
+					type="number"
+					min="1"
+					step="1"
+					value="365"
+				>
+			</label>
+
+		</div>
+
+		<span class="hint" id="previousAnswersStatus">Loading previous answers...</span>
+	</div>
+</div>
+
+<!-- Wordle Mode -->
+<div id="wordlePanel" style="display:none">
+	<div class="card" style="margin-top:12px">
+		<div class="bar" style="justify-content:space-between; gap:10px; flex-wrap:wrap;">
+			<div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+				<strong>Wordle Mode</strong>
+				<span class="hint">Add guesses, tap tiles to set ⬛/🟨/🟩 feedback, then click Apply.</span>
+			</div>
+			<div class="bar" style="gap:8px; flex-wrap:wrap;">
+				<input id="wordleGuessInput" maxlength="11" placeholder="'SLATE' or 'SLATE 20001'" style="text-transform:uppercase;">
+				<button class="btn" id="wordleAddGuessBtn">Add Guess</button>
+			</div>
+		</div>
+		<div id="wordleRows" style="margin-top:12px"></div>
+		<div class="hint" id="wordleStatus" style="margin-top:8px"></div>
+	</div>
+</div>
+
+<!-- Basic Mode -->
+<div id="basicPanel" >
+	<div class="card" style="margin-top:12px">
+		<div class="tabs" id="basicTabs">
+		</div>
+		<div class="row" style="margin-top:10px">
+			<div class="card" id="basicPosCardGreen" style="flex:1;min-width:280px">
+				<div style="margin-bottom:8px">
+					<strong>Green Letter</strong>
+				</div>
+				<div class="grid" id="greenKeys">
+				</div>
+			</div>
+			<div class="card" id="basicPosCardYellow" style="flex:1;min-width:280px">
+				<div style="margin-bottom:8px">
+					<strong>Yellow Letter</strong>
+				</div>
+				<div class="grid" id="yellowKeys">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="card" style="margin-top:12px">
+		<div style="margin-bottom:8px">
+			<strong>Gray Letter</strong>
+		</div>
+		<div class="graygrid" id="grayKeys" ></div>
+	</div>
+	<!-- Basic Mode note (insert near the bottom of #basicPanel) -->
+	<div class="card" style="margin-top:12px">
+		<div class="hint">
+			📌 <strong>Repeated-letter</strong> cases are not fully enforced in Basic Mode.
+			See <strong>Basic Mode Notes</strong> below for details.
+		</div>
+	</div>
+</div>
+
+<!-- Advanced Mode -->
+<div id="advPanel" style="display:none">
+	<div class="row" style="margin-top:12px">
+		<div class="card" style="flex:1;min-width:320px">
+			<div style="margin-bottom:8px">
+				<strong>Global Include</strong>
+			</div>
+			<div class="grid" id="gInc">
+			</div>
+		</div>
+		<div class="card" style="flex:1;min-width:320px">
+			<div style="margin-bottom:8px">
+				<strong>Global Exclude</strong>
+			</div>
+			<div class="grid" id="gExc">
+			</div>
+		</div>
+	</div>
+	<!-- Position include/exclude -->
+	<div class="card" style="margin-top:12px">
+		<div class="tabs" id="advTabs">
+		</div>
+		<div class="row" style="margin-top:10px">
+			<div class="card" id="advPosCardInc" style="flex:1;min-width:280px">
+				<div style="margin-bottom:8px">
+					<strong>Position Include</strong>
+				</div>
+				<div class="grid" id="pInc">
+				</div>
+			</div>
+			<div class="card" id="advPosCardExc" style="flex:1;min-width:280px">
+				<div style="margin-bottom:8px">
+					<strong>Position Exclude</strong>
+				</div>
+				<div class="grid" id="pExc">
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Search -->
+	<div class="card" style="margin-top:12px">
+		<div class="bar">
+			<div style="margin-bottom:8px">
+				<strong title="Use patterns such as ?, *, [AEIOU], and -WORD filters">Text Filter</strong>
+			</div>
+			<div class="search">
+				<input id="searchBox" placeholder="Filter (see help below)" style="text-transform:uppercase;">
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Counter -->
+<div class="counter">
+	<div class="counter-row">
+		<div class="counter-main">
+			<span id="count">0</span>
+			<small>candidate(s)</small>
+		</div>
+
+		<label id="previousAnswersOrderWrap" class="counter-order" hidden>
+			Order
+			<select id="previousAnswersOrder">
+				<option value="alpha" selected>A–Z</option>
+				<option value="chronological">Chronological</option>
+			</select>
+		</label>
+	</div>
+</div>
+
+<!-- List -->
+<div class="card list" style="margin-top:6px">
+	<ul id="words">
+	</ul>
+</div>
+
+
+<!-- Recommender -->
+<div class="card" style="margin-top:12px">
+	<div class="bar" style="justify-content:space-between">
+		<div>
+			<strong>Next Guess Recommender</strong>
+			<span class="first-guess-hint">
+				<!-- For the first guess, use <strong>First Guess Advisor</strong> above. -->
+			</span>
+		</div>
+	</div>
+	<!-- Controls: row 1 -->
+	<div class="ctl" style="margin-top:10px">
+		<label>
+			Hard Mode
+			<input id="hardMode" type="checkbox">
+			</input>
+		</label>
+		<label title="Guess pool used when Hard Mode is OFF">
+			Guess Pool
+			<select id="poolSelect">
+				<option selected="" value="current">
+					Answer List
+				</option>
+				<!-- <option value="2302">
+					2,302 Word List
+				</option>
+				<option value="3209">
+					3,209 Word List
+				</option> -->
+				<option value="14855">
+					14,855 Guessable List
+				</option>
+			</select>
+		</label>
+	</div>
+	<!-- Controls: row 2 -->
+	<div class="button-container">
+		<label id="recommenderModeLabel" title="Choose how deeply the recommender evaluates guesses">
+			Mode
+			<select id="recommenderMode">
+				<option value="fast" selected>Fast</option>
+				<option value="balanced">Balanced</option>
+				<option value="deep">Deep</option>
+				<option value="deeper">Deeper</option>
+				<option value="veryDeep">Very Deep</option>
+				<option value="max">Max</option>
+			</select>
+		</label>
+		<button id="suggestNext" class="btn">
+			Suggest
+		</button>
+		<button id="stopBtn" class="btn">
+			Stop
+		</button>
+		<button id="resetSuggest" class="btn">
+			Reset
+		</button>
+	</div>
+	<div class="hint" id="modeNote" style="margin-top:4px">
+		Hint
+	</div>
+	<!-- Progress + status -->
+	<div class="progress" style="margin-top:10px">
+		<div class="barin" id="pbar">
+		</div>
+	</div>
+	<div class="hint" id="suggestStatus" style="margin-top:8px">
+	</div>
+	<!-- Table -->
+	<div style="overflow:auto;margin-top:8px">
+		<table>
+			<thead>
+				<tr>
+					<th>
+						Word
+					</th>
+					<th id="sort-steps" role="button" tabindex="0" title="Click to show the Top 10 by E[steps] (the smaller, the better)">
+						E[steps]
+					</th>
+					<th id="sort-entropy" role="button" tabindex="0" title="Click to show the Top 10 by Entropy (the bigger, the better)">
+						Entropy
+					</th>
+					<th id="sort-cands" role="button" tabindex="0" title="Click to show the Top 10 by E[cands] (the smaller, the better)">
+						E[cands]
+					</th>
+					<th id="sort-bucket" role="button" tabindex="0" title="Click to show the Top 10 by Max Bucket (the smaller, the better)">
+						Max Bucket
+					</th>
+				</tr>
+			</thead>
+			<tbody id="suggestTable">
+			</tbody>
+		</table>
+	</div>
+</div>
+
+
+<!-- Word Analyzer -->
+<div class="card" id="analyzeCard" style="margin-top:12px">
+	<div class="bar" style="justify-content:space-between; gap:8px;">
+		<div>
+			<strong>Word Analyzer</strong>
+			<span class="tag">
+				<!-- (w.r.t. current candidate list) -->
+			</span>
+		</div>
+		<div class="bar" style="gap:6px;">
+			<label id="analysisModeLabel" title="Choose how deeply E[steps] is evaluated">
+				Mode
+				<select id="analysisMode">
+					<option value="fast" selected>Fast</option>
+					<option value="balanced">Balanced</option>
+					<option value="deep">Deep</option>
+					<option value="deeper">Deeper</option>
+					<option value="veryDeep">Very Deep</option>
+					<option value="max">Max</option>
+				</select>
+			</label>
+			<input id="analyzeInput" maxlength="5" placeholder="5-letter word" style="text-transform:uppercase;">
+			<button class="btn" id="analyzeBtn">
+				Analyze
+			</button>
+		</div>
+	</div>
+	<div class="hint" id="analyzeNote" style="margin-top:4px">
+	</div>
+		<div style="overflow:auto;margin-top:10px">
+			<table>
+				<thead>
+					<tr>
+						<th>
+							Word
+						</th>
+						<th>
+							E[steps]
+						</th>
+						<th>
+							Entropy
+						</th>
+						<th>
+							E[cands]
+						</th>
+						<th>
+							Max Bucket
+						</th>
+					</tr>
+				</thead>
+				<tbody id="analyzeTable">
+				</tbody>
+			</table>
+		</div>
+		<!-- Pattern distribution panel for Word Analyzer -->
+<div id="analyzePatternsSection" class="card" style="margin-top:12px; display:none">
+  <div style="margin-bottom:6px">
+    <strong>📊 Pattern Distribution</strong>
+    <div id="analyzePatternsMeta" class="hint"></div>
+  </div>
+
+  <!-- Fixed header table -->
+  <table class="pattern-header-table">
+    <thead>
+      <tr>
+        <th>Pattern</th>
+        <th>Count</th>
+        <th>Share</th>
+      </tr>
+    </thead>
+  </table>
+
+  <!-- Scrollable body -->
+  <div class="pattern-scroll">
+    <table class="pattern-body-table">
+      <tbody id="analyzePatternsBody"></tbody>
+    </table>
+  </div>
+</div>
+
+
+
+
+</div>
+
+
+<!-- Help -->
+<div class="help">
+	<!-- Word Lists for Wordle -->
+	<strong id="wordListsToggle" class="toggle-header">📚 Word Lists for Wordle</strong>
+	<div id="wordListsContent" class="toggle-content">
+		<p>Here are three useful word lists for analyzing and playing Wordle: the 2,302 Answer List, the 3,209 Answer List, and the 14,855 Guessable List. None of these lists have been officially confirmed by the creators of Wordle as the definitive answer set. The answer list appears to evolve over time, and these lists are updated accordingly based on extensive observations.</p>
+		<ul>
+			<li>
+				<strong>2,302 Answer List</strong>: <p>A smaller, answer-dense list created from the earlier 2,315-word answer list by removing words that were not used as official answers. While it does not include every observed answer, it contains a very high concentration of historically used answers.</p>
+			</li>
+			<li>
+				<strong>3,209 Answer List (Default)</strong>: <p>A broader and more comprehensive answer-oriented list. Based on extensive comparisons, this list appears to closely match the candidate set currently used by Wordle Bot, consistently producing the same remaining-word counts after guesses. In practice, it also covers all observed official Wordle answers.</p>
+			</li>
+			<li>
+				<strong>14,855 Guessable List</strong>: <p>A much larger vocabulary of valid guesses, including many words that are not used as official answers.</p>
+			</li>
+		</ul>
+		<p>Each list serves a different purpose: the 2,302 list as a compact, answer-dense reference, the 3,209 list as a Bot-consistent and comprehensive candidate set, and the 14,855 list as a full guess vocabulary.</p>
+	</div>
+	<br>
+
+	<!-- Previous Answers Filter -->
+	<strong id="previousAnswersHelpToggle" class="toggle-header">🕘 Previous Answers</strong>
+	<div id="previousAnswersHelpContent" class="toggle-content">
+		<ul>
+			<li style="margin-top: 15px;">
+				<strong>Previous Answers</strong> lets you decide how past official Wordle answers are handled in the current candidate list.
+				<ul>
+					<li>
+						<strong>Ignore</strong>: do nothing.
+					</li>
+					<li>
+						<strong>Exclude</strong>: remove past official answers from the current candidate list.
+					</li>
+					<li>
+						<strong>Show Badge</strong>: keep those words in the candidate list, but mark them with a <strong>past</strong> or <strong>past+</strong> badge.
+					</li>
+					<li>
+						<strong>Only Previous</strong>: show only past official answers in the candidate list.
+					</li>
+				</ul>
+			</li>
+			<li>
+				<strong>Range</strong> controls which past answers are used:
+				<ul>
+					<li><strong>All Previous</strong>: use the full previous-answer list.</li>
+					<li><strong>Last X</strong>: use only the most recent X previous answers.</li>
+				</ul>
+			</li>
+			<li>
+				These settings affect the <strong>candidate list</strong>. Recommendations and analysis update accordingly, but the external guess pool used in non-hard mode and the <strong>First Guess Advisor</strong> do <strong>not</strong> change.
+			</li>
+			<li>
+				When a <strong>past</strong> or <strong>past+</strong> badge is shown, hovering over it displays the corresponding previous puzzle number(s) and date(s).
+			</li>
+			<li>
+				During the transition to The New York Times platform, a few puzzles had different observed answers across users or cached versions. Wordle Lab includes both observed answers for those cases, such as #241 AGORA/AROMA, #284 HARRY/STOVE, #324 FETUS/SHINE, and #325 BUTCH/GECKO, for historical completeness.
+			</li>
+			<li>
+				Starting February 2, 2026, The New York Times announced that Wordle may reuse past answers. This feature is provided for convenience and may not reflect future official answer behavior.
+			</li>
+			<li>
+				We try to keep this list up to date, and to avoid spoilers across time zones, the current day's answer is not counted as a previous answer.
+			</li>
+		</ul>
+	</div>
+	<br>
+
+	<!-- Wordle Mode Pattern Input -->
+	<strong id="wordlePatternToggle" class="toggle-header">🔍 Wordle Mode Add Guess</strong>
+	<div id="wordlePatternContent" class="toggle-content">
+		<p>In Wordle Mode, you can optionally enter a guess together with a pattern of feedback digits.</p>
+
+		<p><strong>Example:</strong></p>
+		<ul>
+			<li><code>SLATE</code> → adds the guess with all gray tiles (not applied until you click <strong>Apply</strong>).</li>
+			<li><code>SLATE 20001</code> → adds the guess with the pattern already set (not applied until you click <strong>Apply</strong>).</li>
+		</ul>
+
+		<p>The pattern uses digits to represent Wordle feedback:</p>
+		<ul>
+			<li><strong>0</strong> = Gray (letter not in the word)</li>
+			<li><strong>1</strong> = Yellow (letter in the word but wrong position)</li>
+			<li><strong>2</strong> = Green (correct letter in the correct position)</li>
+		</ul>
+
+		<p>This is simply a shortcut to avoid clicking each tile individually. The guess will still need to be applied using the <strong>Apply</strong> button.</p>
+	</div>
+	<br>
+
+	<!-- Basic Mode Notes 
+	<strong id="basicModeHelpToggle" class="toggle-header">📌 Basic Mode Notes</strong>
+	<div id="basicModeHelpContent" class="toggle-content">
+		<ul>
+			<li style="margin-top: 15px;">
+				<strong>Repeated letters (important):</strong>
+				Basic Mode does not enforce exact repeated-letter counts.
+				Example: If the answer is <strong>EJECT</strong>, a guess can produce both <strong>🟩E</strong> and <strong>🟨E</strong>,
+				which implies at least two <strong>E</strong>'s. Basic Mode won’t encode that “at least 2” constraint precisely.
+				Use <strong>Advanced Mode → Pattern Search</strong> for exact filtering (e.g., <code>E*E</code>).
+			</li>
+		</ul>
+	</div>
+	<br> -->
+
+	<!-- Search Help -->
+	<strong id="searchHelpToggle" class="toggle-header">🛠️ Advanced Mode Text Filter</strong>
+	<div id="searchHelpContent" class="toggle-content">
+		<ul>
+			<li style="margin-top: 15px;">
+				<strong>?</strong>: Exactly one letter (e.g.,<code>A?E</code>&rarr;<em>ACE, APE, ARE</em>)
+			</li>
+			<li>
+				<strong>*</strong>: Zero or more letters (e.g.,<code>E*E</code>&rarr;<em>AGREE, EAGLE, EERIE</em>)
+			</li>
+			<li>
+				<strong>-WORD</strong>: Exclude exact words (e.g., <code>-SLATE -SLICE</code> removes <em>SLATE</em> and <em>SLICE</em> from the current candidates)
+			</li>
+			<li>
+				<strong>[AEIOU]</strong>: Any one listed; <strong>[^AEIOU]</strong>: Not these (e.g.,<code>[^AEIOU]ATE</code>&rarr;<em>SLATE, CRATE</em>)
+			</li>
+			<li>
+				<strong>&amp;</strong>: AND; <strong>|</strong>: OR (AND has higher precedence) (e.g.,<code>BREED | CREED | FREED</code>&rarr;<em>BREED, CREED, FREED</em>)
+			</li>
+			<li>
+				<strong>( )</strong>: Group terms (e.g.,<code>(ING &amp; R) | (A?E &amp; N)</code>)
+			</li>
+		</ul>
+	</div>
+	<br>
+
+	<!-- Metrics Glossary -->
+	<strong id="metricsGlossaryToggle" class="toggle-header">📘 Metrics Glossary</strong>
+	<div id="metricsGlossaryContent" class="toggle-content">
+		<ul>
+			<li style="margin-top: 15px;"><strong>E[steps]</strong>: The expected number of steps to solve from the current state under a specified guessing policy. <strong>The smaller, the better.</strong>
+				<ul>
+					<li>Note: the policy used for E[steps] may differ across panels (see panel-specific notes).</li>
+				</ul>
+			</li>
+			<li><strong>Entropy</strong>: A measure of uncertainty. Higher values indicate guesses that are more informative. <strong>The bigger, the better.</strong>
+			</li>
+			<li><strong>E[cands]</strong>: The expected number of candidates remaining after a guess. <strong>The smaller, the better.</strong>
+			</li>
+			<li><strong>Max Bucket</strong>: The size of the largest bucket induced by a guess. <strong>The smaller, the better.</strong>
+			</li>
+		</ul>
+		<p>All statistics assume that each remaining candidate is equally likely.</p>
+	</div>
+	<br>
+	<!-- First-Guess Help 
+	<strong id="firstGuessHelpToggle" class="toggle-header">🎯 First Guess Advisor</strong>
+	<div id="firstGuessHelpContent" class="toggle-content">
+		<p><strong>First Guess Advisor</strong> shows <strong>exact</strong> precomputed metrics for the <strong>first guess</strong> under the selected Answer List and Mode.</p>
+		<ul>
+			<li><strong>First Guess Advisor</strong> requires the Word List at the top of the page to be set to <strong>2,302 Answer List</strong> or <strong>3,209 Answer List</strong>.</li>
+			<li><strong>Answer List</strong> refers to the Word List selected at the <strong>top of the page</strong> (e.g., 2,302 or 3,209).</li>
+			<li><strong>E[steps]</strong> here is <strong>exact</strong> (not simulated) and is computed under the same mode’s guessing policy:
+				<ul>
+					<li><strong>Hard Mode</strong>: all guesses are restricted to the remaining candidates.</li>
+					<li><strong>Non-hard Mode</strong>: follow-up guesses are allowed from the selected <strong>guess pool</strong> (Answer List or 14,855 Guessable List), consistent with the mode.</li>
+					<li>In non-hard mode, this differs from the <strong>Next Guess Recommender</strong> and <strong>Word Analyzer</strong>, which still restrict follow-up guesses to remaining candidates when computing <strong>E[steps]</strong>.</li>
+				</ul>
+				<p>Therefore, <strong>E[steps]</strong> here may differ from the <strong>Next Guess Recommender</strong> and <strong>Word Analyzer</strong> E[steps].</p>
+			</li>
+			<li>
+				<strong>Previous Answers</strong> settings do <strong>not</strong> affect the First Guess Advisor. Results are based on the full answer list.
+			</li>
+		</ul>
+	</div>
+	<br> -->
+	<!-- Next-Guess Recommender Help -->
+	<strong id="recommenderToggle" class="toggle-header">🔁 Next Guess Recommender</strong>
+	<div id="recommenderContent" class="toggle-content">
+		<p><strong>Next Guess Recommender</strong> evaluates candidate guesses according to the selected preset mode (Fast, Balanced, Deep, Deeper, Very Deep, Max).</p>
+		<ul>
+			<li><strong>Answer List</strong> refers to the Word List selected at the <strong>top of the page</strong>.</li>
+			<li>
+				<strong>E[steps]</strong> is an <strong>approximation</strong> of the expected number of steps from the current state.
+				<ul>
+					<li>
+						All follow-up guesses used for <strong>E[steps]</strong> are chosen only from the <strong>remaining candidates at each step</strong>, regardless of whether Hard Mode or Non-hard Mode is selected
+					</li>
+
+					<li>
+						<strong>Hard Mode</strong> affects <em>where</em> recommended guesses come from:
+						<ul>
+							<li>
+								<strong>Hard Mode</strong>: guesses are selected only from the remaining candidates.
+							</li>
+							<li>
+								<strong>Non-hard Mode</strong>: guesses are selected from both the remaining candidates and an external guess pool.
+							</li>
+						</ul>
+					</li>
+
+					<li>
+						<strong>Mode</strong>: controls how deeply <strong>E[steps]</strong> is evaluated (deeper modes are usually more accurate but slower).
+						<ul>
+							<li><strong>Fast</strong>: faster shallow estimate.</li>
+							<li><strong>Balanced</strong>: balanced speed and accuracy.</li>
+							<li><strong>Deep</strong> / <strong>Deeper</strong> / <strong>Very Deep</strong> / <strong>Max</strong>: increasingly deeper evaluation, usually more accurate but slower.</li>
+						</ul>
+					</li>
+
+				</ul>
+			</li>
+			<li>
+				For the <strong>very first guess</strong>, use <strong>First Guess Advisor</strong> above for exact precomputed rankings.
+			</li>
+		</ul>
+	</div>
+	<br>
+	<!-- Word Analyzer Help -->
+	<strong id="analyzerHelpToggle" class="toggle-header">🧩 Word Analyzer</strong>
+	<div id="analyzerHelpContent" class="toggle-content">
+		<p><strong>Word Analyzer</strong> computes metrics for any 5-letter word against the current candidate set, showing <strong>E[steps]</strong>, <strong>Entropy</strong>, <strong>E[cands]</strong>, and <strong>Max Bucket</strong>.</p>
+		<ul>
+			<li>
+				<strong>E[steps]</strong>: An approximate expected number of guesses needed to find the answer if you start by using this word, given the current candidate pool.
+				<ul>
+				<li>Just like in the <strong>Next Guess Recommender</strong>, follow-up guesses used for <strong>E[steps]</strong> are always restricted to the <strong>remaining candidates at each step</strong>, not from the external pool.</li>
+				<li><strong>Mode</strong>: controls how deeply <strong>E[steps]</strong> is evaluated (deeper modes are usually more accurate but slower).
+					<ul>
+						<li><strong>Fast</strong>: faster shallow estimate.</li>
+						<li><strong>Balanced</strong>: balanced speed and accuracy.</li>
+						<li><strong>Deep</strong> / <strong>Deeper</strong> / <strong>Very Deep</strong> / <strong>Max</strong>: increasingly deeper evaluation, usually more accurate but slower.</li>
+					</ul>
+				</li>
+				</ul>
+			</li>
+			<li>
+				<strong>Pattern Distribution</strong>: For the entered word, the analyzer also shows a full breakdown of <strong>all feedback patterns</strong> (🟩🟨⬛ combinations) and how many candidates fall into each pattern. This view helps you understand:
+				<ul>
+					<li>how the word partitions the remaining candidates,</li>
+					<li>how balanced the resulting branches are,</li>
+					<li>why entropy, E[cands], and Max Bucket have their specific values.</li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+	<br>
+	<!-- ⚠️ Disclaimer -->
+	<strong id="disclaimerToggle" class="toggle-header">⚠️ Disclaimer</strong>
+	<div id="disclaimerContent" class="toggle-content">
+		<p>This tool is an independent, unofficial helper for the game <strong>Wordle</strong>. It is provided for educational and entertainment purposes only.</p>
+		<p>All word lists, recommendations, and computed results are provided <strong>“as is”</strong> with <strong>no guarantees of accuracy or completeness</strong>. Actual Wordle answers may differ from the words shown or suggested here.</p>
+		<p><strong>Wordle</strong> is a trademark of <strong>The New York Times Company</strong>. This site is <strong>not affiliated with, endorsed by, or associated with The New York Times or Wordle</strong>.</p>
+	</div>
+	<br>
+	<!-- ✉️ Contact & Feedback -->
+	<strong id="contactToggle" class="toggle-header">✉️ Contact & Feedback</strong>
+	<div id="contactContent" class="toggle-content">
+		<p>Found a bug, have feedback, or want to suggest a feature? Email <a href="mailto:contact@wordlelab.com"><strong>contact@wordlelab.com</strong></a>.</p>
+	</div>
+	<br>
+</div>
+
+<div id="tapTooltip" role="status" aria-live="polite">
+  <div class="tapTooltipTitle">Details</div>
+  <div class="tapTooltipBody" id="tapTooltipBody"></div>
+  <div class="tapTooltipHint">Tap anywhere to close</div>
+</div>
+
+</div>
+
+<script src="main.js"></script>
+
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "5de0a403a43944218c4f16e2c109c9e0"}'></script><!-- End Cloudflare Web Analytics -->
+
+</body>
+</html>
