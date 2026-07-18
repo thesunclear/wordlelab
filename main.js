@@ -3227,7 +3227,7 @@ let lastFirstGuessLabel = "";
 let lastFirstGuessMetricKey = "E"; // default
 const _firstGuessCache = new Map();
 
-const FIRST_GUESS_DISPLAY_TOP_N = 100;
+const FIRST_GUESS_DISPLAY_TOP_N = 15;
 
 /**
  * Map the current Answer List + (Hard/Pool) to a JSON filename.

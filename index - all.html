@@ -1744,7 +1744,7 @@ body.light .pattern-scroll::-webkit-scrollbar-thumb {
 <div class="card" id="firstGuessCard" style="margin-top:12px">
   <div class="bar" style="justify-content:space-between">
     <div>
-      <strong id="firstGuessToggle" class="toggle-header">First Guess Advisor</strong> <span class="fg-top100">Top&nbsp;100</span>
+      <strong id="firstGuessToggle" class="toggle-header">First Guess Advisor</strong> <!--<span class="fg-top100">Top&nbsp;100</span>-->
       <!--<span class="hint" style="margin-left:10px">Exact (precomputed JSON)</span> -->
     </div>
   </div>
@@ -5471,7 +5471,7 @@ let lastFirstGuessLabel = "";
 let lastFirstGuessMetricKey = "E"; // default
 const _firstGuessCache = new Map();
 
-const FIRST_GUESS_DISPLAY_TOP_N = 100;
+const FIRST_GUESS_DISPLAY_TOP_N = 15;
 
 /**
  * Map the current Answer List + (Hard/Pool) to a JSON filename.
