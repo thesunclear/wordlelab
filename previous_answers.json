@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1861,
-  "updatedThroughDate": "2026-07-24",
+  "updatedThrough": 1862,
+  "updatedThroughDate": "2026-07-25",
   "answers": [
     {
       "number": 0,
@@ -9326,6 +9326,11 @@
       "number": 1861,
       "word": "PUTTY",
       "date": "2026-07-24"
+    },
+    {
+      "number": 1862,
+      "word": "ALOHA",
+      "date": "2026-07-25"
     }
   ]
 }
