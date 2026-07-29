@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1865,
-  "updatedThroughDate": "2026-07-28",
+  "updatedThrough": 1866,
+  "updatedThroughDate": "2026-07-29",
   "answers": [
     {
       "number": 0,
@@ -9346,6 +9346,11 @@
       "number": 1865,
       "word": "SONAR",
       "date": "2026-07-28"
+    },
+    {
+      "number": 1866,
+      "word": "VALVE",
+      "date": "2026-07-29"
     }
   ]
 }
