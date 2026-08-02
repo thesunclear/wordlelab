@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1869,
-  "updatedThroughDate": "2026-08-01",
+  "updatedThrough": 1870,
+  "updatedThroughDate": "2026-08-02",
   "answers": [
     {
       "number": 0,
@@ -9366,6 +9366,11 @@
       "number": 1869,
       "word": "SLUSH",
       "date": "2026-08-01"
+    },
+    {
+      "number": 1870,
+      "word": "PENAL",
+      "date": "2026-08-02"
     }
   ]
 }
