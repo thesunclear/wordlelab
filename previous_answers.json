@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1874,
-  "updatedThroughDate": "2026-08-06",
+  "updatedThrough": 1875,
+  "updatedThroughDate": "2026-08-07",
   "answers": [
     {
       "number": 0,
@@ -9391,6 +9391,11 @@
       "number": 1874,
       "word": "GRIPE",
       "date": "2026-08-06"
+    },
+    {
+      "number": 1875,
+      "word": "FEIGN",
+      "date": "2026-08-07"
     }
   ]
 }
