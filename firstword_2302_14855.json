@@ -10,27 +10,27 @@
   "metrics": {
     "entropy": {
       "direction": "desc",
-      "topN": 100,
+      "topN": 300,
       "tieMode": "exact",
-      "cutoff": 5.617683853208435
+      "cutoff": 5.462836747937525
     },
     "expected": {
       "direction": "asc",
-      "topN": 100,
+      "topN": 300,
       "tieMode": "snapToCandidates",
-      "cutoff": 78.37880104257158
+      "cutoff": 88.80104257167665
     },
     "maxBucket": {
       "direction": "asc",
-      "topN": 100,
+      "topN": 300,
       "tieMode": "exact",
-      "cutoff": 208
+      "cutoff": 236
     },
     "E": {
       "direction": "asc",
-      "topN": 100,
+      "topN": 300,
       "tieMode": "snapToCandidates",
-      "cutoff": 3.4561251086032603
+      "cutoff": 3.4748045178121663
     }
   },
   "top": {
@@ -135,7 +135,207 @@
       "TRANS",
       "SLADE",
       "TARNS",
-      "SNIRT"
+      "SNIRT",
+      "EARNT",
+      "STIRE",
+      "SERAL",
+      "ANILE",
+      "PARLE",
+      "IRATE",
+      "LIART",
+      "TONER",
+      "PLACE",
+      "SNORE",
+      "AROSE",
+      "CREST",
+      "TALER",
+      "PALET",
+      "ALTER",
+      "PLAST",
+      "RAISE",
+      "CASTE",
+      "ALERT",
+      "SPALT",
+      "CLINT",
+      "TRIAL",
+      "RINSE",
+      "SOCLE",
+      "TALES",
+      "TRIDE",
+      "SCARE",
+      "CADRE",
+      "GRATE",
+      "CAPLE",
+      "CRAPE",
+      "SLIER",
+      "CLONE",
+      "TEALS",
+      "SPALE",
+      "SPART",
+      "CRUET",
+      "TARED",
+      "ALIEN",
+      "DROLE",
+      "CEORL",
+      "ALONE",
+      "TAELS",
+      "SIENT",
+      "CLOTE",
+      "SPARE",
+      "SCANT",
+      "PORTE",
+      "SONCE",
+      "SAICE",
+      "TROPE",
+      "SNORT",
+      "TORES",
+      "SARED",
+      "TAILS",
+      "DRONE",
+      "TENOR",
+      "SPATE",
+      "CLADE",
+      "PERST",
+      "SLIPT",
+      "DANSE",
+      "NACRE",
+      "SETAL",
+      "RATEL",
+      "COATE",
+      "DORSE",
+      "SIREN",
+      "TRIES",
+      "CAIRN",
+      "PROLE",
+      "SCRAE",
+      "DEARN",
+      "TOLAR",
+      "CLEAT",
+      "SITAR",
+      "RIONE",
+      "LARNT",
+      "SHALT",
+      "SCRAT",
+      "LACET",
+      "TABLE",
+      "RINCE",
+      "RATES",
+      "NITRE",
+      "AISLE",
+      "SHALE",
+      "SATIN",
+      "LEARN",
+      "OLATE",
+      "COAST",
+      "SOLER",
+      "RANED",
+      "ARIEL",
+      "CARPE",
+      "ANOLE",
+      "ALOSE",
+      "SILER",
+      "TRODE",
+      "TRIOL",
+      "LITRE",
+      "ANCLE",
+      "BLATE",
+      "HEART",
+      "PRICE",
+      "BRANE",
+      "TIRED",
+      "STAIR",
+      "PLANT",
+      "ROSIT",
+      "TERAS",
+      "DANCE",
+      "PAIRE",
+      "CARTS",
+      "TOISE",
+      "TORAN",
+      "HALSE",
+      "DRICE",
+      "LATEN",
+      "CAROL",
+      "DENAR",
+      "SHART",
+      "ARLED",
+      "CARON",
+      "ARETS",
+      "LAPSE",
+      "STARN",
+      "PATEL",
+      "CREIN",
+      "CONTE",
+      "RESIT",
+      "CRIPE",
+      "PEARL",
+      "ARISE",
+      "SILEN",
+      "SPANE",
+      "PREST",
+      "THRAE",
+      "SLAIN",
+      "PROST",
+      "DERAT",
+      "PLAIT",
+      "RAITS",
+      "MARSE",
+      "TRONS",
+      "CANOE",
+      "SURAT",
+      "SALON",
+      "LATER",
+      "SONAR",
+      "CLAIR",
+      "NEIST",
+      "PLIER",
+      "DRAPE",
+      "CRIED",
+      "SARIN",
+      "LANDE",
+      "CRAME",
+      "MARLE",
+      "TUILE",
+      "CURET",
+      "RANES",
+      "PRINT",
+      "TALON",
+      "SALUT",
+      "SHARE",
+      "SNAIL",
+      "CLAPT",
+      "SINCE",
+      "RONDE",
+      "SPILT",
+      "SIDLE",
+      "THOLE",
+      "SLIPE",
+      "ARIOT",
+      "TAROS",
+      "TIARS",
+      "TARGE",
+      "PRONE",
+      "CLAME",
+      "SAUTE",
+      "ARMET",
+      "TARSI",
+      "SPACE",
+      "PRISE",
+      "SERAC",
+      "HEAST",
+      "SCIRE",
+      "PROSE",
+      "CARED",
+      "LEAPT",
+      "LANES",
+      "SERIN",
+      "COSTE",
+      "SAUNT",
+      "PANCE",
+      "LEATS",
+      "PATER",
+      "TAPER",
+      "PASTE"
     ],
     "entropy": [
       "TARSE",
@@ -237,7 +437,207 @@
       "SAUTE",
       "SERIA",
       "PARLE",
-      "RANCE"
+      "RANCE",
+      "LITRE",
+      "TALES",
+      "ALONE",
+      "HEART",
+      "STORE",
+      "RONTE",
+      "TARED",
+      "PRASE",
+      "ALIEN",
+      "GRATE",
+      "SHARE",
+      "RALES",
+      "STOAE",
+      "SOLER",
+      "ANILE",
+      "TERAI",
+      "TRAIL",
+      "LEARS",
+      "SARED",
+      "ALURE",
+      "LATEN",
+      "URASE",
+      "SERAI",
+      "LIART",
+      "SCRAE",
+      "REAIS",
+      "SILER",
+      "TILER",
+      "SIREN",
+      "THRAE",
+      "ARIOT",
+      "SNORE",
+      "DERAT",
+      "RIONE",
+      "NOIRE",
+      "RANES",
+      "REANS",
+      "TAELS",
+      "CASTE",
+      "TONER",
+      "TORES",
+      "CRISE",
+      "CASER",
+      "ANOLE",
+      "ANISE",
+      "SCALE",
+      "CARES",
+      "TARGE",
+      "ATONE",
+      "MAIRE",
+      "DEALT",
+      "CANER",
+      "LEATS",
+      "TIRES",
+      "SALUE",
+      "TRAIN",
+      "THALE",
+      "RELIT",
+      "LAERS",
+      "TOLAR",
+      "CORSE",
+      "STILE",
+      "RENAL",
+      "SARGE",
+      "PLATE",
+      "MARSE",
+      "LACET",
+      "CLEAR",
+      "RIANT",
+      "SPARE",
+      "SITAR",
+      "SERAC",
+      "RINSE",
+      "ORIEL",
+      "PORAE",
+      "TRIAL",
+      "RETIA",
+      "ORANT",
+      "TEARY",
+      "SOLAR",
+      "SLADE",
+      "ARMET",
+      "RESIT",
+      "NARES",
+      "SHALE",
+      "ROUET",
+      "DATER",
+      "ASTER",
+      "GLARE",
+      "AEROS",
+      "MARLE",
+      "RATED",
+      "PEARL",
+      "ALOES",
+      "EARLS",
+      "RATHE",
+      "DEAIR",
+      "NACRE",
+      "STOLE",
+      "STAIR",
+      "PATER",
+      "LITER",
+      "NITRE",
+      "LANCE",
+      "SONAR",
+      "NORIE",
+      "CRINE",
+      "NERAL",
+      "LOAST",
+      "CANOE",
+      "SERIN",
+      "CRONE",
+      "TENOR",
+      "PAISE",
+      "PALET",
+      "REOIL",
+      "TAPER",
+      "ARLED",
+      "SLICE",
+      "SAINT",
+      "NEARS",
+      "SORAL",
+      "ROUTE",
+      "SENOR",
+      "IRONE",
+      "ADRET",
+      "HAOLE",
+      "LACER",
+      "TREAD",
+      "CLAES",
+      "IRADE",
+      "SERON",
+      "RUOTE",
+      "LARNT",
+      "URITE",
+      "CLEAT",
+      "TESLA",
+      "SLANT",
+      "SABRE",
+      "RAMET",
+      "TINEA",
+      "PETAR",
+      "BLARE",
+      "OATEN",
+      "CADRE",
+      "CRAPE",
+      "HATER",
+      "TRIED",
+      "TORAN",
+      "NAICE",
+      "CLART",
+      "ROTES",
+      "DEARN",
+      "RAMSE",
+      "EARNS",
+      "SPAER",
+      "ROULE",
+      "SARIN",
+      "SPATE",
+      "STEAL",
+      "ALIST",
+      "AIRED",
+      "HALSE",
+      "SPALE",
+      "BRANE",
+      "TRIDE",
+      "THANE",
+      "SORTA",
+      "FRATE",
+      "LANES",
+      "SAYER",
+      "TUILE",
+      "ROUSE",
+      "SIENT",
+      "ARGLE",
+      "TELIA",
+      "LEANS",
+      "CLOTE",
+      "SATED",
+      "DROLE",
+      "URSAE",
+      "ROIST",
+      "DAINE",
+      "PLANE",
+      "TRODE",
+      "MAILE",
+      "CEORL",
+      "TAROS",
+      "OILET",
+      "POIRE",
+      "SILEN",
+      "LOSER",
+      "ARSED",
+      "REPAT",
+      "RITES",
+      "PALER",
+      "LOURE",
+      "TRIPE",
+      "LAIDE",
+      "SCIRE"
     ],
     "expected": [
       "ROATE",
@@ -339,7 +739,207 @@
       "SILER",
       "ANOLE",
       "CARNE",
-      "STEAR"
+      "STEAR",
+      "EARLS",
+      "TRAIL",
+      "AYRIE",
+      "LAERS",
+      "REACT",
+      "TOISE",
+      "MAIRE",
+      "STANE",
+      "HAOLE",
+      "NOIRE",
+      "TEALS",
+      "TILER",
+      "TRADE",
+      "RIONE",
+      "CATER",
+      "NERAL",
+      "URSAE",
+      "ALINE",
+      "NEARS",
+      "STORE",
+      "SCARE",
+      "TRIES",
+      "LIART",
+      "STIRE",
+      "URAEI",
+      "RONTE",
+      "NORIE",
+      "CASER",
+      "SCRAE",
+      "OATEN",
+      "RENAL",
+      "SARED",
+      "SAYER",
+      "PRATE",
+      "TRINE",
+      "NEATO",
+      "ROSET",
+      "CARES",
+      "RAYLE",
+      "RANCE",
+      "RELIT",
+      "ANILE",
+      "TRIAL",
+      "LANES",
+      "PARTE",
+      "SETAL",
+      "TRAPE",
+      "EARNS",
+      "SNORE",
+      "LEATS",
+      "REIST",
+      "ARSEY",
+      "TOLAR",
+      "PARLE",
+      "SOLAR",
+      "ROAST",
+      "LOSER",
+      "LORES",
+      "ORLES",
+      "ANISE",
+      "LITER",
+      "IRONE",
+      "AURES",
+      "ROLES",
+      "LACET",
+      "TIRES",
+      "ALIEN",
+      "RAYNE",
+      "OILER",
+      "TEARY",
+      "SENOR",
+      "SIREN",
+      "TORES",
+      "SAUTE",
+      "NACRE",
+      "NAIEO",
+      "STOLE",
+      "GRATE",
+      "TARED",
+      "RILES",
+      "TELIA",
+      "SALUE",
+      "TOEAS",
+      "RESOL",
+      "ROULE",
+      "RATHE",
+      "TAELS",
+      "ARIOT",
+      "NATES",
+      "RIATO",
+      "SERAC",
+      "IRADE",
+      "HALER",
+      "PORAE",
+      "DEAIR",
+      "RINSE",
+      "ORALS",
+      "RACES",
+      "ORANT",
+      "TESLA",
+      "SITAR",
+      "AEONS",
+      "TRICE",
+      "LACER",
+      "URITE",
+      "CASTE",
+      "SARGE",
+      "LARNT",
+      "LEIRS",
+      "SHARE",
+      "ROTES",
+      "LOURE",
+      "SORAL",
+      "RAMIE",
+      "TOLES",
+      "SOLEI",
+      "CRISE",
+      "SLART",
+      "OILET",
+      "ARILS",
+      "SERIN",
+      "ROUTE",
+      "LEANS",
+      "RUOTE",
+      "TENOR",
+      "MARLE",
+      "UREAL",
+      "NITRE",
+      "RESIT",
+      "TARGE",
+      "CANOE",
+      "STAIR",
+      "PEART",
+      "THRAE",
+      "AIERY",
+      "CANER",
+      "TONER",
+      "DARES",
+      "AREIC",
+      "PARSE",
+      "RITES",
+      "NEALS",
+      "DATER",
+      "TINEA",
+      "SCALE",
+      "RAILS",
+      "SERON",
+      "THALE",
+      "AUREI",
+      "HATER",
+      "LAYER",
+      "FAIRE",
+      "SONAR",
+      "ADRET",
+      "AHOLE",
+      "RATED",
+      "ROTAL",
+      "RELOS",
+      "CLEAR",
+      "CERIA",
+      "HARES",
+      "LAIRS",
+      "TRAIN",
+      "ARSED",
+      "MARSE",
+      "ADORE",
+      "RIELS",
+      "ACRES",
+      "SATED",
+      "NEATS",
+      "NEROL",
+      "RASED",
+      "OSIER",
+      "RIANT",
+      "SARIN",
+      "ACOEL",
+      "LOTES",
+      "SAGER",
+      "ROUET",
+      "LONER",
+      "GLARE",
+      "RAITS",
+      "NEOSA",
+      "RIALS",
+      "AYRES",
+      "DERAT",
+      "PRASE",
+      "CORSE",
+      "ANTES",
+      "POTAE",
+      "RAIKE",
+      "STILE",
+      "CLOTE",
+      "NAICE",
+      "HEART",
+      "TAROS",
+      "LARIS",
+      "PLATE",
+      "LAIDE",
+      "TAPER"
     ],
     "maxBucket": [
       "OLATE",
@@ -443,7 +1043,205 @@
       "SAINE",
       "AHOLE",
       "HAOLE",
-      "SOLEI"
+      "SOLEI",
+      "ARSEY",
+      "AYRES",
+      "RAULI",
+      "RESAY",
+      "RILEY",
+      "SAYER",
+      "URALI",
+      "YEARS",
+      "LEARN",
+      "NERAL",
+      "RENAL",
+      "ACIES",
+      "ATOKE",
+      "OCREA",
+      "SAICE",
+      "IORAS",
+      "LAIRS",
+      "LIARS",
+      "RAILS",
+      "RIALS",
+      "EORLS",
+      "EYRAS",
+      "LORES",
+      "LOSER",
+      "ORLES",
+      "RELOS",
+      "RESOL",
+      "ROLES",
+      "SOLER",
+      "SOREL",
+      "URENA",
+      "ACONE",
+      "CANOE",
+      "MALEO",
+      "OLPAE",
+      "PAIRE",
+      "PERAI",
+      "PSOAE",
+      "TOISE",
+      "URIAL",
+      "EARLY",
+      "LAYER",
+      "LEARY",
+      "RAYLE",
+      "RELAY",
+      "AIMER",
+      "IRONE",
+      "LIART",
+      "MAIRE",
+      "NOIRE",
+      "NORIE",
+      "PEOLA",
+      "RAMIE",
+      "RAYNE",
+      "RENAY",
+      "RIMAE",
+      "RIONE",
+      "TENIA",
+      "TINEA",
+      "TOEAS",
+      "TRAIL",
+      "TRIAL",
+      "YATES",
+      "YEARN",
+      "ENROL",
+      "LONER",
+      "NEROL",
+      "SALUE",
+      "AIDER",
+      "AIRED",
+      "ALIEN",
+      "ALINE",
+      "ANILE",
+      "DEAIR",
+      "EARNS",
+      "IRADE",
+      "LIANE",
+      "NARES",
+      "NEARS",
+      "NELIA",
+      "RANES",
+      "RANSE",
+      "REANS",
+      "REDIA",
+      "SANER",
+      "SNARE",
+      "TOGAE",
+      "RADIO",
+      "ROTAL",
+      "TOLAR",
+      "AUNES",
+      "LEAST",
+      "LEATS",
+      "SALET",
+      "SETAL",
+      "SLATE",
+      "STALE",
+      "TALES",
+      "TEALS",
+      "TESLA",
+      "AIDES",
+      "ASIDE",
+      "LOTES",
+      "SAUTE",
+      "STOLE",
+      "TELOS",
+      "TODEA",
+      "TOLES",
+      "USNEA",
+      "ALOED",
+      "HALER",
+      "OPERA",
+      "PAREO",
+      "PORAE",
+      "ULNAE",
+      "ANTRE",
+      "EARNT",
+      "LINER",
+      "AMOLE",
+      "BEIRA",
+      "ERBIA",
+      "LANES",
+      "LEANS",
+      "LORAN",
+      "LUTER",
+      "NEALS",
+      "SLANE",
+      "ARETS",
+      "ARUHE",
+      "ASTER",
+      "EARST",
+      "RAIKE",
+      "RATES",
+      "REAST",
+      "REGIA",
+      "RESAT",
+      "SATER",
+      "STARE",
+      "STEAR",
+      "STRAE",
+      "TARES",
+      "TARSE",
+      "TASER",
+      "TEARS",
+      "TERAS",
+      "AMORE",
+      "LARNS",
+      "MORAE",
+      "SAYNE",
+      "AMIES",
+      "MAISE",
+      "MESIA",
+      "ACUTE",
+      "IDEAS",
+      "OAKER",
+      "PAEON",
+      "POENA",
+      "ROAKE",
+      "ARIOT",
+      "HAYER",
+      "LOCIE",
+      "LOSEN",
+      "NOLES",
+      "LACET",
+      "LOURE",
+      "ORALS",
+      "OUTIE",
+      "ROSAL",
+      "ROULE",
+      "SOLAR",
+      "SORAL",
+      "LENTO",
+      "ABIES",
+      "BEISA",
+      "SIEUR",
+      "SOYLE",
+      "ASPIE",
+      "PAISE",
+      "LOIRS",
+      "LORIS",
+      "NOSER",
+      "ONERS",
+      "RENOS",
+      "ROILS",
+      "RONES",
+      "SENOR",
+      "SEPIA",
+      "SERON",
+      "SNORE",
+      "AEGIS",
+      "AFIRE",
+      "ALOWE",
+      "FAIRE",
+      "FERIA",
+      "PIETA",
+      "STEAL",
+      "STELA",
+      "TAELS"
     ]
   },
   "stats": {
@@ -1147,62 +1945,6 @@
       "maxBucket": 261,
       "E": 3.4374456993929616
     },
-    "REAIS": {
-      "rank": 10423,
-      "entropy": 5.587682690148214,
-      "expected": 71.11468288444824,
-      "maxBucket": 167,
-      "E": 3.513466550827543
-    },
-    "RALES": {
-      "rank": 10304,
-      "entropy": 5.604220107183465,
-      "expected": 72.43266724587305,
-      "maxBucket": 205,
-      "E": 3.483058210253867
-    },
-    "SERAI": {
-      "rank": 11418,
-      "entropy": 5.589411525525756,
-      "expected": 72.60208514335352,
-      "maxBucket": 167,
-      "E": 3.5173761946162028
-    },
-    "STOAE": {
-      "rank": 12412,
-      "entropy": 5.602712343177669,
-      "expected": 74.3431798436142,
-      "maxBucket": 175,
-      "E": 3.4887054735032588
-    },
-    "TERAI": {
-      "rank": 12956,
-      "entropy": 5.598329962289028,
-      "expected": 74.44830582102506,
-      "maxBucket": 192,
-      "E": 3.499131190270809
-    },
-    "AEROS": {
-      "rank": 186,
-      "entropy": 5.530224153662739,
-      "expected": 74.65334491746306,
-      "maxBucket": 182,
-      "E": 3.50608166811716
-    },
-    "RANES": {
-      "rank": 10330,
-      "entropy": 5.576211108147716,
-      "expected": 74.97827975673319,
-      "maxBucket": 219,
-      "E": 3.472198088619679
-    },
-    "ALURE": {
-      "rank": 435,
-      "entropy": 5.594821553862334,
-      "expected": 75.07645525629881,
-      "maxBucket": 195,
-      "E": 3.4969591659448307
-    },
     "LITRE": {
       "rank": 6978,
       "entropy": 5.617420592496752,
@@ -1217,41 +1959,6 @@
       "maxBucket": 221,
       "E": 3.4600347523901402
     },
-    "NARES": {
-      "rank": 8259,
-      "entropy": 5.532977081451513,
-      "expected": 75.7445699391832,
-      "maxBucket": 219,
-      "E": 3.4891398783682033
-    },
-    "ORIEL": {
-      "rank": 8882,
-      "entropy": 5.544509987303962,
-      "expected": 75.98957428323193,
-      "maxBucket": 183,
-      "E": 3.49304952215717
-    },
-    "REOIL": {
-      "rank": 10579,
-      "entropy": 5.514115128663996,
-      "expected": 76.42050390964378,
-      "maxBucket": 183,
-      "E": 3.4943527367529983
-    },
-    "LEARS": {
-      "rank": 6777,
-      "entropy": 5.597610632441002,
-      "expected": 76.66811468288434,
-      "maxBucket": 205,
-      "E": 3.4869678540424864
-    },
-    "URASE": {
-      "rank": 13742,
-      "entropy": 5.591895302513553,
-      "expected": 76.72024326672444,
-      "maxBucket": 201,
-      "E": 3.5000000000019122
-    },
     "ALONE": {
       "rank": 420,
       "entropy": 5.613874156386585,
@@ -1259,19 +1966,75 @@
       "maxBucket": 181,
       "E": 3.4613379669867514
     },
-    "ALOES": {
-      "rank": 416,
-      "entropy": 5.525337645804553,
-      "expected": 76.85143353605562,
-      "maxBucket": 172,
-      "E": 3.4995655951371867
+    "HEART": {
+      "rank": 5402,
+      "entropy": 5.6135033665054435,
+      "expected": 88.64813205907892,
+      "maxBucket": 259,
+      "E": 3.467854039966378
     },
-    "ASTER": {
-      "rank": 726,
-      "entropy": 5.530479388872488,
-      "expected": 77.396177237185,
-      "maxBucket": 226,
-      "E": 3.486533449175718
+    "STORE": {
+      "rank": 12442,
+      "entropy": 5.612221876913532,
+      "expected": 80.43527367506509,
+      "maxBucket": 242,
+      "E": 3.453953084276413
+    },
+    "RONTE": {
+      "rank": 10825,
+      "entropy": 5.611290548566159,
+      "expected": 80.68114682884445,
+      "maxBucket": 257,
+      "E": 3.4513466550842304
+    },
+    "TARED": {
+      "rank": 12810,
+      "entropy": 5.611286920459786,
+      "expected": 83.94439617723702,
+      "maxBucket": 266,
+      "E": 3.460903562121806
+    },
+    "PRASE": {
+      "rank": 9860,
+      "entropy": 5.61075801405167,
+      "expected": 88.44048653344898,
+      "maxBucket": 269,
+      "E": 3.4543874891411823
+    },
+    "ALIEN": {
+      "rank": 378,
+      "entropy": 5.608376359901158,
+      "expected": 83.33709817549952,
+      "maxBucket": 219,
+      "E": 3.460903562122069
+    },
+    "GRATE": {
+      "rank": 5044,
+      "entropy": 5.606570307746089,
+      "expected": 83.93570807993045,
+      "maxBucket": 275,
+      "E": 3.4600347523908797
+    },
+    "SHARE": {
+      "rank": 11494,
+      "entropy": 5.604475733038929,
+      "expected": 85.26585577758453,
+      "maxBucket": 238,
+      "E": 3.4726324934854484
+    },
+    "RALES": {
+      "rank": 10304,
+      "entropy": 5.604220107183465,
+      "expected": 72.43266724587305,
+      "maxBucket": 205,
+      "E": 3.483058210253867
+    },
+    "STOAE": {
+      "rank": 12412,
+      "entropy": 5.602712343177669,
+      "expected": 74.3431798436142,
+      "maxBucket": 175,
+      "E": 3.4887054735032588
     },
     "SOLER": {
       "rank": 12057,
@@ -1280,19 +2043,47 @@
       "maxBucket": 213,
       "E": 3.46655082537107
     },
-    "RETIA": {
-      "rank": 10623,
-      "entropy": 5.54106137041651,
-      "expected": 77.82102519548211,
-      "maxBucket": 192,
-      "E": 3.5065160729819738
-    },
-    "REANS": {
-      "rank": 10431,
-      "entropy": 5.575689657359863,
-      "expected": 77.95829713292775,
+    "ANILE": {
+      "rank": 516,
+      "entropy": 5.6006389851917096,
+      "expected": 81.8757602085143,
       "maxBucket": 219,
-      "E": 3.4795829713314954
+      "E": 3.457428323198872
+    },
+    "TERAI": {
+      "rank": 12956,
+      "entropy": 5.598329962289028,
+      "expected": 74.44830582102506,
+      "maxBucket": 192,
+      "E": 3.499131190270809
+    },
+    "TRAIL": {
+      "rank": 13329,
+      "entropy": 5.597935902879249,
+      "expected": 78.47784535186781,
+      "maxBucket": 216,
+      "E": 3.452215464815203
+    },
+    "LEARS": {
+      "rank": 6777,
+      "entropy": 5.597610632441002,
+      "expected": 76.66811468288434,
+      "maxBucket": 205,
+      "E": 3.4869678540424864
+    },
+    "SARED": {
+      "rank": 11153,
+      "entropy": 5.5951937180339515,
+      "expected": 80.84535186794083,
+      "maxBucket": 256,
+      "E": 3.462641181582973
+    },
+    "ALURE": {
+      "rank": 435,
+      "entropy": 5.594821553862334,
+      "expected": 75.07645525629881,
+      "maxBucket": 195,
+      "E": 3.4969591659448307
     },
     "LATEN": {
       "rank": 6715,
@@ -1301,12 +2092,40 @@
       "maxBucket": 203,
       "E": 3.468722849697481
     },
-    "ATONE": {
-      "rank": 748,
-      "entropy": 5.561063791337632,
-      "expected": 78.17028670721106,
-      "maxBucket": 189,
-      "E": 3.4817549956566904
+    "URASE": {
+      "rank": 13742,
+      "entropy": 5.591895302513553,
+      "expected": 76.72024326672444,
+      "maxBucket": 201,
+      "E": 3.5000000000019122
+    },
+    "SERAI": {
+      "rank": 11418,
+      "entropy": 5.589411525525756,
+      "expected": 72.60208514335352,
+      "maxBucket": 167,
+      "E": 3.5173761946162028
+    },
+    "LIART": {
+      "rank": 6873,
+      "entropy": 5.588898818728829,
+      "expected": 80.5013032145959,
+      "maxBucket": 216,
+      "E": 3.457428323199871
+    },
+    "SCRAE": {
+      "rank": 11286,
+      "entropy": 5.587723172272902,
+      "expected": 80.76020851433523,
+      "maxBucket": 237,
+      "E": 3.464378801044659
+    },
+    "REAIS": {
+      "rank": 10423,
+      "entropy": 5.587682690148214,
+      "expected": 71.11468288444824,
+      "maxBucket": 167,
+      "E": 3.513466550827543
     },
     "SILER": {
       "rank": 11664,
@@ -1315,6 +2134,118 @@
       "maxBucket": 204,
       "E": 3.46698523023662
     },
+    "TILER": {
+      "rank": 13109,
+      "entropy": 5.584994672066082,
+      "expected": 79.5447437011293,
+      "maxBucket": 206,
+      "E": 3.4769765421391843
+    },
+    "SIREN": {
+      "rank": 11698,
+      "entropy": 5.583547405105962,
+      "expected": 83.71329278887907,
+      "maxBucket": 242,
+      "E": 3.464378801044224
+    },
+    "THRAE": {
+      "rank": 13055,
+      "entropy": 5.583511339023324,
+      "expected": 86.41702867072097,
+      "maxBucket": 259,
+      "E": 3.4704604691586463
+    },
+    "ARIOT": {
+      "rank": 647,
+      "entropy": 5.580682607920083,
+      "expected": 84.24239791485658,
+      "maxBucket": 230,
+      "E": 3.473501303215681
+    },
+    "SNORE": {
+      "rank": 12000,
+      "entropy": 5.57849115567212,
+      "expected": 82.12337098175477,
+      "maxBucket": 235,
+      "E": 3.4578627280652032
+    },
+    "DERAT": {
+      "rank": 3057,
+      "entropy": 5.578022325377446,
+      "expected": 88.43353605560368,
+      "maxBucket": 266,
+      "E": 3.4704604691591237
+    },
+    "RIONE": {
+      "rank": 10725,
+      "entropy": 5.577865153607167,
+      "expected": 79.87054735013025,
+      "maxBucket": 216,
+      "E": 3.4656820156398362
+    },
+    "NOIRE": {
+      "rank": 8503,
+      "entropy": 5.577261422143386,
+      "expected": 79.52215464813197,
+      "maxBucket": 216,
+      "E": 3.4774109470045613
+    },
+    "RANES": {
+      "rank": 10330,
+      "entropy": 5.576211108147716,
+      "expected": 74.97827975673319,
+      "maxBucket": 219,
+      "E": 3.472198088619679
+    },
+    "REANS": {
+      "rank": 10431,
+      "entropy": 5.575689657359863,
+      "expected": 77.95829713292775,
+      "maxBucket": 219,
+      "E": 3.4795829713314954
+    },
+    "TAELS": {
+      "rank": 12723,
+      "entropy": 5.574451445135885,
+      "expected": 84.19113814074713,
+      "maxBucket": 236,
+      "E": 3.461337966987101
+    },
+    "CASTE": {
+      "rank": 2021,
+      "entropy": 5.572008473215147,
+      "expected": 85.09470026064281,
+      "maxBucket": 248,
+      "E": 3.4587315377952668
+    },
+    "TONER": {
+      "rank": 13224,
+      "entropy": 5.571530777632055,
+      "expected": 86.60729800173753,
+      "maxBucket": 257,
+      "E": 3.4578627280642937
+    },
+    "TORES": {
+      "rank": 13259,
+      "entropy": 5.567683072188184,
+      "expected": 83.71416159860975,
+      "maxBucket": 242,
+      "E": 3.462641181582624
+    },
+    "CRISE": {
+      "rank": 2683,
+      "entropy": 5.567330099502251,
+      "expected": 85.55430060816668,
+      "maxBucket": 253,
+      "E": 3.4478714161621213
+    },
+    "CASER": {
+      "rank": 2017,
+      "entropy": 5.5668297273370335,
+      "expected": 80.75065160729785,
+      "maxBucket": 237,
+      "E": 3.478279756734929
+    },
     "ANOLE": {
       "rank": 539,
       "entropy": 5.566289547106503,
@@ -1322,12 +2253,1097 @@
       "maxBucket": 181,
       "E": 3.466985230236144
     },
-    "AIERY": {
-      "rank": 285,
-      "entropy": 5.341764910469107,
-      "expected": 86.44743701129451,
-      "maxBucket": 170,
-      "E": 3.5569070373611202
+    "ANISE": {
+      "rank": 522,
+      "entropy": 5.56435761376152,
+      "expected": 82.6185925282362,
+      "maxBucket": 207,
+      "E": 3.488705473503519
+    },
+    "SCALE": {
+      "rank": 11221,
+      "entropy": 5.5630111413206365,
+      "expected": 87.1685490877496,
+      "maxBucket": 255,
+      "E": 3.4448305821047334
+    },
+    "CARES": {
+      "rank": 1989,
+      "entropy": 5.561438466203599,
+      "expected": 81.47002606429176,
+      "maxBucket": 237,
+      "E": 3.475673327543094
+    },
+    "TARGE": {
+      "rank": 12813,
+      "entropy": 5.561186106530728,
+      "expected": 86.16854908774967,
+      "maxBucket": 275,
+      "E": 3.473501303216335
+    },
+    "ATONE": {
+      "rank": 748,
+      "entropy": 5.561063791337632,
+      "expected": 78.17028670721106,
+      "maxBucket": 189,
+      "E": 3.4817549956566904
+    },
+    "MAIRE": {
+      "rank": 7288,
+      "entropy": 5.559439289697365,
+      "expected": 79.26411815812322,
+      "maxBucket": 216,
+      "E": 3.488705473502564
+    },
+    "DEALT": {
+      "rank": 2949,
+      "entropy": 5.558716489202409,
+      "expected": 90.56993918331867,
+      "maxBucket": 255,
+      "E": 3.4487402258922684
+    },
+    "CANER": {
+      "rank": 1949,
+      "entropy": 5.558679565044426,
+      "expected": 86.53258036489994,
+      "maxBucket": 261,
+      "E": 3.4522154648153784
+    },
+    "LEATS": {
+      "rank": 6782,
+      "entropy": 5.558425636660313,
+      "expected": 82.23544743701115,
+      "maxBucket": 221,
+      "E": 3.474804517811774
+    },
+    "TIRES": {
+      "rank": 13140,
+      "entropy": 5.55771604849449,
+      "expected": 83.33536055603807,
+      "maxBucket": 243,
+      "E": 3.4761077324092104
+    },
+    "SALUE": {
+      "rank": 11114,
+      "entropy": 5.557018745290945,
+      "expected": 84.04691572545602,
+      "maxBucket": 218,
+      "E": 3.482189400523372
+    },
+    "TRAIN": {
+      "rank": 13330,
+      "entropy": 5.556855364055992,
+      "expected": 87.81233709817538,
+      "maxBucket": 261,
+      "E": 3.4400521285857093
+    },
+    "THALE": {
+      "rank": 12994,
+      "entropy": 5.55602135740935,
+      "expected": 87.29973935708061,
+      "maxBucket": 243,
+      "E": 3.4556907037367965
+    },
+    "RELIT": {
+      "rank": 10553,
+      "entropy": 5.5554013245845795,
+      "expected": 81.83318853171146,
+      "maxBucket": 206,
+      "E": 3.4782797567341017
+    },
+    "LAERS": {
+      "rank": 6632,
+      "entropy": 5.555190758073287,
+      "expected": 78.61077324066021,
+      "maxBucket": 205,
+      "E": 3.493483927022199
+    },
+    "TOLAR": {
+      "rank": 13200,
+      "entropy": 5.554885800917934,
+      "expected": 82.28323197219797,
+      "maxBucket": 220,
+      "E": 3.4648132059099956
+    },
+    "CORSE": {
+      "rank": 2556,
+      "entropy": 5.553605636336062,
+      "expected": 88.44830582102502,
+      "maxBucket": 252,
+      "E": 3.4491746307573874
+    },
+    "STILE": {
+      "rank": 12395,
+      "entropy": 5.5526802456136295,
+      "expected": 88.5838401390094,
+      "maxBucket": 267,
+      "E": 3.452215464813946
+    },
+    "RENAL": {
+      "rank": 10564,
+      "entropy": 5.552406219889194,
+      "expected": 80.79582971329272,
+      "maxBucket": 210,
+      "E": 3.4808861859278917
+    },
+    "SARGE": {
+      "rank": 11155,
+      "entropy": 5.551936405483986,
+      "expected": 85.12076455256287,
+      "maxBucket": 261,
+      "E": 3.479148566464553
+    },
+    "PLATE": {
+      "rank": 9576,
+      "entropy": 5.551901182267098,
+      "expected": 88.73588184187648,
+      "maxBucket": 255,
+      "E": 3.447002606430497
+    },
+    "MARSE": {
+      "rank": 7414,
+      "entropy": 5.550540871932175,
+      "expected": 87.82189400521267,
+      "maxBucket": 269,
+      "E": 3.4708948740238497
+    },
+    "LACET": {
+      "rank": 6617,
+      "entropy": 5.55045343179891,
+      "expected": 83.09730668983482,
+      "maxBucket": 231,
+      "E": 3.4661164205039547
+    },
+    "CLEAR": {
+      "rank": 2319,
+      "entropy": 5.5501571985923706,
+      "expected": 87.63423110338825,
+      "maxBucket": 247,
+      "E": 3.475673327543615
+    },
+    "RIANT": {
+      "rank": 10666,
+      "entropy": 5.5495463457151635,
+      "expected": 88.03735881841872,
+      "maxBucket": 261,
+      "E": 3.448305821027629
+    },
+    "SPARE": {
+      "rank": 12178,
+      "entropy": 5.548271800715666,
+      "expected": 91.16072980017353,
+      "maxBucket": 269,
+      "E": 3.4617723718519544
+    },
+    "SITAR": {
+      "rank": 11710,
+      "entropy": 5.547797515818599,
+      "expected": 84.9357080799304,
+      "maxBucket": 259,
+      "E": 3.465247610775065
+    },
+    "SERAC": {
+      "rank": 11417,
+      "entropy": 5.54467792136907,
+      "expected": 84.37358818418753,
+      "maxBucket": 237,
+      "E": 3.4739357080821924
+    },
+    "RINSE": {
+      "rank": 10723,
+      "entropy": 5.544529424653211,
+      "expected": 84.62380538662028,
+      "maxBucket": 242,
+      "E": 3.459600347526152
+    },
+    "ORIEL": {
+      "rank": 8882,
+      "entropy": 5.544509987303962,
+      "expected": 75.98957428323193,
+      "maxBucket": 183,
+      "E": 3.49304952215717
+    },
+    "PORAE": {
+      "rank": 9768,
+      "entropy": 5.543281135455391,
+      "expected": 84.54213727193726,
+      "maxBucket": 223,
+      "E": 3.4882710686368377
+    },
+    "TRIAL": {
+      "rank": 13370,
+      "entropy": 5.542867993994078,
+      "expected": 81.92441355343168,
+      "maxBucket": 216,
+      "E": 3.4596003475260204
+    },
+    "RETIA": {
+      "rank": 10623,
+      "entropy": 5.54106137041651,
+      "expected": 77.82102519548211,
+      "maxBucket": 192,
+      "E": 3.5065160729819738
+    },
+    "ORANT": {
+      "rank": 8863,
+      "entropy": 5.539469785905617,
+      "expected": 84.74370112945249,
+      "maxBucket": 252,
+      "E": 3.454821894007255
+    },
+    "TEARY": {
+      "rank": 12888,
+      "entropy": 5.536584008242535,
+      "expected": 83.61424847958284,
+      "maxBucket": 198,
+      "E": 3.4891398783675074
+    },
+    "SOLAR": {
+      "rank": 12049,
+      "entropy": 5.536544134898868,
+      "expected": 82.34231103388342,
+      "maxBucket": 231,
+      "E": 3.4839270199843195
+    },
+    "SLADE": {
+      "rank": 11816,
+      "entropy": 5.535562019807629,
+      "expected": 89.20417028670707,
+      "maxBucket": 272,
+      "E": 3.4561251086028677
+    },
+    "ARMET": {
+      "rank": 656,
+      "entropy": 5.534115692548807,
+      "expected": 89.05386620330133,
+      "maxBucket": 272,
+      "E": 3.4739357080811066
+    },
+    "RESIT": {
+      "rank": 10609,
+      "entropy": 5.533596547811794,
+      "expected": 86.15204170286697,
+      "maxBucket": 243,
+      "E": 3.4700260642935725
+    },
+    "NARES": {
+      "rank": 8259,
+      "entropy": 5.532977081451513,
+      "expected": 75.7445699391832,
+      "maxBucket": 219,
+      "E": 3.4891398783682033
+    },
+    "SHALE": {
+      "rank": 11480,
+      "entropy": 5.532389112703749,
+      "expected": 90.68896611642032,
+      "maxBucket": 241,
+      "E": 3.466550825370417
+    },
+    "ROUET": {
+      "rank": 10886,
+      "entropy": 5.531189749394624,
+      "expected": 88.25716768027786,
+      "maxBucket": 250,
+      "E": 3.483492615119158
+    },
+    "DATER": {
+      "rank": 2914,
+      "entropy": 5.530735091554676,
+      "expected": 87.08948740225875,
+      "maxBucket": 266,
+      "E": 3.47697654213827
+    },
+    "ASTER": {
+      "rank": 726,
+      "entropy": 5.530479388872488,
+      "expected": 77.396177237185,
+      "maxBucket": 226,
+      "E": 3.486533449175718
+    },
+    "GLARE": {
+      "rank": 4824,
+      "entropy": 5.530460255434411,
+      "expected": 88.309296264118,
+      "maxBucket": 270,
+      "E": 3.476976542139184
+    },
+    "AEROS": {
+      "rank": 186,
+      "entropy": 5.530224153662739,
+      "expected": 74.65334491746306,
+      "maxBucket": 182,
+      "E": 3.50608166811716
+    },
+    "MARLE": {
+      "rank": 7404,
+      "entropy": 5.5295515486339495,
+      "expected": 85.85838401390072,
+      "maxBucket": 268,
+      "E": 3.471763683755299
+    },
+    "RATED": {
+      "rank": 10372,
+      "entropy": 5.528082172575017,
+      "expected": 87.54821894005198,
+      "maxBucket": 266,
+      "E": 3.477410947004127
+    },
+    "PEARL": {
+      "rank": 9230,
+      "entropy": 5.525906057731508,
+      "expected": 91.04257167680261,
+      "maxBucket": 265,
+      "E": 3.4700260642937906
+    },
+    "ALOES": {
+      "rank": 416,
+      "entropy": 5.525337645804553,
+      "expected": 76.85143353605562,
+      "maxBucket": 172,
+      "E": 3.4995655951371867
+    },
+    "EARLS": {
+      "rank": 3586,
+      "entropy": 5.523651879494707,
+      "expected": 78.4152910512597,
+      "maxBucket": 205,
+      "E": 3.4869678540416165
+    },
+    "RATHE": {
+      "rank": 10377,
+      "entropy": 5.5217203656087595,
+      "expected": 84.1615986099044,
+      "maxBucket": 259,
+      "E": 3.4847958297155515
+    },
+    "DEAIR": {
+      "rank": 2947,
+      "entropy": 5.521535445662049,
+      "expected": 84.5803649000868,
+      "maxBucket": 219,
+      "E": 3.494352736752086
+    },
+    "NACRE": {
+      "rank": 8192,
+      "entropy": 5.521400806948919,
+      "expected": 83.76194613379653,
+      "maxBucket": 261,
+      "E": 3.4639443961783227
+    },
+    "STOLE": {
+      "rank": 12424,
+      "entropy": 5.5207846356603545,
+      "expected": 83.918331885317,
+      "maxBucket": 222,
+      "E": 3.4535186794111215
+    },
+    "STAIR": {
+      "rank": 12324,
+      "entropy": 5.519324800522996,
+      "expected": 86.3145091225021,
+      "maxBucket": 259,
+      "E": 3.468288444831626
+    },
+    "PATER": {
+      "rank": 9176,
+      "entropy": 5.518643075384815,
+      "expected": 89.05994787141593,
+      "maxBucket": 267,
+      "E": 3.4748045178121214
+    },
+    "LITER": {
+      "rank": 6972,
+      "entropy": 5.518490369359087,
+      "expected": 82.70373588184171,
+      "maxBucket": 206,
+      "E": 3.492180712425414
+    },
+    "NITRE": {
+      "rank": 8463,
+      "entropy": 5.518218321855202,
+      "expected": 85.97306689834907,
+      "maxBucket": 267,
+      "E": 3.466116420505867
+    },
+    "LANCE": {
+      "rank": 6671,
+      "entropy": 5.518157709180451,
+      "expected": 90.44396177237174,
+      "maxBucket": 271,
+      "E": 3.4387489139897913
+    },
+    "SONAR": {
+      "rank": 12067,
+      "entropy": 5.517322642814792,
+      "expected": 87.47002606429167,
+      "maxBucket": 259,
+      "E": 3.471329278889662
+    },
+    "NORIE": {
+      "rank": 8546,
+      "entropy": 5.517314850949241,
+      "expected": 80.71850564726319,
+      "maxBucket": 216,
+      "E": 3.486099044310383
+    },
+    "CRINE": {
+      "rank": 2677,
+      "entropy": 5.517079548120744,
+      "expected": 95.09296264118144,
+      "maxBucket": 289,
+      "E": 3.441355343181147
+    },
+    "NERAL": {
+      "rank": 8346,
+      "entropy": 5.516983090609735,
+      "expected": 80.16333622936563,
+      "maxBucket": 210,
+      "E": 3.4956559513490437
+    },
+    "LOAST": {
+      "rank": 6996,
+      "entropy": 5.5169640352713945,
+      "expected": 90.02519548218922,
+      "maxBucket": 284,
+      "E": 3.446133796700045
+    },
+    "CANOE": {
+      "rank": 1956,
+      "entropy": 5.516651046982921,
+      "expected": 86.27541268462195,
+      "maxBucket": 214,
+      "E": 3.470894874024415
+    },
+    "SERIN": {
+      "rank": 11428,
+      "entropy": 5.516603411206797,
+      "expected": 85.64986967854017,
+      "maxBucket": 242,
+      "E": 3.4743701129471343
+    },
+    "CRONE": {
+      "rank": 2696,
+      "entropy": 5.51544931727021,
+      "expected": 93.09991311902674,
+      "maxBucket": 282,
+      "E": 3.4461337967009564
+    },
+    "TENOR": {
+      "rank": 12945,
+      "entropy": 5.514673709318584,
+      "expected": 85.84795829713283,
+      "maxBucket": 257,
+      "E": 3.463509991313511
+    },
+    "PAISE": {
+      "rank": 9049,
+      "entropy": 5.514583869014989,
+      "expected": 89.83927019982605,
+      "maxBucket": 234,
+      "E": 3.4865334491767177
+    },
+    "PALET": {
+      "rank": 9063,
+      "entropy": 5.514176172274243,
+      "expected": 89.70286707211102,
+      "maxBucket": 255,
+      "E": 3.4587315377940917
+    },
+    "REOIL": {
+      "rank": 10579,
+      "entropy": 5.514115128663996,
+      "expected": 76.42050390964378,
+      "maxBucket": 183,
+      "E": 3.4943527367529983
+    },
+    "TAPER": {
+      "rank": 12799,
+      "entropy": 5.51090820097823,
+      "expected": 88.80104257167665,
+      "maxBucket": 267,
+      "E": 3.4748045178121663
+    },
+    "ARLED": {
+      "rank": 652,
+      "entropy": 5.5106856049323785,
+      "expected": 89.49522154648129,
+      "maxBucket": 268,
+      "E": 3.4691572545630316
+    },
+    "SLICE": {
+      "rank": 11845,
+      "entropy": 5.5094650110574985,
+      "expected": 95.67680278019098,
+      "maxBucket": 289,
+      "E": 3.4465682015654653
+    },
+    "SAINT": {
+      "rank": 11079,
+      "entropy": 5.50843327771831,
+      "expected": 103.67680278019104,
+      "maxBucket": 344,
+      "E": 3.442658557777412
+    },
+    "NEARS": {
+      "rank": 8303,
+      "entropy": 5.508361290785183,
+      "expected": 80.34926151172887,
+      "maxBucket": 219,
+      "E": 3.4973935708096002
+    },
+    "SORAL": {
+      "rank": 12096,
+      "entropy": 5.507270019845365,
+      "expected": 85.28410078192859,
+      "maxBucket": 231,
+      "E": 3.4830582102541707
+    },
+    "ROUTE": {
+      "rank": 10901,
+      "entropy": 5.506898333440985,
+      "expected": 85.650738488271,
+      "maxBucket": 250,
+      "E": 3.496090356213597
+    },
+    "SENOR": {
+      "rank": 11399,
+      "entropy": 5.506655423795478,
+      "expected": 83.70634231103372,
+      "maxBucket": 235,
+      "E": 3.478279756735492
+    },
+    "IRONE": {
+      "rank": 5925,
+      "entropy": 5.502965344025685,
+      "expected": 82.80538662033007,
+      "maxBucket": 216,
+      "E": 3.4900086880988725
+    },
+    "ADRET": {
+      "rank": 167,
+      "entropy": 5.502009872487164,
+      "expected": 87.4882710686359,
+      "maxBucket": 266,
+      "E": 3.4826238053887493
+    },
+    "HAOLE": {
+      "rank": 5322,
+      "entropy": 5.498818702206145,
+      "expected": 79.49782797567319,
+      "maxBucket": 208,
+      "E": 3.48827106863723
+    },
+    "LACER": {
+      "rank": 6615,
+      "entropy": 5.498560672347073,
+      "expected": 85.05299739357066,
+      "maxBucket": 247,
+      "E": 3.485230234580496
+    },
+    "TREAD": {
+      "rank": 13350,
+      "entropy": 5.497981927546888,
+      "expected": 93.91398783666358,
+      "maxBucket": 266,
+      "E": 3.4782797567335795
+    },
+    "CLAES": {
+      "rank": 2293,
+      "entropy": 5.495149987918252,
+      "expected": 89.52041702867052,
+      "maxBucket": 255,
+      "E": 3.4769765421393144
+    },
+    "IRADE": {
+      "rank": 5919,
+      "entropy": 5.495049776121865,
+      "expected": 84.38053866203293,
+      "maxBucket": 219,
+      "E": 3.501737619463251
+    },
+    "SERON": {
+      "rank": 11431,
+      "entropy": 5.494644872175883,
+      "expected": 87.29626411815794,
+      "maxBucket": 235,
+      "E": 3.4791485664663777
+    },
+    "RUOTE": {
+      "rank": 10994,
+      "entropy": 5.494384581212582,
+      "expected": 85.70981754995647,
+      "maxBucket": 250,
+      "E": 3.4947871416165515
+    },
+    "LARNT": {
+      "rank": 6701,
+      "entropy": 5.49274461501263,
+      "expected": 85.18418766290173,
+      "maxBucket": 206,
+      "E": 3.4656820156399655
+    },
+    "URITE": {
+      "rank": 13760,
+      "entropy": 5.4924902845166965,
+      "expected": 85.08079930495207,
+      "maxBucket": 245,
+      "E": 3.4947871416171146
+    },
+    "CLEAT": {
+      "rank": 2320,
+      "entropy": 5.492426491571748,
+      "expected": 95.89487402258881,
+      "maxBucket": 262,
+      "E": 3.465247610774589
+    },
+    "TESLA": {
+      "rank": 12973,
+      "entropy": 5.492235899705689,
+      "expected": 84.79061685490865,
+      "maxBucket": 221,
+      "E": 3.4791485664651627
+    },
+    "SLANT": {
+      "rank": 11826,
+      "entropy": 5.492181012487843,
+      "expected": 98.41529105125962,
+      "maxBucket": 316,
+      "E": 3.4291920069504784
+    },
+    "SABRE": {
+      "rank": 11041,
+      "entropy": 5.491888621242916,
+      "expected": 90.21633362293646,
+      "maxBucket": 277,
+      "E": 3.4813205907916176
+    },
+    "RAMET": {
+      "rank": 10312,
+      "entropy": 5.491690823467538,
+      "expected": 89.64205039096427,
+      "maxBucket": 272,
+      "E": 3.4804517810611237
+    },
+    "TINEA": {
+      "rank": 13125,
+      "entropy": 5.490821059861388,
+      "expected": 87.16333622936563,
+      "maxBucket": 216,
+      "E": 3.50173761946399
+    },
+    "PETAR": {
+      "rank": 9363,
+      "entropy": 5.490109048194406,
+      "expected": 92.80017376194607,
+      "maxBucket": 267,
+      "E": 3.480017376196221
+    },
+    "BLARE": {
+      "rank": 1339,
+      "entropy": 5.490106411172077,
+      "expected": 93.70547350130302,
+      "maxBucket": 289,
+      "E": 3.4778453518695067
+    },
+    "OATEN": {
+      "rank": 8659,
+      "entropy": 5.4897100204954645,
+      "expected": 80.77845351867933,
+      "maxBucket": 189,
+      "E": 3.5008688097324514
+    },
+    "CADRE": {
+      "rank": 1896,
+      "entropy": 5.489417462669478,
+      "expected": 95.7150304083403,
+      "maxBucket": 305,
+      "E": 3.460034752390877
+    },
+    "CRAPE": {
+      "rank": 2632,
+      "entropy": 5.488181522218349,
+      "expected": 98.75238922675922,
+      "maxBucket": 304,
+      "E": 3.4600347523912243
+    },
+    "HATER": {
+      "rank": 5355,
+      "entropy": 5.488106726400723,
+      "expected": 87.34665508253674,
+      "maxBucket": 259,
+      "E": 3.492180712426588
+    },
+    "TRIED": {
+      "rank": 13375,
+      "entropy": 5.487066423065917,
+      "expected": 100.29973935708068,
+      "maxBucket": 309,
+      "E": 3.454387489141053
+    },
+    "TORAN": {
+      "rank": 13255,
+      "entropy": 5.486439526906308,
+      "expected": 91.86880973066881,
+      "maxBucket": 252,
+      "E": 3.4682884448329276
+    },
+    "NAICE": {
+      "rank": 8206,
+      "entropy": 5.486346069879252,
+      "expected": 88.58905299739342,
+      "maxBucket": 246,
+      "E": 3.4800173761963964
+    },
+    "CLART": {
+      "rank": 2306,
+      "entropy": 5.484910047422736,
+      "expected": 96.07819287576011,
+      "maxBucket": 275,
+      "E": 3.4474370112954404
+    },
+    "ROTES": {
+      "rank": 10874,
+      "entropy": 5.48481153690734,
+      "expected": 85.27367506516057,
+      "maxBucket": 242,
+      "E": 3.475673327542181
+    },
+    "DEARN": {
+      "rank": 2952,
+      "entropy": 5.484144070354564,
+      "expected": 95.53431798436124,
+      "maxBucket": 281,
+      "E": 3.4643788010454855
+    },
+    "RAMSE": {
+      "rank": 10319,
+      "entropy": 5.484125675180409,
+      "expected": 89.4986967854039,
+      "maxBucket": 269,
+      "E": 3.4804517810608613
+    },
+    "EARNS": {
+      "rank": 3588,
+      "entropy": 5.483957211531397,
+      "expected": 82.02867072111205,
+      "maxBucket": 219,
+      "E": 3.487402258906821
+    },
+    "SPAER": {
+      "rank": 12160,
+      "entropy": 5.483819086646338,
+      "expected": 92.97914856646382,
+      "maxBucket": 269,
+      "E": 3.48045178106251
+    },
+    "ROULE": {
+      "rank": 10893,
+      "entropy": 5.483514855097759,
+      "expected": 84.15291051259766,
+      "maxBucket": 231,
+      "E": 3.5004344048670735
+    },
+    "SARIN": {
+      "rank": 11157,
+      "entropy": 5.482991141673819,
+      "expected": 88.06516072980003,
+      "maxBucket": 244,
+      "E": 3.471763683754301
+    },
+    "SPATE": {
+      "rank": 12183,
+      "entropy": 5.4820106968596045,
+      "expected": 100.14943527367494,
+      "maxBucket": 287,
+      "E": 3.4635099913141625
+    },
+    "STEAL": {
+      "rank": 12354,
+      "entropy": 5.480761978837158,
+      "expected": 92.26672458731521,
+      "maxBucket": 236,
+      "E": 3.48392701998397
+    },
+    "ALIST": {
+      "rank": 385,
+      "entropy": 5.479497624332985,
+      "expected": 100.22762814943516,
+      "maxBucket": 312,
+      "E": 3.449609035624024
+    },
+    "AIRED": {
+      "rank": 296,
+      "entropy": 5.47934060276645,
+      "expected": 88.9513466550825,
+      "maxBucket": 219,
+      "E": 3.4930495221562556
+    },
+    "HALSE": {
+      "rank": 5296,
+      "entropy": 5.479313336213499,
+      "expected": 90.82015638575135,
+      "maxBucket": 241,
+      "E": 3.4682884448332327
+    },
+    "SPALE": {
+      "rank": 12169,
+      "entropy": 5.479283042099446,
+      "expected": 98.95742832319705,
+      "maxBucket": 285,
+      "E": 3.4604691572558233
+    },
+    "BRANE": {
+      "rank": 1631,
+      "entropy": 5.479211414389763,
+      "expected": 92.7845351867939,
+      "maxBucket": 298,
+      "E": 3.4678540399672912
+    },
+    "TRIDE": {
+      "rank": 13374,
+      "entropy": 5.47918398187628,
+      "expected": 96.41268462206767,
+      "maxBucket": 309,
+      "E": 3.4600347523905746
+    },
+    "THANE": {
+      "rank": 12997,
+      "entropy": 5.479099337874194,
+      "expected": 93.84361424847937,
+      "maxBucket": 270,
+      "E": 3.4752389226769353
+    },
+    "SORTA": {
+      "rank": 12114,
+      "entropy": 5.478173006298519,
+      "expected": 92.81841876629004,
+      "maxBucket": 263,
+      "E": 3.4756733275437885
+    },
+    "FRATE": {
+      "rank": 4413,
+      "entropy": 5.4770961502906435,
+      "expected": 92.29973935708063,
+      "maxBucket": 288,
+      "E": 3.482189400522767
+    },
+    "LANES": {
+      "rank": 6676,
+      "entropy": 5.47641014657901,
+      "expected": 81.94005212858374,
+      "maxBucket": 225,
+      "E": 3.474370112947003
+    },
+    "SAYER": {
+      "rank": 11208,
+      "entropy": 5.475821214109971,
+      "expected": 80.84795829713282,
+      "maxBucket": 209,
+      "E": 3.501303214598132
+    },
+    "TUILE": {
+      "rank": 13465,
+      "entropy": 5.475603484456582,
+      "expected": 91.61598609904412,
+      "maxBucket": 265,
+      "E": 3.4717636837557775
+    },
+    "ROUSE": {
+      "rank": 10899,
+      "entropy": 5.475235211806917,
+      "expected": 89.5169417897479,
+      "maxBucket": 245,
+      "E": 3.4956559513483945
+    },
+    "SIENT": {
+      "rank": 11644,
+      "entropy": 5.4751727951049665,
+      "expected": 108.96350999131165,
+      "maxBucket": 300,
+      "E": 3.46133796698723
+    },
+    "ARGLE": {
+      "rank": 636,
+      "entropy": 5.475160007994687,
+      "expected": 89.4483058210251,
+      "maxBucket": 270,
+      "E": 3.483927019985144
+    },
+    "TELIA": {
+      "rank": 12921,
+      "entropy": 5.474394942011619,
+      "expected": 84.02258905299729,
+      "maxBucket": 193,
+      "E": 3.496959165944094
+    },
+    "LEANS": {
+      "rank": 6770,
+      "entropy": 5.474312081888751,
+      "expected": 85.70894874022575,
+      "maxBucket": 225,
+      "E": 3.4847958297161186
+    },
+    "CLOTE": {
+      "rank": 2365,
+      "entropy": 5.473565650940373,
+      "expected": 88.58384013900948,
+      "maxBucket": 242,
+      "E": 3.4613379669874895
+    },
+    "SATED": {
+      "rank": 11172,
+      "entropy": 5.472806237431852,
+      "expected": 87.91398783666367,
+      "maxBucket": 262,
+      "E": 3.4817549956585148
+    },
+    "DROLE": {
+      "rank": 3437,
+      "entropy": 5.472263403012412,
+      "expected": 92.68549087749766,
+      "maxBucket": 293,
+      "E": 3.4609035621223287
+    },
+    "URSAE": {
+      "rank": 13765,
+      "entropy": 5.471773458260407,
+      "expected": 80.18592528236302,
+      "maxBucket": 201,
+      "E": 3.5208514335372305
+    },
+    "ROIST": {
+      "rank": 10798,
+      "entropy": 5.471675213609573,
+      "expected": 95.90443092962622,
+      "maxBucket": 301,
+      "E": 3.4426585577774533
+    },
+    "DAINE": {
+      "rank": 2862,
+      "entropy": 5.470443154475589,
+      "expected": 96.63075586446553,
+      "maxBucket": 265,
+      "E": 3.476976542139663
+    },
+    "PLANE": {
+      "rank": 9567,
+      "entropy": 5.469668804113738,
+      "expected": 95.04691572545592,
+      "maxBucket": 286,
+      "E": 3.4500434404888383
+    },
+    "TRODE": {
+      "rank": 13400,
+      "entropy": 5.469396810870011,
+      "expected": 96.76542137271923,
+      "maxBucket": 317,
+      "E": 3.467419635101304
+    },
+    "MAILE": {
+      "rank": 7282,
+      "entropy": 5.469246201363595,
+      "expected": 90.78019113814055,
+      "maxBucket": 249,
+      "E": 3.47741094700491
+    },
+    "CEORL": {
+      "rank": 2074,
+      "entropy": 5.469231485186617,
+      "expected": 91.30582102519529,
+      "maxBucket": 252,
+      "E": 3.4609035621225894
+    },
+    "TAROS": {
+      "rank": 12818,
+      "entropy": 5.469121758558737,
+      "expected": 88.68375325803636,
+      "maxBucket": 263,
+      "E": 3.473501303215985
+    },
+    "OILET": {
+      "rank": 8741,
+      "entropy": 5.468718854223248,
+      "expected": 85.58123370981754,
+      "maxBucket": 203,
+      "E": 3.48870547350287
+    },
+    "POIRE": {
+      "rank": 9687,
+      "entropy": 5.468541831705556,
+      "expected": 89.57775847089472,
+      "maxBucket": 241,
+      "E": 3.4795829713320594
+    },
+    "SILEN": {
+      "rank": 11663,
+      "entropy": 5.467907343734216,
+      "expected": 93.79669852302331,
+      "maxBucket": 272,
+      "E": 3.4700260642939638
+    },
+    "LOSER": {
+      "rank": 7086,
+      "entropy": 5.46699208538136,
+      "expected": 82.51259774109461,
+      "maxBucket": 213,
+      "E": 3.49174630756086
+    },
+    "ARSED": {
+      "rank": 676,
+      "entropy": 5.466831374924106,
+      "expected": 87.81233709817542,
+      "maxBucket": 256,
+      "E": 3.4817549956579485
+    },
+    "REPAT": {
+      "rank": 10582,
+      "entropy": 5.464633281067844,
+      "expected": 93.41876629018229,
+      "maxBucket": 267,
+      "E": 3.485664639445006
+    },
+    "RITES": {
+      "rank": 10743,
+      "entropy": 5.46441335583467,
+      "expected": 86.74370112945255,
+      "maxBucket": 243,
+      "E": 3.4939183318864924
+    },
+    "PALER": {
+      "rank": 9061,
+      "entropy": 5.464322936681192,
+      "expected": 90.58470894873999,
+      "maxBucket": 265,
+      "E": 3.485664639445743
+    },
+    "LOURE": {
+      "rank": 7108,
+      "entropy": 5.463764304875729,
+      "expected": 85.27541268462194,
+      "maxBucket": 231,
+      "E": 3.507384882712642
+    },
+    "TRIPE": {
+      "rank": 13391,
+      "entropy": 5.4636442438249295,
+      "expected": 96.76020851433518,
+      "maxBucket": 305,
+      "E": 3.4539530842763666
+    },
+    "LAIDE": {
+      "rank": 6642,
+      "entropy": 5.463052151484997,
+      "expected": 88.7471763683752,
+      "maxBucket": 252,
+      "E": 3.484795829715203
+    },
+    "SCIRE": {
+      "rank": 11259,
+      "entropy": 5.462836747937525,
+      "expected": 89.53518679409197,
+      "maxBucket": 253,
+      "E": 3.473935708082973
     },
     "AYRIE": {
       "rank": 851,
@@ -1335,34 +3351,6 @@
       "expected": 78.54213727193743,
       "maxBucket": 170,
       "E": 3.538227628151216
-    },
-    "OILER": {
-      "rank": 8740,
-      "entropy": 5.4078371351536605,
-      "expected": 83.42832319721973,
-      "maxBucket": 183,
-      "E": 3.5139009556936154
-    },
-    "NAIEO": {
-      "rank": 8208,
-      "entropy": 5.3793702226909135,
-      "expected": 83.83318853171149,
-      "maxBucket": 186,
-      "E": 3.5521285838413554
-    },
-    "RATIO": {
-      "rank": 10379,
-      "entropy": 5.355715577176502,
-      "expected": 90.83927019982617,
-      "maxBucket": 186,
-      "E": 3.5186794092104696
-    },
-    "RIATO": {
-      "rank": 10668,
-      "entropy": 5.41109986747351,
-      "expected": 84.3527367506515,
-      "maxBucket": 186,
-      "E": 3.5091225021740233
     },
     "URAEI": {
       "rank": 13737,
@@ -1378,26 +3366,124 @@
       "maxBucket": 189,
       "E": 3.5121633362314086
     },
-    "OATEN": {
-      "rank": 8659,
-      "entropy": 5.4897100204954645,
-      "expected": 80.77845351867933,
-      "maxBucket": 189,
-      "E": 3.5008688097324514
+    "RAYLE": {
+      "rank": 10406,
+      "entropy": 5.453180659806322,
+      "expected": 81.63336229365764,
+      "maxBucket": 215,
+      "E": 3.5099913119049093
     },
-    "ACOEL": {
-      "rank": 106,
-      "entropy": 5.395644380416682,
-      "expected": 88.09904430929619,
-      "maxBucket": 193,
-      "E": 3.5000000000019105
+    "ARSEY": {
+      "rank": 678,
+      "entropy": 5.4182416192776115,
+      "expected": 82.262380538662,
+      "maxBucket": 209,
+      "E": 3.509991311905169
     },
-    "TELIA": {
-      "rank": 12921,
-      "entropy": 5.474394942011619,
-      "expected": 84.02258905299729,
-      "maxBucket": 193,
-      "E": 3.496959165944094
+    "LORES": {
+      "rank": 7079,
+      "entropy": 5.462612692083798,
+      "expected": 82.54995655951335,
+      "maxBucket": 213,
+      "E": 3.48827106863775
+    },
+    "ORLES": {
+      "rank": 8885,
+      "entropy": 5.383499854486883,
+      "expected": 82.55864465682002,
+      "maxBucket": 213,
+      "E": 3.5082536924431813
+    },
+    "AURES": {
+      "rank": 782,
+      "entropy": 5.436598814017085,
+      "expected": 83.00173761946124,
+      "maxBucket": 201,
+      "E": 3.5217202432687658
+    },
+    "ROLES": {
+      "rank": 10808,
+      "entropy": 5.448294570127324,
+      "expected": 83.03996524761072,
+      "maxBucket": 213,
+      "E": 3.4921807124255873
+    },
+    "RAYNE": {
+      "rank": 10408,
+      "entropy": 5.433752656694393,
+      "expected": 83.35621198957425,
+      "maxBucket": 216,
+      "E": 3.500434404867289
+    },
+    "OILER": {
+      "rank": 8740,
+      "entropy": 5.4078371351536605,
+      "expected": 83.42832319721973,
+      "maxBucket": 183,
+      "E": 3.5139009556936154
+    },
+    "NAIEO": {
+      "rank": 8208,
+      "entropy": 5.3793702226909135,
+      "expected": 83.83318853171149,
+      "maxBucket": 186,
+      "E": 3.5521285838413554
+    },
+    "RILES": {
+      "rank": 10704,
+      "entropy": 5.423999369988453,
+      "expected": 83.95308427454377,
+      "maxBucket": 204,
+      "E": 3.494352736752781
+    },
+    "TOEAS": {
+      "rank": 13175,
+      "entropy": 5.452175283472539,
+      "expected": 84.11294526498688,
+      "maxBucket": 216,
+      "E": 3.5191138140763676
+    },
+    "RESOL": {
+      "rank": 10611,
+      "entropy": 5.404459463825948,
+      "expected": 84.12597741094696,
+      "maxBucket": 213,
+      "E": 3.500000000001522
+    },
+    "NATES": {
+      "rank": 8277,
+      "entropy": 5.427609473502338,
+      "expected": 84.29973935708072,
+      "maxBucket": 239,
+      "E": 3.4995655951364464
+    },
+    "RIATO": {
+      "rank": 10668,
+      "entropy": 5.41109986747351,
+      "expected": 84.3527367506515,
+      "maxBucket": 186,
+      "E": 3.5091225021740233
+    },
+    "HALER": {
+      "rank": 5285,
+      "entropy": 5.438053580811517,
+      "expected": 84.4387489139877,
+      "maxBucket": 223,
+      "E": 3.496959165944745
+    },
+    "ORALS": {
+      "rank": 8860,
+      "entropy": 5.345101887631644,
+      "expected": 84.69331016507378,
+      "maxBucket": 231,
+      "E": 3.509556907039878
+    },
+    "RACES": {
+      "rank": 10242,
+      "entropy": 5.437452241926182,
+      "expected": 84.71503040834047,
+      "maxBucket": 237,
+      "E": 3.4956559513487417
     },
     "AEONS": {
       "rank": 184,
@@ -1406,19 +3492,40 @@
       "maxBucket": 194,
       "E": 3.5147697654237176
     },
-    "NEOSA": {
-      "rank": 8342,
-      "entropy": 5.326619735303918,
-      "expected": 88.35968722849684,
-      "maxBucket": 194,
-      "E": 3.5364900086897486
+    "LEIRS": {
+      "rank": 6815,
+      "entropy": 5.422635631550771,
+      "expected": 85.2241529105125,
+      "maxBucket": 204,
+      "E": 3.5069504778477874
     },
-    "OURIE": {
-      "rank": 8935,
-      "entropy": 5.32016396185726,
-      "expected": 89.48392701998254,
-      "maxBucket": 194,
-      "E": 3.5512597741116845
+    "RAMIE": {
+      "rank": 10313,
+      "entropy": 5.438648075409839,
+      "expected": 85.40052128583834,
+      "maxBucket": 216,
+      "E": 3.507819287577238
+    },
+    "TOLES": {
+      "rank": 13203,
+      "entropy": 5.451360863194452,
+      "expected": 85.43614248479575,
+      "maxBucket": 222,
+      "E": 3.4800173761967006
+    },
+    "SOLEI": {
+      "rank": 12056,
+      "entropy": 5.393067605959408,
+      "expected": 85.44656820156375,
+      "maxBucket": 208,
+      "E": 3.51346655082702
+    },
+    "ARILS": {
+      "rank": 646,
+      "entropy": 5.375929908109951,
+      "expected": 85.6359687228496,
+      "maxBucket": 206,
+      "E": 3.49391833188723
     },
     "UREAL": {
       "rank": 13748,
@@ -1427,6 +3534,146 @@
       "maxBucket": 195,
       "E": 3.5412684622089494
     },
+    "AIERY": {
+      "rank": 285,
+      "entropy": 5.341764910469107,
+      "expected": 86.44743701129451,
+      "maxBucket": 170,
+      "E": 3.5569070373611202
+    },
+    "DARES": {
+      "rank": 2898,
+      "entropy": 5.438927533714128,
+      "expected": 86.63249348392691,
+      "maxBucket": 256,
+      "E": 3.493049522156127
+    },
+    "AREIC": {
+      "rank": 625,
+      "entropy": 5.402618618848217,
+      "expected": 86.65334491746304,
+      "maxBucket": 204,
+      "E": 3.519548218941746
+    },
+    "NEALS": {
+      "rank": 8300,
+      "entropy": 5.427443685313373,
+      "expected": 86.85838401390086,
+      "maxBucket": 225,
+      "E": 3.4913119026953967
+    },
+    "RAILS": {
+      "rank": 10282,
+      "entropy": 5.402818825807673,
+      "expected": 87.27367506516066,
+      "maxBucket": 212,
+      "E": 3.48436142484948
+    },
+    "AUREI": {
+      "rank": 781,
+      "entropy": 5.310146634988483,
+      "expected": 87.2997393570808,
+      "maxBucket": 206,
+      "E": 3.5747176368394875
+    },
+    "LAYER": {
+      "rank": 6753,
+      "entropy": 5.361900008232805,
+      "expected": 87.41963509991298,
+      "maxBucket": 215,
+      "E": 3.5238922675963953
+    },
+    "FAIRE": {
+      "rank": 3939,
+      "entropy": 5.41694235666662,
+      "expected": 87.45699391833172,
+      "maxBucket": 236,
+      "E": 3.5156385751548664
+    },
+    "AHOLE": {
+      "rank": 276,
+      "entropy": 5.410825308764863,
+      "expected": 87.53692441355336,
+      "maxBucket": 208,
+      "E": 3.5043440486545614
+    },
+    "ROTAL": {
+      "rank": 10869,
+      "entropy": 5.444743548822237,
+      "expected": 87.59513466550817,
+      "maxBucket": 220,
+      "E": 3.480017376197048
+    },
+    "RELOS": {
+      "rank": 10555,
+      "entropy": 5.317574297317442,
+      "expected": 87.63336229365764,
+      "maxBucket": 213,
+      "E": 3.512163336230669
+    },
+    "CERIA": {
+      "rank": 2080,
+      "entropy": 5.439799585624298,
+      "expected": 87.7437011294525,
+      "maxBucket": 204,
+      "E": 3.5091225021742836
+    },
+    "HARES": {
+      "rank": 5335,
+      "entropy": 5.404024922355484,
+      "expected": 87.74978279756718,
+      "maxBucket": 238,
+      "E": 3.509991311904954
+    },
+    "LAIRS": {
+      "rank": 6648,
+      "entropy": 5.376150726942817,
+      "expected": 87.75933970460454,
+      "maxBucket": 212,
+      "E": 3.5008688097334058
+    },
+    "ADORE": {
+      "rank": 160,
+      "entropy": 5.440106848338394,
+      "expected": 87.84969591659421,
+      "maxBucket": 239,
+      "E": 3.5017376194622942
+    },
+    "RIELS": {
+      "rank": 10685,
+      "entropy": 5.3791650255833074,
+      "expected": 87.85664639443954,
+      "maxBucket": 204,
+      "E": 3.505212858385882
+    },
+    "ACRES": {
+      "rank": 112,
+      "entropy": 5.3604484251783235,
+      "expected": 87.86446568201549,
+      "maxBucket": 237,
+      "E": 3.5095569070397925
+    },
+    "NEATS": {
+      "rank": 8306,
+      "entropy": 5.442422801281979,
+      "expected": 87.93744569939172,
+      "maxBucket": 239,
+      "E": 3.4939183318880103
+    },
+    "NEROL": {
+      "rank": 8353,
+      "entropy": 5.36452021442044,
+      "expected": 87.97219808861848,
+      "maxBucket": 218,
+      "E": 3.503909643789445
+    },
+    "RASED": {
+      "rank": 10361,
+      "entropy": 5.4267482431542975,
+      "expected": 88.00434404865325,
+      "maxBucket": 256,
+      "E": 3.4913119026950916
+    },
     "OSIER": {
       "rank": 8903,
       "entropy": 5.311295730525141,
@@ -1434,12 +3681,103 @@
       "maxBucket": 196,
       "E": 3.544743701132191
     },
-    "TEARY": {
-      "rank": 12888,
-      "entropy": 5.536584008242535,
-      "expected": 83.61424847958284,
-      "maxBucket": 198,
-      "E": 3.4891398783675074
+    "ACOEL": {
+      "rank": 106,
+      "entropy": 5.395644380416682,
+      "expected": 88.09904430929619,
+      "maxBucket": 193,
+      "E": 3.5000000000019105
+    },
+    "LOTES": {
+      "rank": 7091,
+      "entropy": 5.384070887469387,
+      "expected": 88.17202432667244,
+      "maxBucket": 222,
+      "E": 3.491311902695527
+    },
+    "SAGER": {
+      "rank": 11062,
+      "entropy": 5.44127844147711,
+      "expected": 88.20503909643776,
+      "maxBucket": 261,
+      "E": 3.4947871416178127
+    },
+    "LONER": {
+      "rank": 7050,
+      "entropy": 5.4427327868611926,
+      "expected": 88.30668983492602,
+      "maxBucket": 218,
+      "E": 3.4856646394453956
+    },
+    "RAITS": {
+      "rank": 10290,
+      "entropy": 5.451635848903692,
+      "expected": 88.34752389226756,
+      "maxBucket": 259,
+      "E": 3.4704604691596446
+    },
+    "NEOSA": {
+      "rank": 8342,
+      "entropy": 5.326619735303918,
+      "expected": 88.35968722849684,
+      "maxBucket": 194,
+      "E": 3.5364900086897486
+    },
+    "RIALS": {
+      "rank": 10665,
+      "entropy": 5.378541572701579,
+      "expected": 88.35968722849688,
+      "maxBucket": 212,
+      "E": 3.4874022589073843
+    },
+    "AYRES": {
+      "rank": 850,
+      "entropy": 5.293909782081945,
+      "expected": 88.393570807993,
+      "maxBucket": 209,
+      "E": 3.5325803649026923
+    },
+    "ANTES": {
+      "rank": 547,
+      "entropy": 5.3865726429606715,
+      "expected": 88.45438748913983,
+      "maxBucket": 239,
+      "E": 3.5034752389248505
+    },
+    "POTAE": {
+      "rank": 9801,
+      "entropy": 5.432211127287261,
+      "expected": 88.51346655082521,
+      "maxBucket": 204,
+      "E": 3.492180712425154
+    },
+    "RAIKE": {
+      "rank": 10279,
+      "entropy": 5.32478317262619,
+      "expected": 88.55864465682006,
+      "maxBucket": 226,
+      "E": 3.5486533449191566
+    },
+    "LARIS": {
+      "rank": 6697,
+      "entropy": 5.341241105869582,
+      "expected": 88.7254561251085,
+      "maxBucket": 206,
+      "E": 3.507819287578586
+    },
+    "RATIO": {
+      "rank": 10379,
+      "entropy": 5.355715577176502,
+      "expected": 90.83927019982617,
+      "maxBucket": 186,
+      "E": 3.5186794092104696
+    },
+    "OURIE": {
+      "rank": 8935,
+      "entropy": 5.32016396185726,
+      "expected": 89.48392701998254,
+      "maxBucket": 194,
+      "E": 3.5512597741116845
     },
     "TYLER": {
       "rank": 13557,
@@ -1447,13 +3785,6 @@
       "expected": 98.23892267593384,
       "maxBucket": 200,
       "E": 3.5403996524777175
-    },
-    "AURES": {
-      "rank": 782,
-      "entropy": 5.436598814017085,
-      "expected": 83.00173761946124,
-      "maxBucket": 201,
-      "E": 3.5217202432687658
     },
     "TELOI": {
       "rank": 12925,
@@ -1469,47 +3800,12 @@
       "maxBucket": 201,
       "E": 3.556038227630235
     },
-    "URSAE": {
-      "rank": 13765,
-      "entropy": 5.471773458260407,
-      "expected": 80.18592528236302,
-      "maxBucket": 201,
-      "E": 3.5208514335372305
-    },
-    "OILET": {
-      "rank": 8741,
-      "entropy": 5.468718854223248,
-      "expected": 85.58123370981754,
-      "maxBucket": 203,
-      "E": 3.48870547350287
-    },
-    "AREIC": {
-      "rank": 625,
-      "entropy": 5.402618618848217,
-      "expected": 86.65334491746304,
-      "maxBucket": 204,
-      "E": 3.519548218941746
-    },
-    "CERIA": {
-      "rank": 2080,
-      "entropy": 5.439799585624298,
-      "expected": 87.7437011294525,
-      "maxBucket": 204,
-      "E": 3.5091225021742836
-    },
     "ERICA": {
       "rank": 3797,
       "entropy": 5.382971806149414,
       "expected": 93.46133796698517,
       "maxBucket": 204,
       "E": 3.516941789749479
-    },
-    "LEIRS": {
-      "rank": 6815,
-      "entropy": 5.422635631550771,
-      "expected": 85.2241529105125,
-      "maxBucket": 204,
-      "E": 3.5069504778477874
     },
     "LIERS": {
       "rank": 6890,
@@ -1525,82 +3821,12 @@
       "maxBucket": 204,
       "E": 3.5178105994803226
     },
-    "POTAE": {
-      "rank": 9801,
-      "entropy": 5.432211127287261,
-      "expected": 88.51346655082521,
-      "maxBucket": 204,
-      "E": 3.492180712425154
-    },
-    "RIELS": {
-      "rank": 10685,
-      "entropy": 5.3791650255833074,
-      "expected": 87.85664639443954,
-      "maxBucket": 204,
-      "E": 3.505212858385882
-    },
-    "RILES": {
-      "rank": 10704,
-      "entropy": 5.423999369988453,
-      "expected": 83.95308427454377,
-      "maxBucket": 204,
-      "E": 3.494352736752781
-    },
-    "EARLS": {
-      "rank": 3586,
-      "entropy": 5.523651879494707,
-      "expected": 78.4152910512597,
-      "maxBucket": 205,
-      "E": 3.4869678540416165
-    },
-    "LAERS": {
-      "rank": 6632,
-      "entropy": 5.555190758073287,
-      "expected": 78.61077324066021,
-      "maxBucket": 205,
-      "E": 3.493483927022199
-    },
-    "ARILS": {
-      "rank": 646,
-      "entropy": 5.375929908109951,
-      "expected": 85.6359687228496,
-      "maxBucket": 206,
-      "E": 3.49391833188723
-    },
-    "AUREI": {
-      "rank": 781,
-      "entropy": 5.310146634988483,
-      "expected": 87.2997393570808,
-      "maxBucket": 206,
-      "E": 3.5747176368394875
-    },
-    "LARIS": {
-      "rank": 6697,
-      "entropy": 5.341241105869582,
-      "expected": 88.7254561251085,
-      "maxBucket": 206,
-      "E": 3.507819287578586
-    },
-    "LARNT": {
-      "rank": 6701,
-      "entropy": 5.49274461501263,
-      "expected": 85.18418766290173,
-      "maxBucket": 206,
-      "E": 3.4656820156399655
-    },
     "LIRAS": {
       "rank": 6960,
       "entropy": 5.277146887710272,
       "expected": 91.70634231103375,
       "maxBucket": 206,
       "E": 3.519548218943008
-    },
-    "LITER": {
-      "rank": 6972,
-      "entropy": 5.518490369359087,
-      "expected": 82.70373588184171,
-      "maxBucket": 206,
-      "E": 3.492180712425414
     },
     "PASEO": {
       "rank": 9157,
@@ -1609,27 +3835,6 @@
       "maxBucket": 206,
       "E": 3.5347523892283217
     },
-    "RELIT": {
-      "rank": 10553,
-      "entropy": 5.5554013245845795,
-      "expected": 81.83318853171146,
-      "maxBucket": 206,
-      "E": 3.4782797567341017
-    },
-    "TILER": {
-      "rank": 13109,
-      "entropy": 5.584994672066082,
-      "expected": 79.5447437011293,
-      "maxBucket": 206,
-      "E": 3.4769765421391843
-    },
-    "ANISE": {
-      "rank": 522,
-      "entropy": 5.56435761376152,
-      "expected": 82.6185925282362,
-      "maxBucket": 207,
-      "E": 3.488705473503519
-    },
     "ISNAE": {
       "rank": 5933,
       "entropy": 5.287080076151273,
@@ -1637,33 +3842,649 @@
       "maxBucket": 207,
       "E": 3.536055603824718
     },
-    "AHOLE": {
-      "rank": 276,
-      "entropy": 5.410825308764863,
-      "expected": 87.53692441355336,
-      "maxBucket": 208,
-      "E": 3.5043440486545614
+    "RAULI": {
+      "rank": 10385,
+      "entropy": 5.08959037438055,
+      "expected": 104.69157254561246,
+      "maxBucket": 209,
+      "E": 3.5443092962668556
     },
-    "HAOLE": {
-      "rank": 5322,
-      "entropy": 5.498818702206145,
-      "expected": 79.49782797567319,
-      "maxBucket": 208,
-      "E": 3.48827106863723
+    "RESAY": {
+      "rank": 10602,
+      "entropy": 5.292906294127389,
+      "expected": 93.44396177237181,
+      "maxBucket": 209,
+      "E": 3.5338835794983052
     },
-    "SOLEI": {
-      "rank": 12056,
-      "entropy": 5.393067605959408,
-      "expected": 85.44656820156375,
-      "maxBucket": 208,
-      "E": 3.51346655082702
+    "RILEY": {
+      "rank": 10705,
+      "entropy": 5.217988778499666,
+      "expected": 101.77063423110324,
+      "maxBucket": 209,
+      "E": 3.5347523892282355
     },
-    "SLANT": {
-      "rank": 11826,
-      "entropy": 5.492181012487843,
-      "expected": 98.41529105125962,
-      "maxBucket": 316,
-      "E": 3.4291920069504784
+    "URALI": {
+      "rank": 13738,
+      "entropy": 5.1048082685166,
+      "expected": 98.33970460469149,
+      "maxBucket": 209,
+      "E": 3.551259774111902
+    },
+    "YEARS": {
+      "rank": 14596,
+      "entropy": 5.289380723551285,
+      "expected": 91.69591659426585,
+      "maxBucket": 209,
+      "E": 3.5434404865344495
+    },
+    "ACIES": {
+      "rank": 96,
+      "entropy": 5.250121756134329,
+      "expected": 90.76281494352729,
+      "maxBucket": 211,
+      "E": 3.549522154649958
+    },
+    "ATOKE": {
+      "rank": 743,
+      "entropy": 5.059415776294433,
+      "expected": 104.35013032145952,
+      "maxBucket": 211,
+      "E": 3.576889661165421
+    },
+    "OCREA": {
+      "rank": 8687,
+      "entropy": 5.277636185829279,
+      "expected": 93.9852302345785,
+      "maxBucket": 211,
+      "E": 3.5321459600375333
+    },
+    "IORAS": {
+      "rank": 5916,
+      "entropy": 5.215666195416754,
+      "expected": 95.11207645525627,
+      "maxBucket": 212,
+      "E": 3.553866203302867
+    },
+    "LIARS": {
+      "rank": 6872,
+      "entropy": 5.342294695486341,
+      "expected": 90.11468288444823,
+      "maxBucket": 212,
+      "E": 3.506081668117681
+    },
+    "EORLS": {
+      "rank": 3768,
+      "entropy": 5.336279030665206,
+      "expected": 91.28583840139007,
+      "maxBucket": 213,
+      "E": 3.4991311902712856
+    },
+    "EYRAS": {
+      "rank": 3902,
+      "entropy": 5.108156060333343,
+      "expected": 102.83058210251951,
+      "maxBucket": 213,
+      "E": 3.5634231103401395
+    },
+    "URENA": {
+      "rank": 13753,
+      "entropy": 5.255523508074414,
+      "expected": 94.167680278019,
+      "maxBucket": 213,
+      "E": 3.542571676804519
+    },
+    "ACONE": {
+      "rank": 108,
+      "entropy": 5.3438412935957205,
+      "expected": 93.78105994787137,
+      "maxBucket": 214,
+      "E": 3.4934839270214155
+    },
+    "MALEO": {
+      "rank": 7314,
+      "entropy": 5.210822757105277,
+      "expected": 103.11207645525619,
+      "maxBucket": 214,
+      "E": 3.5269331016524776
+    },
+    "OLPAE": {
+      "rank": 8777,
+      "entropy": 5.238048338101463,
+      "expected": 104.0764552562987,
+      "maxBucket": 214,
+      "E": 3.5156385751536936
+    },
+    "PERAI": {
+      "rank": 9325,
+      "entropy": 5.275896999521515,
+      "expected": 97.07645525629877,
+      "maxBucket": 214,
+      "E": 3.5443092962659875
+    },
+    "PSOAE": {
+      "rank": 9976,
+      "entropy": 5.1991270552480655,
+      "expected": 100.42484795829701,
+      "maxBucket": 214,
+      "E": 3.5347523892289323
+    },
+    "URIAL": {
+      "rank": 13758,
+      "entropy": 5.195218401675415,
+      "expected": 97.26324934839258,
+      "maxBucket": 214,
+      "E": 3.5438748914009106
+    },
+    "EARLY": {
+      "rank": 3587,
+      "entropy": 5.319166392169872,
+      "expected": 96.020851433536,
+      "maxBucket": 215,
+      "E": 3.523892267596178
+    },
+    "LEARY": {
+      "rank": 6778,
+      "entropy": 5.423344856889465,
+      "expected": 89.00260642919186,
+      "maxBucket": 215,
+      "E": 3.5130321459627303
+    },
+    "RELAY": {
+      "rank": 10549,
+      "entropy": 5.302879795061653,
+      "expected": 96.86099044309287,
+      "maxBucket": 215,
+      "E": 3.5238922675960476
+    },
+    "AIMER": {
+      "rank": 292,
+      "entropy": 5.304604060657288,
+      "expected": 95.48566463944388,
+      "maxBucket": 216,
+      "E": 3.528670721113769
+    },
+    "PEOLA": {
+      "rank": 9314,
+      "entropy": 5.250397316329921,
+      "expected": 102.02953953084267,
+      "maxBucket": 216,
+      "E": 3.506950477847525
+    },
+    "RENAY": {
+      "rank": 10565,
+      "entropy": 5.286421584859322,
+      "expected": 98.62293657688956,
+      "maxBucket": 216,
+      "E": 3.5256298870565588
+    },
+    "RIMAE": {
+      "rank": 10709,
+      "entropy": 5.372207258772746,
+      "expected": 89.42919200695037,
+      "maxBucket": 216,
+      "E": 3.509991311905604
+    },
+    "TENIA": {
+      "rank": 12940,
+      "entropy": 5.41507692570063,
+      "expected": 92.52041702867055,
+      "maxBucket": 216,
+      "E": 3.5069504778466563
+    },
+    "YATES": {
+      "rank": 14572,
+      "entropy": 5.196221980638242,
+      "expected": 95.34578627280618,
+      "maxBucket": 216,
+      "E": 3.5547350130333633
+    },
+    "YEARN": {
+      "rank": 14595,
+      "entropy": 5.3519444461130075,
+      "expected": 91.94005212858373,
+      "maxBucket": 216,
+      "E": 3.5182450043462206
+    },
+    "ENROL": {
+      "rank": 3754,
+      "entropy": 5.2620756482384765,
+      "expected": 98.18853171155504,
+      "maxBucket": 218,
+      "E": 3.5139009556933534
+    },
+    "AIDER": {
+      "rank": 281,
+      "entropy": 5.4059950744159515,
+      "expected": 92.82536924413549,
+      "maxBucket": 219,
+      "E": 3.5004344048665943
+    },
+    "NELIA": {
+      "rank": 8332,
+      "entropy": 5.263308527790591,
+      "expected": 96.96698523023449,
+      "maxBucket": 219,
+      "E": 3.5217202432682893
+    },
+    "REDIA": {
+      "rank": 10473,
+      "entropy": 5.235836132379249,
+      "expected": 102.95482189400511,
+      "maxBucket": 219,
+      "E": 3.533883579497525
+    },
+    "TOGAE": {
+      "rank": 13180,
+      "entropy": 5.350731883790395,
+      "expected": 93.80712423979134,
+      "maxBucket": 219,
+      "E": 3.519982623807473
+    },
+    "RADIO": {
+      "rank": 10253,
+      "entropy": 5.058827796737231,
+      "expected": 117.06516072980006,
+      "maxBucket": 220,
+      "E": 3.536924413556215
+    },
+    "AUNES": {
+      "rank": 774,
+      "entropy": 5.240307404559958,
+      "expected": 99.02780191138139,
+      "maxBucket": 221,
+      "E": 3.5395308427483054
+    },
+    "AIDES": {
+      "rank": 282,
+      "entropy": 5.196897069582754,
+      "expected": 99.0834057341442,
+      "maxBucket": 222,
+      "E": 3.5430060816699824
+    },
+    "ASIDE": {
+      "rank": 704,
+      "entropy": 5.194100004506814,
+      "expected": 99.90964378801036,
+      "maxBucket": 222,
+      "E": 3.5451781059956136
+    },
+    "TELOS": {
+      "rank": 12926,
+      "entropy": 5.308564547598276,
+      "expected": 92.27975673327528,
+      "maxBucket": 222,
+      "E": 3.4956559513487853
+    },
+    "TODEA": {
+      "rank": 13173,
+      "entropy": 5.3098587487441975,
+      "expected": 94.4700260642918,
+      "maxBucket": 222,
+      "E": 3.530408340575155
+    },
+    "USNEA": {
+      "rank": 13777,
+      "entropy": 4.974293912633046,
+      "expected": 110.63683753258029,
+      "maxBucket": 222,
+      "E": 3.5842745438772794
+    },
+    "ALOED": {
+      "rank": 415,
+      "entropy": 5.39460354018904,
+      "expected": 94.96872284969587,
+      "maxBucket": 223,
+      "E": 3.5008688097322316
+    },
+    "OPERA": {
+      "rank": 8843,
+      "entropy": 5.077780809942841,
+      "expected": 108.52215464813193,
+      "maxBucket": 223,
+      "E": 3.569070373590052
+    },
+    "PAREO": {
+      "rank": 9124,
+      "entropy": 5.435672324858635,
+      "expected": 88.88618592528228,
+      "maxBucket": 223,
+      "E": 3.5056472632509563
+    },
+    "ULNAE": {
+      "rank": 13594,
+      "entropy": 5.323349356267031,
+      "expected": 95.8618592528235,
+      "maxBucket": 223,
+      "E": 3.5069504778470897
+    },
+    "LINER": {
+      "rank": 6936,
+      "entropy": 5.403623462544855,
+      "expected": 91.93570807993031,
+      "maxBucket": 224,
+      "E": 3.493049522157475
+    },
+    "AMOLE": {
+      "rank": 483,
+      "entropy": 5.267442528583435,
+      "expected": 100.73588184187649,
+      "maxBucket": 225,
+      "E": 3.512163336231452
+    },
+    "BEIRA": {
+      "rank": 1122,
+      "entropy": 5.244412933422162,
+      "expected": 101.35099913119014,
+      "maxBucket": 225,
+      "E": 3.542571676804216
+    },
+    "ERBIA": {
+      "rank": 3790,
+      "entropy": 5.062865270413775,
+      "expected": 113.95829713292785,
+      "maxBucket": 225,
+      "E": 3.5673327541281927
+    },
+    "LORAN": {
+      "rank": 7075,
+      "entropy": 5.3466983457991315,
+      "expected": 94.99304952215454,
+      "maxBucket": 225,
+      "E": 3.4956559513484815
+    },
+    "LUTER": {
+      "rank": 7197,
+      "entropy": 5.333219290568703,
+      "expected": 96.0182450043439,
+      "maxBucket": 225,
+      "E": 3.513032145961382
+    },
+    "ARUHE": {
+      "rank": 688,
+      "entropy": 5.302663000899534,
+      "expected": 92.77324066029534,
+      "maxBucket": 226,
+      "E": 3.5456125108625547
+    },
+    "REGIA": {
+      "rank": 10520,
+      "entropy": 5.129091797768367,
+      "expected": 107.54039965247605,
+      "maxBucket": 226,
+      "E": 3.5582102519562127
+    },
+    "AMORE": {
+      "rank": 485,
+      "entropy": 5.370120740091999,
+      "expected": 91.77150304083399,
+      "maxBucket": 227,
+      "E": 3.5156385751532158
+    },
+    "LARNS": {
+      "rank": 6700,
+      "entropy": 5.284338315639744,
+      "expected": 95.07384882710679,
+      "maxBucket": 227,
+      "E": 3.500000000002001
+    },
+    "MORAE": {
+      "rank": 7941,
+      "entropy": 5.461684758047853,
+      "expected": 89.66116420503894,
+      "maxBucket": 227,
+      "E": 3.4930495221554296
+    },
+    "SAYNE": {
+      "rank": 11210,
+      "entropy": 5.417913480311848,
+      "expected": 89.67072111207642,
+      "maxBucket": 227,
+      "E": 3.501737619463206
+    },
+    "AMIES": {
+      "rank": 465,
+      "entropy": 5.100101213423838,
+      "expected": 104.46046915725442,
+      "maxBucket": 228,
+      "E": 3.5651607298023027
+    },
+    "MAISE": {
+      "rank": 7290,
+      "entropy": 5.435290432474928,
+      "expected": 89.51086012163326,
+      "maxBucket": 228,
+      "E": 3.5060816681158133
+    },
+    "MESIA": {
+      "rank": 7612,
+      "entropy": 5.004738680122249,
+      "expected": 117.82363162467408,
+      "maxBucket": 228,
+      "E": 3.582102519550262
+    },
+    "ACUTE": {
+      "rank": 123,
+      "entropy": 5.241202546167768,
+      "expected": 101.56385751520406,
+      "maxBucket": 229,
+      "E": 3.529539530844572
+    },
+    "IDEAS": {
+      "rank": 5791,
+      "entropy": 4.874492632342838,
+      "expected": 117.61337966985224,
+      "maxBucket": 229,
+      "E": 3.6094700260656394
+    },
+    "OAKER": {
+      "rank": 8651,
+      "entropy": 5.0412555617917505,
+      "expected": 103.74630755864462,
+      "maxBucket": 229,
+      "E": 3.5942658557789744
+    },
+    "PAEON": {
+      "rank": 9028,
+      "entropy": 5.207794190385305,
+      "expected": 104.25803649000855,
+      "maxBucket": 229,
+      "E": 3.527801911383451
+    },
+    "POENA": {
+      "rank": 9673,
+      "entropy": 5.111138408460237,
+      "expected": 115.1059947871415,
+      "maxBucket": 229,
+      "E": 3.5477845351887924
+    },
+    "ROAKE": {
+      "rank": 10760,
+      "entropy": 5.303023250935199,
+      "expected": 89.26238053866197,
+      "maxBucket": 229,
+      "E": 3.548218940053173
+    },
+    "HAYER": {
+      "rank": 5383,
+      "entropy": 5.124916026981301,
+      "expected": 102.77410947002593,
+      "maxBucket": 230,
+      "E": 3.563423110341269
+    },
+    "LOCIE": {
+      "rank": 7009,
+      "entropy": 5.327670780204566,
+      "expected": 94.97480451781045,
+      "maxBucket": 230,
+      "E": 3.493918331887968
+    },
+    "LOSEN": {
+      "rank": 7085,
+      "entropy": 5.359132978316638,
+      "expected": 94.45091225021703,
+      "maxBucket": 230,
+      "E": 3.486533449176889
+    },
+    "NOLES": {
+      "rank": 8508,
+      "entropy": 5.2477755600789076,
+      "expected": 97.11381407471754,
+      "maxBucket": 230,
+      "E": 3.5013032145983054
+    },
+    "OUTIE": {
+      "rank": 8945,
+      "entropy": 5.184438611582866,
+      "expected": 102.15725456125095,
+      "maxBucket": 231,
+      "E": 3.568201563858906
+    },
+    "ROSAL": {
+      "rank": 10855,
+      "entropy": 5.3564829047230385,
+      "expected": 91.4257167680277,
+      "maxBucket": 231,
+      "E": 3.5099913119052135
+    },
+    "LENTO": {
+      "rank": 6832,
+      "entropy": 5.251282364993142,
+      "expected": 97.92180712423965,
+      "maxBucket": 232,
+      "E": 3.505212858386621
+    },
+    "ABIES": {
+      "rank": 37,
+      "entropy": 5.021453784698625,
+      "expected": 107.18071242397902,
+      "maxBucket": 233,
+      "E": 3.57775847089609
+    },
+    "BEISA": {
+      "rank": 1123,
+      "entropy": 5.106854542990297,
+      "expected": 110.08166811468271,
+      "maxBucket": 233,
+      "E": 3.5586446568218504
+    },
+    "SIEUR": {
+      "rank": 11646,
+      "entropy": 5.374866316862933,
+      "expected": 93.188531711555,
+      "maxBucket": 233,
+      "E": 3.5299739357097324
+    },
+    "SOYLE": {
+      "rank": 12150,
+      "entropy": 5.2753951460613955,
+      "expected": 98.97914856646379,
+      "maxBucket": 233,
+      "E": 3.515204170288532
+    },
+    "ASPIE": {
+      "rank": 715,
+      "entropy": 5.131018652448925,
+      "expected": 108.53953084274536,
+      "maxBucket": 234,
+      "E": 3.546046915727758
+    },
+    "LOIRS": {
+      "rank": 7036,
+      "entropy": 5.2142948375488904,
+      "expected": 99.04952215464802,
+      "maxBucket": 235,
+      "E": 3.512163336232234
+    },
+    "LORIS": {
+      "rank": 7081,
+      "entropy": 5.178521240900736,
+      "expected": 100.41529105125971,
+      "maxBucket": 235,
+      "E": 3.5199826238077336
+    },
+    "NOSER": {
+      "rank": 8553,
+      "entropy": 5.363446902555551,
+      "expected": 92.68201563857501,
+      "maxBucket": 235,
+      "E": 3.495221546483927
+    },
+    "ONERS": {
+      "rank": 8807,
+      "entropy": 5.145162021630777,
+      "expected": 104.40747176368367,
+      "maxBucket": 235,
+      "E": 3.5377932232866627
+    },
+    "RENOS": {
+      "rank": 10576,
+      "entropy": 5.288988422272888,
+      "expected": 94.96872284969577,
+      "maxBucket": 235,
+      "E": 3.507819287577583
+    },
+    "ROILS": {
+      "rank": 10795,
+      "entropy": 5.24073555965,
+      "expected": 98.80625543006074,
+      "maxBucket": 235,
+      "E": 3.4991311902717643
+    },
+    "RONES": {
+      "rank": 10822,
+      "entropy": 5.415794944325625,
+      "expected": 91.29626411815796,
+      "maxBucket": 235,
+      "E": 3.478714161601349
+    },
+    "SEPIA": {
+      "rank": 11411,
+      "entropy": 5.147688009549181,
+      "expected": 111.54387489139863,
+      "maxBucket": 235,
+      "E": 3.5434404865359665
+    },
+    "AEGIS": {
+      "rank": 183,
+      "entropy": 5.0083232015996595,
+      "expected": 112.10251954821884,
+      "maxBucket": 236,
+      "E": 3.5834057341461785
+    },
+    "AFIRE": {
+      "rank": 197,
+      "entropy": 5.251690313922361,
+      "expected": 98.2397914856646,
+      "maxBucket": 236,
+      "E": 3.5403996524790173
+    },
+    "ALOWE": {
+      "rank": 426,
+      "entropy": 5.102299002773509,
+      "expected": 110.0503909643787,
+      "maxBucket": 236,
+      "E": 3.5525629887072556
+    },
+    "FERIA": {
+      "rank": 4075,
+      "entropy": 5.07231167504689,
+      "expected": 111.97567332754112,
+      "maxBucket": 236,
+      "E": 3.5742832319746736
+    },
+    "PIETA": {
+      "rank": 9436,
+      "entropy": 5.169341720159972,
+      "expected": 112.30929626411806,
+      "maxBucket": 236,
+      "E": 3.545178105996481
+    },
+    "STELA": {
+      "rank": 12372,
+      "entropy": 5.417585620890466,
+      "expected": 93.2441355343178,
+      "maxBucket": 236,
+      "E": 3.487402258906473
     },
     "CLAST": {
       "rank": 2311,
@@ -1672,138 +4493,12 @@
       "maxBucket": 367,
       "E": 3.4370112945288023
     },
-    "LANCE": {
-      "rank": 6671,
-      "entropy": 5.518157709180451,
-      "expected": 90.44396177237174,
-      "maxBucket": 271,
-      "E": 3.4387489139897913
-    },
-    "TRAIN": {
-      "rank": 13330,
-      "entropy": 5.556855364055992,
-      "expected": 87.81233709817538,
-      "maxBucket": 261,
-      "E": 3.4400521285857093
-    },
-    "CRINE": {
-      "rank": 2677,
-      "entropy": 5.517079548120744,
-      "expected": 95.09296264118144,
-      "maxBucket": 289,
-      "E": 3.441355343181147
-    },
-    "SAINT": {
-      "rank": 11079,
-      "entropy": 5.50843327771831,
-      "expected": 103.67680278019104,
-      "maxBucket": 344,
-      "E": 3.442658557777412
-    },
-    "ROIST": {
-      "rank": 10798,
-      "entropy": 5.471675213609573,
-      "expected": 95.90443092962622,
-      "maxBucket": 301,
-      "E": 3.4426585577774533
-    },
-    "SCALE": {
-      "rank": 11221,
-      "entropy": 5.5630111413206365,
-      "expected": 87.1685490877496,
-      "maxBucket": 255,
-      "E": 3.4448305821047334
-    },
-    "LOAST": {
-      "rank": 6996,
-      "entropy": 5.5169640352713945,
-      "expected": 90.02519548218922,
-      "maxBucket": 284,
-      "E": 3.446133796700045
-    },
-    "CRONE": {
-      "rank": 2696,
-      "entropy": 5.51544931727021,
-      "expected": 93.09991311902674,
-      "maxBucket": 282,
-      "E": 3.4461337967009564
-    },
-    "SLICE": {
-      "rank": 11845,
-      "entropy": 5.5094650110574985,
-      "expected": 95.67680278019098,
-      "maxBucket": 289,
-      "E": 3.4465682015654653
-    },
-    "PLATE": {
-      "rank": 9576,
-      "entropy": 5.551901182267098,
-      "expected": 88.73588184187648,
-      "maxBucket": 255,
-      "E": 3.447002606430497
-    },
-    "CLART": {
-      "rank": 2306,
-      "entropy": 5.484910047422736,
-      "expected": 96.07819287576011,
-      "maxBucket": 275,
-      "E": 3.4474370112954404
-    },
     "DRANT": {
       "rank": 3396,
       "entropy": 5.372162293134683,
       "expected": 103.10078192875744,
       "maxBucket": 314,
       "E": 3.4478714161620365
-    },
-    "CRISE": {
-      "rank": 2683,
-      "entropy": 5.567330099502251,
-      "expected": 85.55430060816668,
-      "maxBucket": 253,
-      "E": 3.4478714161621213
-    },
-    "RIANT": {
-      "rank": 10666,
-      "entropy": 5.5495463457151635,
-      "expected": 88.03735881841872,
-      "maxBucket": 261,
-      "E": 3.448305821027629
-    },
-    "DEALT": {
-      "rank": 2949,
-      "entropy": 5.558716489202409,
-      "expected": 90.56993918331867,
-      "maxBucket": 255,
-      "E": 3.4487402258922684
-    },
-    "CORSE": {
-      "rank": 2556,
-      "entropy": 5.553605636336062,
-      "expected": 88.44830582102502,
-      "maxBucket": 252,
-      "E": 3.4491746307573874
-    },
-    "ALIST": {
-      "rank": 385,
-      "entropy": 5.479497624332985,
-      "expected": 100.22762814943516,
-      "maxBucket": 312,
-      "E": 3.449609035624024
-    },
-    "PLANE": {
-      "rank": 9567,
-      "entropy": 5.469668804113738,
-      "expected": 95.04691572545592,
-      "maxBucket": 286,
-      "E": 3.4500434404888383
-    },
-    "RONTE": {
-      "rank": 10825,
-      "entropy": 5.611290548566159,
-      "expected": 80.68114682884445,
-      "maxBucket": 257,
-      "E": 3.4513466550842304
     },
     "CLOSE": {
       "rank": 2364,
@@ -1819,27 +4514,6 @@
       "maxBucket": 386,
       "E": 3.451781059949783
     },
-    "STILE": {
-      "rank": 12395,
-      "entropy": 5.5526802456136295,
-      "expected": 88.5838401390094,
-      "maxBucket": 267,
-      "E": 3.452215464813946
-    },
-    "TRAIL": {
-      "rank": 13329,
-      "entropy": 5.597935902879249,
-      "expected": 78.47784535186781,
-      "maxBucket": 216,
-      "E": 3.452215464815203
-    },
-    "CANER": {
-      "rank": 1949,
-      "entropy": 5.558679565044426,
-      "expected": 86.53258036489994,
-      "maxBucket": 261,
-      "E": 3.4522154648153784
-    },
     "SAULT": {
       "rank": 11185,
       "entropy": 5.380356523156796,
@@ -1853,48 +4527,6 @@
       "expected": 114.7158992180711,
       "maxBucket": 365,
       "E": 3.4530842745461343
-    },
-    "STOLE": {
-      "rank": 12424,
-      "entropy": 5.5207846356603545,
-      "expected": 83.918331885317,
-      "maxBucket": 222,
-      "E": 3.4535186794111215
-    },
-    "TRIPE": {
-      "rank": 13391,
-      "entropy": 5.4636442438249295,
-      "expected": 96.76020851433518,
-      "maxBucket": 305,
-      "E": 3.4539530842763666
-    },
-    "STORE": {
-      "rank": 12442,
-      "entropy": 5.612221876913532,
-      "expected": 80.43527367506509,
-      "maxBucket": 242,
-      "E": 3.453953084276413
-    },
-    "TRIED": {
-      "rank": 13375,
-      "entropy": 5.487066423065917,
-      "expected": 100.29973935708068,
-      "maxBucket": 309,
-      "E": 3.454387489141053
-    },
-    "PRASE": {
-      "rank": 9860,
-      "entropy": 5.61075801405167,
-      "expected": 88.44048653344898,
-      "maxBucket": 269,
-      "E": 3.4543874891411823
-    },
-    "ORANT": {
-      "rank": 8863,
-      "entropy": 5.539469785905617,
-      "expected": 84.74370112945249,
-      "maxBucket": 252,
-      "E": 3.454821894007255
     },
     "SCART": {
       "rank": 11237,
@@ -1910,13 +4542,6 @@
       "maxBucket": 304,
       "E": 3.4552562988720688
     },
-    "THALE": {
-      "rank": 12994,
-      "entropy": 5.55602135740935,
-      "expected": 87.29973935708061,
-      "maxBucket": 243,
-      "E": 3.4556907037367965
-    },
     "CLINE": {
       "rank": 2341,
       "entropy": 5.385678509022133,
@@ -1931,13 +4556,6 @@
       "maxBucket": 273,
       "E": 3.455690703737447
     },
-    "SLADE": {
-      "rank": 11816,
-      "entropy": 5.535562019807629,
-      "expected": 89.20417028670707,
-      "maxBucket": 272,
-      "E": 3.4561251086028677
-    },
     "TARNS": {
       "rank": 12815,
       "entropy": 5.425566832774494,
@@ -1951,6 +4569,657 @@
       "expected": 114.69070373588171,
       "maxBucket": 332,
       "E": 3.4561251086040845
+    },
+    "PLACE": {
+      "rank": 9558,
+      "entropy": 5.379127019612398,
+      "expected": 111.99044309296247,
+      "maxBucket": 331,
+      "E": 3.4578627280646397
+    },
+    "CREST": {
+      "rank": 2664,
+      "entropy": 5.461235889047345,
+      "expected": 97.88705473501285,
+      "maxBucket": 274,
+      "E": 3.458297132929539
+    },
+    "PLAST": {
+      "rank": 9575,
+      "entropy": 5.236081160943974,
+      "expected": 131.19461337966968,
+      "maxBucket": 404,
+      "E": 3.458731537795046
+    },
+    "SPALT": {
+      "rank": 12171,
+      "entropy": 5.203870289000323,
+      "expected": 131.0738488271068,
+      "maxBucket": 404,
+      "E": 3.4591659426601655
+    },
+    "CLINT": {
+      "rank": 2344,
+      "entropy": 5.0987959487772,
+      "expected": 141.80278019113825,
+      "maxBucket": 432,
+      "E": 3.4596003475251114
+    },
+    "SOCLE": {
+      "rank": 12026,
+      "entropy": 5.425176991612288,
+      "expected": 93.00434404865318,
+      "maxBucket": 245,
+      "E": 3.45960034752628
+    },
+    "CAPLE": {
+      "rank": 1972,
+      "entropy": 5.354741341256864,
+      "expected": 111.23718505647247,
+      "maxBucket": 331,
+      "E": 3.4600347523910098
+    },
+    "CLONE": {
+      "rank": 2358,
+      "entropy": 5.385376429627822,
+      "expected": 100.09296264118142,
+      "maxBucket": 277,
+      "E": 3.460034752391877
+    },
+    "SPART": {
+      "rank": 12181,
+      "entropy": 5.2969482661033895,
+      "expected": 121.05647263249332,
+      "maxBucket": 362,
+      "E": 3.4604691572560387
+    },
+    "CRUET": {
+      "rank": 2721,
+      "entropy": 5.446260364583874,
+      "expected": 101.5603822762813,
+      "maxBucket": 304,
+      "E": 3.460469157256776
+    },
+    "SCANT": {
+      "rank": 11229,
+      "entropy": 5.211629496157642,
+      "expected": 124.72371850564714,
+      "maxBucket": 386,
+      "E": 3.4617723718520423
+    },
+    "PORTE": {
+      "rank": 9784,
+      "entropy": 5.4627603636129365,
+      "expected": 96.57515204170274,
+      "maxBucket": 299,
+      "E": 3.4617723718521747
+    },
+    "SONCE": {
+      "rank": 12068,
+      "entropy": 5.391948627168227,
+      "expected": 102.43179843614234,
+      "maxBucket": 266,
+      "E": 3.461772371853604
+    },
+    "TROPE": {
+      "rank": 13414,
+      "entropy": 5.433332703933197,
+      "expected": 96.28670721112061,
+      "maxBucket": 299,
+      "E": 3.462206776717941
+    },
+    "SNORT": {
+      "rank": 12001,
+      "entropy": 5.350178178265787,
+      "expected": 110.21198957428315,
+      "maxBucket": 327,
+      "E": 3.462641181582277
+    },
+    "TAILS": {
+      "rank": 12734,
+      "entropy": 5.399574252020394,
+      "expected": 97.93049522154638,
+      "maxBucket": 312,
+      "E": 3.463509991312686
+    },
+    "DRONE": {
+      "rank": 3440,
+      "entropy": 5.4030814729672825,
+      "expected": 103.52215464813187,
+      "maxBucket": 320,
+      "E": 3.463509991313427
+    },
+    "CLADE": {
+      "rank": 2291,
+      "entropy": 5.383157477338643,
+      "expected": 106.96785403996508,
+      "maxBucket": 323,
+      "E": 3.4635099913145977
+    },
+    "PERST": {
+      "rank": 9349,
+      "entropy": 5.371224039363391,
+      "expected": 111.56993918331867,
+      "maxBucket": 324,
+      "E": 3.4635099913148593
+    },
+    "SLIPT": {
+      "rank": 11857,
+      "entropy": 5.052518447919506,
+      "expected": 156.55430060816676,
+      "maxBucket": 483,
+      "E": 3.463944396177238
+    },
+    "DANSE": {
+      "rank": 2890,
+      "entropy": 5.448158998237144,
+      "expected": 91.35273675065147,
+      "maxBucket": 272,
+      "E": 3.463944396178279
+    },
+    "DORSE": {
+      "rank": 3323,
+      "entropy": 5.447727443234508,
+      "expected": 96.55169417897466,
+      "maxBucket": 297,
+      "E": 3.464378801044092
+    },
+    "CAIRN": {
+      "rank": 1911,
+      "entropy": 5.367965149521914,
+      "expected": 106.75152041702844,
+      "maxBucket": 309,
+      "E": 3.4643788010444854
+    },
+    "PROLE": {
+      "rank": 9934,
+      "entropy": 5.455893069724134,
+      "expected": 92.04865334491738,
+      "maxBucket": 282,
+      "E": 3.464378801044658
+    },
+    "SHALT": {
+      "rank": 11483,
+      "entropy": 5.269436200049521,
+      "expected": 130.24239791485658,
+      "maxBucket": 411,
+      "E": 3.4656820156400974
+    },
+    "SCRAT": {
+      "rank": 11291,
+      "entropy": 5.341090846840762,
+      "expected": 107.75933970460461,
+      "maxBucket": 319,
+      "E": 3.4656820156413977
+    },
+    "TABLE": {
+      "rank": 12703,
+      "entropy": 5.428301349850024,
+      "expected": 97.87402258905283,
+      "maxBucket": 276,
+      "E": 3.466116420504085
+    },
+    "RINCE": {
+      "rank": 10715,
+      "entropy": 5.376517616423568,
+      "expected": 100.98262380538644,
+      "maxBucket": 289,
+      "E": 3.4661164205056063
+    },
+    "SATIN": {
+      "rank": 11176,
+      "entropy": 5.366805985586971,
+      "expected": 108.76889661164192,
+      "maxBucket": 344,
+      "E": 3.4665508253704176
+    },
+    "COAST": {
+      "rank": 2396,
+      "entropy": 5.386336599292738,
+      "expected": 106.45699391833175,
+      "maxBucket": 328,
+      "E": 3.466550825371024
+    },
+    "RANED": {
+      "rank": 10328,
+      "entropy": 5.448111948711735,
+      "expected": 94.54474370112929,
+      "maxBucket": 281,
+      "E": 3.466550825371462
+    },
+    "CARPE": {
+      "rank": 2003,
+      "entropy": 5.458173351538212,
+      "expected": 98.72198088618572,
+      "maxBucket": 304,
+      "E": 3.4669852302358395
+    },
+    "TRIOL": {
+      "rank": 13388,
+      "entropy": 5.43654967623084,
+      "expected": 89.14509122502162,
+      "maxBucket": 240,
+      "E": 3.467419635101652
+    },
+    "ANCLE": {
+      "rank": 501,
+      "entropy": 5.356994473996435,
+      "expected": 95.56038227628137,
+      "maxBucket": 271,
+      "E": 3.46741963510265
+    },
+    "BLATE": {
+      "rank": 1344,
+      "entropy": 5.42616437641779,
+      "expected": 98.61772371850547,
+      "maxBucket": 276,
+      "E": 3.4678540399662485
+    },
+    "PRICE": {
+      "rank": 9893,
+      "entropy": 5.3191844149920335,
+      "expected": 113.60382276281476,
+      "maxBucket": 334,
+      "E": 3.467854039967248
+    },
+    "TIRED": {
+      "rank": 13139,
+      "entropy": 5.413619056323335,
+      "expected": 102.09904430929605,
+      "maxBucket": 309,
+      "E": 3.4682884448314963
+    },
+    "PLANT": {
+      "rank": 9571,
+      "entropy": 5.1823185679729695,
+      "expected": 120.6272806255428,
+      "maxBucket": 355,
+      "E": 3.4682884448322335
+    },
+    "ROSIT": {
+      "rank": 10863,
+      "entropy": 5.350269001750271,
+      "expected": 101.41702867072102,
+      "maxBucket": 301,
+      "E": 3.468288444832278
+    },
+    "DANCE": {
+      "rank": 2882,
+      "entropy": 5.2936141841178666,
+      "expected": 111.09035621198943,
+      "maxBucket": 327,
+      "E": 3.4682884448326647
+    },
+    "CARTS": {
+      "rank": 2011,
+      "entropy": 5.313775483983662,
+      "expected": 106.556038227628,
+      "maxBucket": 319,
+      "E": 3.468288444832799
+    },
+    "DRICE": {
+      "rank": 3421,
+      "entropy": 5.331240013847334,
+      "expected": 113.18071242397902,
+      "maxBucket": 339,
+      "E": 3.468722849697352
+    },
+    "CAROL": {
+      "rank": 2000,
+      "entropy": 5.394140453983273,
+      "expected": 98.12423979148552,
+      "maxBucket": 276,
+      "E": 3.4687228496979166
+    },
+    "DENAR": {
+      "rank": 3043,
+      "entropy": 5.432665064834261,
+      "expected": 98.14161598609884,
+      "maxBucket": 281,
+      "E": 3.468722849698309
+    },
+    "SHART": {
+      "rank": 11498,
+      "entropy": 5.354341354774621,
+      "expected": 122.58818418766278,
+      "maxBucket": 352,
+      "E": 3.469157254562903
+    },
+    "CARON": {
+      "rank": 2002,
+      "entropy": 5.325348473260601,
+      "expected": 108.4335360556036,
+      "maxBucket": 312,
+      "E": 3.4691572545632945
+    },
+    "LAPSE": {
+      "rank": 6687,
+      "entropy": 5.425212575177371,
+      "expected": 99.34317984361411,
+      "maxBucket": 285,
+      "E": 3.469591659427195
+    },
+    "STARN": {
+      "rank": 12339,
+      "entropy": 5.383825696102469,
+      "expected": 97.82363162467406,
+      "maxBucket": 273,
+      "E": 3.469591659427977
+    },
+    "PATEL": {
+      "rank": 9174,
+      "entropy": 5.44598156316256,
+      "expected": 94.29452649869661,
+      "maxBucket": 255,
+      "E": 3.4695916594280622
+    },
+    "CREIN": {
+      "rank": 2654,
+      "entropy": 5.360411066080401,
+      "expected": 107.99913119026908,
+      "maxBucket": 289,
+      "E": 3.4695916594285414
+    },
+    "CONTE": {
+      "rank": 2499,
+      "entropy": 5.395429400352419,
+      "expected": 100.73153779322313,
+      "maxBucket": 285,
+      "E": 3.470026064292224
+    },
+    "CRIPE": {
+      "rank": 2681,
+      "entropy": 5.288208498497725,
+      "expected": 114.05734144222397,
+      "maxBucket": 334,
+      "E": 3.4700260642937013
+    },
+    "SPANE": {
+      "rank": 12173,
+      "entropy": 5.397502189901801,
+      "expected": 102.00260642919189,
+      "maxBucket": 284,
+      "E": 3.4700260642941387
+    },
+    "PREST": {
+      "rank": 9885,
+      "entropy": 5.348807494792797,
+      "expected": 115.17115551694162,
+      "maxBucket": 324,
+      "E": 3.470026064294269
+    },
+    "SLAIN": {
+      "rank": 11820,
+      "entropy": 5.38079163889123,
+      "expected": 104.20503909643772,
+      "maxBucket": 326,
+      "E": 3.4704604691587764
+    },
+    "PROST": {
+      "rank": 9950,
+      "entropy": 5.1846383395489095,
+      "expected": 132.54561251086002,
+      "maxBucket": 407,
+      "E": 3.4704604691589074
+    },
+    "PLAIT": {
+      "rank": 9565,
+      "entropy": 5.255810856215806,
+      "expected": 120.17723718505624,
+      "maxBucket": 361,
+      "E": 3.4704604691592538
+    },
+    "TRONS": {
+      "rank": 13411,
+      "entropy": 5.241690120056105,
+      "expected": 111.45525629887045,
+      "maxBucket": 327,
+      "E": 3.4708948740241508
+    },
+    "SURAT": {
+      "rank": 12570,
+      "entropy": 5.425326093590673,
+      "expected": 105.76107732406581,
+      "maxBucket": 301,
+      "E": 3.470894874024587
+    },
+    "SALON": {
+      "rank": 11104,
+      "entropy": 5.329289148493122,
+      "expected": 101.4092093831449,
+      "maxBucket": 298,
+      "E": 3.4708948740245873
+    },
+    "CLAIR": {
+      "rank": 2296,
+      "entropy": 5.426193938948189,
+      "expected": 96.1033883579495,
+      "maxBucket": 268,
+      "E": 3.471329278889837
+    },
+    "NEIST": {
+      "rank": 8330,
+      "entropy": 5.424489346525186,
+      "expected": 103.31537793223264,
+      "maxBucket": 300,
+      "E": 3.471329278889882
+    },
+    "PLIER": {
+      "rank": 9604,
+      "entropy": 5.361161405036313,
+      "expected": 103.33883579496072,
+      "maxBucket": 275,
+      "E": 3.471329278890051
+    },
+    "DRAPE": {
+      "rank": 3397,
+      "entropy": 5.361432504897631,
+      "expected": 106.44135534317971,
+      "maxBucket": 326,
+      "E": 3.4713292788900523
+    },
+    "CRIED": {
+      "rank": 2671,
+      "entropy": 5.296325017507215,
+      "expected": 117.51086012163319,
+      "maxBucket": 339,
+      "E": 3.471763683754259
+    },
+    "LANDE": {
+      "rank": 6673,
+      "entropy": 5.372545257393116,
+      "expected": 98.781928757602,
+      "maxBucket": 298,
+      "E": 3.4717636837544776
+    },
+    "CRAME": {
+      "rank": 2626,
+      "entropy": 5.435086846829969,
+      "expected": 102.11120764552554,
+      "maxBucket": 311,
+      "E": 3.4717636837549968
+    },
+    "CURET": {
+      "rank": 2786,
+      "entropy": 5.397484592765279,
+      "expected": 105.66377063423086,
+      "maxBucket": 304,
+      "E": 3.471763683756391
+    },
+    "PRINT": {
+      "rank": 9913,
+      "entropy": 5.128032725638533,
+      "expected": 137.97306689834937,
+      "maxBucket": 406,
+      "E": 3.4721980886200714
+    },
+    "TALON": {
+      "rank": 12765,
+      "entropy": 5.336205835256227,
+      "expected": 99.46915725456113,
+      "maxBucket": 275,
+      "E": 3.4721980886203307
+    },
+    "SALUT": {
+      "rank": 11115,
+      "entropy": 5.291979732383891,
+      "expected": 115.44743701129435,
+      "maxBucket": 358,
+      "E": 3.4726324934851456
+    },
+    "SNAIL": {
+      "rank": 11952,
+      "entropy": 5.335179524031583,
+      "expected": 106.09904430929609,
+      "maxBucket": 326,
+      "E": 3.472632493485579
+    },
+    "CLAPT": {
+      "rank": 2304,
+      "entropy": 5.0679219218722285,
+      "expected": 143.1346655082537,
+      "maxBucket": 430,
+      "E": 3.4726324934858406
+    },
+    "SINCE": {
+      "rank": 11681,
+      "entropy": 5.338377763226881,
+      "expected": 108.8948740225889,
+      "maxBucket": 311,
+      "E": 3.4726324934859685
+    },
+    "RONDE": {
+      "rank": 10819,
+      "entropy": 5.300032003481452,
+      "expected": 109.27628149435263,
+      "maxBucket": 320,
+      "E": 3.4730668983509125
+    },
+    "SPILT": {
+      "rank": 12238,
+      "entropy": 5.01641199492218,
+      "expected": 159.29278887923522,
+      "maxBucket": 483,
+      "E": 3.4730668983511706
+    },
+    "SIDLE": {
+      "rank": 11640,
+      "entropy": 5.336099219973388,
+      "expected": 106.81841876629008,
+      "maxBucket": 311,
+      "E": 3.473066898351173
+    },
+    "THOLE": {
+      "rank": 13045,
+      "entropy": 5.3508011853418145,
+      "expected": 96.85403996524744,
+      "maxBucket": 256,
+      "E": 3.4730668983516515
+    },
+    "SLIPE": {
+      "rank": 11855,
+      "entropy": 5.336733756417339,
+      "expected": 114.682015638575,
+      "maxBucket": 335,
+      "E": 3.4730668983517816
+    },
+    "TIARS": {
+      "rank": 13079,
+      "entropy": 5.459473671068484,
+      "expected": 90.06516072980003,
+      "maxBucket": 259,
+      "E": 3.4735013032159876
+    },
+    "PRONE": {
+      "rank": 9938,
+      "entropy": 5.3771934891254745,
+      "expected": 101.16854908774967,
+      "maxBucket": 302,
+      "E": 3.4735013032163775
+    },
+    "CLAME": {
+      "rank": 2297,
+      "entropy": 5.297068341745314,
+      "expected": 116.89400521285823,
+      "maxBucket": 331,
+      "E": 3.4735013032165107
+    },
+    "TARSI": {
+      "rank": 12824,
+      "entropy": 5.418760897415378,
+      "expected": 91.39009556907025,
+      "maxBucket": 259,
+      "E": 3.4739357080813207
+    },
+    "SPACE": {
+      "rank": 12153,
+      "entropy": 5.295716616740538,
+      "expected": 115.6324934839268,
+      "maxBucket": 312,
+      "E": 3.473935708081583
+    },
+    "PRISE": {
+      "rank": 9916,
+      "entropy": 5.432831156274459,
+      "expected": 100.31624674196331,
+      "maxBucket": 294,
+      "E": 3.473935708082016
+    },
+    "HEAST": {
+      "rank": 5403,
+      "entropy": 5.461990651542506,
+      "expected": 106.00608166811458,
+      "maxBucket": 282,
+      "E": 3.4739357080824083
+    },
+    "PROSE": {
+      "rank": 9947,
+      "entropy": 5.388234713966686,
+      "expected": 101.22328410078173,
+      "maxBucket": 292,
+      "E": 3.47437011294644
+    },
+    "CARED": {
+      "rank": 1987,
+      "entropy": 5.43201527562966,
+      "expected": 99.02085143353594,
+      "maxBucket": 305,
+      "E": 3.474370112946659
+    },
+    "LEAPT": {
+      "rank": 6774,
+      "entropy": 5.417370531089613,
+      "expected": 96.33883579496077,
+      "maxBucket": 255,
+      "E": 3.4743701129469615
+    },
+    "COSTE": {
+      "rank": 2565,
+      "entropy": 5.380039581042831,
+      "expected": 98.70894874022575,
+      "maxBucket": 258,
+      "E": 3.474370112947481
+    },
+    "SAUNT": {
+      "rank": 11188,
+      "entropy": 5.288965808460233,
+      "expected": 120.85056472632478,
+      "maxBucket": 373,
+      "E": 3.4743701129477436
+    },
+    "PANCE": {
+      "rank": 9080,
+      "entropy": 5.267257984897624,
+      "expected": 113.95482189400511,
+      "maxBucket": 325,
+      "E": 3.4743701129478293
+    },
+    "PASTE": {
+      "rank": 9167,
+      "entropy": 5.423366987616337,
+      "expected": 99.83231972198074,
+      "maxBucket": 287,
+      "E": 3.474804517812947
     }
   }
 }
