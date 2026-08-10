@@ -3227,6 +3227,7 @@ let lastFirstGuessLabel = "";
 let lastFirstGuessMetricKey = "E"; // default
 const _firstGuessCache = new Map();
 
+const FIRST_GUESS_ADVISOR_ENABLED = true;
 const FIRST_GUESS_DISPLAY_TOP_N = 300;
 
 /**
@@ -3386,6 +3387,7 @@ function renderFirstGuessRows(rows, label){
 }
 
 async function runFirstGuessSuggest(metricKey="E"){
+  if (!FIRST_GUESS_ADVISOR_ENABLED) return;
   const note = byId("fwStatus");
   const hard = !!byId("fwHardMode")?.checked;
   const poolSel = byId("fwGuessPool");
@@ -3435,6 +3437,37 @@ async function runFirstGuessSuggest(metricKey="E"){
   } finally {
     // Do not quantize other panels (recommender/analyzer are approximations)
     HOVER_QUANTIZE_DENOM = null;
+  }
+}
+
+function updateFirstGuessAdvisorAvailability() {
+  const toggle = byId("firstGuessToggle");
+  const content = byId("firstGuessContent");
+  const badge = byId("firstGuessStatusBadge");
+
+  if (!toggle) return;
+
+  if (FIRST_GUESS_ADVISOR_ENABLED) {
+    toggle.removeAttribute("aria-disabled");
+    toggle.classList.remove("disabled");
+
+    if (badge) {
+      badge.textContent = `Top ${FIRST_GUESS_DISPLAY_TOP_N}`;
+      badge.classList.remove("updating");
+    }
+  } else {
+    toggle.setAttribute("aria-disabled", "true");
+    toggle.classList.add("disabled");
+    toggle.classList.remove("open");
+
+    if (content) {
+      content.style.display = "none";
+    }
+
+    if (badge) {
+      badge.textContent = "Updating...";
+      badge.classList.add("updating");
+    }
   }
 }
 
@@ -3742,6 +3775,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (!header || !content) return;
 
     header.addEventListener("click", function () {
+      if (header.getAttribute("aria-disabled") === "true") return;
       const isHidden = (content.style.display === "none" || content.style.display === "");
       // Toggle display
       content.style.display = isHidden ? "block" : "none";
@@ -3763,6 +3797,8 @@ document.addEventListener("DOMContentLoaded", function() {
   attachToggle("searchHelpToggle",  "searchHelpContent");
   attachToggle("disclaimerToggle",  "disclaimerContent");
   attachToggle("contactToggle",  "contactContent");
+  
+  updateFirstGuessAdvisorAvailability();
 });
 
 document.addEventListener("DOMContentLoaded", () => {
