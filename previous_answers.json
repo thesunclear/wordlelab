@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1881,
-  "updatedThroughDate": "2026-08-13",
+  "updatedThrough": 1882,
+  "updatedThroughDate": "2026-08-14",
   "answers": [
     {
       "number": 0,
@@ -9426,6 +9426,11 @@
       "number": 1881,
       "word": "CRASH",
       "date": "2026-08-13"
+    },
+    {
+      "number": 1882,
+      "word": "GEODE",
+      "date": "2026-08-14"
     }
   ]
 }
