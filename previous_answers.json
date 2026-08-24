@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1891,
-  "updatedThroughDate": "2026-08-23",
+  "updatedThrough": 1892,
+  "updatedThroughDate": "2026-08-24",
   "answers": [
     {
       "number": 0,
@@ -9476,6 +9476,11 @@
       "number": 1891,
       "word": "OLDEN",
       "date": "2026-08-23"
+    },
+    {
+      "number": 1892,
+      "word": "RUNNY",
+      "date": "2026-08-24"
     }
   ]
 }
