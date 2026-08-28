@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1895,
-  "updatedThroughDate": "2026-08-27",
+  "updatedThrough": 1896,
+  "updatedThroughDate": "2026-08-28",
   "answers": [
     {
       "number": 0,
@@ -9496,6 +9496,11 @@
       "number": 1895,
       "word": "UNCUT",
       "date": "2026-08-27"
+    },
+    {
+      "number": 1896,
+      "word": "TWEEN",
+      "date": "2026-08-28"
     }
   ]
 }
