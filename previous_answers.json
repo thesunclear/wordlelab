@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1897,
-  "updatedThroughDate": "2026-08-29",
+  "updatedThrough": 1898,
+  "updatedThroughDate": "2026-08-30",
   "answers": [
     {
       "number": 0,
@@ -9506,6 +9506,11 @@
       "number": 1897,
       "word": "BLOOD",
       "date": "2026-08-29"
+    },
+    {
+      "number": 1898,
+      "word": "INTEL",
+      "date": "2026-08-30"
     }
   ]
 }
