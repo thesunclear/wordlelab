@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1921,
-  "updatedThroughDate": "2026-09-22",
+  "updatedThrough": 1922,
+  "updatedThroughDate": "2026-09-23",
   "answers": [
     {
       "number": 0,
@@ -9626,6 +9626,11 @@
       "number": 1921,
       "word": "STOKE",
       "date": "2026-09-22"
+    },
+    {
+      "number": 1922,
+      "word": "FORTH",
+      "date": "2026-09-23"
     }
   ]
 }
