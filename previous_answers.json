@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1922,
-  "updatedThroughDate": "2026-09-23",
+  "updatedThrough": 1923,
+  "updatedThroughDate": "2026-09-24",
   "answers": [
     {
       "number": 0,
@@ -9631,6 +9631,11 @@
       "number": 1922,
       "word": "FORTH",
       "date": "2026-09-23"
+    },
+    {
+      "number": 1923,
+      "word": "MESSY",
+      "date": "2026-09-24"
     }
   ]
 }
