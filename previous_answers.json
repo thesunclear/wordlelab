@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1928,
-  "updatedThroughDate": "2026-09-29",
+  "updatedThrough": 1929,
+  "updatedThroughDate": "2026-09-30",
   "answers": [
     {
       "number": 0,
@@ -9661,6 +9661,11 @@
       "number": 1928,
       "word": "SCUBA",
       "date": "2026-09-29"
+    },
+    {
+      "number": 1929,
+      "word": "RIVER",
+      "date": "2026-09-30"
     }
   ]
 }
