@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1930,
-  "updatedThroughDate": "2026-10-01",
+  "updatedThrough": 1931,
+  "updatedThroughDate": "2026-10-02",
   "answers": [
     {
       "number": 0,
@@ -9671,6 +9671,11 @@
       "number": 1930,
       "word": "RITZY",
       "date": "2026-10-01"
+    },
+    {
+      "number": 1931,
+      "word": "USURY",
+      "date": "2026-10-02"
     }
   ]
 }
