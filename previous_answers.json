@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1932,
-  "updatedThroughDate": "2026-10-03",
+  "updatedThrough": 1933,
+  "updatedThroughDate": "2026-10-04",
   "answers": [
     {
       "number": 0,
@@ -9681,6 +9681,11 @@
       "number": 1932,
       "word": "PEEVE",
       "date": "2026-10-03"
+    },
+    {
+      "number": 1933,
+      "word": "SHACK",
+      "date": "2026-10-04"
     }
   ]
 }
