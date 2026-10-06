@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1934,
-  "updatedThroughDate": "2026-10-05",
+  "updatedThrough": 1935,
+  "updatedThroughDate": "2026-10-06",
   "answers": [
     {
       "number": 0,
@@ -9691,6 +9691,11 @@
       "number": 1934,
       "word": "MOCHA",
       "date": "2026-10-05"
+    },
+    {
+      "number": 1935,
+      "word": "DIMLY",
+      "date": "2026-10-06"
     }
   ]
 }
