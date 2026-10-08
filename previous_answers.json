@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1936,
-  "updatedThroughDate": "2026-10-07",
+  "updatedThrough": 1937,
+  "updatedThroughDate": "2026-10-08",
   "answers": [
     {
       "number": 0,
@@ -9701,6 +9701,11 @@
       "number": 1936,
       "word": "PROVE",
       "date": "2026-10-7"
+    },
+    {
+      "number": 1937,
+      "word": "STREW",
+      "date": "2026-10-8"
     }
   ]
 }
