@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1949,
-  "updatedThroughDate": "2026-10-20",
+  "updatedThrough": 1950,
+  "updatedThroughDate": "2026-10-21",
   "answers": [
     {
       "number": 0,
@@ -9766,6 +9766,11 @@
       "number": 1949,
       "word": "WREST",
       "date": "2026-10-20"
+    },
+    {
+      "number": 1950,
+      "word": "PENNY",
+      "date": "2026-10-21"
     }
   ]
 }
