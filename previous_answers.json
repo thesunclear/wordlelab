@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1954,
-  "updatedThroughDate": "2026-10-25",
+  "updatedThrough": 1955,
+  "updatedThroughDate": "2026-10-26",
   "answers": [
     {
       "number": 0,
@@ -9791,6 +9791,11 @@
       "number": 1954,
       "word": "DRESS",
       "date": "2026-10-25"
+    },
+    {
+      "number": 1955,
+      "word": "GEEKY",
+      "date": "2026-10-26"
     }
   ]
 }
