@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1958,
-  "updatedThroughDate": "2026-10-29",
+  "updatedThrough": 1959,
+  "updatedThroughDate": "2026-10-30",
   "answers": [
     {
       "number": 0,
@@ -9811,6 +9811,11 @@
       "number": 1958,
       "word": "MOTOR",
       "date": "2026-10-29"
+    },
+    {
+      "number": 1959,
+      "word": "SLIDE",
+      "date": "2026-10-30"
     }
   ]
 }
