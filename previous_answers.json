@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1961,
-  "updatedThroughDate": "2026-11-01",
+  "updatedThrough": 1962,
+  "updatedThroughDate": "2026-11-02",
   "answers": [
     {
       "number": 0,
@@ -9826,6 +9826,11 @@
       "number": 1961,
       "word": "VIPER",
       "date": "2026-11-01"
+    },
+    {
+      "number": 1962,
+      "word": "SCOOT",
+      "date": "2026-11-02"
     }
   ]
 }
