@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1964,
-  "updatedThroughDate": "2026-11-04",
+  "updatedThrough": 1965,
+  "updatedThroughDate": "2026-11-05",
   "answers": [
     {
       "number": 0,
@@ -9841,6 +9841,11 @@
       "number": 1964,
       "word": "NUTTY",
       "date": "2026-11-04"
+    },
+    {
+      "number": 1965,
+      "word": "PARCH",
+      "date": "2026-11-05"
     }
   ]
 }
