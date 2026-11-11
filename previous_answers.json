@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1971,
-  "updatedThroughDate": "2026-11-11",
+  "updatedThrough": 1972,
+  "updatedThroughDate": "2026-11-12",
   "answers": [
     {
       "number": 0,
@@ -9876,6 +9876,11 @@
       "number": 1971,
       "word": "BLESS",
       "date": "2026-11-11"
+    },
+    {
+      "number": 1972,
+      "word": "KARAT",
+      "date": "2026-11-12"
     }
   ]
 }
