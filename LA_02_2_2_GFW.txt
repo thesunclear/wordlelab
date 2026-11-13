@@ -1,0 +1,372 @@
+============================= VLESS TCP TLS_Vision [推荐] ==============================
+
+
+ ---> 账号:fb0e906d-VLESS_TCP/TLS_Vision
+
+ ---> 通用格式(VLESS+TCP+TLS_Vision)
+    vless://fb0e906d-8cec-4090-86d2-c0bd1a167ab2@la-02.fieldsmedal.net:443?encryption=none&security=tls&fp=chrome&type=tcp&host=la-02.fieldsmedal.net&headerType=none&sni=la-02.fieldsmedal.net&flow=xtls-rprx-vision#fb0e906d-VLESS_TCP/TLS_Vision
+
+ ---> 格式化明文(VLESS+TCP+TLS_Vision)
+协议类型:VLESS，地址:la-02.fieldsmedal.net，端口:443，用户ID:fb0e906d-8cec-4090-86d2-c0bd1a167ab2，安全:tls，client-fingerprint: chrome，传输方式:tcp，flow:xtls-rprx-vision，账户名:fb0e906d-VLESS_TCP/TLS_Vision
+
+ ---> 二维码 VLESS(VLESS+TCP+TLS_Vision)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vless%3A%2F%2Ffb0e906d-8cec-4090-86d2-c0bd1a167ab2%40la-02.fieldsmedal.net%3A443%3Fencryption%3Dnone%26fp%3Dchrome%26security%3Dtls%26type%3Dtcp%26la-02.fieldsmedal.net%3Dla-02.fieldsmedal.net%26headerType%3Dnone%26sni%3Dla-02.fieldsmedal.net%26flow%3Dxtls-rprx-vision%23fb0e906d-VLESS_TCP/TLS_Vision
+
+
+================================ VLESS WS TLS [仅CDN推荐] ================================
+
+
+
+ ---> 账号:fb0e906d-VLESS_WS
+ ---> 通用格式(VLESS+WS+TLS)
+    vless://fb0e906d-8cec-4090-86d2-c0bd1a167ab2@la-02.fieldsmedal.net:443?encryption=none&security=tls&type=ws&host=la-02.fieldsmedal.net&sni=la-02.fieldsmedal.net&fp=chrome&path=/dtucws#fb0e906d-VLESS_WS
+
+ ---> 格式化明文(VLESS+WS+TLS)
+    协议类型:VLESS，地址:la-02.fieldsmedal.net，伪装域名/SNI:la-02.fieldsmedal.net，端口:443，client-fingerprint: chrome,用户ID:fb0e906d-8cec-4090-86d2-c0bd1a167ab2，安全:tls，传输方式:ws，路径:/dtucws，账户名:fb0e906d-VLESS_WS
+
+ ---> 二维码 VLESS(VLESS+WS+TLS)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vless%3A%2F%2Ffb0e906d-8cec-4090-86d2-c0bd1a167ab2%40la-02.fieldsmedal.net%3A443%3Fencryption%3Dnone%26security%3Dtls%26type%3Dws%26host%3Dla-02.fieldsmedal.net%26fp%3Dchrome%26sni%3Dla-02.fieldsmedal.net%26path%3D/dtucws%23fb0e906d-VLESS_WS
+
+
+================================ VMess WS TLS [仅CDN推荐]  ================================
+
+
+ ---> 账号:fb0e906d-VMess_WS
+
+ ---> 通用json(VMess+WS+TLS)
+    {"port":443,"ps":"fb0e906d-VMess_WS","tls":"tls","id":"fb0e906d-8cec-4090-86d2-c0bd1a167ab2","aid":0,"v":2,"host":"la-02.fieldsmedal.net","type":"none","path":"/dtucvws","net":"ws","add":"la-02.fieldsmedal.net","method":"none","peer":"la-02.fieldsmedal.net","sni":"la-02.fieldsmedal.net"}
+
+ ---> 通用vmess(VMess+WS+TLS)链接
+    vmess://eyJwb3J0Ijo0NDMsInBzIjoiZmIwZTkwNmQtVk1lc3NfV1MiLCJ0bHMiOiJ0bHMiLCJpZCI6ImZiMGU5MDZkLThjZWMtNDA5MC04NmQyLWMwYmQxYTE2N2FiMiIsImFpZCI6MCwidiI6MiwiaG9zdCI6ImxhLTAyLmZpZWxkc21lZGFsLm5ldCIsInR5cGUiOiJub25lIiwicGF0aCI6Ii9kdHVjdndzIiwibmV0Ijoid3MiLCJhZGQiOiJsYS0wMi5maWVsZHNtZWRhbC5uZXQiLCJtZXRob2QiOiJub25lIiwicGVlciI6ImxhLTAyLmZpZWxkc21lZGFsLm5ldCIsInNuaSI6ImxhLTAyLmZpZWxkc21lZGFsLm5ldCJ9
+
+ ---> 二维码 vmess(VMess+WS+TLS)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vmess://eyJwb3J0Ijo0NDMsInBzIjoiZmIwZTkwNmQtVk1lc3NfV1MiLCJ0bHMiOiJ0bHMiLCJpZCI6ImZiMGU5MDZkLThjZWMtNDA5MC04NmQyLWMwYmQxYTE2N2FiMiIsImFpZCI6MCwidiI6MiwiaG9zdCI6ImxhLTAyLmZpZWxkc21lZGFsLm5ldCIsInR5cGUiOiJub25lIiwicGF0aCI6Ii9kdHVjdndzIiwibmV0Ijoid3MiLCJhZGQiOiJsYS0wMi5maWVsZHNtZWRhbC5uZXQiLCJtZXRob2QiOiJub25lIiwicGVlciI6ImxhLTAyLmZpZWxkc21lZGFsLm5ldCIsInNuaSI6ImxhLTAyLmZpZWxkc21lZGFsLm5ldCJ9
+
+
+==================================  Trojan TLS [不推荐] ==================================
+
+
+ ---> 账号:fb0e906d-trojan_tcp
+ ---> Trojan(TLS)
+    trojan://fb0e906d-8cec-4090-86d2-c0bd1a167ab2@la-02.fieldsmedal.net:443?peer=la-02.fieldsmedal.net&fp=chrome&sni=la-02.fieldsmedal.net&alpn=http/1.1#la-02.fieldsmedal.net_Trojan
+
+ ---> 二维码 Trojan(TLS)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=trojan%3a%2f%2ffb0e906d-8cec-4090-86d2-c0bd1a167ab2%40la-02.fieldsmedal.net%3a443%3fpeer%3dla-02.fieldsmedal.net%26fp%3Dchrome%26sni%3dla-02.fieldsmedal.net%26alpn%3Dhttp/1.1%23fb0e906d-trojan_tcp
+
+
+================================  Hysteria2 TLS [推荐] ================================
+
+
+ ---> 账号:fb0e906d-xray_hysteria2
+
+ ---> Hysteria(TLS)
+    hysteria2://fb0e906d-8cec-4090-86d2-c0bd1a167ab2@la-02.fieldsmedal.net:23080?upmbps=50&downmbps=100&peer=la-02.fieldsmedal.net&insecure=0&sni=la-02.fieldsmedal.net&alpn=h3#fb0e906d-xray_hysteria2
+
+ ---> v2rayN(hysteria+TLS)
+{
+  "server": "la-02.fieldsmedal.net:23080",
+  "socks5": {
+    "listen": "127.0.0.1:7798",
+    "timeout": 300
+  },
+  "auth": "fb0e906d-8cec-4090-86d2-c0bd1a167ab2",
+  "tls": {
+    "sni": "la-02.fieldsmedal.net"
+  }
+}
+ ---> 二维码 Hysteria2(TLS)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=hysteria2%3A%2F%2Ffb0e906d-8cec-4090-86d2-c0bd1a167ab2%40la-02.fieldsmedal.net%3A23080%3Fupmbps%3D50%26downmbps%3D100%26peer%3Dla-02.fieldsmedal.net%26insecure%3D0%26sni%3Dla-02.fieldsmedal.net%26alpn%3Dh3%23fb0e906d-xray_hysteria2
+
+============================= VLESS reality_vision [推荐]  ==============================
+
+
+ ---> 账号:fb0e906d-vless_reality_vision
+
+ ---> 通用格式(VLESS+reality+uTLS+Vision)
+    vless://fb0e906d-8cec-4090-86d2-c0bd1a167ab2@la-02.fieldsmedal.net:12697?encryption=none&security=reality&type=tcp&sni=la-02.fieldsmedal.net&fp=chrome&pbk=pSzJcqdeOrlbAmUgB2-ttQljzMrr93c0Kdf4ZC5j_z4&sid=6ba85179e30d4fc2&flow=xtls-rprx-vision#fb0e906d-vless_reality_vision
+
+ ---> 格式化明文(VLESS+reality+uTLS+Vision)
+协议类型:VLESS reality，地址:la-02.fieldsmedal.net，publicKey:pSzJcqdeOrlbAmUgB2-ttQljzMrr93c0Kdf4ZC5j_z4，shortId: 6ba85179e30d4fc2，serverNames：la-02.fieldsmedal.net，端口:12697，用户ID:fb0e906d-8cec-4090-86d2-c0bd1a167ab2，传输方式:tcp，账户名:fb0e906d-vless_reality_vision
+
+ ---> 二维码 VLESS(VLESS+reality+uTLS+Vision)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vless%3A%2F%2Ffb0e906d-8cec-4090-86d2-c0bd1a167ab2%40la-02.fieldsmedal.net%3A12697%3Fencryption%3Dnone%26security%3Dreality%26type%3Dtcp%26sni%3Dla-02.fieldsmedal.net%26fp%3Dchrome%26pbk%3DpSzJcqdeOrlbAmUgB2-ttQljzMrr93c0Kdf4ZC5j_z4%26sid%3D6ba85179e30d4fc2%26flow%3Dxtls-rprx-vision%23fb0e906d-vless_reality_vision
+
+
+================================  Tuic TLS [推荐]  ================================
+
+
+ ---> 账号:fb0e906d-singbox_tuic
+
+ ---> 格式化明文(Tuic+TLS)
+    协议类型:Tuic，地址:la-02.fieldsmedal.net，端口：27853，uuid：fb0e906d-8cec-4090-86d2-c0bd1a167ab2，password：fb0e906d-8cec-4090-86d2-c0bd1a167ab2，congestion-controller:bbr，alpn: h3，账户名:fb0e906d-singbox_tuic
+
+ ---> v2rayN(Tuic+TLS)
+{
+  "relay": {
+    "server": "la-02.fieldsmedal.net:27853",
+    "uuid": "fb0e906d-8cec-4090-86d2-c0bd1a167ab2",
+    "password": "fb0e906d-8cec-4090-86d2-c0bd1a167ab2",
+    "ip": "la-02.fieldsmedal.net",
+    "congestion_control": "bbr",
+    "alpn": [
+      "h3"
+    ]
+  },
+  "local": {
+    "server": "127.0.0.1:7798"
+  },
+  "log_level": "warn"
+}
+
+ ---> 二维码 Tuic
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=tuic%3A%2F%2Ffb0e906d-8cec-4090-86d2-c0bd1a167ab2%3Afb0e906d-8cec-4090-86d2-c0bd1a167ab2%40la-02.fieldsmedal.net%3A27853%3Fcongestion_control%3Dbbr%26alpn%3Dh3%26sni%3Dla-02.fieldsmedal.net%26udp_relay_mode%3Dquic%26allow_insecure%3D0%23fb0e906d-singbox_tuic
+
+
+================================ VLESS REALITY XHTTP ================================
+
+
+
+ ---> 账号:fb0e906d-VLESS_Reality_XHTTP
+ ---> 通用格式(VLESS+reality+XHTTP)
+    vless://fb0e906d-8cec-4090-86d2-c0bd1a167ab2@la-02.fieldsmedal.net:16742?encryption=none&security=reality&type=xhttp&sni=la-02.fieldsmedal.net&host=la-02.fieldsmedal.net&fp=chrome&path=dtucxHTTP&pbk=pSzJcqdeOrlbAmUgB2-ttQljzMrr93c0Kdf4ZC5j_z4&sid=6ba85179e30d4fc2#fb0e906d-VLESS_Reality_XHTTP
+
+ ---> 格式化明文(VLESS+reality+XHTTP)
+协议类型:VLESS reality，地址:la-02.fieldsmedal.net，publicKey:pSzJcqdeOrlbAmUgB2-ttQljzMrr93c0Kdf4ZC5j_z4，shortId: 6ba85179e30d4fc2,serverNames：la-02.fieldsmedal.net，端口:16742，路径：dtucxHTTP，SNI:la-02.fieldsmedal.net，伪装域名:la-02.fieldsmedal.net，用户ID:fb0e906d-8cec-4090-86d2-c0bd1a167ab2，传输方式:xhttp，账户名:fb0e906d-VLESS_Reality_XHTTP
+
+ ---> 二维码 VLESS(VLESS+reality+XHTTP)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vless%3A%2F%2Ffb0e906d-8cec-4090-86d2-c0bd1a167ab2%40la-02.fieldsmedal.net%3A16742%3Fencryption%3Dnone%26security%3Dreality%26type%3Dxhttp%26sni%3Dla-02.fieldsmedal.net%26fp%3Dchrome%26path%3DdtucxHTTP%26host%3Dla-02.fieldsmedal.net%26pbk%3DpSzJcqdeOrlbAmUgB2-ttQljzMrr93c0Kdf4ZC5j_z4%26sid%3D6ba85179e30d4fc2%23fb0e906d-VLESS_Reality_XHTTP
+
+
+
+================================ VLESS XHTTP TLS [支持CDN] ================================
+
+
+ ---> 账号:fb0e906d-VLESS_XHTTP_TLS
+ ---> 通用格式(VLESS+XHTTP+TLS)
+    vless://fb0e906d-8cec-4090-86d2-c0bd1a167ab2@la-02.fieldsmedal.net:14218?encryption=none&security=tls&type=xhttp&sni=la-02.fieldsmedal.net&host=la-02.fieldsmedal.net&fp=chrome&alpn=h2&path=%2FdtucxHTTP&mode=auto#fb0e906d-VLESS_XHTTP_TLS
+ ---> 格式化明文(VLESS+XHTTP+TLS)
+协议类型:VLESS，地址:la-02.fieldsmedal.net，伪装域名/SNI:la-02.fieldsmedal.net，端口:14218，用户ID:fb0e906d-8cec-4090-86d2-c0bd1a167ab2，安全:tls，传输方式:xhttp，路径:dtucxHTTP，模式:auto，账户名:fb0e906d-VLESS_XHTTP_TLS
+
+ ---> 二维码 VLESS(VLESS+XHTTP+TLS)
+    https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=vless%3A%2F%2Ffb0e906d-8cec-4090-86d2-c0bd1a167ab2%40la-02.fieldsmedal.net%3A14218%3Fencryption%3Dnone%26security%3Dtls%26type%3Dxhttp%26sni%3Dla-02.fieldsmedal.net%26host%3Dla-02.fieldsmedal.net%26fp%3Dchrome%26alpn%3Dh2%26path%3D%252FdtucxHTTP%26mode%3Dauto%23fb0e906d-VLESS_XHTTP_TLS
+
+
+请选择要查看的用户:
+1.fb0e906d
+请输入:1
+ ---> 尚未初始化订阅服务，正在生成/更新订阅。
+-------------------------备注---------------------------------
+# 查看订阅会重新生成本地账号的订阅
+# 需要手动输入md5加密的salt值，如果不了解使用随机即可
+# 不影响已添加的远程订阅的内容
+
+请输入salt值, [回车]使用随机:
+
+ ---> Salt: engtajgroc
+--------------------------------------------------------------
+ ---> 下载 sing-box 通用配置文件
+/etc/v2ray-agent/subscribe.new.mxc32g/sing 100%[========================================================================================>]  10.85K  --.-KB/s    in 0s
+==============================================================
+
+用户订阅
+
+用户 fb0e906d  /  可用订阅 3 种
+==============================================================
+01  通用订阅
+适用于 v2rayN、v2rayNG 等客户端
+
+订阅链接
+
+https://la-02.fieldsmedal.net:21347/s/default/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+█ ▄▄▄▄▄ █▀ █▀▀██▄▄▄▀▄▀▀▄▄▄▀▄▀▀█ ▄▄▄▄▄ █
+█ █   █ █▀ ▄ ██▄█ ▀▀█▄▄█▄ ▀▄ ▀█ █   █ █
+█ █▄▄▄█ █▀█ █▄   ▀▀▀▄▄▀▄▄▀█ ▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█▄█ ▀▄▀▄█▄█ ▀▄█▄█▄█▄█▄▄▄▄▄▄▄█
+█   ▄▄█▄ ▄ ▄█▄█▄ ▀▄▄▀▄█▀▀▄▄▀▄▄▄█ █ ▀ ██
+██▀▀ ▀█▄█▀   ▄█▀█▀▄██▀ ▀█▀▄ ▄█▄ ▀▀ ▄▀▄█
+█   █▄▄▄▄▀ ▄▄▀▀▀▀▄▄▀▀▀▀▀▀▀ ██▄ ▄▀▄▄ ▀▄█
+█ ▀▀ ▀ ▄██▀██▀ ▄ ▄███  █▀▄▄  ▀▀▄ █▀▄▄ █
+█  ▄▄▀▄▄▄██ █▄█▄ ▀▄▀▀▄▀▀▀▄▄ ▄ ▄▄▀▄▄ ▀▄█
+█▄▀▄ █▀▄▄▀ ▀ ▄█▀█▀▄▄█▄▀ ▀█▄▀   ▀▄▀█▄▄ █
+█▄██  █▄ █▀▄▄▀▀▀▀▄▄▀▀▀▀▄   █▄▀▄▄▀▄▄  ▄█
+██▀▄▄▀▀▄ █▀██▀ ▄ ▄█▄█▄ ▄█▄▄ ▄▀  ▀▄▄█▄ █
+█▀▄▄▀▀█▄▀ ▄▀█▄█▄ ▀▄▀▀▄█▀▀█▄▄█▀▄▄▀▄ ▄ ▄█
+█ ██▀ ▄▄█▄▄▄ ▄█▀█▀█▀█▄ ▀█▄█▄▄▀▄ ▀ ▀█▄ █
+█▄█████▄█ ▀█▄▀▀▀▀█ ▄▀▀▀▄ ▄▄▄▀ ▄▄▄ ▄ ███
+█ ▄▄▄▄▄ █▄█ █▀ ▄▄██▄▀▄▀████ ▀ █▄█ ▀█ ▄█
+█ █   █ █ ▄▄█▄█▄▀█▄▀▀▄▀▄▀█▄▄ ▄  ▄ ▀▄▄▀█
+█ █▄▄▄█ █ ██ ▄█▀▄▀▄▄█▄▀██▀▄▄▀ █▀█▀ █▄ █
+█▄▄▄▄▄▄▄█▄█▄▄███▄▄▄▄▄▄███▄▄▄██▄▄███▄▄▄█
+
+在线二维码
+
+https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://la-02.fieldsmedal.net:21347/s/default/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+==============================================================
+02  Mihomo 订阅
+适用于 Clash Verge Rev 等客户端
+
+订阅链接
+
+https://la-02.fieldsmedal.net:21347/s/clashMetaProfiles/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+█ ▄▄▄▄▄ █▀ █▀▀▀█▀ ▀ ▄▄▄▀▄█▀▄▀▀█ ▄▄▄▄▄ █
+█ █   █ █▀ ▄ █▀▄▄▀▀ ▄█▄▀ ▀▀▄ ▀█ █   █ █
+█ █▄▄▄█ █▀█ █▄▀ ▀█▄▀▄ ▀█▄▀█ ▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█▄█ █▄▀ █▄█▄▀ ▀ █▄█▄█▄▄▄▄▄▄▄█
+█  ▄ ▄█▄   ▄█▄▀█▄▀▄▄ ▄█▄▀█▄▀▄▄▄█ █ ▀ ██
+█▀ █▄▀█▄▄▀▀▄ ▄▄█ ▄▄▄█▀ ▄█ ▄ ▄█▄ ▀▀ ▄▀▄█
+█▄▀▀▄█▄▄▀█▄█▄▀▀█▄▀▄▀▀▀▀▄██ ██▄ ▄▀▄▄ ▀▄█
+█ ▀ ▀ ▄▄█▀ ██▀ ▄▄▄█▄▀   █▀▄  ▀▀▄ █▀▄▄ █
+█  ▀  █▄    █▄█▄▄▀▄▄▀▄▀ ▀▄▄ ▄ ▄▄▀▄▄ ▀▄█
+█▄▀ ▀ ▄▄   ▀ ▄█▀  █▄██▀▀█▄▄▀   ▀▄▀█▄▄ █
+█▄▀▀▀▄ ▄▀█▀ ▄▀▀▀▄▀▄▀▀▄██▀█ █▄▀▄▄▀▄▄  ▄█
+█▀▀ ▄ ▄▄█▀█ █▀ ▄▄ █▄█▄▀ ██▄ ▄▀  ▀▄▄█▄ █
+█ █ ▀▄ ▄▀▀▄ █▄█▄▄▄▄▄ ▄▀▄▀▄▄▄█▀▄▄▀▄ ▄ ▄█
+█ █ ▀▀▄▄   ▀ ▄█▀▄▄████▀▄██▄▀▄▀▄ ▀ ▀█▄ █
+█▄█▄▄█▄▄▄▀▄▄▄▀▀▀▄▄▄▀ ▄▀▀▄▄ ▄▀ ▄▄▄ ▄ ███
+█ ▄▄▄▄▄ █▄███▀ ▄ ▄█▀██ ▀█ █▄▀ █▄█ ▀█  █
+█ █   █ █ █▀█▄█▄█▄▄▄ ▄▀▄ ▄▄▄ ▄  ▄ ▀▄▀▀█
+█ █▄▄▄█ █ ▀█ ▄█▀  █▀▀▄ ▄▀▀█▀▀ █▀█▀ █▄ █
+█▄▄▄▄▄▄▄█▄▄▄▄███▄█▄████▄██▄▄██▄▄███▄▄▄█
+
+在线二维码
+
+https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://la-02.fieldsmedal.net:21347/s/clashMetaProfiles/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+==============================================================
+03  sing-box 订阅
+适用于 sing-box 客户端
+
+订阅链接
+
+https://la-02.fieldsmedal.net:21347/s/sing-box/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+█ ▄▄▄▄▄ █▀█ █▄   ▀█▄▄▄▄█▄▀▀▄▀▀█ ▄▄▄▄▄ █
+█ █   █ █▀▀▀█ ▄▀ █▀▀█ ▄▄█▀▀▄ ▀█ █   █ █
+█ █▄▄▄█ █▀ █▀▀██▄▄▄▀▄█▀▄▄██ ▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀ ▀▄█ █ █▄█ ▀▄█ █▄█▄█▄▄▄▄▄▄▄█
+█ ▄▄  ▀▄▄  ▀▄▀▀▀▀▄▄▄▀▀█▀▀▀▄▀▄▄▄█ █ ▀ ██
+█▀▀▄ ▀▀▄▄▄█▄█▀ ▄ ▄▄▄█  █▀▄▄ ▄█▄ ▀▀ ▄▀▄█
+█▀▄   ▀▄▄▀█▀█▄█▄ ▀▄▄▀▄█▀▀▄ ██▄ ▄▀▄▄ ▀▄█
+█  ▀▀▀ ▄▀ ▀  ▄█▀█▀▄██▄ ▀▀█▄  ▀▀▄ █▀▄▄ █
+█ ██▄█ ▄█▄▄▄▄▀▀▀▀▄▄▀▀▀▀▀  ▄ ▄ ▄▄▀▄▄ ▀▄█
+██▀   ▄▄█▄▀██▀ ▄ ▄███▄ ██ ▄▀   ▀▄▀█▄▄ █
+██▄ ▄█▀▄█  ██▄█▄ ▀▄▀▀▄▀▀ █ █▄▀▄▄▀▄▄  ▄█
+█ ▀█▄ ▄▄▄ ▄█ ▄█▀█▀▄▄█▄▀ ▀█▄ ▄▀  ▀▄▄█▄ █
+█▀ ▀▀██▄██ ▀▄▀▀▀▀█▄▀▀▀▀▄ ▄▄ █▀▄▄▀▄ ▄ ▄█
+█ █▄ ▀▀▄█▄█▀█▀ ▄▄██▄▀▄ ▄▀ ▄▀▄▀▄ ▀ ▀█▄ █
+█▄█▄▄▄▄▄█▀█ █▄█▄▀█▄▀▀▄█▀▀▄ ▄▀ ▄▄▄ ▄ ███
+█ ▄▄▄▄▄ █▄▀▄ ▄█▀▄▀█▀█▄ ▀███▀▀ █▄█ ▀█▄ █
+█ █   █ █ ██▄▀▀▀▄▄ ▄ ▄▀▄   ▄ ▄  ▄ ▀▄▀ █
+█ █▄▄▄█ █ ▄██▀ ▄▄▄█▄▀█▀█▀█▄▄▀ █▀█▀ █▄ █
+█▄▄▄▄▄▄▄█▄▄██▄█▄▄█▄████▄█▄▄▄██▄▄███▄▄▄█
+
+在线二维码
+
+https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://la-02.fieldsmedal.net:21347/s/sing-box/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+复制链接或扫描二维码导入，请妥善保管订阅链接。
+==============================================================
+
+用户订阅
+
+用户 fb0e906d  /  可用订阅 3 种
+==============================================================
+01  通用订阅
+适用于 v2rayN、v2rayNG 等客户端
+
+订阅链接
+
+https://la-02.fieldsmedal.net:21347/s/default/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+█ ▄▄▄▄▄ █▀ █▀▀██▄▄▄▀▄▀▀▄▄▄▀▄▀▀█ ▄▄▄▄▄ █
+█ █   █ █▀ ▄ ██▄█ ▀▀█▄▄█▄ ▀▄ ▀█ █   █ █
+█ █▄▄▄█ █▀█ █▄   ▀▀▀▄▄▀▄▄▀█ ▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█▄█ ▀▄▀▄█▄█ ▀▄█▄█▄█▄█▄▄▄▄▄▄▄█
+█   ▄▄█▄ ▄ ▄█▄█▄ ▀▄▄▀▄█▀▀▄▄▀▄▄▄█ █ ▀ ██
+██▀▀ ▀█▄█▀   ▄█▀█▀▄██▀ ▀█▀▄ ▄█▄ ▀▀ ▄▀▄█
+█   █▄▄▄▄▀ ▄▄▀▀▀▀▄▄▀▀▀▀▀▀▀ ██▄ ▄▀▄▄ ▀▄█
+█ ▀▀ ▀ ▄██▀██▀ ▄ ▄███  █▀▄▄  ▀▀▄ █▀▄▄ █
+█  ▄▄▀▄▄▄██ █▄█▄ ▀▄▀▀▄▀▀▀▄▄ ▄ ▄▄▀▄▄ ▀▄█
+█▄▀▄ █▀▄▄▀ ▀ ▄█▀█▀▄▄█▄▀ ▀█▄▀   ▀▄▀█▄▄ █
+█▄██  █▄ █▀▄▄▀▀▀▀▄▄▀▀▀▀▄   █▄▀▄▄▀▄▄  ▄█
+██▀▄▄▀▀▄ █▀██▀ ▄ ▄█▄█▄ ▄█▄▄ ▄▀  ▀▄▄█▄ █
+█▀▄▄▀▀█▄▀ ▄▀█▄█▄ ▀▄▀▀▄█▀▀█▄▄█▀▄▄▀▄ ▄ ▄█
+█ ██▀ ▄▄█▄▄▄ ▄█▀█▀█▀█▄ ▀█▄█▄▄▀▄ ▀ ▀█▄ █
+█▄█████▄█ ▀█▄▀▀▀▀█ ▄▀▀▀▄ ▄▄▄▀ ▄▄▄ ▄ ███
+█ ▄▄▄▄▄ █▄█ █▀ ▄▄██▄▀▄▀████ ▀ █▄█ ▀█ ▄█
+█ █   █ █ ▄▄█▄█▄▀█▄▀▀▄▀▄▀█▄▄ ▄  ▄ ▀▄▄▀█
+█ █▄▄▄█ █ ██ ▄█▀▄▀▄▄█▄▀██▀▄▄▀ █▀█▀ █▄ █
+█▄▄▄▄▄▄▄█▄█▄▄███▄▄▄▄▄▄███▄▄▄██▄▄███▄▄▄█
+
+在线二维码
+
+https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://la-02.fieldsmedal.net:21347/s/default/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+==============================================================
+02  Mihomo 订阅
+适用于 Clash Verge Rev 等客户端
+
+订阅链接
+
+https://la-02.fieldsmedal.net:21347/s/clashMetaProfiles/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+█ ▄▄▄▄▄ █▀ █▀▀▀█▀ ▀ ▄▄▄▀▄█▀▄▀▀█ ▄▄▄▄▄ █
+█ █   █ █▀ ▄ █▀▄▄▀▀ ▄█▄▀ ▀▀▄ ▀█ █   █ █
+█ █▄▄▄█ █▀█ █▄▀ ▀█▄▀▄ ▀█▄▀█ ▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄█▄█ █▄▀ █▄█▄▀ ▀ █▄█▄█▄▄▄▄▄▄▄█
+█  ▄ ▄█▄   ▄█▄▀█▄▀▄▄ ▄█▄▀█▄▀▄▄▄█ █ ▀ ██
+█▀ █▄▀█▄▄▀▀▄ ▄▄█ ▄▄▄█▀ ▄█ ▄ ▄█▄ ▀▀ ▄▀▄█
+█▄▀▀▄█▄▄▀█▄█▄▀▀█▄▀▄▀▀▀▀▄██ ██▄ ▄▀▄▄ ▀▄█
+█ ▀ ▀ ▄▄█▀ ██▀ ▄▄▄█▄▀   █▀▄  ▀▀▄ █▀▄▄ █
+█  ▀  █▄    █▄█▄▄▀▄▄▀▄▀ ▀▄▄ ▄ ▄▄▀▄▄ ▀▄█
+█▄▀ ▀ ▄▄   ▀ ▄█▀  █▄██▀▀█▄▄▀   ▀▄▀█▄▄ █
+█▄▀▀▀▄ ▄▀█▀ ▄▀▀▀▄▀▄▀▀▄██▀█ █▄▀▄▄▀▄▄  ▄█
+█▀▀ ▄ ▄▄█▀█ █▀ ▄▄ █▄█▄▀ ██▄ ▄▀  ▀▄▄█▄ █
+█ █ ▀▄ ▄▀▀▄ █▄█▄▄▄▄▄ ▄▀▄▀▄▄▄█▀▄▄▀▄ ▄ ▄█
+█ █ ▀▀▄▄   ▀ ▄█▀▄▄████▀▄██▄▀▄▀▄ ▀ ▀█▄ █
+█▄█▄▄█▄▄▄▀▄▄▄▀▀▀▄▄▄▀ ▄▀▀▄▄ ▄▀ ▄▄▄ ▄ ███
+█ ▄▄▄▄▄ █▄███▀ ▄ ▄█▀██ ▀█ █▄▀ █▄█ ▀█  █
+█ █   █ █ █▀█▄█▄█▄▄▄ ▄▀▄ ▄▄▄ ▄  ▄ ▀▄▀▀█
+█ █▄▄▄█ █ ▀█ ▄█▀  █▀▀▄ ▄▀▀█▀▀ █▀█▀ █▄ █
+█▄▄▄▄▄▄▄█▄▄▄▄███▄█▄████▄██▄▄██▄▄███▄▄▄█
+
+在线二维码
+
+https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://la-02.fieldsmedal.net:21347/s/clashMetaProfiles/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+==============================================================
+03  sing-box 订阅
+适用于 sing-box 客户端
+
+订阅链接
+
+https://la-02.fieldsmedal.net:21347/s/sing-box/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+█ ▄▄▄▄▄ █▀█ █▄   ▀█▄▄▄▄█▄▀▀▄▀▀█ ▄▄▄▄▄ █
+█ █   █ █▀▀▀█ ▄▀ █▀▀█ ▄▄█▀▀▄ ▀█ █   █ █
+█ █▄▄▄█ █▀ █▀▀██▄▄▄▀▄█▀▄▄██ ▀██ █▄▄▄█ █
+█▄▄▄▄▄▄▄█▄▀ ▀▄█ █ █▄█ ▀▄█ █▄█▄█▄▄▄▄▄▄▄█
+█ ▄▄  ▀▄▄  ▀▄▀▀▀▀▄▄▄▀▀█▀▀▀▄▀▄▄▄█ █ ▀ ██
+█▀▀▄ ▀▀▄▄▄█▄█▀ ▄ ▄▄▄█  █▀▄▄ ▄█▄ ▀▀ ▄▀▄█
+█▀▄   ▀▄▄▀█▀█▄█▄ ▀▄▄▀▄█▀▀▄ ██▄ ▄▀▄▄ ▀▄█
+█  ▀▀▀ ▄▀ ▀  ▄█▀█▀▄██▄ ▀▀█▄  ▀▀▄ █▀▄▄ █
+█ ██▄█ ▄█▄▄▄▄▀▀▀▀▄▄▀▀▀▀▀  ▄ ▄ ▄▄▀▄▄ ▀▄█
+██▀   ▄▄█▄▀██▀ ▄ ▄███▄ ██ ▄▀   ▀▄▀█▄▄ █
+██▄ ▄█▀▄█  ██▄█▄ ▀▄▀▀▄▀▀ █ █▄▀▄▄▀▄▄  ▄█
+█ ▀█▄ ▄▄▄ ▄█ ▄█▀█▀▄▄█▄▀ ▀█▄ ▄▀  ▀▄▄█▄ █
+█▀ ▀▀██▄██ ▀▄▀▀▀▀█▄▀▀▀▀▄ ▄▄ █▀▄▄▀▄ ▄ ▄█
+█ █▄ ▀▀▄█▄█▀█▀ ▄▄██▄▀▄ ▄▀ ▄▀▄▀▄ ▀ ▀█▄ █
+█▄█▄▄▄▄▄█▀█ █▄█▄▀█▄▀▀▄█▀▀▄ ▄▀ ▄▄▄ ▄ ███
+█ ▄▄▄▄▄ █▄▀▄ ▄█▀▄▀█▀█▄ ▀███▀▀ █▄█ ▀█▄ █
+█ █   █ █ ██▄▀▀▀▄▄ ▄ ▄▀▄   ▄ ▄  ▄ ▀▄▀ █
+█ █▄▄▄█ █ ▄██▀ ▄▄▄█▄▀█▀█▀█▄▄▀ █▀█▀ █▄ █
+█▄▄▄▄▄▄▄█▄▄██▄█▄▄█▄████▄█▄▄▄██▄▄███▄▄▄█
+
+在线二维码
+
+https://api.qrserver.com/v1/create-qr-code/?size=400x400&data=https://la-02.fieldsmedal.net:21347/s/sing-box/f1dc88907d9bb93a1a5d4e937ecad9c6
+
+复制链接或扫描二维码导入，请妥善保管订阅链接。

@@ -1,0 +1,81 @@
+IP: 23.254.246.230
+Password: 3VBCqxdrbmha
+
+apt update && apt install -y wget && apt full-upgrade -y
+apt update && apt full-upgrade -y
+
+/% Create ssh_key_2023_dec_rsa, ssh_key_2023_dec_rsa.pub to .ssh/ /%
+
+ssh-keygen -m PEM -t rsa -b 4096 -f/root/.ssh/ssh_key_2023_dec_rsa
+
+/% Download ssh_key_2023_dec_rsa, ssh_key_2023_dec_rsa.pub /%
+
+OR
+
+/% Upload ssh_key_2023_dec_rsa, ssh_key_2023_dec_rsa.pub to .ssh/ /%
+
+cd .ssh
+cat ssh_key_2023_dec_rsa.pub >> authorized_keys
+chmod 600 authorized_keys
+chmod 700 ~/.ssh
+
+nano /etc/ssh/sshd_config
+	
+PubkeyAuthentication yes
+PermitRootLogin yes
+PasswordAuthentication no
+
+service sshd restart
+
+nano /etc/sysctl.conf
+
+net.ipv6.conf.all.autoconf = 0
+net.ipv6.conf.all.accept_ra = 0
+net.ipv6.conf.eth0.autoconf = 0
+net.ipv6.conf.eth0.accept_ra = 0
+
+net.ipv4.neigh.default.base_reachable_time_ms = 600000
+net.ipv4.neigh.default.mcast_solicit = 20
+net.ipv4.neigh.default.retrans_time_ms = 250
+net.ipv4.conf.all.rp_filter = 0
+net.ipv4.conf.eth0.rp_filter = 0
+net.core.default_qdisc = fq
+net.ipv4.tcp_congestion_control = bbr
+net.ipv4.tcp_fastopen = 3
+
+/% Comment out /%
+# net.ipv6.conf.all.disable_ipv6 = 1
+# net.ipv6.conf.default.disable_ipv6 = 1
+# net.ipv6.conf.lo.disable_ipv6 = 1
+
+sysctl -p
+systemctl restart systemd-networkd
+
+reboot
+
+/% https://github.com/mack-a/v2ray-agent /%
+
+apt update && apt install wget
+
+wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/mack-a/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+
+la-02.fieldsmedal.net
+
+vasma
+
+/% https://github.com/angristan/openvpn-install /%
+
+mkdir /openvpn
+cd /openvpn/
+
+curl -O https://raw.githubusercontent.com/angristan/openvpn-install/master/openvpn-install.sh
+chmod +x openvpn-install.sh
+
+./openvpn-install.sh interactive
+
+vpn-la-02
+
+
+
+
+
