@@ -1,0 +1,45 @@
+name: Preview Wordle previous answers
+
+on:
+  schedule:
+    - cron: '17 13 * * *' # 21:17 China time
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Build proposed TXT and validation report
+        id: check
+        continue-on-error: true
+        run: python scripts/check_previous_answers.py --days 30 --output-dir preview
+      - name: Generate JSON files from proposed TXT
+        run: |
+          cp build_previous_answers_json.js preview/
+          cd preview
+          node build_previous_answers_json.js
+          rm build_previous_answers_json.js
+      - name: Upload preview artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: wordle-previous-answers-preview
+          path: preview/
+          if-no-files-found: warn
+          retention-days: 14
+      - name: Flag verification issues
+        if: steps.check.outcome == 'failure'
+        run: |
+          echo "Verification reported conflicts, errors, or duplicates. Inspect the artifact."
+          exit 1
