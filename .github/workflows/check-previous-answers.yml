@@ -13,6 +13,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
+      - name: Show schedule diagnostics
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          SCHEDULE_EXPRESSION: ${{ github.event.schedule }}
+        run: |
+          echo "Event: $EVENT_NAME"
+          echo "Triggered cron: ${SCHEDULE_EXPRESSION:-manual run}"
+          echo "UTC now: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "China now: $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M:%S %Z')"
+          echo "New York now: $(TZ=America/New_York date '+%Y-%m-%d %H:%M:%S %Z')"
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
