@@ -1,12 +1,10 @@
 #!/usr/bin/env python3
-"""Read-only Wordle answer verification. Never modifies repository files."""
+"""Create NYT-only Wordle answer previews. Never modifies repository files."""
 import argparse
 import datetime as dt
 import json
-import os
 import re
 import sys
-import urllib.parse
 import urllib.request
 from collections import defaultdict
 from pathlib import Path
@@ -14,7 +12,6 @@ from zoneinfo import ZoneInfo
 
 START = dt.date(2021, 6, 19)  # Wordle puzzle #0
 NYT = 'https://www.nytimes.com/svc/wordle/v2/{date}.json'
-BACKUP = 'https://wordlehints.co.uk/wp-json/wordlehint/v1/answers'
 
 
 def get_json(url):
@@ -59,18 +56,6 @@ def nyt_record(date):
     return valid_record(data['days_since_launch'], date, data['solution'])
 
 
-def backup_records(start, end):
-    query = urllib.parse.urlencode({'from': start, 'to': end, 'per_page': 200, 'order': 'asc'})
-    data = get_json(f'{BACKUP}?{query}')
-    if not isinstance(data.get('results'), list) or data.get('has_more'):
-        raise ValueError('Backup response invalid or truncated')
-    result = defaultdict(set)
-    for item in data['results']:
-        record = valid_record(item['game'], item['date'], item['answer'])
-        if start <= record[1] <= end:
-            result[record[1]].add(record)
-    return result
-
 
 def main():
     parser = argparse.ArgumentParser()
@@ -91,18 +76,6 @@ def main():
             print(f'EXISTING_DUPLICATE line={line} record={record}')
 
     fixture = json.loads(Path(args.fixture).read_text()) if args.fixture else None
-    if fixture is not None:
-        backup = defaultdict(set)
-        for date, words in fixture['backup'].items():
-            for word in words:
-                backup[date].add(valid_record((dt.date.fromisoformat(date) - START).days, date, word))
-    else:
-        try:
-            backup = backup_records(start.isoformat(), end.isoformat())
-            print('BACKUP API: reachable')
-        except Exception as exc:
-            backup = defaultdict(set)
-            print(f'BACKUP API ERROR: {exc}')
 
     additions, conflicts, errors, matched = [], [], [], 0
     date = start
@@ -123,19 +96,16 @@ def main():
         elif by_day[key]:
             conflicts.append((key, primary[2], sorted(by_day[key]), 'existing differs'))
             print(f'REVIEW {key}: NYT={primary[2]} existing={sorted(by_day[key])}')
-        elif backup[key] and primary in backup[key]:
-            additions.append(primary)
-            print(f'PROPOSE {key} #{primary[0]} {primary[2]} (NYT + backup agree)')
         else:
-            conflicts.append((key, primary[2], sorted(x[2] for x in backup[key]), 'backup missing or differs'))
-            print(f'REVIEW {key}: NYT={primary[2]} backup={sorted(x[2] for x in backup[key])}')
+            additions.append(primary)
+            print(f'PROPOSE {key} #{primary[0]} {primary[2]} (NYT)')
         date += dt.timedelta(days=1)
 
     if args.output_dir:
         output = Path(args.output_dir)
         output.mkdir(parents=True, exist_ok=True)
         # Preserve all existing records, including legitimate multi-answer puzzles.
-        # Only verified missing-date answers are proposed for addition.
+        # Only NYT answers for missing dates are proposed for addition.
         proposed = records | set(additions)
         lines = [
             f"{number}\t{word}\t{dt.date.fromisoformat(date):%m/%d/%y}"
@@ -146,6 +116,7 @@ def main():
         )
         report = {
             'mode': 'PREVIEW_ONLY',
+            'source': 'NYT',
             'range': {'start': start.isoformat(), 'end': end.isoformat()},
             'existing_records': len(records),
             'proposed_additions': [
@@ -164,7 +135,7 @@ def main():
         )
         print(f'PREVIEW FILES: {output}')
     print(f'SUMMARY matched={matched} proposed={len(additions)} review={len(conflicts)} fetch_errors={len(errors)}')
-    print('DRY RUN ONLY: no files written; no commits made')
+    print('PREVIEW ONLY: repository files unchanged; no commits made')
     # Nonzero exit signals the operator to inspect the run; it never changes files.
     return 1 if conflicts or errors or duplicates else 0
 
