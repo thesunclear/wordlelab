@@ -1,6 +1,6 @@
 {
-  "updatedThrough": 1978,
-  "updatedThroughDate": "2026-11-18",
+  "updatedThrough": 1979,
+  "updatedThroughDate": "2026-11-19",
   "answers": [
     {
       "number": 0,
@@ -9293,6 +9293,11 @@
       "date": "2026-07-16"
     },
     {
+      "number": 1854,
+      "word": "LEGAL",
+      "date": "2026-07-17"
+    },
+    {
       "number": 1855,
       "word": "BOOTH",
       "date": "2026-07-18"
@@ -9911,6 +9916,11 @@
       "number": 1978,
       "word": "BLURT",
       "date": "2026-11-18"
+    },
+    {
+      "number": 1979,
+      "word": "CLOUT",
+      "date": "2026-11-19"
     }
   ]
 }
