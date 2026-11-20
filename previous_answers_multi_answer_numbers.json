@@ -1,0 +1,94 @@
+[
+  {
+    "number": 241,
+    "count": 2,
+    "dateSet": [
+      "2022-02-15"
+    ],
+    "words": [
+      "AGORA",
+      "AROMA"
+    ],
+    "records": [
+      {
+        "number": 241,
+        "word": "AGORA",
+        "date": "2022-02-15"
+      },
+      {
+        "number": 241,
+        "word": "AROMA",
+        "date": "2022-02-15"
+      }
+    ]
+  },
+  {
+    "number": 284,
+    "count": 2,
+    "dateSet": [
+      "2022-03-30"
+    ],
+    "words": [
+      "HARRY",
+      "STOVE"
+    ],
+    "records": [
+      {
+        "number": 284,
+        "word": "HARRY",
+        "date": "2022-03-30"
+      },
+      {
+        "number": 284,
+        "word": "STOVE",
+        "date": "2022-03-30"
+      }
+    ]
+  },
+  {
+    "number": 324,
+    "count": 2,
+    "dateSet": [
+      "2022-05-09"
+    ],
+    "words": [
+      "FETUS",
+      "SHINE"
+    ],
+    "records": [
+      {
+        "number": 324,
+        "word": "FETUS",
+        "date": "2022-05-09"
+      },
+      {
+        "number": 324,
+        "word": "SHINE",
+        "date": "2022-05-09"
+      }
+    ]
+  },
+  {
+    "number": 325,
+    "count": 2,
+    "dateSet": [
+      "2022-05-10"
+    ],
+    "words": [
+      "BUTCH",
+      "GECKO"
+    ],
+    "records": [
+      {
+        "number": 325,
+        "word": "BUTCH",
+        "date": "2022-05-10"
+      },
+      {
+        "number": 325,
+        "word": "GECKO",
+        "date": "2022-05-10"
+      }
+    ]
+  }
+]

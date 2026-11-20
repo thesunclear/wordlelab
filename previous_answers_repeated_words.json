@@ -1,0 +1,746 @@
+[
+  {
+    "word": "ACUTE",
+    "count": 2,
+    "numbers": [
+      190,
+      1833
+    ],
+    "dates": [
+      "2021-12-26",
+      "2026-06-26"
+    ],
+    "records": [
+      {
+        "number": 190,
+        "word": "ACUTE",
+        "date": "2021-12-26"
+      },
+      {
+        "number": 1833,
+        "word": "ACUTE",
+        "date": "2026-06-26"
+      }
+    ]
+  },
+  {
+    "word": "AGREE",
+    "count": 2,
+    "numbers": [
+      70,
+      1797
+    ],
+    "dates": [
+      "2021-08-28",
+      "2026-05-21"
+    ],
+    "records": [
+      {
+        "number": 70,
+        "word": "AGREE",
+        "date": "2021-08-28"
+      },
+      {
+        "number": 1797,
+        "word": "AGREE",
+        "date": "2026-05-21"
+      }
+    ]
+  },
+  {
+    "word": "AWAKE",
+    "count": 2,
+    "numbers": [
+      4,
+      1708
+    ],
+    "dates": [
+      "2021-06-23",
+      "2026-02-21"
+    ],
+    "records": [
+      {
+        "number": 4,
+        "word": "AWAKE",
+        "date": "2021-06-23"
+      },
+      {
+        "number": 1708,
+        "word": "AWAKE",
+        "date": "2026-02-21"
+      }
+    ]
+  },
+  {
+    "word": "BATON",
+    "count": 2,
+    "numbers": [
+      183,
+      1840
+    ],
+    "dates": [
+      "2021-12-19",
+      "2026-07-03"
+    ],
+    "records": [
+      {
+        "number": 183,
+        "word": "BATON",
+        "date": "2021-12-19"
+      },
+      {
+        "number": 1840,
+        "word": "BATON",
+        "date": "2026-07-03"
+      }
+    ]
+  },
+  {
+    "word": "BLURT",
+    "count": 2,
+    "numbers": [
+      139,
+      1978
+    ],
+    "dates": [
+      "2021-11-05",
+      "2026-11-18"
+    ],
+    "records": [
+      {
+        "number": 139,
+        "word": "BLURT",
+        "date": "2021-11-05"
+      },
+      {
+        "number": 1978,
+        "word": "BLURT",
+        "date": "2026-11-18"
+      }
+    ]
+  },
+  {
+    "word": "BREAK",
+    "count": 2,
+    "numbers": [
+      172,
+      1819
+    ],
+    "dates": [
+      "2021-12-08",
+      "2026-06-12"
+    ],
+    "records": [
+      {
+        "number": 172,
+        "word": "BREAK",
+        "date": "2021-12-08"
+      },
+      {
+        "number": 1819,
+        "word": "BREAK",
+        "date": "2026-06-12"
+      }
+    ]
+  },
+  {
+    "word": "BRING",
+    "count": 2,
+    "numbers": [
+      164,
+      1778
+    ],
+    "dates": [
+      "2021-11-30",
+      "2026-05-02"
+    ],
+    "records": [
+      {
+        "number": 164,
+        "word": "BRING",
+        "date": "2021-11-30"
+      },
+      {
+        "number": 1778,
+        "word": "BRING",
+        "date": "2026-05-02"
+      }
+    ]
+  },
+  {
+    "word": "CIGAR",
+    "count": 2,
+    "numbers": [
+      0,
+      1689
+    ],
+    "dates": [
+      "2021-06-19",
+      "2026-02-02"
+    ],
+    "records": [
+      {
+        "number": 0,
+        "word": "CIGAR",
+        "date": "2021-06-19"
+      },
+      {
+        "number": 1689,
+        "word": "CIGAR",
+        "date": "2026-02-02"
+      }
+    ]
+  },
+  {
+    "word": "CLICK",
+    "count": 2,
+    "numbers": [
+      134,
+      1893
+    ],
+    "dates": [
+      "2021-10-31",
+      "2026-08-25"
+    ],
+    "records": [
+      {
+        "number": 134,
+        "word": "CLICK",
+        "date": "2021-10-31"
+      },
+      {
+        "number": 1893,
+        "word": "CLICK",
+        "date": "2026-08-25"
+      }
+    ]
+  },
+  {
+    "word": "CLOCK",
+    "count": 2,
+    "numbers": [
+      160,
+      1788
+    ],
+    "dates": [
+      "2021-11-26",
+      "2026-05-12"
+    ],
+    "records": [
+      {
+        "number": 160,
+        "word": "CLOCK",
+        "date": "2021-11-26"
+      },
+      {
+        "number": 1788,
+        "word": "CLOCK",
+        "date": "2026-05-12"
+      }
+    ]
+  },
+  {
+    "word": "COMET",
+    "count": 2,
+    "numbers": [
+      122,
+      1745
+    ],
+    "dates": [
+      "2021-10-19",
+      "2026-03-30"
+    ],
+    "records": [
+      {
+        "number": 122,
+        "word": "COMET",
+        "date": "2021-10-19"
+      },
+      {
+        "number": 1745,
+        "word": "COMET",
+        "date": "2026-03-30"
+      }
+    ]
+  },
+  {
+    "word": "FEIGN",
+    "count": 2,
+    "numbers": [
+      19,
+      1875
+    ],
+    "dates": [
+      "2021-07-08",
+      "2026-08-07"
+    ],
+    "records": [
+      {
+        "number": 19,
+        "word": "FEIGN",
+        "date": "2021-07-08"
+      },
+      {
+        "number": 1875,
+        "word": "FEIGN",
+        "date": "2026-08-07"
+      }
+    ]
+  },
+  {
+    "word": "FIRST",
+    "count": 2,
+    "numbers": [
+      56,
+      1968
+    ],
+    "dates": [
+      "2021-08-14",
+      "2026-11-08"
+    ],
+    "records": [
+      {
+        "number": 56,
+        "word": "FIRST",
+        "date": "2021-08-14"
+      },
+      {
+        "number": 1968,
+        "word": "FIRST",
+        "date": "2026-11-08"
+      }
+    ]
+  },
+  {
+    "word": "FLUME",
+    "count": 2,
+    "numbers": [
+      68,
+      1867
+    ],
+    "dates": [
+      "2021-08-26",
+      "2026-07-30"
+    ],
+    "records": [
+      {
+        "number": 68,
+        "word": "FLUME",
+        "date": "2021-08-26"
+      },
+      {
+        "number": 1867,
+        "word": "FLUME",
+        "date": "2026-07-30"
+      }
+    ]
+  },
+  {
+    "word": "FOCUS",
+    "count": 2,
+    "numbers": [
+      267,
+      1912
+    ],
+    "dates": [
+      "2022-03-13",
+      "2026-09-13"
+    ],
+    "records": [
+      {
+        "number": 267,
+        "word": "FOCUS",
+        "date": "2022-03-13"
+      },
+      {
+        "number": 1912,
+        "word": "FOCUS",
+        "date": "2026-09-13"
+      }
+    ]
+  },
+  {
+    "word": "FORTH",
+    "count": 2,
+    "numbers": [
+      55,
+      1922
+    ],
+    "dates": [
+      "2021-08-13",
+      "2026-09-23"
+    ],
+    "records": [
+      {
+        "number": 55,
+        "word": "FORTH",
+        "date": "2021-08-13"
+      },
+      {
+        "number": 1922,
+        "word": "FORTH",
+        "date": "2026-09-23"
+      }
+    ]
+  },
+  {
+    "word": "GRADE",
+    "count": 2,
+    "numbers": [
+      15,
+      1730
+    ],
+    "dates": [
+      "2021-07-04",
+      "2026-03-15"
+    ],
+    "records": [
+      {
+        "number": 15,
+        "word": "GRADE",
+        "date": "2021-07-04"
+      },
+      {
+        "number": 1730,
+        "word": "GRADE",
+        "date": "2026-03-15"
+      }
+    ]
+  },
+  {
+    "word": "GRIPE",
+    "count": 2,
+    "numbers": [
+      187,
+      1874
+    ],
+    "dates": [
+      "2021-12-23",
+      "2026-08-06"
+    ],
+    "records": [
+      {
+        "number": 187,
+        "word": "GRIPE",
+        "date": "2021-12-23"
+      },
+      {
+        "number": 1874,
+        "word": "GRIPE",
+        "date": "2026-08-06"
+      }
+    ]
+  },
+  {
+    "word": "IVORY",
+    "count": 2,
+    "numbers": [
+      59,
+      1742
+    ],
+    "dates": [
+      "2021-08-17",
+      "2026-03-27"
+    ],
+    "records": [
+      {
+        "number": 59,
+        "word": "IVORY",
+        "date": "2021-08-17"
+      },
+      {
+        "number": 1742,
+        "word": "IVORY",
+        "date": "2026-03-27"
+      }
+    ]
+  },
+  {
+    "word": "LINEN",
+    "count": 2,
+    "numbers": [
+      51,
+      1718
+    ],
+    "dates": [
+      "2021-08-09",
+      "2026-03-03"
+    ],
+    "records": [
+      {
+        "number": 51,
+        "word": "LINEN",
+        "date": "2021-08-09"
+      },
+      {
+        "number": 1718,
+        "word": "LINEN",
+        "date": "2026-03-03"
+      }
+    ]
+  },
+  {
+    "word": "MAJOR",
+    "count": 2,
+    "numbers": [
+      20,
+      1938
+    ],
+    "dates": [
+      "2021-07-09",
+      "2026-10-09"
+    ],
+    "records": [
+      {
+        "number": 20,
+        "word": "MAJOR",
+        "date": "2021-07-09"
+      },
+      {
+        "number": 1938,
+        "word": "MAJOR",
+        "date": "2026-10-09"
+      }
+    ]
+  },
+  {
+    "word": "MOTOR",
+    "count": 2,
+    "numbers": [
+      111,
+      1958
+    ],
+    "dates": [
+      "2021-10-08",
+      "2026-10-29"
+    ],
+    "records": [
+      {
+        "number": 111,
+        "word": "MOTOR",
+        "date": "2021-10-08"
+      },
+      {
+        "number": 1958,
+        "word": "MOTOR",
+        "date": "2026-10-29"
+      }
+    ]
+  },
+  {
+    "word": "PROVE",
+    "count": 2,
+    "numbers": [
+      163,
+      1936
+    ],
+    "dates": [
+      "2021-11-29",
+      "2026-10-07"
+    ],
+    "records": [
+      {
+        "number": 163,
+        "word": "PROVE",
+        "date": "2021-11-29"
+      },
+      {
+        "number": 1936,
+        "word": "PROVE",
+        "date": "2026-10-07"
+      }
+    ]
+  },
+  {
+    "word": "SANDY",
+    "count": 2,
+    "numbers": [
+      1226,
+      1750
+    ],
+    "dates": [
+      "2024-10-27",
+      "2026-04-04"
+    ],
+    "records": [
+      {
+        "number": 1226,
+        "word": "SANDY",
+        "date": "2024-10-27"
+      },
+      {
+        "number": 1750,
+        "word": "SANDY",
+        "date": "2026-04-04"
+      }
+    ]
+  },
+  {
+    "word": "SMILE",
+    "count": 2,
+    "numbers": [
+      830,
+      1806
+    ],
+    "dates": [
+      "2023-09-27",
+      "2026-05-30"
+    ],
+    "records": [
+      {
+        "number": 830,
+        "word": "SMILE",
+        "date": "2023-09-27"
+      },
+      {
+        "number": 1806,
+        "word": "SMILE",
+        "date": "2026-05-30"
+      }
+    ]
+  },
+  {
+    "word": "SQUAD",
+    "count": 2,
+    "numbers": [
+      296,
+      1704
+    ],
+    "dates": [
+      "2022-04-11",
+      "2026-02-17"
+    ],
+    "records": [
+      {
+        "number": 296,
+        "word": "SQUAD",
+        "date": "2022-04-11"
+      },
+      {
+        "number": 1704,
+        "word": "SQUAD",
+        "date": "2026-02-17"
+      }
+    ]
+  },
+  {
+    "word": "STAND",
+    "count": 2,
+    "numbers": [
+      57,
+      1765
+    ],
+    "dates": [
+      "2021-08-15",
+      "2026-04-19"
+    ],
+    "records": [
+      {
+        "number": 57,
+        "word": "STAND",
+        "date": "2021-08-15"
+      },
+      {
+        "number": 1765,
+        "word": "STAND",
+        "date": "2026-04-19"
+      }
+    ]
+  },
+  {
+    "word": "STINK",
+    "count": 2,
+    "numbers": [
+      14,
+      1948
+    ],
+    "dates": [
+      "2021-07-03",
+      "2026-10-19"
+    ],
+    "records": [
+      {
+        "number": 14,
+        "word": "STINK",
+        "date": "2021-07-03"
+      },
+      {
+        "number": 1948,
+        "word": "STINK",
+        "date": "2026-10-19"
+      }
+    ]
+  },
+  {
+    "word": "STOUT",
+    "count": 2,
+    "numbers": [
+      65,
+      1850
+    ],
+    "dates": [
+      "2021-08-23",
+      "2026-07-13"
+    ],
+    "records": [
+      {
+        "number": 65,
+        "word": "STOUT",
+        "date": "2021-08-23"
+      },
+      {
+        "number": 1850,
+        "word": "STOUT",
+        "date": "2026-07-13"
+      }
+    ]
+  },
+  {
+    "word": "THUMB",
+    "count": 2,
+    "numbers": [
+      115,
+      1814
+    ],
+    "dates": [
+      "2021-10-12",
+      "2026-06-07"
+    ],
+    "records": [
+      {
+        "number": 115,
+        "word": "THUMB",
+        "date": "2021-10-12"
+      },
+      {
+        "number": 1814,
+        "word": "THUMB",
+        "date": "2026-06-07"
+      }
+    ]
+  },
+  {
+    "word": "TRACE",
+    "count": 2,
+    "numbers": [
+      179,
+      1889
+    ],
+    "dates": [
+      "2021-12-15",
+      "2026-08-21"
+    ],
+    "records": [
+      {
+        "number": 179,
+        "word": "TRACE",
+        "date": "2021-12-15"
+      },
+      {
+        "number": 1889,
+        "word": "TRACE",
+        "date": "2026-08-21"
+      }
+    ]
+  }
+]
